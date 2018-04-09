@@ -44,7 +44,6 @@ group :development, :test do
   gem 'active_designer'
   gem 'database_cleaner'
   gem 'factory_bot_rails'
-  gem 'database_cleaner'
 end
 
 group :development do
