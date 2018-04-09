@@ -1,1 +1,1 @@
-![list][schema.png]
+![list](schema.png)
