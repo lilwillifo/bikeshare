@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   root to: 'welcome#index'
   resources :stations, only: [:index]
+  resources :conditions, only: %i[index show]
 
   get '/:name', to: 'stations#show'
 end
