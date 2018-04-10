@@ -183,6 +183,8 @@
         null,
         null,
         1,
+        null,
+        1,
         null
       ],
       "/Users/margaretwilliford/turing/2module/bike_share/app/helpers/application_helper.rb": [
@@ -200,6 +202,6 @@
         null
       ]
     },
-    "timestamp": 1523317965
+    "timestamp": 1523319099
   }
 }
