@@ -1,0 +1,1501 @@
+id,duration,start_date,start_station_name,start_station_id,end_date,end_station_name,end_station_id,bike_id,subscription_type,zip_code
+4607,70,8/29/2013 14:42,San Jose City Hall,10,8/29/2013 14:43,San Jose City Hall,10,661,Subscriber,95138
+4251,77,8/29/2013 11:29,San Jose City Hall,10,8/29/2013 11:30,San Jose City Hall,10,26,Subscriber,95060
+4500,109,8/29/2013 13:25,Santa Clara at Almaden,4,8/29/2013 13:27,Adobe on Almaden,5,679,Subscriber,95112
+4563,111,8/29/2013 14:02,San Salvador at 1st,8,8/29/2013 14:04,San Salvador at 1st,8,687,Subscriber,95112
+4258,114,8/29/2013 11:33,San Jose City Hall,10,8/29/2013 11:35,MLK Library,11,107,Subscriber,95060
+4498,126,8/29/2013 13:23,San Pedro Square,6,8/29/2013 13:25,Santa Clara at Almaden,4,26,Subscriber,95112
+4242,141,8/29/2013 11:25,San Jose City Hall,10,8/29/2013 11:27,San Jose City Hall,10,26,Subscriber,95060
+4550,163,8/29/2013 13:53,Japantown,9,8/29/2013 13:56,Japantown,9,684,Subscriber,95112
+4510,166,8/29/2013 13:31,San Jose Civic Center,3,8/29/2013 13:34,San Salvador at 1st,8,661,Subscriber,95112
+4606,191,8/29/2013 14:38,San Jose City Hall,10,8/29/2013 14:42,San Jose City Hall,10,35,Subscriber,95138
+4502,210,8/29/2013 13:28,Adobe on Almaden,5,8/29/2013 13:31,San Jose Civic Center,3,664,Subscriber,95112
+4714,240,8/29/2013 16:21,MLK Library,11,8/29/2013 16:25,SJSU 4th at San Carlos,12,88,Subscriber,95112
+4600,291,8/29/2013 14:33,San Pedro Square,6,8/29/2013 14:38,San Jose City Hall,10,35,Subscriber,95138
+4722,327,8/29/2013 16:32,San Salvador at 1st,8,8/29/2013 16:37,San Jose Civic Center,3,81,Subscriber,95112
+4805,336,8/29/2013 17:26,Santa Clara at Almaden,4,8/29/2013 17:32,San Jose City Hall,10,26,Subscriber,95066
+4822,343,8/29/2013 17:37,San Jose City Hall,10,8/29/2013 17:43,San Pedro Square,6,196,Subscriber,95138
+5032,363,8/29/2013 20:33,San Jose Civic Center,3,8/29/2013 20:39,San Pedro Square,6,683,Customer,95123
+4612,376,8/29/2013 14:46,St James Park,13,8/29/2013 14:53,Japantown,9,188,Subscriber,95112
+4204,378,8/29/2013 11:06,San Jose City Hall,10,8/29/2013 11:13,San Jose City Hall,10,28,Subscriber,95136
+4517,379,8/29/2013 13:34,San Salvador at 1st,8,8/29/2013 13:41,San Jose City Hall,10,661,Subscriber,95112
+5099,387,8/29/2013 22:35,San Jose Civic Center,3,8/29/2013 22:41,San Jose Diridon Caltrain Station,2,675,Subscriber,95126
+4347,389,8/29/2013 12:15,San Jose City Hall,10,8/29/2013 12:21,San Pedro Square,6,146,Subscriber,95112
+4616,412,8/29/2013 14:56,St James Park,13,8/29/2013 15:02,Japantown,9,101,Customer,95020
+4741,412,8/29/2013 16:45,Adobe on Almaden,5,8/29/2013 16:52,San Jose City Hall,10,679,Subscriber,95112
+4958,454,8/29/2013 19:18,San Jose Diridon Caltrain Station,2,8/29/2013 19:25,Paseo de San Antonio,7,91,Subscriber,95126
+4967,454,8/29/2013 19:35,Paseo de San Antonio,7,8/29/2013 19:42,San Jose Diridon Caltrain Station,2,91,Subscriber,95126
+4817,523,8/29/2013 17:33,San Jose Diridon Caltrain Station,2,8/29/2013 17:42,San Jose City Hall,10,86,Customer,95126
+4310,537,8/29/2013 12:05,Japantown,9,8/29/2013 12:14,Japantown,9,638,Subscriber,95112
+4419,556,8/29/2013 12:45,Adobe on Almaden,5,8/29/2013 12:55,San Jose Civic Center,3,671,Subscriber,94536
+4561,563,8/29/2013 13:58,San Salvador at 1st,8,8/29/2013 14:07,San Salvador at 1st,8,46,Subscriber,95112
+5085,573,8/29/2013 22:06,San Jose Civic Center,3,8/29/2013 22:16,St James Park,13,639,Subscriber,95112
+5086,587,8/29/2013 22:06,San Jose Civic Center,3,8/29/2013 22:16,St James Park,13,655,Subscriber,95112
+4379,610,8/29/2013 12:29,MLK Library,11,8/29/2013 12:39,MLK Library,11,669,Subscriber,95112
+4772,612,8/29/2013 17:07,Santa Clara at Almaden,4,8/29/2013 17:17,San Jose Diridon Caltrain Station,2,670,Subscriber,94158
+5008,623,8/29/2013 20:12,San Pedro Square,6,8/29/2013 20:22,Japantown,9,196,Subscriber,95110
+5087,643,8/29/2013 22:07,San Jose Civic Center,3,8/29/2013 22:18,San Jose Diridon Caltrain Station,2,664,Customer,95126
+4987,662,8/29/2013 19:45,Japantown,9,8/29/2013 19:56,San Pedro Square,6,686,Subscriber,95110
+4349,674,8/29/2013 12:15,Japantown,9,8/29/2013 12:26,SJSU 4th at San Carlos,12,46,Subscriber,95112
+4874,704,8/29/2013 18:07,San Jose Civic Center,3,8/29/2013 18:19,San Salvador at 1st,8,671,Subscriber,94116
+4519,763,8/29/2013 13:36,Japantown,9,8/29/2013 13:48,San Pedro Square,6,657,Customer,95020
+4444,777,8/29/2013 12:57,MLK Library,11,8/29/2013 13:10,San Jose Diridon Caltrain Station,2,107,Subscriber,95126
+4591,832,8/29/2013 14:30,San Salvador at 1st,8,8/29/2013 14:43,St James Park,13,188,Subscriber,95112
+4997,841,8/29/2013 19:57,San Jose Diridon Caltrain Station,2,8/29/2013 20:11,San Jose City Hall,10,58,Subscriber,95112
+4573,882,8/29/2013 14:09,San Salvador at 1st,8,8/29/2013 14:24,San Salvador at 1st,8,188,Subscriber,95112
+4764,931,8/29/2013 17:04,MLK Library,11,8/29/2013 17:19,San Jose Diridon Caltrain Station,2,91,Customer,94110
+4665,972,8/29/2013 15:36,San Pedro Square,6,8/29/2013 15:52,San Pedro Square,6,146,Subscriber,94041
+5038,994,8/29/2013 20:36,San Jose Diridon Caltrain Station,2,8/29/2013 20:53,SJSU 4th at San Carlos,12,91,Subscriber,95126
+5049,1075,8/29/2013 21:00,San Jose Civic Center,3,8/29/2013 21:18,Santa Clara at Almaden,4,68,Customer,
+4365,1094,8/29/2013 12:24,Arena Green / SAP Center,14,8/29/2013 12:42,Arena Green / SAP Center,14,647,Subscriber,95126
+5048,1107,8/29/2013 21:00,San Jose Civic Center,3,8/29/2013 21:18,Santa Clara at Almaden,4,188,Customer,
+4160,1271,8/29/2013 10:42,San Jose City Hall,10,8/29/2013 11:03,San Jose City Hall,10,680,Subscriber,95112
+4164,1276,8/29/2013 10:47,San Jose City Hall,10,8/29/2013 11:09,San Jose City Hall,10,30,Subscriber,95060
+4394,1309,8/29/2013 12:34,SJSU 4th at San Carlos,12,8/29/2013 12:56,San Salvador at 1st,8,46,Subscriber,95112
+4924,1313,8/29/2013 18:52,St James Park,13,8/29/2013 19:14,San Salvador at 1st,8,25,Subscriber,95112
+4923,1329,8/29/2013 18:52,St James Park,13,8/29/2013 19:14,San Salvador at 1st,8,70,Subscriber,95112
+5037,1345,8/29/2013 20:36,Japantown,9,8/29/2013 20:59,San Jose Civic Center,3,68,Customer,
+4534,1439,8/29/2013 13:43,Japantown,9,8/29/2013 14:07,Japantown,9,644,Customer,95125
+4978,1475,8/29/2013 19:40,Paseo de San Antonio,7,8/29/2013 20:04,Paseo de San Antonio,7,143,Subscriber,95113
+4977,1481,8/29/2013 19:40,Paseo de San Antonio,7,8/29/2013 20:04,Paseo de San Antonio,7,676,Subscriber,95113
+5034,1511,8/29/2013 20:34,Japantown,9,8/29/2013 20:59,San Jose Civic Center,3,188,Customer,
+4547,1580,8/29/2013 13:52,San Jose Diridon Caltrain Station,2,8/29/2013 14:18,San Jose City Hall,10,107,Customer,94306
+4960,1790,8/29/2013 19:20,Franklin at Maple,21,8/29/2013 19:50,Franklin at Maple,21,261,Customer,94063
+4957,1969,8/29/2013 19:17,Franklin at Maple,21,8/29/2013 19:50,Franklin at Maple,21,159,Customer,94063
+4528,12280,8/29/2013 13:39,Paseo de San Antonio,7,8/29/2013 17:04,Adobe on Almaden,5,645,Subscriber,94536
+5349,76,8/30/2013 10:56,San Jose City Hall,10,8/30/2013 10:57,MLK Library,11,28,Subscriber,95112
+6266,168,8/30/2013 17:53,Japantown,9,8/30/2013 17:56,Japantown,9,638,Subscriber,95125
+5282,193,8/30/2013 10:37,St James Park,13,8/30/2013 10:41,San Jose City Hall,10,658,Subscriber,95112
+5746,238,8/30/2013 14:03,Paseo de San Antonio,7,8/30/2013 14:07,MLK Library,11,185,Subscriber,95112
+5652,256,8/30/2013 13:21,San Salvador at 1st,8,8/30/2013 13:25,San Pedro Square,6,671,Subscriber,95112
+6132,284,8/30/2013 16:37,Santa Clara at Almaden,4,8/30/2013 16:42,San Jose Diridon Caltrain Station,2,68,Subscriber,94158
+5612,288,8/30/2013 13:10,St James Park,13,8/30/2013 13:15,San Pedro Square,6,652,Subscriber,95112
+6326,289,8/30/2013 18:38,San Jose Diridon Caltrain Station,2,8/30/2013 18:43,San Jose Diridon Caltrain Station,2,23,Subscriber,95126
+5675,297,8/30/2013 13:30,Santa Clara at Almaden,4,8/30/2013 13:35,San Jose Diridon Caltrain Station,2,664,Subscriber,95112
+5605,303,8/30/2013 13:08,Paseo de San Antonio,7,8/30/2013 13:13,San Jose Civic Center,3,174,Subscriber,95032
+6406,304,8/30/2013 19:51,Paseo de San Antonio,7,8/30/2013 19:56,St James Park,13,658,Customer,
+6172,334,8/30/2013 16:53,San Jose City Hall,10,8/30/2013 16:59,San Pedro Square,6,35,Subscriber,95112
+6296,348,8/30/2013 18:16,San Salvador at 1st,8,8/30/2013 18:22,San Jose Civic Center,3,680,Subscriber,95125
+5694,355,8/30/2013 13:36,San Pedro Square,6,8/30/2013 13:42,San Salvador at 1st,8,671,Subscriber,95112
+6284,359,8/30/2013 18:08,San Jose City Hall,10,8/30/2013 18:14,San Salvador at 1st,8,680,Subscriber,95125
+5618,372,8/30/2013 13:12,San Pedro Square,6,8/30/2013 13:19,Paseo de San Antonio,7,657,Subscriber,95035
+5834,381,8/30/2013 14:43,San Jose Civic Center,3,8/30/2013 14:49,Adobe on Almaden,5,654,Subscriber,95032
+6307,387,8/30/2013 18:21,San Pedro Square,6,8/30/2013 18:27,Paseo de San Antonio,7,82,Customer,95112
+5374,405,8/30/2013 11:07,Japantown,9,8/30/2013 11:14,Japantown,9,653,Subscriber,95112
+6314,415,8/30/2013 18:26,San Jose City Hall,10,8/30/2013 18:33,San Salvador at 1st,8,30,Subscriber,95112
+6011,418,8/30/2013 15:53,Paseo de San Antonio,7,8/30/2013 16:00,San Pedro Square,6,657,Customer,
+6313,419,8/30/2013 18:26,San Jose City Hall,10,8/30/2013 18:33,San Salvador at 1st,8,679,Subscriber,95112
+6010,425,8/30/2013 15:53,Paseo de San Antonio,7,8/30/2013 16:00,San Pedro Square,6,639,Customer,
+5169,437,8/30/2013 8:28,San Jose Diridon Caltrain Station,2,8/30/2013 8:35,Santa Clara at Almaden,4,664,Subscriber,94158
+6455,441,8/30/2013 22:31,San Pedro Square,6,8/30/2013 22:39,Japantown,9,644,Subscriber,95112
+5850,457,8/30/2013 14:56,St James Park,13,8/30/2013 15:03,Paseo de San Antonio,7,639,Customer,
+5180,462,8/30/2013 8:41,San Jose Diridon Caltrain Station,2,8/30/2013 8:49,San Pedro Square,6,675,Customer,94577
+5848,468,8/30/2013 14:55,St James Park,13,8/30/2013 15:03,Paseo de San Antonio,7,658,Customer,
+5412,478,8/30/2013 11:36,San Salvador at 1st,8,8/30/2013 11:44,San Pedro Square,6,180,Subscriber,95112
+5591,494,8/30/2013 13:01,MLK Library,11,8/30/2013 13:10,MLK Library,11,38,Customer,95110
+6403,499,8/30/2013 19:48,Paseo de San Antonio,7,8/30/2013 19:56,St James Park,13,676,Customer,95112
+6402,509,8/30/2013 19:48,Paseo de San Antonio,7,8/30/2013 19:56,St James Park,13,675,Customer,
+5369,539,8/30/2013 11:01,Paseo de San Antonio,7,8/30/2013 11:10,Paseo de San Antonio,7,649,Customer,95123
+6401,539,8/30/2013 19:47,Paseo de San Antonio,7,8/30/2013 19:56,St James Park,13,143,Customer,
+6211,557,8/30/2013 17:16,SJSU - San Salvador at 9th,16,8/30/2013 17:25,San Salvador at 1st,8,61,Customer,95112
+5352,573,8/30/2013 10:56,Paseo de San Antonio,7,8/30/2013 11:05,San Jose Diridon Caltrain Station,2,23,Customer,95113
+5505,575,8/30/2013 12:16,Paseo de San Antonio,7,8/30/2013 12:26,SJSU 4th at San Carlos,12,649,Subscriber,95035
+6437,578,8/30/2013 21:15,San Pedro Square,6,8/30/2013 21:24,Paseo de San Antonio,7,639,Customer,95125
+6270,585,8/30/2013 17:57,Japantown,9,8/30/2013 18:07,San Jose City Hall,10,684,Subscriber,95125
+6300,591,8/30/2013 18:18,San Pedro Square,6,8/30/2013 18:28,Paseo de San Antonio,7,650,Customer,
+5583,597,8/30/2013 12:53,SJSU 4th at San Carlos,12,8/30/2013 13:03,Adobe on Almaden,5,236,Subscriber,94536
+6210,608,8/30/2013 17:15,SJSU - San Salvador at 9th,16,8/30/2013 17:26,San Salvador at 1st,8,12,Customer,95112
+6441,621,8/30/2013 21:19,San Salvador at 1st,8,8/30/2013 21:30,San Jose Diridon Caltrain Station,2,61,Subscriber,95126
+5513,626,8/30/2013 12:18,San Pedro Square,6,8/30/2013 12:29,SJSU 4th at San Carlos,12,180,Subscriber,95112
+6407,631,8/30/2013 19:51,San Jose Diridon Caltrain Station,2,8/30/2013 20:01,San Salvador at 1st,8,76,Subscriber,95126
+6434,713,8/30/2013 21:12,San Pedro Square,6,8/30/2013 21:24,Paseo de San Antonio,7,657,Customer,95112
+5588,722,8/30/2013 12:58,San Jose City Hall,10,8/30/2013 13:10,St James Park,13,658,Subscriber,95112
+6294,736,8/30/2013 18:16,San Pedro Square,6,8/30/2013 18:28,Paseo de San Antonio,7,652,Customer,
+6295,781,8/30/2013 18:16,Japantown,9,8/30/2013 18:29,MLK Library,11,638,Customer,95112
+5526,822,8/30/2013 12:23,St James Park,13,8/30/2013 12:36,San Pedro Square,6,650,Customer,95070
+6433,845,8/30/2013 21:10,San Pedro Square,6,8/30/2013 21:24,Paseo de San Antonio,7,683,Customer,95112
+6379,898,8/30/2013 19:20,San Salvador at 1st,8,8/30/2013 19:35,SJSU - San Salvador at 9th,16,679,Customer,95112
+6291,945,8/30/2013 18:13,Japantown,9,8/30/2013 18:29,MLK Library,11,52,Customer,93726
+5700,1014,8/30/2013 13:41,Arena Green / SAP Center,14,8/30/2013 13:58,Paseo de San Antonio,7,185,Subscriber,95112
+6372,1018,8/30/2013 19:18,San Salvador at 1st,8,8/30/2013 19:35,SJSU - San Salvador at 9th,16,12,Customer,95112
+6373,1032,8/30/2013 19:18,San Salvador at 1st,8,8/30/2013 19:35,SJSU - San Salvador at 9th,16,46,Customer,95112
+6429,1040,8/30/2013 21:06,San Pedro Square,6,8/30/2013 21:24,Paseo de San Antonio,7,686,Customer,95112
+6325,1172,8/30/2013 18:37,MLK Library,11,8/30/2013 18:57,San Pedro Square,6,640,Customer,93726
+6324,1187,8/30/2013 18:37,MLK Library,11,8/30/2013 18:57,San Pedro Square,6,638,Customer,95112
+6440,1462,8/30/2013 21:20,Japantown,9,8/30/2013 21:44,San Pedro Square,6,644,Subscriber,95112
+5111,2224,8/30/2013 1:15,Adobe on Almaden,5,8/30/2013 1:52,St James Park,13,652,Customer,95112
+6323,2868,8/30/2013 18:36,MLK Library,11,8/30/2013 19:24,Japantown,9,52,Customer,95112
+6319,2929,8/30/2013 18:33,MLK Library,11,8/30/2013 19:22,Japantown,9,44,Customer,95112
+6414,5218,8/30/2013 20:15,Paseo de San Antonio,7,8/30/2013 21:42,St James Park,13,648,Customer,95126
+6413,5334,8/30/2013 20:13,Paseo de San Antonio,7,8/30/2013 21:42,St James Park,13,88,Customer,95111
+5379,5719,8/30/2013 11:15,Santa Clara at Almaden,4,8/30/2013 12:51,Santa Clara at Almaden,4,664,Subscriber,94158
+5992,8522,8/30/2013 15:38,San Jose Civic Center,3,8/30/2013 18:00,San Jose Civic Center,3,674,Customer,33017
+6409,12408,8/30/2013 19:54,San Pedro Square,6,8/30/2013 23:21,Japantown,9,638,Customer,95112
+6408,12459,8/30/2013 19:53,San Pedro Square,6,8/30/2013 23:21,Japantown,9,640,Customer,93726
+5113,34449,8/30/2013 2:16,Japantown,9,8/30/2013 11:50,Japantown,9,52,Customer,95148
+6832,128,8/31/2013 13:03,MLK Library,11,8/31/2013 13:05,SJSU 4th at San Carlos,12,64,Subscriber,95112
+6768,173,8/31/2013 12:20,San Jose City Hall,10,8/31/2013 12:23,SJSU 4th at San Carlos,12,673,Subscriber,95112
+6776,186,8/31/2013 12:24,SJSU 4th at San Carlos,12,8/31/2013 12:27,MLK Library,11,64,Subscriber,95112
+6945,199,8/31/2013 13:54,MLK Library,11,8/31/2013 13:57,St James Park,13,38,Subscriber,95112
+7047,259,8/31/2013 14:46,Paseo de San Antonio,7,8/31/2013 14:51,Paseo de San Antonio,7,646,Subscriber,95112
+6487,300,8/31/2013 0:49,MLK Library,11,8/31/2013 0:54,SJSU - San Salvador at 9th,16,31,Customer,95112
+7425,350,8/31/2013 21:11,San Pedro Square,6,8/31/2013 21:17,San Jose Diridon Caltrain Station,2,245,Subscriber,95126
+6894,374,8/31/2013 13:28,Paseo de San Antonio,7,8/31/2013 13:34,MLK Library,11,77,Subscriber,95112
+7006,382,8/31/2013 14:22,San Jose Diridon Caltrain Station,2,8/31/2013 14:28,San Pedro Square,6,102,Subscriber,95126
+7230,496,8/31/2013 16:42,Paseo de San Antonio,7,8/31/2013 16:50,San Jose Diridon Caltrain Station,2,683,Subscriber,95126
+7408,587,8/31/2013 20:03,San Jose Diridon Caltrain Station,2,8/31/2013 20:13,Paseo de San Antonio,7,102,Subscriber,95126
+6695,606,8/31/2013 11:40,Paseo de San Antonio,7,8/31/2013 11:50,San Jose Diridon Caltrain Station,2,657,Customer,95113
+7321,616,8/31/2013 17:51,San Jose Diridon Caltrain Station,2,8/31/2013 18:01,Paseo de San Antonio,7,664,Customer,95113
+7322,617,8/31/2013 17:51,San Jose Diridon Caltrain Station,2,8/31/2013 18:01,Paseo de San Antonio,7,661,Customer,95113
+7410,637,8/31/2013 20:09,San Jose Diridon Caltrain Station,2,8/31/2013 20:19,San Jose City Hall,10,58,Subscriber,95112
+7409,644,8/31/2013 20:09,San Jose Diridon Caltrain Station,2,8/31/2013 20:19,San Jose City Hall,10,61,Subscriber,95112
+6557,665,8/31/2013 10:03,San Jose City Hall,10,8/31/2013 10:14,San Jose Diridon Caltrain Station,2,107,Subscriber,95112
+6556,670,8/31/2013 10:03,San Jose City Hall,10,8/31/2013 10:14,San Jose Diridon Caltrain Station,2,643,Subscriber,95112
+7173,694,8/31/2013 16:06,San Jose Diridon Caltrain Station,2,8/31/2013 16:18,MLK Library,11,86,Subscriber,95126
+6689,927,8/31/2013 11:34,Paseo de San Antonio,7,8/31/2013 11:50,San Jose Diridon Caltrain Station,2,686,Customer,95113
+7312,975,8/31/2013 17:38,SJSU - San Salvador at 9th,16,8/31/2013 17:54,San Pedro Square,6,109,Customer,95112
+7225,2925,8/31/2013 16:38,San Jose City Hall,10,8/31/2013 17:27,San Jose City Hall,10,101,Customer,
+6486,4553,8/31/2013 0:40,San Jose City Hall,10,8/31/2013 1:56,San Jose City Hall,10,643,Customer,95112
+7371,5450,8/31/2013 18:42,Paseo de San Antonio,7,8/31/2013 20:12,Paseo de San Antonio,7,82,Customer,95112
+6819,7472,8/31/2013 12:54,Paseo de San Antonio,7,8/31/2013 14:58,Paseo de San Antonio,7,639,Customer,95113
+7424,63115,8/31/2013 21:08,SJSU - San Salvador at 9th,16,9/1/2013 14:40,SJSU - San Salvador at 9th,16,12,Customer,95112
+7466,39751,9/1/2013 4:06,MLK Library,11,9/1/2013 15:08,San Jose City Hall,10,30,Customer,95035
+7560,2619,9/1/2013 10:41,St James Park,13,9/1/2013 11:24,San Pedro Square,6,146,Customer,95112
+7633,1289,9/1/2013 11:30,San Salvador at 1st,8,9/1/2013 11:51,Arena Green / SAP Center,14,76,Customer,95113
+7641,1106,9/1/2013 11:33,San Salvador at 1st,8,9/1/2013 11:51,Arena Green / SAP Center,14,89,Customer,95113
+7662,491,9/1/2013 11:50,San Pedro Square,6,9/1/2013 11:59,St James Park,13,40,Customer,95112
+7666,1391,9/1/2013 11:52,Arena Green / SAP Center,14,9/1/2013 12:15,Arena Green / SAP Center,14,89,Customer,95113
+7667,1383,9/1/2013 11:52,Arena Green / SAP Center,14,9/1/2013 12:15,Arena Green / SAP Center,14,76,Customer,95113
+7688,2628,9/1/2013 11:59,San Jose Diridon Caltrain Station,2,9/1/2013 12:43,San Pedro Square,6,245,Customer,94127
+7734,1258,9/1/2013 12:20,Arena Green / SAP Center,14,9/1/2013 12:41,San Salvador at 1st,8,89,Customer,95113
+7736,1249,9/1/2013 12:20,Arena Green / SAP Center,14,9/1/2013 12:41,San Salvador at 1st,8,76,Customer,95113
+7749,1501,9/1/2013 12:27,Japantown,9,9/1/2013 12:52,San Jose City Hall,10,638,Customer,
+7751,1486,9/1/2013 12:27,Japantown,9,9/1/2013 12:52,San Jose City Hall,10,640,Customer,
+7785,1158,9/1/2013 12:51,San Jose Diridon Caltrain Station,2,9/1/2013 13:10,Japantown,9,96,Subscriber,94040
+7799,26128,9/1/2013 12:56,Franklin at Maple,21,9/1/2013 20:12,Franklin at Maple,21,205,Customer,94063
+7805,26100,9/1/2013 12:57,Franklin at Maple,21,9/1/2013 20:12,Franklin at Maple,21,217,Customer,94063
+7830,814,9/1/2013 13:12,San Jose Diridon Caltrain Station,2,9/1/2013 13:25,San Jose Civic Center,3,37,Customer,94116
+7831,797,9/1/2013 13:12,San Jose Diridon Caltrain Station,2,9/1/2013 13:25,San Jose Civic Center,3,643,Customer,94116
+7843,587,9/1/2013 13:25,Japantown,9,9/1/2013 13:35,MLK Library,11,96,Subscriber,94040
+7887,983,9/1/2013 13:41,San Pedro Square,6,9/1/2013 13:58,San Jose Civic Center,3,109,Customer,95008
+7889,986,9/1/2013 13:42,San Pedro Square,6,9/1/2013 13:58,San Jose Civic Center,3,63,Customer,95008
+8006,493,9/1/2013 14:47,San Jose Diridon Caltrain Station,2,9/1/2013 14:56,Paseo de San Antonio,7,686,Subscriber,95126
+8011,1449,9/1/2013 14:53,San Jose City Hall,10,9/1/2013 15:17,San Pedro Square,6,684,Customer,94566
+8016,536,9/1/2013 14:56,San Pedro Square,6,9/1/2013 15:05,San Salvador at 1st,8,245,Subscriber,95112
+8027,1111,9/1/2013 14:59,San Jose City Hall,10,9/1/2013 15:17,San Pedro Square,6,156,Customer,93955
+8033,993,9/1/2013 15:00,San Jose City Hall,10,9/1/2013 15:17,San Pedro Square,6,638,Customer,94568
+8042,843,9/1/2013 15:03,San Jose City Hall,10,9/1/2013 15:17,San Pedro Square,6,640,Customer,95112
+8044,833,9/1/2013 15:03,San Jose City Hall,10,9/1/2013 15:17,San Pedro Square,6,26,Customer,95112
+8046,821,9/1/2013 15:04,Paseo de San Antonio,7,9/1/2013 15:18,San Jose Diridon Caltrain Station,2,82,Subscriber,95126
+8052,690,9/1/2013 15:06,San Jose City Hall,10,9/1/2013 15:17,San Pedro Square,6,58,Customer,94588
+8054,659,9/1/2013 15:06,San Jose City Hall,10,9/1/2013 15:17,San Pedro Square,6,61,Customer,94588
+8058,533,9/1/2013 15:08,San Jose City Hall,10,9/1/2013 15:17,San Pedro Square,6,181,Customer,94588
+8059,513,9/1/2013 15:09,San Jose City Hall,10,9/1/2013 15:17,San Pedro Square,6,101,Customer,94588
+8060,4044,9/1/2013 15:09,Paseo de San Antonio,7,9/1/2013 16:17,Paseo de San Antonio,7,646,Customer,95113
+8094,4295,9/1/2013 15:25,Paseo de San Antonio,7,9/1/2013 16:36,Paseo de San Antonio,7,661,Customer,95112
+8095,4252,9/1/2013 15:25,Paseo de San Antonio,7,9/1/2013 16:36,Paseo de San Antonio,7,639,Customer,95112
+8108,1447,9/1/2013 15:32,St James Park,13,9/1/2013 15:56,St James Park,13,40,Customer,95112
+8110,1408,9/1/2013 15:32,St James Park,13,9/1/2013 15:55,St James Park,13,90,Customer,95112
+8121,603,9/1/2013 15:36,SJSU 4th at San Carlos,12,9/1/2013 15:46,San Jose Diridon Caltrain Station,2,64,Subscriber,94040
+8142,689,9/1/2013 15:47,San Jose Civic Center,3,9/1/2013 15:59,San Jose Diridon Caltrain Station,2,680,Customer,94116
+8144,647,9/1/2013 15:48,San Jose Civic Center,3,9/1/2013 15:59,San Jose Diridon Caltrain Station,2,37,Customer,94116
+8219,991,9/1/2013 16:21,San Pedro Square,6,9/1/2013 16:38,SJSU - San Salvador at 9th,16,181,Customer,94568
+8221,4076,9/1/2013 16:22,San Pedro Square,6,9/1/2013 17:30,SJSU - San Salvador at 9th,16,61,Customer,94588
+8223,4037,9/1/2013 16:22,San Pedro Square,6,9/1/2013 17:29,SJSU - San Salvador at 9th,16,246,Customer,94588
+8225,4019,9/1/2013 16:23,San Pedro Square,6,9/1/2013 17:30,SJSU - San Salvador at 9th,16,640,Customer,94566
+8227,3908,9/1/2013 16:24,San Pedro Square,6,9/1/2013 17:29,SJSU - San Salvador at 9th,16,116,Customer,94588
+8228,9150,9/1/2013 16:24,San Pedro Square,6,9/1/2013 18:56,San Jose City Hall,10,45,Customer,94588
+8229,3858,9/1/2013 16:25,San Pedro Square,6,9/1/2013 17:29,SJSU - San Salvador at 9th,16,146,Customer,95112
+8230,3833,9/1/2013 16:25,San Pedro Square,6,9/1/2013 17:29,SJSU - San Salvador at 9th,16,156,Customer,95112
+8231,3856,9/1/2013 16:25,San Pedro Square,6,9/1/2013 17:30,SJSU - San Salvador at 9th,16,58,Customer,93955
+8264,1937,9/1/2013 16:53,Japantown,9,9/1/2013 17:25,San Jose City Hall,10,196,Customer,7882
+8265,1902,9/1/2013 16:53,Japantown,9,9/1/2013 17:25,San Jose City Hall,10,653,Customer,7882
+8283,729,9/1/2013 17:12,San Jose Diridon Caltrain Station,2,9/1/2013 17:24,San Salvador at 1st,8,680,Subscriber,95126
+8291,1501,9/1/2013 17:21,San Salvador at 1st,8,9/1/2013 17:46,San Jose Diridon Caltrain Station,2,25,Customer,94127
+8292,1459,9/1/2013 17:21,San Salvador at 1st,8,9/1/2013 17:46,San Jose Diridon Caltrain Station,2,76,Customer,53703
+8295,1039,9/1/2013 17:28,San Jose City Hall,10,9/1/2013 17:46,MLK Library,11,653,Customer,7882
+8296,1023,9/1/2013 17:29,San Jose City Hall,10,9/1/2013 17:46,MLK Library,11,196,Customer,7882
+8313,918,9/1/2013 17:49,MLK Library,11,9/1/2013 18:04,Japantown,9,53,Customer,7882
+8314,880,9/1/2013 17:49,MLK Library,11,9/1/2013 18:04,Japantown,9,653,Customer,7882
+8344,653,9/1/2013 18:17,San Salvador at 1st,8,9/1/2013 18:28,MLK Library,11,245,Customer,
+8345,651,9/1/2013 18:17,San Salvador at 1st,8,9/1/2013 18:28,MLK Library,11,680,Customer,95054
+8352,2238,9/1/2013 18:23,Santa Clara at Almaden,4,9/1/2013 19:00,Santa Clara at Almaden,4,188,Customer,95110
+8353,2251,9/1/2013 18:23,Santa Clara at Almaden,4,9/1/2013 19:00,Santa Clara at Almaden,4,237,Customer,94025
+8365,785,9/1/2013 18:31,MLK Library,11,9/1/2013 18:44,Japantown,9,86,Customer,95054
+8366,769,9/1/2013 18:31,MLK Library,11,9/1/2013 18:43,Japantown,9,77,Customer,
+8394,277,9/1/2013 19:33,San Salvador at 1st,8,9/1/2013 19:38,MLK Library,11,89,Subscriber,95112
+8395,916,9/1/2013 19:34,Japantown,9,9/1/2013 19:50,MLK Library,11,77,Customer,
+8396,852,9/1/2013 19:35,Japantown,9,9/1/2013 19:49,MLK Library,11,86,Customer,95054
+8398,416,9/1/2013 19:39,MLK Library,11,9/1/2013 19:45,San Pedro Square,6,96,Subscriber,95112
+8403,583,9/1/2013 19:49,San Pedro Square,6,9/1/2013 19:58,Japantown,9,101,Subscriber,95112
+8416,252,9/1/2013 20:20,SJSU 4th at San Carlos,12,9/1/2013 20:24,San Salvador at 1st,8,53,Subscriber,95112
+8451,927,9/1/2013 22:52,SJSU - San Salvador at 9th,16,9/1/2013 23:07,San Jose City Hall,10,146,Customer,94588
+8452,889,9/1/2013 22:53,SJSU - San Salvador at 9th,16,9/1/2013 23:07,San Jose City Hall,10,31,Customer,94588
+8455,829,9/1/2013 22:54,SJSU - San Salvador at 9th,16,9/1/2013 23:07,San Jose City Hall,10,46,Customer,94566
+8456,802,9/1/2013 22:54,SJSU - San Salvador at 9th,16,9/1/2013 23:08,San Jose City Hall,10,246,Customer,95112
+8457,755,9/1/2013 22:54,SJSU - San Salvador at 9th,16,9/1/2013 23:07,San Jose City Hall,10,12,Customer,95112
+8488,374,9/2/2013 0:45,San Jose City Hall,10,9/2/2013 0:51,SJSU - San Salvador at 9th,16,45,Customer,94588
+8489,355,9/2/2013 0:46,San Jose City Hall,10,9/2/2013 0:52,SJSU - San Salvador at 9th,16,40,Customer,94566
+8531,1506,9/2/2013 7:57,San Salvador at 1st,8,9/2/2013 8:22,San Salvador at 1st,8,53,Customer,
+8532,15754,9/2/2013 8:01,MLK Library,11,9/2/2013 12:23,San Pedro Square,6,669,Customer,95110
+8787,393,9/2/2013 12:26,San Pedro Square,6,9/2/2013 12:32,San Salvador at 1st,8,26,Subscriber,95112
+8793,4272,9/2/2013 12:29,Arena Green / SAP Center,14,9/2/2013 13:40,Arena Green / SAP Center,14,665,Customer,95124
+8794,4243,9/2/2013 12:29,Arena Green / SAP Center,14,9/2/2013 13:40,Arena Green / SAP Center,14,668,Customer,95124
+8890,2021,9/2/2013 13:31,San Jose City Hall,10,9/2/2013 14:04,Santa Clara at Almaden,4,67,Customer,95112
+8937,1670,9/2/2013 14:01,Arena Green / SAP Center,14,9/2/2013 14:29,Arena Green / SAP Center,14,668,Customer,93705
+8944,870,9/2/2013 14:09,Santa Clara at Almaden,4,9/2/2013 14:23,SJSU - San Salvador at 9th,16,67,Customer,95112
+8946,1199,9/2/2013 14:10,Arena Green / SAP Center,14,9/2/2013 14:30,Arena Green / SAP Center,14,186,Customer,93705
+8947,376,9/2/2013 14:11,San Salvador at 1st,8,9/2/2013 14:17,San Pedro Square,6,26,Subscriber,95112
+8984,1551,9/2/2013 14:30,Arena Green / SAP Center,14,9/2/2013 14:56,Arena Green / SAP Center,14,668,Customer,93705
+8987,1513,9/2/2013 14:31,Arena Green / SAP Center,14,9/2/2013 14:56,Arena Green / SAP Center,14,186,Customer,93705
+9002,231,9/2/2013 14:39,San Jose Civic Center,3,9/2/2013 14:43,Adobe on Almaden,5,641,Subscriber,95125
+9008,517,9/2/2013 14:45,Adobe on Almaden,5,9/2/2013 14:54,San Jose Diridon Caltrain Station,2,609,Subscriber,95125
+9016,1537,9/2/2013 14:49,San Jose City Hall,10,9/2/2013 15:15,MLK Library,11,658,Customer,95112
+9024,1365,9/2/2013 14:52,San Jose City Hall,10,9/2/2013 15:15,MLK Library,11,30,Customer,95112
+9027,1206,9/2/2013 14:55,San Jose City Hall,10,9/2/2013 15:15,MLK Library,11,90,Customer,95112
+9052,242,9/2/2013 15:15,San Jose Diridon Caltrain Station,2,9/2/2013 15:19,Arena Green / SAP Center,14,82,Subscriber,95125
+9069,940,9/2/2013 15:20,Arena Green / SAP Center,14,9/2/2013 15:36,Arena Green / SAP Center,14,662,Subscriber,95125
+9070,3633,9/2/2013 15:21,San Jose Diridon Caltrain Station,2,9/2/2013 16:21,San Jose Diridon Caltrain Station,2,37,Customer,95126
+9071,3619,9/2/2013 15:21,San Jose Diridon Caltrain Station,2,9/2/2013 16:21,San Jose Diridon Caltrain Station,2,70,Customer,95126
+9076,609,9/2/2013 15:26,SJSU - San Salvador at 9th,16,9/2/2013 15:37,San Jose City Hall,10,106,Customer,95112
+9083,117,9/2/2013 15:36,Arena Green / SAP Center,14,9/2/2013 15:38,Arena Green / SAP Center,14,186,Subscriber,95125
+9085,517,9/2/2013 15:39,Arena Green / SAP Center,14,9/2/2013 15:47,San Jose City Hall,10,82,Subscriber,95125
+9101,605,9/2/2013 15:50,San Jose City Hall,10,9/2/2013 16:00,Japantown,9,82,Subscriber,95125
+9102,840,9/2/2013 15:50,San Pedro Square,6,9/2/2013 16:04,MLK Library,11,684,Customer,95123
+9116,564,9/2/2013 16:03,Japantown,9,9/2/2013 16:12,Japantown,9,82,Subscriber,95125
+9120,1077,9/2/2013 16:13,MLK Library,11,9/2/2013 16:31,San Pedro Square,6,658,Customer,95123
+9138,928,9/2/2013 16:29,Japantown,9,9/2/2013 16:45,Santa Clara at Almaden,4,82,Subscriber,95125
+9146,262,9/2/2013 16:33,San Pedro Square,6,9/2/2013 16:38,San Pedro Square,6,658,Customer,95123
+9176,697,9/2/2013 17:15,San Jose Diridon Caltrain Station,2,9/2/2013 17:26,San Salvador at 1st,8,107,Subscriber,95126
+9186,1411,9/2/2013 17:23,San Pedro Square,6,9/2/2013 17:46,San Jose Civic Center,3,669,Customer,95126
+9189,1282,9/2/2013 17:23,San Pedro Square,6,9/2/2013 17:45,San Jose Civic Center,3,50,Customer,95126
+9202,680,9/2/2013 17:51,San Salvador at 1st,8,9/2/2013 18:03,Arena Green / SAP Center,14,65,Subscriber,95126
+9236,1568,9/2/2013 18:51,MLK Library,11,9/2/2013 19:17,SJSU - San Salvador at 9th,16,86,Customer,95112
+9246,471,9/2/2013 18:57,San Jose Diridon Caltrain Station,2,9/2/2013 19:05,San Jose City Hall,10,68,Customer,87122
+9247,460,9/2/2013 18:57,San Jose Diridon Caltrain Station,2,9/2/2013 19:04,San Jose City Hall,10,70,Customer,87122
+9257,2355,9/2/2013 19:09,San Jose Civic Center,3,9/2/2013 19:48,San Jose Civic Center,3,187,Customer,95119
+9269,831,9/2/2013 19:17,San Jose City Hall,10,9/2/2013 19:31,St James Park,13,246,Subscriber,95112
+9270,1038,9/2/2013 19:17,SJSU 4th at San Carlos,12,9/2/2013 19:35,San Jose Diridon Caltrain Station,2,180,Customer,94304
+9271,1643,9/2/2013 19:19,SJSU - San Salvador at 9th,16,9/2/2013 19:46,MLK Library,11,86,Customer,95112
+9276,764,9/2/2013 19:22,SJSU 4th at San Carlos,12,9/2/2013 19:35,San Jose Diridon Caltrain Station,2,184,Customer,7024
+9332,3580,9/2/2013 20:59,Paseo de San Antonio,7,9/2/2013 21:59,San Jose City Hall,10,646,Customer,95112
+9334,3296,9/2/2013 21:04,Paseo de San Antonio,7,9/2/2013 21:59,San Jose City Hall,10,664,Customer,95112
+9335,3270,9/2/2013 21:04,Paseo de San Antonio,7,9/2/2013 21:59,San Jose City Hall,10,661,Customer,
+9336,3186,9/2/2013 21:07,MLK Library,11,9/2/2013 22:00,San Jose City Hall,10,77,Customer,
+9337,3102,9/2/2013 21:09,MLK Library,11,9/2/2013 22:00,San Jose City Hall,10,200,Customer,95051
+9369,157,9/3/2013 0:29,St James Park,13,9/3/2013 0:31,St James Park,13,34,Customer,95123
+9436,92,9/3/2013 8:30,Japantown,9,9/3/2013 8:32,Japantown,9,101,Subscriber,95112
+9439,472,9/3/2013 8:33,Japantown,9,9/3/2013 8:41,MLK Library,11,653,Subscriber,95112
+9516,482,9/3/2013 10:00,Paseo de San Antonio,7,9/3/2013 10:08,Santa Clara at Almaden,4,102,Customer,95112
+9523,1095,9/3/2013 10:10,Franklin at Maple,21,9/3/2013 10:28,Franklin at Maple,21,205,Customer,94061
+9576,609,9/3/2013 11:24,San Jose City Hall,10,9/3/2013 11:35,San Jose City Hall,10,146,Subscriber,95112
+9578,1470,9/3/2013 11:25,Franklin at Maple,21,9/3/2013 11:49,Franklin at Maple,21,205,Customer,94061
+9618,375,9/3/2013 11:43,San Pedro Square,6,9/3/2013 11:49,San Pedro Square,6,26,Subscriber,95126
+9619,568,9/3/2013 11:44,Adobe on Almaden,5,9/3/2013 11:53,SJSU 4th at San Carlos,12,659,Subscriber,94536
+9620,1005,9/3/2013 11:44,Adobe on Almaden,5,9/3/2013 12:01,San Jose Diridon Caltrain Station,2,654,Customer,95125
+9636,447,9/3/2013 12:03,Santa Clara at Almaden,4,9/3/2013 12:11,Paseo de San Antonio,7,102,Customer,95112
+9637,3471,9/3/2013 12:04,San Jose Diridon Caltrain Station,2,9/3/2013 13:02,San Jose Diridon Caltrain Station,2,654,Customer,95125
+9683,543,9/3/2013 12:26,SJSU 4th at San Carlos,12,9/3/2013 12:35,Adobe on Almaden,5,673,Subscriber,94536
+9695,215,9/3/2013 12:38,MLK Library,11,9/3/2013 12:42,Paseo de San Antonio,7,185,Subscriber,95112
+9706,395,9/3/2013 12:50,Paseo de San Antonio,7,9/3/2013 12:57,San Jose City Hall,10,185,Subscriber,95112
+9709,762,9/3/2013 12:59,San Jose Diridon Caltrain Station,2,9/3/2013 13:11,San Salvador at 1st,8,64,Subscriber,95126
+9755,159,9/3/2013 13:34,SJSU 4th at San Carlos,12,9/3/2013 13:37,Paseo de San Antonio,7,24,Subscriber,95062
+9759,335,9/3/2013 13:36,San Jose City Hall,10,9/3/2013 13:42,Adobe on Almaden,5,646,Subscriber,94041
+9784,18009,9/3/2013 13:46,Paseo de San Antonio,7,9/3/2013 18:46,Paseo de San Antonio,7,24,Subscriber,95062
+9810,323,9/3/2013 14:11,Adobe on Almaden,5,9/3/2013 14:16,MLK Library,11,646,Subscriber,94041
+9823,1154,9/3/2013 14:25,San Salvador at 1st,8,9/3/2013 14:44,San Jose Diridon Caltrain Station,2,64,Subscriber,95126
+9841,439,9/3/2013 14:53,MLK Library,11,9/3/2013 15:00,Japantown,9,653,Subscriber,95112
+9894,487,9/3/2013 15:45,SJSU - San Salvador at 9th,16,9/3/2013 15:53,MLK Library,11,67,Customer,95112
+10001,1522,9/3/2013 17:01,Japantown,9,9/3/2013 17:26,MLK Library,11,101,Subscriber,95112
+10026,493,9/3/2013 17:15,MLK Library,11,9/3/2013 17:24,SJSU - San Salvador at 9th,16,28,Customer,95112
+10053,94,9/3/2013 17:33,MLK Library,11,9/3/2013 17:34,MLK Library,11,86,Subscriber,95112
+10066,217,9/3/2013 17:42,MLK Library,11,9/3/2013 17:45,SJSU 4th at San Carlos,12,101,Subscriber,95112
+10074,134,9/3/2013 17:50,SJSU - San Salvador at 9th,16,9/3/2013 17:52,SJSU - San Salvador at 9th,16,45,Subscriber,95126
+10083,280,9/3/2013 18:01,Paseo de San Antonio,7,9/3/2013 18:06,St James Park,13,639,Subscriber,95112
+10141,448,9/3/2013 18:52,San Salvador at 1st,8,9/3/2013 19:00,SJSU 4th at San Carlos,12,58,Subscriber,95112
+10146,454,9/3/2013 19:00,SJSU 4th at San Carlos,12,9/3/2013 19:07,San Salvador at 1st,8,659,Subscriber,95112
+10185,1061,9/3/2013 19:36,Paseo de San Antonio,7,9/3/2013 19:54,SJSU 4th at San Carlos,12,24,Customer,95113
+10203,1062,9/3/2013 20:09,San Jose Diridon Caltrain Station,2,9/3/2013 20:26,San Salvador at 1st,8,184,Subscriber,95126
+10204,1014,9/3/2013 20:09,San Jose Diridon Caltrain Station,2,9/3/2013 20:26,San Salvador at 1st,8,64,Subscriber,95126
+10221,820,9/3/2013 21:11,San Salvador at 1st,8,9/3/2013 21:25,Arena Green / SAP Center,14,40,Subscriber,95126
+10222,778,9/3/2013 21:12,San Salvador at 1st,8,9/3/2013 21:25,Arena Green / SAP Center,14,184,Subscriber,95126
+10244,755,9/3/2013 23:12,San Jose Diridon Caltrain Station,2,9/3/2013 23:24,San Jose City Hall,10,654,Subscriber,95112
+10257,127,9/4/2013 6:50,SJSU 4th at San Carlos,12,9/4/2013 6:52,MLK Library,11,24,Customer,95113
+10269,453,9/4/2013 7:31,San Pedro Square,6,9/4/2013 7:39,San Jose Diridon Caltrain Station,2,96,Subscriber,95110
+10291,474,9/4/2013 7:54,San Jose City Hall,10,9/4/2013 8:02,Japantown,9,185,Subscriber,95112
+10303,289,9/4/2013 8:03,San Jose Diridon Caltrain Station,2,9/4/2013 8:08,San Pedro Square,6,180,Subscriber,94041
+10306,396,9/4/2013 8:04,San Jose Diridon Caltrain Station,2,9/4/2013 8:10,Santa Clara at Almaden,4,609,Subscriber,94086
+10307,619,9/4/2013 8:04,San Jose Diridon Caltrain Station,2,9/4/2013 8:14,St James Park,13,37,Subscriber,94114
+10313,673,9/4/2013 8:14,San Jose Diridon Caltrain Station,2,9/4/2013 8:25,St James Park,13,96,Customer,2906
+10314,576,9/4/2013 8:14,San Jose Diridon Caltrain Station,2,9/4/2013 8:24,Santa Clara at Almaden,4,23,Subscriber,94110
+10315,575,9/4/2013 8:14,San Jose Diridon Caltrain Station,2,9/4/2013 8:24,Santa Clara at Almaden,4,657,Subscriber,94158
+10320,799,9/4/2013 8:22,Japantown,9,9/4/2013 8:35,Paseo de San Antonio,7,653,Subscriber,95112
+10353,997,9/4/2013 8:52,Arena Green / SAP Center,14,9/4/2013 9:08,Arena Green / SAP Center,14,668,Customer,95070
+10356,163,9/4/2013 8:52,SJSU 4th at San Carlos,12,9/4/2013 8:55,Paseo de San Antonio,7,101,Subscriber,95062
+10425,206,9/4/2013 10:10,St James Park,13,9/4/2013 10:14,San Jose City Hall,10,38,Subscriber,95112
+10526,107,9/4/2013 11:50,MLK Library,11,9/4/2013 11:51,SJSU 4th at San Carlos,12,646,Subscriber,95112
+10527,780,9/4/2013 11:47,San Salvador at 1st,8,9/4/2013 12:00,Paseo de San Antonio,7,107,Subscriber,95113
+10534,352,9/4/2013 11:53,MLK Library,11,9/4/2013 11:59,Paseo de San Antonio,7,24,Subscriber,95113
+10540,461,9/4/2013 11:56,Adobe on Almaden,5,9/4/2013 12:04,San Jose City Hall,10,236,Subscriber,94536
+10565,576,9/4/2013 12:07,San Jose City Hall,10,9/4/2013 12:17,San Pedro Square,6,661,Subscriber,95126
+10576,605,9/4/2013 12:14,Paseo de San Antonio,7,9/4/2013 12:24,San Jose City Hall,10,101,Subscriber,95112
+10586,524,9/4/2013 12:23,Paseo de San Antonio,7,9/4/2013 12:32,SJSU - San Salvador at 9th,16,24,Subscriber,95062
+10615,316,9/4/2013 12:41,Paseo de San Antonio,7,9/4/2013 12:46,San Salvador at 1st,8,652,Subscriber,95113
+10616,187,9/4/2013 12:41,Paseo de San Antonio,7,9/4/2013 12:44,MLK Library,11,686,Subscriber,95113
+10621,442,9/4/2013 12:49,San Jose City Hall,10,9/4/2013 12:56,Santa Clara at Almaden,4,101,Subscriber,94536
+10628,285,9/4/2013 12:54,San Jose Diridon Caltrain Station,2,9/4/2013 12:58,Santa Clara at Almaden,4,683,Subscriber,95126
+10632,360,9/4/2013 12:54,St James Park,13,9/4/2013 13:00,San Jose City Hall,10,34,Subscriber,95126
+10657,660,9/4/2013 13:16,San Jose City Hall,10,9/4/2013 13:27,Japantown,9,34,Customer,
+10662,1233,9/4/2013 13:19,San Jose City Hall,10,9/4/2013 13:40,SJSU 4th at San Carlos,12,106,Customer,95113
+10669,534,9/4/2013 13:24,San Jose City Hall,10,9/4/2013 13:33,San Pedro Square,6,12,Subscriber,94041
+10679,666,9/4/2013 13:29,Japantown,9,9/4/2013 13:40,San Jose City Hall,10,34,Customer,
+10681,692,9/4/2013 13:38,Santa Clara at Almaden,4,9/4/2013 13:49,MLK Library,11,82,Subscriber,94041
+10713,1193,9/4/2013 14:06,SJSU - San Salvador at 9th,16,9/4/2013 14:26,SJSU - San Salvador at 9th,16,156,Customer,95112
+10724,821,9/4/2013 14:16,San Jose Diridon Caltrain Station,2,9/4/2013 14:29,SJSU 4th at San Carlos,12,670,Subscriber,95126
+10725,756,9/4/2013 14:17,Adobe on Almaden,5,9/4/2013 14:30,San Jose Diridon Caltrain Station,2,641,Customer,95112
+10746,318,9/4/2013 14:29,SJSU 4th at San Carlos,12,9/4/2013 14:35,Paseo de San Antonio,7,670,Subscriber,95126
+10752,788,9/4/2013 14:43,Paseo de San Antonio,7,9/4/2013 14:56,Arena Green / SAP Center,14,653,Subscriber,95126
+10774,370,9/4/2013 15:05,San Jose City Hall,10,9/4/2013 15:11,Santa Clara at Almaden,4,38,Subscriber,95112
+10803,341,9/4/2013 15:17,San Pedro Square,6,9/4/2013 15:22,MLK Library,11,12,Subscriber,95112
+10815,316,9/4/2013 15:22,San Salvador at 1st,8,9/4/2013 15:27,Paseo de San Antonio,7,53,Subscriber,95113
+10860,185,9/4/2013 15:45,Paseo de San Antonio,7,9/4/2013 15:48,MLK Library,11,53,Subscriber,95113
+10876,517,9/4/2013 15:59,MLK Library,11,9/4/2013 16:07,San Salvador at 1st,8,53,Subscriber,95113
+10878,1129,9/4/2013 16:00,SJSU - San Salvador at 9th,16,9/4/2013 16:18,SJSU - San Salvador at 9th,16,156,Customer,95112
+10883,560,9/4/2013 16:06,St James Park,13,9/4/2013 16:15,San Jose Diridon Caltrain Station,2,246,Subscriber,94114
+10885,5503,9/4/2013 16:07,Japantown,9,9/4/2013 17:38,Japantown,9,44,Customer,95112
+10886,386,9/4/2013 16:08,Adobe on Almaden,5,9/4/2013 16:15,San Jose Diridon Caltrain Station,2,666,Subscriber,94117
+10918,374,9/4/2013 16:40,Japantown,9,9/4/2013 16:46,San Jose City Hall,10,185,Subscriber,95112
+10941,264,9/4/2013 17:04,San Jose City Hall,10,9/4/2013 17:08,San Salvador at 1st,8,77,Subscriber,95113
+10947,591,9/4/2013 17:09,San Jose Diridon Caltrain Station,2,9/4/2013 17:19,Paseo de San Antonio,7,676,Subscriber,94112
+10951,293,9/4/2013 17:12,Santa Clara at Almaden,4,9/4/2013 17:17,San Jose Diridon Caltrain Station,2,657,Subscriber,94110
+10952,293,9/4/2013 17:12,Santa Clara at Almaden,4,9/4/2013 17:17,San Jose Diridon Caltrain Station,2,42,Subscriber,94158
+10972,2671,9/4/2013 17:25,Santa Clara at Almaden,4,9/4/2013 18:10,Santa Clara at Almaden,4,38,Customer,92649
+10980,222,9/4/2013 17:32,Santa Clara at Almaden,4,9/4/2013 17:36,San Jose Diridon Caltrain Station,2,609,Subscriber,94041
+10985,124,9/4/2013 17:34,SJSU 4th at San Carlos,12,9/4/2013 17:36,San Salvador at 1st,8,646,Subscriber,94112
+11000,448,9/4/2013 17:48,Santa Clara at Almaden,4,9/4/2013 17:56,San Jose Diridon Caltrain Station,2,237,Subscriber,94086
+11017,769,9/4/2013 17:57,Santa Clara at Almaden,4,9/4/2013 18:10,Santa Clara at Almaden,4,188,Customer,
+11024,284,9/4/2013 18:02,San Jose City Hall,10,9/4/2013 18:07,San Salvador at 1st,8,34,Customer,95128
+11106,386,9/4/2013 19:14,San Salvador at 1st,8,9/4/2013 19:20,San Jose City Hall,10,652,Customer,95128
+11124,1596,9/4/2013 20:08,San Salvador at 1st,8,9/4/2013 20:35,SJSU - San Salvador at 9th,16,77,Customer,94564
+11132,1166,9/4/2013 20:39,San Salvador at 1st,8,9/4/2013 20:59,San Jose Diridon Caltrain Station,2,235,Subscriber,95113
+11133,1162,9/4/2013 20:39,San Salvador at 1st,8,9/4/2013 20:59,San Jose Diridon Caltrain Station,2,672,Subscriber,95113
+11141,569,9/4/2013 21:00,San Jose Diridon Caltrain Station,2,9/4/2013 21:09,Paseo de San Antonio,7,657,Subscriber,95113
+11142,577,9/4/2013 21:00,San Jose Diridon Caltrain Station,2,9/4/2013 21:09,Paseo de San Antonio,7,37,Subscriber,95113
+11143,947,9/4/2013 21:06,San Jose Diridon Caltrain Station,2,9/4/2013 21:21,SJSU - San Salvador at 9th,16,672,Customer,95112
+11144,549,9/4/2013 21:08,San Jose Diridon Caltrain Station,2,9/4/2013 21:17,San Salvador at 1st,8,246,Subscriber,95126
+11146,223,9/4/2013 21:16,Paseo de San Antonio,7,9/4/2013 21:20,San Salvador at 1st,8,37,Subscriber,95113
+11147,199,9/4/2013 21:17,Paseo de San Antonio,7,9/4/2013 21:20,San Salvador at 1st,8,107,Subscriber,95113
+11159,77016,9/4/2013 21:53,MLK Library,11,9/5/2013 19:16,MLK Library,11,30,Customer,95136
+11161,584,9/4/2013 21:56,San Salvador at 1st,8,9/4/2013 22:06,San Jose Diridon Caltrain Station,2,246,Subscriber,95126
+11163,1617,9/4/2013 22:04,SJSU - San Salvador at 9th,16,9/4/2013 22:31,SJSU - San Salvador at 9th,16,679,Customer,94564
+11166,563,9/4/2013 22:08,San Salvador at 1st,8,9/4/2013 22:17,San Jose Diridon Caltrain Station,2,646,Subscriber,94112
+11168,720,9/4/2013 22:19,San Salvador at 1st,8,9/4/2013 22:31,Japantown,9,34,Subscriber,95112
+11169,1394,9/4/2013 22:33,SJSU - San Salvador at 9th,16,9/4/2013 22:56,Santa Clara at Almaden,4,28,Customer,94564
+11171,761,9/4/2013 22:57,Santa Clara at Almaden,4,9/4/2013 23:10,SJSU - San Salvador at 9th,16,188,Customer,94564
+11173,1859,9/5/2013 0:12,MLK Library,11,9/5/2013 0:43,MLK Library,11,671,Customer,95112
+11182,1285,9/5/2013 6:29,SJSU - San Salvador at 9th,16,9/5/2013 6:51,San Jose Diridon Caltrain Station,2,672,Customer,95112
+11211,635,9/5/2013 7:54,Paseo de San Antonio,7,9/5/2013 8:04,Japantown,9,676,Subscriber,95112
+11222,267,9/5/2013 8:02,San Jose Diridon Caltrain Station,2,9/5/2013 8:06,San Pedro Square,6,237,Subscriber,94041
+11223,578,9/5/2013 8:02,San Jose Diridon Caltrain Station,2,9/5/2013 8:12,St James Park,13,235,Subscriber,94114
+11235,648,9/5/2013 8:15,SJSU - San Salvador at 9th,16,9/5/2013 8:25,San Pedro Square,6,24,Customer,95112
+11236,309,9/5/2013 8:15,San Jose Diridon Caltrain Station,2,9/5/2013 8:20,Santa Clara at Almaden,4,246,Subscriber,94158
+11308,336,9/5/2013 9:22,SJSU 4th at San Carlos,12,9/5/2013 9:28,Santa Clara at Almaden,4,58,Subscriber,95062
+11365,282,9/5/2013 10:31,San Salvador at 1st,8,9/5/2013 10:36,Paseo de San Antonio,7,37,Subscriber,95113
+11384,694,9/5/2013 11:05,Paseo de San Antonio,7,9/5/2013 11:17,San Salvador at 1st,8,657,Subscriber,95113
+11401,282,9/5/2013 11:24,Santa Clara at Almaden,4,9/5/2013 11:29,MLK Library,11,58,Subscriber,95062
+11426,981,9/5/2013 12:03,San Jose Civic Center,3,9/5/2013 12:19,SJSU - San Salvador at 9th,16,63,Customer,34228
+11435,164,9/5/2013 12:10,Paseo de San Antonio,7,9/5/2013 12:13,MLK Library,11,683,Subscriber,95032
+11446,1250,9/5/2013 12:21,SJSU - San Salvador at 9th,16,9/5/2013 12:42,San Jose Civic Center,3,63,Customer,34228
+11466,247,9/5/2013 12:40,San Jose City Hall,10,9/5/2013 12:44,St James Park,13,236,Subscriber,94041
+11468,345,9/5/2013 12:41,SJSU - San Salvador at 9th,16,9/5/2013 12:47,SJSU - San Salvador at 9th,16,156,Customer,95112
+11473,959,9/5/2013 12:49,St James Park,13,9/5/2013 13:05,San Jose City Hall,10,648,Subscriber,94041
+11485,496,9/5/2013 13:06,MLK Library,11,9/5/2013 13:14,San Jose Civic Center,3,680,Subscriber,95032
+11488,1489,9/5/2013 13:06,SJSU - San Salvador at 9th,16,9/5/2013 13:31,San Jose Diridon Caltrain Station,2,45,Customer,94564
+11492,342,9/5/2013 13:07,San Salvador at 1st,8,9/5/2013 13:12,San Jose City Hall,10,673,Subscriber,95112
+11500,477,9/5/2013 13:13,San Jose City Hall,10,9/5/2013 13:21,St James Park,13,673,Subscriber,95112
+11514,164,9/5/2013 13:22,St James Park,13,9/5/2013 13:25,San Pedro Square,6,96,Subscriber,95112
+11523,1341,9/5/2013 13:28,San Jose City Hall,10,9/5/2013 13:51,San Jose City Hall,10,68,Customer,95128
+11525,1006,9/5/2013 13:32,San Jose Diridon Caltrain Station,2,9/5/2013 13:48,SJSU - San Salvador at 9th,16,245,Customer,94564
+11546,154,9/5/2013 13:49,Paseo de San Antonio,7,9/5/2013 13:52,San Salvador at 1st,8,101,Subscriber,95112
+11547,340,9/5/2013 13:51,San Pedro Square,6,9/5/2013 13:57,Paseo de San Antonio,7,24,Customer,95112
+11568,230,9/5/2013 14:20,San Jose City Hall,10,9/5/2013 14:24,Paseo de San Antonio,7,648,Subscriber,95112
+11573,355,9/5/2013 14:29,Paseo de San Antonio,7,9/5/2013 14:35,MLK Library,11,648,Subscriber,95112
+11602,719,9/5/2013 14:43,Adobe on Almaden,5,9/5/2013 14:55,MLK Library,11,24,Customer,95112
+11615,814,9/5/2013 15:11,MLK Library,11,9/5/2013 15:24,MLK Library,11,67,Customer,95112
+11622,649,9/5/2013 15:29,Japantown,9,9/5/2013 15:40,San Jose City Hall,10,644,Subscriber,95136
+11629,259,9/5/2013 15:43,MLK Library,11,9/5/2013 15:47,SJSU - San Salvador at 9th,16,24,Customer,95112
+11640,366,9/5/2013 16:03,Adobe on Almaden,5,9/5/2013 16:09,San Jose Diridon Caltrain Station,2,200,Subscriber,94117
+11660,340,9/5/2013 16:25,San Pedro Square,6,9/5/2013 16:31,San Jose City Hall,10,26,Subscriber,95110
+11663,774,9/5/2013 16:28,St James Park,13,9/5/2013 16:41,San Jose Diridon Caltrain Station,2,235,Subscriber,94114
+11671,6568,9/5/2013 16:34,Santa Clara at Almaden,4,9/5/2013 18:23,Santa Clara at Almaden,4,184,Customer,
+11672,599,9/5/2013 16:35,San Pedro Square,6,9/5/2013 16:45,Japantown,9,55,Subscriber,95112
+11705,432,9/5/2013 17:09,San Jose City Hall,10,9/5/2013 17:16,SJSU 4th at San Carlos,12,26,Subscriber,95136
+11753,227,9/5/2013 17:35,Santa Clara at Almaden,4,9/5/2013 17:39,San Jose Diridon Caltrain Station,2,40,Subscriber,94041
+11756,320,9/5/2013 17:35,Santa Clara at Almaden,4,9/5/2013 17:41,San Jose Diridon Caltrain Station,2,246,Subscriber,94158
+11850,513,9/5/2013 18:42,San Jose Diridon Caltrain Station,2,9/5/2013 18:50,San Jose Diridon Caltrain Station,2,641,Customer,95122
+11852,303,9/5/2013 18:44,San Salvador at 1st,8,9/5/2013 18:49,San Pedro Square,6,101,Subscriber,95112
+11854,341,9/5/2013 18:47,San Pedro Square,6,9/5/2013 18:52,Paseo de San Antonio,7,237,Subscriber,95113
+11855,342,9/5/2013 18:47,San Pedro Square,6,9/5/2013 18:52,Paseo de San Antonio,7,638,Subscriber,95113
+11872,219,9/5/2013 18:59,Paseo de San Antonio,7,9/5/2013 19:03,San Salvador at 1st,8,52,Subscriber,95113
+11873,226,9/5/2013 18:59,Paseo de San Antonio,7,9/5/2013 19:03,San Salvador at 1st,8,670,Subscriber,95113
+11912,678,9/5/2013 19:40,St James Park,13,9/5/2013 19:52,San Jose Diridon Caltrain Station,2,672,Subscriber,94110
+11928,153,9/5/2013 20:06,Paseo de San Antonio,7,9/5/2013 20:09,San Salvador at 1st,8,650,Subscriber,95112
+11933,632,9/5/2013 20:16,San Jose Diridon Caltrain Station,2,9/5/2013 20:26,San Salvador at 1st,8,40,Subscriber,95126
+11966,1931,9/5/2013 21:38,San Pedro Square,6,9/5/2013 22:10,San Salvador at 1st,8,658,Customer,95117
+11972,405,9/5/2013 21:54,San Pedro Square,6,9/5/2013 22:00,San Salvador at 1st,8,96,Subscriber,95112
+11974,525,9/5/2013 22:04,San Salvador at 1st,8,9/5/2013 22:12,San Jose Diridon Caltrain Station,2,64,Subscriber,95126
+11982,649,9/5/2013 22:23,San Salvador at 1st,8,9/5/2013 22:34,Japantown,9,96,Subscriber,95112
+11996,666,9/5/2013 23:11,San Jose Diridon Caltrain Station,2,9/5/2013 23:22,San Jose City Hall,10,46,Subscriber,95112
+12002,683,9/5/2013 23:47,San Salvador at 1st,8,9/5/2013 23:58,San Pedro Square,6,658,Customer,95117
+12003,619,9/5/2013 23:47,San Salvador at 1st,8,9/5/2013 23:57,San Pedro Square,6,101,Customer,95117
+12010,390,9/6/2013 1:18,MLK Library,11,9/6/2013 1:25,SJSU 4th at San Carlos,12,30,Customer,95355
+12062,497,9/6/2013 7:48,Paseo de San Antonio,7,9/6/2013 7:56,Japantown,9,80,Subscriber,95112
+12072,308,9/6/2013 8:05,San Salvador at 1st,8,9/6/2013 8:10,MLK Library,11,53,Subscriber,95113
+12073,68,9/6/2013 8:05,Japantown,9,9/6/2013 8:06,Japantown,9,80,Subscriber,95112
+12080,595,9/6/2013 8:07,San Jose Diridon Caltrain Station,2,9/6/2013 8:17,Paseo de San Antonio,7,45,Subscriber,94114
+12081,321,9/6/2013 8:08,San Jose Diridon Caltrain Station,2,9/6/2013 8:13,San Pedro Square,6,70,Subscriber,94041
+12095,370,9/6/2013 8:19,San Jose Diridon Caltrain Station,2,9/6/2013 8:25,Santa Clara at Almaden,4,235,Subscriber,94158
+12112,207,9/6/2013 8:31,Paseo de San Antonio,7,9/6/2013 8:35,St James Park,13,45,Subscriber,94114
+12135,676,9/6/2013 8:46,San Jose Diridon Caltrain Station,2,9/6/2013 8:58,San Pedro Square,6,666,Customer,
+12145,433,9/6/2013 8:50,San Jose Diridon Caltrain Station,2,9/6/2013 8:58,San Pedro Square,6,641,Customer,94577
+12163,248,9/6/2013 9:14,San Jose Diridon Caltrain Station,2,9/6/2013 9:18,Santa Clara at Almaden,4,246,Customer,2906
+12200,706,9/6/2013 9:54,St James Park,13,9/6/2013 10:05,San Pedro Square,6,639,Subscriber,95035
+12211,464,9/6/2013 10:11,San Pedro Square,6,9/6/2013 10:19,MLK Library,11,661,Subscriber,95035
+12250,392,9/6/2013 11:03,Paseo de San Antonio,7,9/6/2013 11:10,San Jose Diridon Caltrain Station,2,102,Customer,
+12251,351,9/6/2013 11:02,San Salvador at 1st,8,9/6/2013 11:08,San Salvador at 1st,8,670,Subscriber,95112
+12255,398,9/6/2013 11:09,San Salvador at 1st,8,9/6/2013 11:15,San Pedro Square,6,670,Subscriber,95112
+12281,80,9/6/2013 11:41,San Jose Diridon Caltrain Station,2,9/6/2013 11:42,San Jose Diridon Caltrain Station,2,646,Subscriber,95112
+12293,1102,9/6/2013 11:52,San Pedro Square,6,9/6/2013 12:11,San Salvador at 1st,8,670,Subscriber,95112
+12307,278,9/6/2013 12:03,San Jose City Hall,10,9/6/2013 12:08,San Salvador at 1st,8,654,Subscriber,95113
+12325,484,9/6/2013 12:13,San Salvador at 1st,8,9/6/2013 12:22,San Pedro Square,6,659,Subscriber,95112
+12348,476,9/6/2013 12:28,San Pedro Square,6,9/6/2013 12:36,SJSU 4th at San Carlos,12,659,Subscriber,95112
+12363,761,9/6/2013 12:36,SJSU 4th at San Carlos,12,9/6/2013 12:49,San Salvador at 1st,8,649,Subscriber,95112
+12382,249,9/6/2013 12:47,San Salvador at 1st,8,9/6/2013 12:51,MLK Library,11,181,Subscriber,95113
+12465,158,9/6/2013 13:47,San Jose City Hall,10,9/6/2013 13:50,Paseo de San Antonio,7,46,Subscriber,95112
+12469,7385,9/6/2013 13:49,San Jose Civic Center,3,9/6/2013 15:52,San Jose Civic Center,3,81,Customer,90210
+12472,7239,9/6/2013 13:51,San Jose Civic Center,3,9/6/2013 15:51,San Jose Civic Center,3,99,Customer,90210
+12474,7161,9/6/2013 13:52,San Jose Civic Center,3,9/6/2013 15:52,San Jose Civic Center,3,109,Customer,90210
+12477,171,9/6/2013 13:55,Paseo de San Antonio,7,9/6/2013 13:58,MLK Library,11,46,Subscriber,95112
+12490,228,9/6/2013 14:03,Santa Clara at Almaden,4,9/6/2013 14:07,Arena Green / SAP Center,14,184,Customer,95030
+12616,620,9/6/2013 16:06,St James Park,13,9/6/2013 16:16,San Jose Diridon Caltrain Station,2,53,Subscriber,94114
+12621,3058,9/6/2013 16:08,San Jose Civic Center,3,9/6/2013 16:59,SJSU - San Salvador at 9th,16,109,Customer,95111
+12623,341,9/6/2013 16:10,Santa Clara at Almaden,4,9/6/2013 16:16,San Jose Diridon Caltrain Station,2,235,Subscriber,95110
+12624,2866,9/6/2013 16:11,San Jose Civic Center,3,9/6/2013 16:59,SJSU - San Salvador at 9th,16,174,Customer,95123
+12656,601,9/6/2013 16:34,Paseo de San Antonio,7,9/6/2013 16:44,San Jose Diridon Caltrain Station,2,638,Subscriber,95037
+12736,207,9/6/2013 17:19,Paseo de San Antonio,7,9/6/2013 17:23,San Salvador at 1st,8,237,Subscriber,95113
+12740,344,9/6/2013 17:21,San Jose City Hall,10,9/6/2013 17:27,San Salvador at 1st,8,652,Subscriber,95126
+12751,737,9/6/2013 17:30,San Salvador at 1st,8,9/6/2013 17:42,Japantown,9,650,Customer,95110
+12753,710,9/6/2013 17:30,San Salvador at 1st,8,9/6/2013 17:42,Japantown,9,237,Customer,95110
+12756,363,9/6/2013 17:33,Santa Clara at Almaden,4,9/6/2013 17:39,San Jose Diridon Caltrain Station,2,38,Subscriber,94158
+12757,237,9/6/2013 17:35,Santa Clara at Almaden,4,9/6/2013 17:39,San Jose Diridon Caltrain Station,2,246,Subscriber,94041
+12824,1427,9/6/2013 18:15,Japantown,9,9/6/2013 18:39,San Jose Civic Center,3,80,Customer,95110
+12825,1399,9/6/2013 18:16,Japantown,9,9/6/2013 18:39,San Jose Civic Center,3,96,Customer,95110
+12828,401,9/6/2013 18:17,Santa Clara at Almaden,4,9/6/2013 18:24,San Jose Diridon Caltrain Station,2,178,Customer,
+12855,159,9/6/2013 18:38,San Jose Diridon Caltrain Station,2,9/6/2013 18:41,San Jose Diridon Caltrain Station,2,25,Subscriber,95126
+12862,935,9/6/2013 18:41,San Jose Diridon Caltrain Station,2,9/6/2013 18:57,San Salvador at 1st,8,25,Subscriber,95126
+12894,9642,9/6/2013 19:02,San Salvador at 1st,8,9/6/2013 21:43,San Salvador at 1st,8,670,Subscriber,94109
+12948,619,9/6/2013 19:35,San Jose Diridon Caltrain Station,2,9/6/2013 19:45,San Salvador at 1st,8,646,Subscriber,95126
+12957,981,9/6/2013 19:41,Arena Green / SAP Center,14,9/6/2013 19:57,San Salvador at 1st,8,684,Subscriber,95066
+13007,257,9/6/2013 20:20,Santa Clara at Almaden,4,9/6/2013 20:25,San Jose Diridon Caltrain Station,2,28,Customer,2906
+13017,1000,9/6/2013 20:36,San Salvador at 1st,8,9/6/2013 20:53,San Jose City Hall,10,684,Subscriber,95126
+13025,682,9/6/2013 20:46,St James Park,13,9/6/2013 20:57,San Salvador at 1st,8,175,Customer,95112
+13028,995,9/6/2013 20:51,San Salvador at 1st,8,9/6/2013 21:07,Arena Green / SAP Center,14,40,Subscriber,95066
+13029,127,9/6/2013 20:55,San Salvador at 1st,8,9/6/2013 20:57,San Salvador at 1st,8,646,Subscriber,95126
+13034,904,9/6/2013 21:00,San Salvador at 1st,8,9/6/2013 21:15,San Jose Diridon Caltrain Station,2,107,Customer,95126
+13035,897,9/6/2013 21:00,San Salvador at 1st,8,9/6/2013 21:15,San Jose Diridon Caltrain Station,2,646,Subscriber,95126
+13079,1119,9/6/2013 22:06,MLK Library,11,9/6/2013 22:25,MLK Library,11,683,Customer,95112
+13087,905,9/6/2013 22:22,San Salvador at 1st,8,9/6/2013 22:37,St James Park,13,52,Customer,95112
+13088,882,9/6/2013 22:22,San Salvador at 1st,8,9/6/2013 22:37,St James Park,13,654,Customer,95112
+13105,854,9/6/2013 23:22,San Salvador at 1st,8,9/6/2013 23:36,San Salvador at 1st,8,673,Subscriber,95112
+13108,486,9/6/2013 23:23,SJSU - San Salvador at 9th,16,9/6/2013 23:31,San Jose City Hall,10,24,Customer,95112
+13109,471,9/6/2013 23:24,SJSU - San Salvador at 9th,16,9/6/2013 23:31,San Jose City Hall,10,188,Customer,95112
+13375,721,9/7/2013 11:34,St James Park,13,9/7/2013 11:46,San Jose Civic Center,3,675,Customer,95112
+13376,1153,9/7/2013 11:34,San Jose Diridon Caltrain Station,2,9/7/2013 11:54,SJSU 4th at San Carlos,12,502,Subscriber,95126
+13378,1109,9/7/2013 11:35,San Jose Diridon Caltrain Station,2,9/7/2013 11:53,SJSU 4th at San Carlos,12,235,Subscriber,95126
+13381,602,9/7/2013 11:36,St James Park,13,9/7/2013 11:46,San Jose Civic Center,3,654,Customer,95112
+13400,423,9/7/2013 11:55,San Jose Diridon Caltrain Station,2,9/7/2013 12:02,Paseo de San Antonio,7,53,Subscriber,95126
+13416,599,9/7/2013 12:05,San Jose Diridon Caltrain Station,2,9/7/2013 12:15,Santa Clara at Almaden,4,88,Customer,95126
+13426,325,9/7/2013 12:09,San Jose Diridon Caltrain Station,2,9/7/2013 12:15,Santa Clara at Almaden,4,102,Subscriber,95126
+13442,446,9/7/2013 12:23,San Pedro Square,6,9/7/2013 12:30,San Jose Diridon Caltrain Station,2,641,Subscriber,95126
+13515,625,9/7/2013 12:49,San Pedro Square,6,9/7/2013 13:00,San Jose Diridon Caltrain Station,2,658,Subscriber,95126
+13518,574,9/7/2013 12:50,San Pedro Square,6,9/7/2013 13:00,San Jose Diridon Caltrain Station,2,666,Customer,95126
+13519,789,9/7/2013 12:52,Paseo de San Antonio,7,9/7/2013 13:05,San Jose Diridon Caltrain Station,2,37,Subscriber,95126
+13521,753,9/7/2013 12:52,Paseo de San Antonio,7,9/7/2013 13:04,San Jose Diridon Caltrain Station,2,12,Subscriber,95126
+13580,648,9/7/2013 13:24,San Jose Diridon Caltrain Station,2,9/7/2013 13:35,San Jose Civic Center,3,658,Subscriber,94109
+13624,253,9/7/2013 13:55,SJSU 4th at San Carlos,12,9/7/2013 13:59,Paseo de San Antonio,7,91,Subscriber,95112
+13638,128,9/7/2013 14:04,San Salvador at 1st,8,9/7/2013 14:06,San Jose Civic Center,3,649,Subscriber,95112
+13662,1090,9/7/2013 14:23,Paseo de San Antonio,7,9/7/2013 14:41,San Jose City Hall,10,116,Customer,
+13703,822,9/7/2013 14:51,St James Park,13,9/7/2013 15:04,San Jose Civic Center,3,236,Customer,95112
+13704,798,9/7/2013 14:51,St James Park,13,9/7/2013 15:04,San Jose Civic Center,3,45,Customer,95112
+13706,686,9/7/2013 14:52,St James Park,13,9/7/2013 15:04,San Jose Civic Center,3,82,Customer,
+13708,1696,9/7/2013 14:55,MLK Library,11,9/7/2013 15:23,Paseo de San Antonio,7,58,Customer,
+13824,4717,9/7/2013 16:08,Arena Green / SAP Center,14,9/7/2013 17:27,Arena Green / SAP Center,14,668,Customer,95123
+13825,94,9/7/2013 16:09,Arena Green / SAP Center,14,9/7/2013 16:10,Arena Green / SAP Center,14,678,Customer,95123
+13870,1580,9/7/2013 16:38,Paseo de San Antonio,7,9/7/2013 17:05,San Pedro Square,6,58,Customer,95112
+13871,1567,9/7/2013 16:38,Paseo de San Antonio,7,9/7/2013 17:04,San Pedro Square,6,648,Customer,95112
+13872,1490,9/7/2013 16:39,Paseo de San Antonio,7,9/7/2013 17:04,San Pedro Square,6,53,Customer,
+13989,205,9/7/2013 18:08,Japantown,9,9/7/2013 18:11,Japantown,9,55,Subscriber,95112
+13992,247,9/7/2013 18:12,Japantown,9,9/7/2013 18:16,Japantown,9,676,Subscriber,95112
+14000,6146,9/7/2013 18:17,SJSU - San Salvador at 9th,16,9/7/2013 19:59,SJSU - San Salvador at 9th,16,641,Customer,94538
+14001,5904,9/7/2013 18:21,SJSU - San Salvador at 9th,16,9/7/2013 19:59,SJSU - San Salvador at 9th,16,245,Customer,95236
+14005,83555,9/7/2013 18:22,MLK Library,11,9/8/2013 17:35,MLK Library,11,46,Customer,95128
+14012,5640,9/7/2013 18:25,SJSU - San Salvador at 9th,16,9/7/2013 19:59,SJSU - San Salvador at 9th,16,156,Customer,95122
+14074,313,9/7/2013 19:38,Santa Clara at Almaden,4,9/7/2013 19:43,San Salvador at 1st,8,609,Subscriber,95112
+14152,688,9/7/2013 21:25,Franklin at Maple,21,9/7/2013 21:37,Franklin at Maple,21,207,Customer,96062
+14154,673,9/7/2013 21:25,Franklin at Maple,21,9/7/2013 21:37,Franklin at Maple,21,205,Customer,96062
+14184,1509,9/7/2013 23:42,SJSU - San Salvador at 9th,16,9/8/2013 0:07,San Salvador at 1st,8,156,Customer,94564
+14192,1481,9/8/2013 0:07,San Jose Diridon Caltrain Station,2,9/8/2013 0:31,SJSU - San Salvador at 9th,16,61,Customer,95136
+14194,1281,9/8/2013 0:12,San Salvador at 1st,8,9/8/2013 0:33,SJSU - San Salvador at 9th,16,670,Customer,94564
+14195,1090,9/8/2013 0:13,San Jose Diridon Caltrain Station,2,9/8/2013 0:31,SJSU - San Salvador at 9th,16,38,Customer,95065
+14196,975,9/8/2013 0:15,San Jose Diridon Caltrain Station,2,9/8/2013 0:32,SJSU - San Salvador at 9th,16,63,Customer,95065
+14202,1669,9/8/2013 0:27,San Pedro Square,6,9/8/2013 0:55,San Pedro Square,6,99,Customer,94609
+14203,1522,9/8/2013 0:29,San Pedro Square,6,9/8/2013 0:55,San Pedro Square,6,58,Customer,95130
+14208,303,9/8/2013 0:45,Santa Clara at Almaden,4,9/8/2013 0:50,Adobe on Almaden,5,200,Subscriber,95112
+14210,1873,9/8/2013 0:50,Adobe on Almaden,5,9/8/2013 1:21,San Pedro Square,6,16,Subscriber,95112
+14249,1190,9/8/2013 7:57,MLK Library,11,9/8/2013 8:17,MLK Library,11,196,Customer,95009
+14262,3039,9/8/2013 8:31,San Jose City Hall,10,9/8/2013 9:22,Paseo de San Antonio,7,684,Customer,
+14263,410,9/8/2013 8:34,Paseo de San Antonio,7,9/8/2013 8:41,Paseo de San Antonio,7,91,Subscriber,95112
+14269,763,9/8/2013 8:49,Japantown,9,9/8/2013 9:02,San Salvador at 1st,8,55,Subscriber,95110
+14305,465,9/8/2013 9:52,SJSU - San Salvador at 9th,16,9/8/2013 10:00,San Jose City Hall,10,245,Customer,94564
+14342,1772,9/8/2013 10:32,SJSU - San Salvador at 9th,16,9/8/2013 11:01,Japantown,9,69,Customer,95112
+14347,1545,9/8/2013 10:36,SJSU - San Salvador at 9th,16,9/8/2013 11:01,Japantown,9,77,Customer,95112
+14360,1306,9/8/2013 10:39,SJSU - San Salvador at 9th,16,9/8/2013 11:01,Japantown,9,640,Customer,95112
+14413,380,9/8/2013 11:20,San Jose Civic Center,3,9/8/2013 11:27,San Jose Diridon Caltrain Station,2,80,Subscriber,94109
+14465,599,9/8/2013 11:59,Paseo de San Antonio,7,9/8/2013 12:09,Japantown,9,684,Subscriber,95110
+14475,1418,9/8/2013 12:06,San Jose Civic Center,3,9/8/2013 12:30,MLK Library,11,649,Subscriber,95136
+14478,1798,9/8/2013 12:07,Japantown,9,9/8/2013 12:37,SJSU - San Salvador at 9th,16,640,Customer,95112
+14479,1600,9/8/2013 12:07,Japantown,9,9/8/2013 12:34,SJSU - San Salvador at 9th,16,69,Customer,95112
+14489,1647,9/8/2013 12:10,Japantown,9,9/8/2013 12:37,SJSU - San Salvador at 9th,16,77,Customer,95112
+14523,1264,9/8/2013 12:31,MLK Library,11,9/8/2013 12:52,Arena Green / SAP Center,14,196,Subscriber,95136
+14545,418,9/8/2013 12:53,Arena Green / SAP Center,14,9/8/2013 13:00,Adobe on Almaden,5,662,Subscriber,95136
+14567,1533,9/8/2013 13:08,SJSU 4th at San Carlos,12,9/8/2013 13:34,Japantown,9,89,Customer,95112
+14568,1529,9/8/2013 13:08,SJSU 4th at San Carlos,12,9/8/2013 13:34,Japantown,9,26,Customer,95113
+14582,1283,9/8/2013 13:15,San Pedro Square,6,9/8/2013 13:36,Paseo de San Antonio,7,58,Customer,95128
+14583,1066,9/8/2013 13:15,San Pedro Square,6,9/8/2013 13:33,Paseo de San Antonio,7,648,Customer,95128
+14640,684,9/8/2013 13:53,SJSU 4th at San Carlos,12,9/8/2013 14:05,San Pedro Square,6,676,Customer,95128
+14641,661,9/8/2013 13:54,SJSU 4th at San Carlos,12,9/8/2013 14:05,San Pedro Square,6,235,Customer,95128
+14653,404,9/8/2013 14:00,San Pedro Square,6,9/8/2013 14:07,San Salvador at 1st,8,101,Subscriber,95112
+14729,387,9/8/2013 14:56,San Jose Diridon Caltrain Station,2,9/8/2013 15:03,San Jose Civic Center,3,80,Subscriber,95123
+14737,211,9/8/2013 15:01,San Salvador at 1st,8,9/8/2013 15:04,Paseo de San Antonio,7,25,Subscriber,95113
+14743,1601,9/8/2013 15:05,SJSU - San Salvador at 9th,16,9/8/2013 15:32,SJSU - San Salvador at 9th,16,69,Customer,94577
+14830,931,9/8/2013 16:10,SJSU - San Salvador at 9th,16,9/8/2013 16:26,San Jose Diridon Caltrain Station,2,679,Subscriber,95112
+14839,462,9/8/2013 16:18,San Salvador at 1st,8,9/8/2013 16:26,San Pedro Square,6,101,Subscriber,95112
+14851,858,9/8/2013 16:30,San Jose Diridon Caltrain Station,2,9/8/2013 16:45,SJSU - San Salvador at 9th,16,679,Subscriber,95112
+14889,146,9/8/2013 16:55,Adobe on Almaden,5,9/8/2013 16:58,San Jose Civic Center,3,645,Subscriber,95136
+14892,502,9/8/2013 16:56,San Jose Civic Center,3,9/8/2013 17:04,San Jose Diridon Caltrain Station,2,81,Subscriber,95125
+14913,391,9/8/2013 17:10,San Jose Diridon Caltrain Station,2,9/8/2013 17:17,San Jose Civic Center,3,646,Subscriber,95126
+14918,401,9/8/2013 17:14,San Jose Diridon Caltrain Station,2,9/8/2013 17:21,Arena Green / SAP Center,14,81,Subscriber,95125
+14922,203,9/8/2013 17:17,San Jose Civic Center,3,9/8/2013 17:20,San Jose Civic Center,3,654,Customer,94805
+14928,97,9/8/2013 17:22,San Jose Civic Center,3,9/8/2013 17:23,San Jose Civic Center,3,658,Customer,94805
+14945,608,9/8/2013 17:35,Arena Green / SAP Center,14,9/8/2013 17:45,Adobe on Almaden,5,65,Subscriber,95125
+14957,1043,9/8/2013 17:50,Adobe on Almaden,5,9/8/2013 18:07,San Jose Civic Center,3,65,Subscriber,95125
+15005,332,9/8/2013 18:58,Adobe on Almaden,5,9/8/2013 19:04,San Jose Diridon Caltrain Station,2,662,Subscriber,95126
+15035,815,9/8/2013 20:28,Arena Green / SAP Center,14,9/8/2013 20:42,Japantown,9,41,Subscriber,95126
+15036,715,9/8/2013 20:29,Arena Green / SAP Center,14,9/8/2013 20:41,Japantown,9,40,Subscriber,95126
+15040,1144,9/8/2013 20:44,Japantown,9,9/8/2013 21:03,Arena Green / SAP Center,14,34,Subscriber,95126
+15041,1125,9/8/2013 20:44,Japantown,9,9/8/2013 21:03,Arena Green / SAP Center,14,650,Subscriber,95126
+15056,552,9/8/2013 21:28,SJSU - San Salvador at 9th,16,9/8/2013 21:37,San Pedro Square,6,640,Customer,
+15057,518,9/8/2013 21:28,SJSU - San Salvador at 9th,16,9/8/2013 21:37,San Pedro Square,6,38,Customer,95112
+15077,1165,9/8/2013 22:35,San Pedro Square,6,9/8/2013 22:55,SJSU - San Salvador at 9th,16,53,Customer,
+15086,1587,9/9/2013 0:25,SJSU - San Salvador at 9th,16,9/9/2013 0:51,SJSU - San Salvador at 9th,16,641,Customer,94564
+15139,468,9/9/2013 7:28,San Pedro Square,6,9/9/2013 7:36,San Jose Diridon Caltrain Station,2,236,Subscriber,95110
+15177,237,9/9/2013 8:01,San Salvador at 1st,8,9/9/2013 8:05,MLK Library,11,55,Subscriber,95113
+15181,555,9/9/2013 8:03,San Jose Diridon Caltrain Station,2,9/9/2013 8:12,St James Park,13,236,Subscriber,94114
+15207,536,9/9/2013 8:19,San Jose Diridon Caltrain Station,2,9/9/2013 8:28,MLK Library,11,662,Subscriber,94041
+15271,174,9/9/2013 8:57,San Salvador at 1st,8,9/9/2013 9:00,SJSU 4th at San Carlos,12,652,Subscriber,95112
+15281,251,9/9/2013 9:06,San Jose Diridon Caltrain Station,2,9/9/2013 9:10,Adobe on Almaden,5,12,Subscriber,94107
+15364,287,9/9/2013 10:03,San Jose Diridon Caltrain Station,2,9/9/2013 10:07,Adobe on Almaden,5,246,Subscriber,94117
+15381,167,9/9/2013 10:27,San Jose City Hall,10,9/9/2013 10:30,Paseo de San Antonio,7,24,Subscriber,95112
+15387,535,9/9/2013 10:30,SJSU 4th at San Carlos,12,9/9/2013 10:39,San Pedro Square,6,652,Subscriber,95112
+15396,571,9/9/2013 10:40,San Pedro Square,6,9/9/2013 10:50,St James Park,13,652,Subscriber,95112
+15424,329,9/9/2013 11:17,SJSU - San Salvador at 9th,16,9/9/2013 11:22,Paseo de San Antonio,7,77,Subscriber,95126
+15432,425,9/9/2013 11:29,San Pedro Square,6,9/9/2013 11:36,San Salvador at 1st,8,70,Subscriber,95112
+15450,345,9/9/2013 11:50,San Jose City Hall,10,9/9/2013 11:55,San Salvador at 1st,8,116,Subscriber,95113
+15487,83,9/9/2013 12:16,St James Park,13,9/9/2013 12:18,St James Park,13,52,Subscriber,95116
+15521,278,9/9/2013 12:43,San Salvador at 1st,8,9/9/2013 12:48,MLK Library,11,116,Subscriber,95113
+15606,656,9/9/2013 13:44,San Pedro Square,6,9/9/2013 13:55,San Pedro Square,6,676,Subscriber,95113
+15720,340,9/9/2013 16:03,Adobe on Almaden,5,9/9/2013 16:09,San Jose Diridon Caltrain Station,2,76,Subscriber,94117
+15722,686,9/9/2013 16:05,St James Park,13,9/9/2013 16:16,San Jose Diridon Caltrain Station,2,236,Subscriber,94114
+15754,673,9/9/2013 16:40,Japantown,9,9/9/2013 16:51,Paseo de San Antonio,7,26,Subscriber,95112
+15786,420,9/9/2013 17:04,Paseo de San Antonio,7,9/9/2013 17:11,SJSU - San Salvador at 9th,16,648,Subscriber,95126
+15787,292,9/9/2013 17:04,San Salvador at 1st,8,9/9/2013 17:09,Paseo de San Antonio,7,673,Subscriber,95113
+15805,283,9/9/2013 17:14,Paseo de San Antonio,7,9/9/2013 17:18,San Salvador at 1st,8,674,Subscriber,95113
+15806,256,9/9/2013 17:14,Paseo de San Antonio,7,9/9/2013 17:19,San Salvador at 1st,8,666,Subscriber,95113
+15814,1087,9/9/2013 17:18,Japantown,9,9/9/2013 17:36,San Jose Diridon Caltrain Station,2,44,Subscriber,95066
+15827,3524,9/9/2013 17:27,SJSU 4th at San Carlos,12,9/9/2013 18:25,SJSU 4th at San Carlos,12,89,Customer,93036
+15828,516,9/9/2013 17:27,SJSU 4th at San Carlos,12,9/9/2013 17:36,San Jose Diridon Caltrain Station,2,30,Subscriber,94041
+15833,3297,9/9/2013 17:31,SJSU 4th at San Carlos,12,9/9/2013 18:26,SJSU 4th at San Carlos,12,656,Customer,93035
+15845,3043,9/9/2013 17:35,SJSU 4th at San Carlos,12,9/9/2013 18:26,SJSU 4th at San Carlos,12,198,Customer,95112
+15848,1058,9/9/2013 17:37,San Jose Diridon Caltrain Station,2,9/9/2013 17:54,San Salvador at 1st,8,76,Subscriber,94112
+15855,682,9/9/2013 17:40,San Jose Diridon Caltrain Station,2,9/9/2013 17:51,Paseo de San Antonio,7,236,Subscriber,95066
+15872,491,9/9/2013 17:52,Paseo de San Antonio,7,9/9/2013 18:00,MLK Library,11,77,Subscriber,95066
+15907,280,9/9/2013 18:13,Santa Clara at Almaden,4,9/9/2013 18:18,San Jose Diridon Caltrain Station,2,641,Customer,
+15934,245,9/9/2013 18:31,Adobe on Almaden,5,9/9/2013 18:35,San Jose Civic Center,3,200,Subscriber,94107
+15944,411,9/9/2013 18:40,Japantown,9,9/9/2013 18:46,St James Park,13,684,Customer,95112
+15945,413,9/9/2013 18:40,Japantown,9,9/9/2013 18:47,St James Park,13,41,Customer,95112
+15947,479,9/9/2013 18:41,San Jose Diridon Caltrain Station,2,9/9/2013 18:49,Paseo de San Antonio,7,30,Subscriber,95112
+15991,705,9/9/2013 19:14,SJSU - San Salvador at 9th,16,9/9/2013 19:26,MLK Library,11,16,Customer,94564
+16005,313,9/9/2013 19:25,MLK Library,11,9/9/2013 19:30,SJSU - San Salvador at 9th,16,671,Subscriber,95112
+16019,507,9/9/2013 19:35,SJSU 4th at San Carlos,12,9/9/2013 19:43,St James Park,13,174,Subscriber,94116
+16029,11826,9/9/2013 19:48,MLK Library,11,9/9/2013 23:05,Adobe on Almaden,5,649,Customer,95116
+16030,314,9/9/2013 19:48,MLK Library,11,9/9/2013 19:54,SJSU - San Salvador at 9th,16,662,Customer,94564
+16049,520,9/9/2013 20:08,San Jose Diridon Caltrain Station,2,9/9/2013 20:17,San Salvador at 1st,8,655,Subscriber,95126
+16068,394,9/9/2013 20:50,St James Park,13,9/9/2013 20:57,Japantown,9,670,Customer,95112
+16069,378,9/9/2013 20:50,St James Park,13,9/9/2013 20:56,Japantown,9,643,Customer,95112
+16075,407,9/9/2013 21:06,St James Park,13,9/9/2013 21:13,San Salvador at 1st,8,174,Subscriber,94116
+16082,720,9/9/2013 21:24,San Salvador at 1st,8,9/9/2013 21:36,San Jose Diridon Caltrain Station,2,674,Subscriber,95126
+16086,816,9/9/2013 21:33,SJSU - San Salvador at 9th,16,9/9/2013 21:46,San Pedro Square,6,662,Customer,94564
+16088,1368,9/9/2013 21:47,San Pedro Square,6,9/9/2013 22:10,SJSU - San Salvador at 9th,16,99,Customer,94564
+16090,562,9/9/2013 22:13,San Salvador at 1st,8,9/9/2013 22:22,San Jose Diridon Caltrain Station,2,76,Subscriber,94112
+16102,38840,9/9/2013 23:06,Adobe on Almaden,5,9/10/2013 9:53,MLK Library,11,187,Customer,95116
+16106,527,9/10/2013 0:21,San Jose Diridon Caltrain Station,2,9/10/2013 0:30,San Jose City Hall,10,107,Subscriber,95112
+16153,515,9/10/2013 7:14,St James Park,13,9/10/2013 7:22,San Jose Diridon Caltrain Station,2,143,Subscriber,95112
+16159,432,9/10/2013 7:21,Paseo de San Antonio,7,9/10/2013 7:28,Japantown,9,609,Subscriber,95112
+16178,490,9/10/2013 7:40,San Pedro Square,6,9/10/2013 7:48,San Jose Diridon Caltrain Station,2,676,Subscriber,95110
+16185,439,9/10/2013 7:45,Paseo de San Antonio,7,9/10/2013 7:52,San Jose Diridon Caltrain Station,2,30,Subscriber,95112
+16194,515,9/10/2013 7:47,San Jose Diridon Caltrain Station,2,9/10/2013 7:56,Santa Clara at Almaden,4,28,Subscriber,94403
+16196,482,9/10/2013 7:48,San Jose Diridon Caltrain Station,2,9/10/2013 7:56,San Pedro Square,6,672,Subscriber,94002
+16224,266,9/10/2013 8:05,San Salvador at 1st,8,9/10/2013 8:09,MLK Library,11,156,Subscriber,95113
+16234,672,9/10/2013 8:13,San Jose Diridon Caltrain Station,2,9/10/2013 8:24,St James Park,13,143,Subscriber,94114
+16235,567,9/10/2013 8:13,San Jose Diridon Caltrain Station,2,9/10/2013 8:22,San Pedro Square,6,76,Customer,
+16317,683,9/10/2013 8:54,SJSU - San Salvador at 9th,16,9/10/2013 9:05,Paseo de San Antonio,7,99,Subscriber,95126
+16362,768,9/10/2013 9:13,San Jose Diridon Caltrain Station,2,9/10/2013 9:26,San Pedro Square,6,44,Customer,94401
+16367,352,9/10/2013 9:18,San Jose Diridon Caltrain Station,2,9/10/2013 9:24,Santa Clara at Almaden,4,658,Subscriber,94158
+16369,267,9/10/2013 9:19,San Jose Diridon Caltrain Station,2,9/10/2013 9:23,Adobe on Almaden,5,641,Subscriber,94107
+16370,733,9/10/2013 9:19,SJSU - San Salvador at 9th,16,9/10/2013 9:31,San Jose Diridon Caltrain Station,2,53,Subscriber,95110
+16399,799,9/10/2013 9:33,San Jose Diridon Caltrain Station,2,9/10/2013 9:47,SJSU 4th at San Carlos,12,676,Subscriber,94404
+16400,759,9/10/2013 9:34,San Jose Diridon Caltrain Station,2,9/10/2013 9:47,SJSU 4th at San Carlos,12,53,Subscriber,95110
+16503,434,9/10/2013 11:33,Adobe on Almaden,5,9/10/2013 11:40,San Pedro Square,6,649,Subscriber,94536
+16523,267,9/10/2013 11:56,San Jose City Hall,10,9/10/2013 12:01,San Salvador at 1st,8,107,Subscriber,95113
+16528,666,9/10/2013 11:59,St James Park,13,9/10/2013 12:10,Japantown,9,61,Customer,
+16560,595,9/10/2013 12:16,Santa Clara at Almaden,4,9/10/2013 12:26,SJSU 4th at San Carlos,12,102,Subscriber,94403
+16570,371,9/10/2013 12:25,San Pedro Square,6,9/10/2013 12:32,Adobe on Almaden,5,649,Subscriber,94536
+16580,219,9/10/2013 12:32,San Jose City Hall,10,9/10/2013 12:36,Paseo de San Antonio,7,185,Subscriber,95112
+16606,255,9/10/2013 12:44,San Salvador at 1st,8,9/10/2013 12:48,MLK Library,11,107,Subscriber,95113
+16610,146,9/10/2013 12:47,Paseo de San Antonio,7,9/10/2013 12:49,MLK Library,11,185,Subscriber,95112
+16629,274,9/10/2013 13:02,San Jose Civic Center,3,9/10/2013 13:07,Santa Clara at Almaden,4,645,Subscriber,94403
+16638,694,9/10/2013 13:07,Japantown,9,9/10/2013 13:18,St James Park,13,237,Customer,
+16640,755,9/10/2013 13:12,San Jose Diridon Caltrain Station,2,9/10/2013 13:25,San Pedro Square,6,674,Customer,95126
+16668,603,9/10/2013 13:36,San Jose Diridon Caltrain Station,2,9/10/2013 13:46,SJSU 4th at San Carlos,12,654,Subscriber,94618
+16687,854,9/10/2013 13:54,San Pedro Square,6,9/10/2013 14:08,San Jose Diridon Caltrain Station,2,674,Customer,95126
+16693,756,9/10/2013 13:59,Santa Clara at Almaden,4,9/10/2013 14:11,SJSU 4th at San Carlos,12,645,Subscriber,95112
+16707,546,9/10/2013 14:20,Arena Green / SAP Center,14,9/10/2013 14:29,San Jose City Hall,10,196,Subscriber,95112
+16717,1069,9/10/2013 14:30,SJSU 4th at San Carlos,12,9/10/2013 14:48,Santa Clara at Almaden,4,645,Subscriber,95112
+16735,3756,9/10/2013 14:48,MLK Library,11,9/10/2013 15:51,Paseo de San Antonio,7,156,Customer,95111
+16750,355,9/10/2013 15:04,Adobe on Almaden,5,9/10/2013 15:10,Paseo de San Antonio,7,649,Subscriber,94536
+16793,314,9/10/2013 15:32,San Pedro Square,6,9/10/2013 15:37,San Jose Civic Center,3,76,Customer,20009
+16807,325,9/10/2013 15:43,Paseo de San Antonio,7,9/10/2013 15:49,Adobe on Almaden,5,26,Subscriber,94536
+16813,569,9/10/2013 15:53,MLK Library,11,9/10/2013 16:02,MLK Library,11,77,Subscriber,94618
+16814,643,9/10/2013 15:53,SJSU - San Salvador at 9th,16,9/10/2013 16:04,St James Park,13,109,Subscriber,95112
+16901,336,9/10/2013 16:53,Santa Clara at Almaden,4,9/10/2013 16:59,San Jose Diridon Caltrain Station,2,645,Subscriber,94403
+16918,241,9/10/2013 17:04,San Jose City Hall,10,9/10/2013 17:08,San Salvador at 1st,8,86,Subscriber,95113
+16919,638,9/10/2013 17:06,St James Park,13,9/10/2013 17:17,San Jose Diridon Caltrain Station,2,663,Subscriber,94114
+16920,628,9/10/2013 17:06,Japantown,9,9/10/2013 17:17,Santa Clara at Almaden,4,609,Subscriber,95112
+16927,2238,9/10/2013 17:08,Paseo de San Antonio,7,9/10/2013 17:45,SJSU - San Salvador at 9th,16,58,Subscriber,95126
+16952,402,9/10/2013 17:18,San Jose City Hall,10,9/10/2013 17:25,SJSU - San Salvador at 9th,16,245,Subscriber,95112
+16956,571,9/10/2013 17:21,San Pedro Square,6,9/10/2013 17:30,San Jose Diridon Caltrain Station,2,235,Subscriber,95113
+16960,509,9/10/2013 17:22,San Pedro Square,6,9/10/2013 17:30,San Jose Diridon Caltrain Station,2,672,Customer,94401
+16970,323,9/10/2013 17:28,San Jose City Hall,10,9/10/2013 17:34,Paseo de San Antonio,7,31,Subscriber,95112
+16976,250,9/10/2013 17:32,Adobe on Almaden,5,9/10/2013 17:36,San Jose Diridon Caltrain Station,2,641,Subscriber,94107
+16981,330,9/10/2013 17:33,Santa Clara at Almaden,4,9/10/2013 17:39,San Jose Diridon Caltrain Station,2,42,Subscriber,94158
+17014,17155,9/10/2013 17:46,MLK Library,11,9/10/2013 22:32,MLK Library,11,77,Customer,94112
+17053,837,9/10/2013 18:09,SJSU 4th at San Carlos,12,9/10/2013 18:23,San Jose Diridon Caltrain Station,2,656,Subscriber,95110
+17063,285,9/10/2013 18:12,Santa Clara at Almaden,4,9/10/2013 18:17,San Jose Diridon Caltrain Station,2,609,Customer,
+17065,5963,9/10/2013 18:13,SJSU - San Salvador at 9th,16,9/10/2013 19:52,SJSU - San Salvador at 9th,16,648,Customer,95112
+17084,1093,9/10/2013 18:26,San Jose Diridon Caltrain Station,2,9/10/2013 18:44,SJSU - San Salvador at 9th,16,656,Subscriber,95110
+17116,524,9/10/2013 18:46,San Jose Diridon Caltrain Station,2,9/10/2013 18:55,Paseo de San Antonio,7,609,Subscriber,95112
+17124,3589,9/10/2013 18:52,SJSU - San Salvador at 9th,16,9/10/2013 19:52,SJSU - San Salvador at 9th,16,58,Customer,95112
+17138,274,9/10/2013 19:04,Santa Clara at Almaden,4,9/10/2013 19:09,San Jose Diridon Caltrain Station,2,658,Customer,95032
+17157,191,9/10/2013 19:21,San Jose Diridon Caltrain Station,2,9/10/2013 19:24,San Jose Diridon Caltrain Station,2,645,Customer,95032
+17160,195,9/10/2013 19:24,Paseo de San Antonio,7,9/10/2013 19:27,San Jose City Hall,10,99,Subscriber,95112
+17163,81,9/10/2013 19:25,San Jose Diridon Caltrain Station,2,9/10/2013 19:26,San Jose Diridon Caltrain Station,2,645,Customer,95032
+17209,383,9/10/2013 20:10,Paseo de San Antonio,7,9/10/2013 20:16,SJSU - San Salvador at 9th,16,31,Customer,94564
+17238,814,9/10/2013 21:04,San Jose Diridon Caltrain Station,2,9/10/2013 21:17,Japantown,9,101,Subscriber,95112
+17274,1339,9/10/2013 22:19,SJSU - San Salvador at 9th,16,9/10/2013 22:42,SJSU - San Salvador at 9th,16,662,Customer,94564
+17284,571,9/10/2013 23:11,San Jose Diridon Caltrain Station,2,9/10/2013 23:21,San Jose City Hall,10,674,Subscriber,95112
+17286,2240,9/10/2013 23:23,Arena Green / SAP Center,14,9/11/2013 0:01,Arena Green / SAP Center,14,37,Customer,95155
+17289,2768,9/10/2013 23:52,MLK Library,11,9/11/2013 0:38,SJSU - San Salvador at 9th,16,187,Customer,95112
+17290,2772,9/10/2013 23:52,MLK Library,11,9/11/2013 0:38,SJSU - San Salvador at 9th,16,107,Customer,95112
+17344,565,9/11/2013 7:19,Paseo de San Antonio,7,9/11/2013 7:28,Japantown,9,649,Subscriber,95112
+17367,538,9/11/2013 7:47,Paseo de San Antonio,7,9/11/2013 7:56,San Jose Diridon Caltrain Station,2,609,Subscriber,95112
+17413,227,9/11/2013 8:08,San Salvador at 1st,8,9/11/2013 8:12,MLK Library,11,86,Subscriber,95113
+17436,123,9/11/2013 8:21,San Jose Diridon Caltrain Station,2,9/11/2013 8:23,San Jose Diridon Caltrain Station,2,641,Subscriber,94114
+17446,575,9/11/2013 8:24,San Jose Diridon Caltrain Station,2,9/11/2013 8:33,St James Park,13,609,Subscriber,94114
+17482,160,9/11/2013 8:42,San Salvador at 1st,8,9/11/2013 8:44,SJSU 4th at San Carlos,12,174,Subscriber,95112
+17492,340,9/11/2013 8:44,San Jose Diridon Caltrain Station,2,9/11/2013 8:49,San Pedro Square,6,30,Customer,
+17494,427,9/11/2013 8:44,San Jose Diridon Caltrain Station,2,9/11/2013 8:51,San Pedro Square,6,235,Subscriber,94002
+17529,452,9/11/2013 9:05,SJSU - San Salvador at 9th,16,9/11/2013 9:12,Paseo de San Antonio,7,245,Subscriber,95126
+17616,291,9/11/2013 10:03,San Jose Diridon Caltrain Station,2,9/11/2013 10:08,Adobe on Almaden,5,663,Subscriber,94117
+17657,158,9/11/2013 10:55,San Jose City Hall,10,9/11/2013 10:58,SJSU 4th at San Carlos,12,674,Subscriber,95112
+17666,301,9/11/2013 11:12,MLK Library,11,9/11/2013 11:17,San Jose City Hall,10,116,Subscriber,95112
+17675,2250,9/11/2013 11:19,Santa Clara at Almaden,4,9/11/2013 11:57,MLK Library,11,64,Customer,95377
+17701,239,9/11/2013 11:36,Adobe on Almaden,5,9/11/2013 11:40,San Jose Civic Center,3,26,Subscriber,94536
+17714,293,9/11/2013 11:51,San Jose City Hall,10,9/11/2013 11:55,San Salvador at 1st,8,68,Subscriber,95113
+17731,434,9/11/2013 12:04,San Pedro Square,6,9/11/2013 12:11,St James Park,13,30,Subscriber,95136
+17732,412,9/11/2013 12:04,San Pedro Square,6,9/11/2013 12:11,St James Park,13,235,Subscriber,94086
+17737,659,9/11/2013 12:01,SJSU 4th at San Carlos,12,9/11/2013 12:12,San Jose City Hall,10,686,Subscriber,95051
+17744,591,9/11/2013 12:18,SJSU 4th at San Carlos,12,9/11/2013 12:27,Adobe on Almaden,5,89,Subscriber,94536
+17749,161,9/11/2013 12:22,Paseo de San Antonio,7,9/11/2013 12:25,SJSU 4th at San Carlos,12,91,Subscriber,95062
+17751,185,9/11/2013 12:23,San Jose City Hall,10,9/11/2013 12:26,Paseo de San Antonio,7,99,Subscriber,95112
+17753,4836,9/11/2013 12:26,MLK Library,11,9/11/2013 13:46,MLK Library,11,64,Customer,94568
+17764,327,9/11/2013 12:37,Paseo de San Antonio,7,9/11/2013 12:42,San Salvador at 1st,8,99,Subscriber,95112
+17768,479,9/11/2013 12:39,San Jose Diridon Caltrain Station,2,9/11/2013 12:47,San Pedro Square,6,102,Subscriber,95126
+17769,230,9/11/2013 12:41,San Jose City Hall,10,9/11/2013 12:44,SJSU 4th at San Carlos,12,116,Subscriber,95051
+17773,265,9/11/2013 12:42,San Salvador at 1st,8,9/11/2013 12:46,MLK Library,11,68,Subscriber,95113
+17775,332,9/11/2013 12:44,San Jose City Hall,10,9/11/2013 12:50,San Salvador at 1st,8,686,Subscriber,95126
+17777,608,9/11/2013 12:44,St James Park,13,9/11/2013 12:55,Santa Clara at Almaden,4,52,Subscriber,95136
+17778,612,9/11/2013 12:45,St James Park,13,9/11/2013 12:55,Santa Clara at Almaden,4,235,Subscriber,94086
+17807,319,9/11/2013 13:15,SJSU 4th at San Carlos,12,9/11/2013 13:20,St James Park,13,53,Subscriber,95112
+17813,391,9/11/2013 13:19,San Pedro Square,6,9/11/2013 13:26,San Jose Diridon Caltrain Station,2,102,Subscriber,95126
+17824,428,9/11/2013 13:26,St James Park,13,9/11/2013 13:33,SJSU 4th at San Carlos,12,106,Subscriber,95112
+17827,1091,9/11/2013 13:28,San Jose Civic Center,3,9/11/2013 13:46,San Jose City Hall,10,76,Subscriber,95126
+17846,449,9/11/2013 13:36,SJSU 4th at San Carlos,12,9/11/2013 13:43,Paseo de San Antonio,7,16,Subscriber,95112
+17874,7159,9/11/2013 14:16,San Jose Civic Center,3,9/11/2013 16:15,San Jose Civic Center,3,26,Customer,93305
+17893,885,9/11/2013 14:32,San Jose City Hall,10,9/11/2013 14:47,San Jose City Hall,10,664,Subscriber,95112
+17906,321,9/11/2013 14:42,St James Park,13,9/11/2013 14:48,MLK Library,11,237,Subscriber,95035
+17943,143,9/11/2013 15:19,MLK Library,11,9/11/2013 15:21,SJSU 4th at San Carlos,12,185,Subscriber,95112
+17979,591,9/11/2013 15:53,Paseo de San Antonio,7,9/11/2013 16:02,San Jose City Hall,10,23,Subscriber,95112
+18031,397,9/11/2013 16:44,San Pedro Square,6,9/11/2013 16:50,San Jose Diridon Caltrain Station,2,44,Subscriber,94002
+18054,749,9/11/2013 16:59,MLK Library,11,9/11/2013 17:11,San Jose Diridon Caltrain Station,2,68,Customer,95377
+18065,211,9/11/2013 17:05,San Jose City Hall,10,9/11/2013 17:08,San Salvador at 1st,8,76,Subscriber,95113
+18067,419,9/11/2013 17:06,Adobe on Almaden,5,9/11/2013 17:13,San Jose Diridon Caltrain Station,2,663,Subscriber,94117
+18084,557,9/11/2013 17:12,Japantown,9,9/11/2013 17:22,Santa Clara at Almaden,4,649,Subscriber,95112
+18124,666,9/11/2013 17:33,St James Park,13,9/11/2013 17:44,San Jose Diridon Caltrain Station,2,53,Subscriber,94114
+18157,581,9/11/2013 17:49,San Jose Diridon Caltrain Station,2,9/11/2013 17:59,MLK Library,11,662,Subscriber,94114
+18195,842,9/11/2013 18:06,San Jose Diridon Caltrain Station,2,9/11/2013 18:20,Japantown,9,102,Customer,95112
+18213,473,9/11/2013 18:20,San Jose Diridon Caltrain Station,2,9/11/2013 18:27,San Pedro Square,6,645,Subscriber,95127
+18214,484,9/11/2013 18:20,San Jose Diridon Caltrain Station,2,9/11/2013 18:28,Paseo de San Antonio,7,641,Subscriber,95112
+18241,283,9/11/2013 18:37,Santa Clara at Almaden,4,9/11/2013 18:42,San Jose Diridon Caltrain Station,2,649,Customer,
+18251,673,9/11/2013 18:43,St James Park,13,9/11/2013 18:54,San Jose Diridon Caltrain Station,2,30,Subscriber,94110
+18271,2686,9/11/2013 18:57,San Pedro Square,6,9/11/2013 19:42,San Pedro Square,6,645,Subscriber,95112
+18392,675,9/11/2013 20:50,San Jose Diridon Caltrain Station,2,9/11/2013 21:01,San Salvador at 1st,8,68,Subscriber,95126
+18393,642,9/11/2013 20:50,San Jose Diridon Caltrain Station,2,9/11/2013 21:01,San Salvador at 1st,8,44,Subscriber,95126
+18401,574,9/11/2013 20:56,MLK Library,11,9/11/2013 21:06,San Jose Diridon Caltrain Station,2,64,Customer,94043
+18427,238,9/11/2013 21:27,San Salvador at 1st,8,9/11/2013 21:31,Paseo de San Antonio,7,99,Subscriber,95112
+18435,174,9/11/2013 21:38,Paseo de San Antonio,7,9/11/2013 21:41,San Salvador at 1st,8,99,Subscriber,95112
+18442,646,9/11/2013 21:58,San Salvador at 1st,8,9/11/2013 22:09,San Jose Diridon Caltrain Station,2,76,Subscriber,95126
+18443,627,9/11/2013 21:59,San Salvador at 1st,8,9/11/2013 22:09,San Jose Diridon Caltrain Station,2,68,Subscriber,95126
+18469,208,9/11/2013 23:00,San Jose Diridon Caltrain Station,2,9/11/2013 23:03,Adobe on Almaden,5,30,Subscriber,95136
+18475,130,9/11/2013 23:26,Adobe on Almaden,5,9/11/2013 23:28,San Jose Civic Center,3,30,Subscriber,95136
+18487,848,9/12/2013 6:19,SJSU - San Salvador at 9th,16,9/12/2013 6:33,San Jose Diridon Caltrain Station,2,679,Subscriber,95112
+18512,496,9/12/2013 7:19,Paseo de San Antonio,7,9/12/2013 7:27,Japantown,9,641,Subscriber,95112
+18526,699,9/12/2013 7:37,St James Park,13,9/12/2013 7:49,San Jose Diridon Caltrain Station,2,609,Subscriber,95112
+18551,433,9/12/2013 7:52,Paseo de San Antonio,7,9/12/2013 7:59,San Jose Diridon Caltrain Station,2,156,Subscriber,95112
+18585,265,9/12/2013 8:08,San Salvador at 1st,8,9/12/2013 8:12,MLK Library,11,655,Subscriber,95113
+18593,558,9/12/2013 8:15,San Jose Diridon Caltrain Station,2,9/12/2013 8:24,San Pedro Square,6,679,Customer,
+18594,616,9/12/2013 8:15,San Jose Diridon Caltrain Station,2,9/12/2013 8:25,St James Park,13,646,Subscriber,94114
+18595,458,9/12/2013 8:15,San Jose Diridon Caltrain Station,2,9/12/2013 8:22,San Pedro Square,6,663,Subscriber,94403
+18621,467,9/12/2013 8:32,Japantown,9,9/12/2013 8:39,MLK Library,11,102,Subscriber,95112
+18638,436,9/12/2013 8:44,San Jose Diridon Caltrain Station,2,9/12/2013 8:51,San Pedro Square,6,658,Subscriber,94002
+18662,135,9/12/2013 8:54,San Salvador at 1st,8,9/12/2013 8:56,SJSU 4th at San Carlos,12,70,Subscriber,95112
+18682,495,9/12/2013 9:05,San Jose Civic Center,3,9/12/2013 9:13,San Jose Diridon Caltrain Station,2,675,Subscriber,94107
+18683,223,9/12/2013 9:05,SJSU 4th at San Carlos,12,9/12/2013 9:09,San Jose City Hall,10,91,Subscriber,95062
+18704,321,9/12/2013 9:18,San Jose Diridon Caltrain Station,2,9/12/2013 9:23,Adobe on Almaden,5,649,Subscriber,94107
+18705,334,9/12/2013 9:19,San Jose Diridon Caltrain Station,2,9/12/2013 9:24,Santa Clara at Almaden,4,64,Subscriber,95109
+18706,600,9/12/2013 9:19,San Jose Diridon Caltrain Station,2,9/12/2013 9:29,SJSU 4th at San Carlos,12,675,Subscriber,94404
+18783,225,9/12/2013 10:05,San Jose City Hall,10,9/12/2013 10:09,SJSU 4th at San Carlos,12,91,Subscriber,95062
+18809,251,9/12/2013 10:19,San Jose City Hall,10,9/12/2013 10:23,Paseo de San Antonio,7,23,Subscriber,95112
+18822,217,9/12/2013 10:29,Paseo de San Antonio,7,9/12/2013 10:32,MLK Library,11,23,Subscriber,95112
+18862,1466,9/12/2013 11:07,Japantown,9,9/12/2013 11:31,San Jose City Hall,10,195,Customer,
+18865,417,9/12/2013 11:09,Santa Clara at Almaden,4,9/12/2013 11:16,MLK Library,11,235,Customer,95377
+18894,1789,9/12/2013 11:33,San Jose City Hall,10,9/12/2013 12:03,Japantown,9,670,Customer,
+18917,324,9/12/2013 11:51,San Jose City Hall,10,9/12/2013 11:57,San Salvador at 1st,8,664,Subscriber,95113
+18921,178,9/12/2013 11:58,SJSU 4th at San Carlos,12,9/12/2013 12:01,San Salvador at 1st,8,70,Subscriber,95112
+18946,364,9/12/2013 12:12,San Jose City Hall,10,9/12/2013 12:18,San Pedro Square,6,644,Subscriber,95112
+18960,268,9/12/2013 12:22,San Pedro Square,6,9/12/2013 12:27,San Jose Civic Center,3,679,Subscriber,95112
+18971,363,9/12/2013 12:29,San Jose Diridon Caltrain Station,2,9/12/2013 12:35,Santa Clara at Almaden,4,102,Subscriber,95126
+19001,297,9/12/2013 12:43,San Salvador at 1st,8,9/12/2013 12:48,MLK Library,11,686,Subscriber,95113
+19014,325,9/12/2013 12:42,SJSU 4th at San Carlos,12,9/12/2013 12:48,St James Park,13,55,Subscriber,95112
+19016,189,9/12/2013 12:47,SJSU 4th at San Carlos,12,9/12/2013 12:51,MLK Library,11,91,Subscriber,95112
+19024,425,9/12/2013 12:52,St James Park,13,9/12/2013 12:59,SJSU 4th at San Carlos,12,41,Subscriber,95112
+19144,466,9/12/2013 14:53,MLK Library,11,9/12/2013 15:01,Japantown,9,686,Subscriber,95112
+19166,696,9/12/2013 15:14,San Jose Diridon Caltrain Station,2,9/12/2013 15:26,San Pedro Square,6,609,Subscriber,95113
+19214,656,9/12/2013 15:55,San Jose City Hall,10,9/12/2013 16:05,Japantown,9,188,Subscriber,95138
+19239,697,9/12/2013 16:13,Japantown,9,9/12/2013 16:24,San Jose City Hall,10,188,Subscriber,95138
+19279,367,9/12/2013 16:40,San Pedro Square,6,9/12/2013 16:46,San Jose Diridon Caltrain Station,2,645,Subscriber,94002
+19286,248,9/12/2013 16:45,Santa Clara at Almaden,4,9/12/2013 16:49,San Jose Diridon Caltrain Station,2,28,Subscriber,94403
+19314,515,9/12/2013 17:03,Japantown,9,9/12/2013 17:12,Paseo de San Antonio,7,641,Subscriber,95112
+19354,663,9/12/2013 17:25,St James Park,13,9/12/2013 17:36,San Jose Diridon Caltrain Station,2,646,Subscriber,94114
+19377,440,9/12/2013 17:32,San Jose Diridon Caltrain Station,2,9/12/2013 17:39,Santa Clara at Almaden,4,178,Subscriber,94107
+19395,410,9/12/2013 17:41,San Jose Diridon Caltrain Station,2,9/12/2013 17:47,Paseo de San Antonio,7,76,Subscriber,95112
+19398,3633,9/12/2013 17:42,San Jose City Hall,10,9/12/2013 18:43,Japantown,9,643,Customer,94579
+19408,4076,9/12/2013 17:48,San Jose City Hall,10,9/12/2013 18:56,San Jose City Hall,10,196,Subscriber,95112
+19467,251,9/12/2013 18:15,Adobe on Almaden,5,9/12/2013 18:19,San Jose Diridon Caltrain Station,2,660,Subscriber,94107
+19498,321,9/12/2013 18:25,Adobe on Almaden,5,9/12/2013 18:31,San Jose Diridon Caltrain Station,2,12,Customer,
+19557,736,9/12/2013 19:13,San Jose Diridon Caltrain Station,2,9/12/2013 19:25,Japantown,9,68,Subscriber,95112
+19566,270,9/12/2013 19:20,Santa Clara at Almaden,4,9/12/2013 19:24,San Jose Diridon Caltrain Station,2,64,Subscriber,95109
+19576,590,9/12/2013 19:30,San Jose Diridon Caltrain Station,2,9/12/2013 19:40,St James Park,13,646,Subscriber,95112
+19600,288,9/12/2013 20:01,Santa Clara at Almaden,4,9/12/2013 20:06,Paseo de San Antonio,7,656,Subscriber,95110
+19622,225,9/12/2013 20:37,MLK Library,11,9/12/2013 20:40,SJSU - San Salvador at 9th,16,655,Customer,95112
+19624,353,9/12/2013 20:37,San Pedro Square,6,9/12/2013 20:43,San Jose Diridon Caltrain Station,2,671,Subscriber,95126
+19625,625,9/12/2013 20:38,San Jose Diridon Caltrain Station,2,9/12/2013 20:48,Paseo de San Antonio,7,53,Subscriber,95126
+19626,666,9/12/2013 20:38,St James Park,13,9/12/2013 20:49,San Jose Diridon Caltrain Station,2,55,Subscriber,94110
+19641,165,9/12/2013 20:55,Paseo de San Antonio,7,9/12/2013 20:58,San Salvador at 1st,8,76,Subscriber,95126
+19652,1038,9/12/2013 21:07,San Salvador at 1st,8,9/12/2013 21:25,MLK Library,11,666,Customer,92127
+19666,440,9/12/2013 21:26,MLK Library,11,9/12/2013 21:33,Santa Clara at Almaden,4,77,Subscriber,95110
+19676,3173,9/12/2013 21:48,San Jose City Hall,10,9/12/2013 22:41,San Jose City Hall,10,70,Customer,95128
+19677,423,9/12/2013 21:46,San Salvador at 1st,8,9/12/2013 21:53,San Jose Diridon Caltrain Station,2,237,Subscriber,95126
+19678,3081,9/12/2013 21:50,San Jose City Hall,10,9/12/2013 22:42,San Jose City Hall,10,188,Customer,95128
+19707,609,9/12/2013 23:12,San Jose Diridon Caltrain Station,2,9/12/2013 23:22,San Jose City Hall,10,86,Subscriber,95112
+19711,1581,9/12/2013 23:48,MLK Library,11,9/13/2013 0:15,SJSU - San Salvador at 9th,16,662,Customer,92127
+19752,1300,9/13/2013 7:07,San Salvador at 1st,8,9/13/2013 7:28,San Jose Civic Center,3,664,Subscriber,94116
+19788,755,9/13/2013 7:45,San Jose Diridon Caltrain Station,2,9/13/2013 7:57,Paseo de San Antonio,7,671,Subscriber,95112
+19807,514,9/13/2013 7:42,Japantown,9,9/13/2013 7:50,San Pedro Square,6,231,Subscriber,95112
+19833,268,9/13/2013 8:04,San Salvador at 1st,8,9/13/2013 8:08,MLK Library,11,657,Subscriber,95113
+19840,415,9/13/2013 8:14,San Jose Diridon Caltrain Station,2,9/13/2013 8:21,San Pedro Square,6,641,Customer,
+19847,270,9/13/2013 8:15,San Jose Diridon Caltrain Station,2,9/13/2013 8:20,Santa Clara at Almaden,4,645,Subscriber,94403
+19851,284,9/13/2013 8:15,San Jose Diridon Caltrain Station,2,9/13/2013 8:20,Santa Clara at Almaden,4,12,Subscriber,95126
+19870,337,9/13/2013 8:28,San Jose Diridon Caltrain Station,2,9/13/2013 8:33,Santa Clara at Almaden,4,660,Subscriber,94158
+19918,750,9/13/2013 8:51,San Jose Diridon Caltrain Station,2,9/13/2013 9:03,San Pedro Square,6,28,Subscriber,95113
+19981,377,9/13/2013 9:14,SJSU - San Salvador at 9th,16,9/13/2013 9:21,Paseo de San Antonio,7,675,Subscriber,95126
+20036,290,9/13/2013 9:48,SJSU - San Salvador at 9th,16,9/13/2013 9:53,San Salvador at 1st,8,116,Subscriber,95112
+20053,606,9/13/2013 9:55,St James Park,13,9/13/2013 10:05,San Pedro Square,6,673,Subscriber,95035
+20066,369,9/13/2013 10:07,San Pedro Square,6,9/13/2013 10:13,SJSU 4th at San Carlos,12,609,Subscriber,95035
+20087,132,9/13/2013 10:16,SJSU 4th at San Carlos,12,9/13/2013 10:18,MLK Library,11,47,Subscriber,95035
+20102,528,9/13/2013 10:35,Santa Clara at Almaden,4,9/13/2013 10:44,Paseo de San Antonio,7,12,Subscriber,95112
+20120,192,9/13/2013 10:57,Paseo de San Antonio,7,9/13/2013 11:01,SJSU 4th at San Carlos,12,656,Subscriber,95112
+20130,1401,9/13/2013 11:08,SJSU 4th at San Carlos,12,9/13/2013 11:31,Paseo de San Antonio,7,656,Subscriber,95112
+20132,257,9/13/2013 11:09,San Salvador at 1st,8,9/13/2013 11:14,SJSU - San Salvador at 9th,16,674,Subscriber,95112
+20170,680,9/13/2013 11:43,San Jose City Hall,10,9/13/2013 11:54,Japantown,9,663,Subscriber,95138
+20179,237,9/13/2013 11:50,San Jose City Hall,10,9/13/2013 11:53,San Salvador at 1st,8,188,Subscriber,95113
+20195,254,9/13/2013 11:59,San Jose City Hall,10,9/13/2013 12:03,Paseo de San Antonio,7,44,Subscriber,95112
+20228,116,9/13/2013 12:21,San Jose Civic Center,3,9/13/2013 12:23,San Salvador at 1st,8,679,Subscriber,95112
+20249,199,9/13/2013 12:30,SJSU 4th at San Carlos,12,9/13/2013 12:34,MLK Library,11,174,Subscriber,95112
+20267,319,9/13/2013 12:43,San Salvador at 1st,8,9/13/2013 12:48,MLK Library,11,116,Subscriber,95113
+20268,2524,9/13/2013 12:43,San Jose Civic Center,3,9/13/2013 13:25,San Jose Civic Center,3,30,Customer,92003
+20269,2520,9/13/2013 12:43,San Jose Civic Center,3,9/13/2013 13:25,San Jose Civic Center,3,26,Customer,92003
+20275,1516,9/13/2013 12:46,Paseo de San Antonio,7,9/13/2013 13:11,Paseo de San Antonio,7,675,Customer,95118
+20283,1292,9/13/2013 12:50,Paseo de San Antonio,7,9/13/2013 13:11,Paseo de San Antonio,7,16,Customer,95120
+20290,575,9/13/2013 12:53,Japantown,9,9/13/2013 13:03,San Pedro Square,6,40,Subscriber,95138
+20294,678,9/13/2013 12:56,SJSU - San Salvador at 9th,16,9/13/2013 13:07,San Pedro Square,6,674,Subscriber,95112
+20304,523,9/13/2013 13:02,Adobe on Almaden,5,9/13/2013 13:11,San Pedro Square,6,649,Subscriber,94536
+20334,337,9/13/2013 13:13,San Pedro Square,6,9/13/2013 13:19,San Jose City Hall,10,40,Subscriber,95138
+20373,731,9/13/2013 13:43,Santa Clara at Almaden,4,9/13/2013 13:55,SJSU - San Salvador at 9th,16,77,Subscriber,95112
+20375,440,9/13/2013 13:44,Santa Clara at Almaden,4,9/13/2013 13:52,SJSU 4th at San Carlos,12,52,Subscriber,94403
+20421,475,9/13/2013 14:20,MLK Library,11,9/13/2013 14:28,Santa Clara at Almaden,4,47,Subscriber,94403
+20528,981,9/13/2013 16:07,Arena Green / SAP Center,14,9/13/2013 16:24,SJSU 4th at San Carlos,12,242,Customer,
+20562,441,9/13/2013 16:35,San Pedro Square,6,9/13/2013 16:42,Japantown,9,672,Subscriber,95112
+20579,400,9/13/2013 16:46,San Pedro Square,6,9/13/2013 16:52,San Jose Diridon Caltrain Station,2,641,Subscriber,94002
+20583,257,9/13/2013 16:47,Santa Clara at Almaden,4,9/13/2013 16:51,San Jose Diridon Caltrain Station,2,102,Subscriber,95126
+20588,225,9/13/2013 16:52,Santa Clara at Almaden,4,9/13/2013 16:56,San Jose Diridon Caltrain Station,2,47,Subscriber,94403
+20592,3142,9/13/2013 16:53,MLK Library,11,9/13/2013 17:46,San Salvador at 1st,8,116,Customer,
+20625,249,9/13/2013 17:10,Santa Clara at Almaden,4,9/13/2013 17:15,San Jose Diridon Caltrain Station,2,660,Subscriber,94158
+20633,575,9/13/2013 17:12,St James Park,13,9/13/2013 17:22,San Jose Diridon Caltrain Station,2,646,Subscriber,95112
+20653,596,9/13/2013 17:20,San Pedro Square,6,9/13/2013 17:30,San Jose Diridon Caltrain Station,2,658,Subscriber,95113
+20747,707,9/13/2013 18:09,San Jose Diridon Caltrain Station,2,9/13/2013 18:20,San Salvador at 1st,8,666,Subscriber,94043
+20748,658,9/13/2013 18:09,San Jose Diridon Caltrain Station,2,9/13/2013 18:20,San Salvador at 1st,8,670,Subscriber,94043
+20749,275,9/13/2013 18:09,Santa Clara at Almaden,4,9/13/2013 18:14,San Jose Diridon Caltrain Station,2,88,Customer,
+20769,388,9/13/2013 18:17,San Jose Diridon Caltrain Station,2,9/13/2013 18:23,Paseo de San Antonio,7,102,Subscriber,95112
+20805,366,9/13/2013 18:45,San Salvador at 1st,8,9/13/2013 18:51,Santa Clara at Almaden,4,670,Subscriber,94043
+20807,334,9/13/2013 18:46,San Salvador at 1st,8,9/13/2013 18:51,Santa Clara at Almaden,4,666,Subscriber,94043
+20900,590,9/13/2013 19:59,Arena Green / SAP Center,14,9/13/2013 20:09,MLK Library,11,81,Subscriber,95066
+20929,146,9/13/2013 20:29,MLK Library,11,9/13/2013 20:32,SJSU 4th at San Carlos,12,81,Subscriber,95066
+20933,163,9/13/2013 20:32,SJSU 4th at San Carlos,12,9/13/2013 20:35,San Salvador at 1st,8,609,Subscriber,95066
+20934,190,9/13/2013 20:35,San Salvador at 1st,8,9/13/2013 20:38,Paseo de San Antonio,7,99,Subscriber,95066
+20936,176,9/13/2013 20:38,Paseo de San Antonio,7,9/13/2013 20:41,San Jose Civic Center,3,675,Subscriber,95066
+20947,326,9/13/2013 20:41,San Jose Civic Center,3,9/13/2013 20:47,San Pedro Square,6,652,Subscriber,95066
+20952,273,9/13/2013 20:47,San Pedro Square,6,9/13/2013 20:52,St James Park,13,649,Subscriber,95066
+20955,1352,9/13/2013 20:53,San Pedro Square,6,9/13/2013 21:15,San Jose Diridon Caltrain Station,2,652,Subscriber,94043
+20956,1359,9/13/2013 20:53,San Pedro Square,6,9/13/2013 21:16,San Jose Diridon Caltrain Station,2,648,Subscriber,94043
+20957,223,9/13/2013 20:52,St James Park,13,9/13/2013 20:56,San Jose City Hall,10,684,Subscriber,95066
+20958,553,9/13/2013 20:56,San Jose City Hall,10,9/13/2013 21:05,San Jose Diridon Caltrain Station,2,42,Subscriber,95066
+20964,196,9/13/2013 21:05,San Jose Diridon Caltrain Station,2,9/13/2013 21:09,Arena Green / SAP Center,14,64,Subscriber,95066
+21007,718,9/13/2013 22:25,Japantown,9,9/13/2013 22:37,San Pedro Square,6,686,Customer,95112
+21035,1342,9/14/2013 0:56,Japantown,9,9/14/2013 1:19,San Pedro Square,6,195,Customer,95112
+21036,1113,9/14/2013 1:00,Japantown,9,9/14/2013 1:18,San Pedro Square,6,672,Customer,94538
+21038,3400,9/14/2013 1:07,San Pedro Square,6,9/14/2013 2:04,San Pedro Square,6,231,Customer,95121
+21039,3394,9/14/2013 1:07,San Pedro Square,6,9/14/2013 2:04,San Pedro Square,6,674,Customer,95121
+21043,1571,9/14/2013 1:44,Paseo de San Antonio,7,9/14/2013 2:10,Japantown,9,12,Customer,95112
+21044,1502,9/14/2013 1:45,Paseo de San Antonio,7,9/14/2013 2:10,Japantown,9,16,Customer,94538
+21046,1837,9/14/2013 3:05,San Salvador at 1st,8,9/14/2013 3:35,San Salvador at 1st,8,188,Customer,94544
+21047,1820,9/14/2013 3:05,San Salvador at 1st,8,9/14/2013 3:35,San Salvador at 1st,8,78,Customer,94544
+21050,616,9/14/2013 7:13,San Jose Diridon Caltrain Station,2,9/14/2013 7:23,San Jose Diridon Caltrain Station,2,88,Customer,
+21064,484,9/14/2013 8:36,Paseo de San Antonio,7,9/14/2013 8:45,San Jose Diridon Caltrain Station,2,25,Subscriber,94107
+21070,110,9/14/2013 8:49,San Jose Diridon Caltrain Station,2,9/14/2013 8:50,San Jose Diridon Caltrain Station,2,641,Subscriber,95060
+21083,145,9/14/2013 9:36,Paseo de San Antonio,7,9/14/2013 9:38,Paseo de San Antonio,7,671,Subscriber,95136
+21084,621,9/14/2013 9:40,San Salvador at 1st,8,9/14/2013 9:50,San Jose Diridon Caltrain Station,2,78,Customer,95125
+21094,87,9/14/2013 9:49,Paseo de San Antonio,7,9/14/2013 9:51,Paseo de San Antonio,7,99,Subscriber,95136
+21149,529,9/14/2013 11:07,Arena Green / SAP Center,14,9/14/2013 11:15,Arena Green / SAP Center,14,37,Customer,95126
+21151,2569,9/14/2013 11:08,Arena Green / SAP Center,14,9/14/2013 11:50,Arena Green / SAP Center,14,665,Customer,95126
+21172,1753,9/14/2013 11:21,Arena Green / SAP Center,14,9/14/2013 11:51,Arena Green / SAP Center,14,650,Customer,95126
+21175,1705,9/14/2013 11:26,Franklin at Maple,21,9/14/2013 11:55,Franklin at Maple,21,207,Customer,94063
+21249,867,9/14/2013 12:21,San Salvador at 1st,8,9/14/2013 12:35,Arena Green / SAP Center,14,116,Customer,95113
+21250,246,9/14/2013 12:22,San Salvador at 1st,8,9/14/2013 12:26,Paseo de San Antonio,7,175,Subscriber,95113
+21251,241,9/14/2013 12:22,San Salvador at 1st,8,9/14/2013 12:26,Paseo de San Antonio,7,187,Subscriber,95113
+21322,1017,9/14/2013 12:59,MLK Library,11,9/14/2013 13:16,MLK Library,11,683,Subscriber,95136
+21329,583,9/14/2013 13:03,Paseo de San Antonio,7,9/14/2013 13:12,San Salvador at 1st,8,175,Subscriber,95113
+21330,558,9/14/2013 13:03,Paseo de San Antonio,7,9/14/2013 13:12,San Salvador at 1st,8,187,Subscriber,95113
+21383,945,9/14/2013 13:48,Paseo de San Antonio,7,9/14/2013 14:04,Paseo de San Antonio,7,53,Subscriber,95112
+21390,3413,9/14/2013 13:54,MLK Library,11,9/14/2013 14:51,SJSU - San Salvador at 9th,16,90,Customer,94133
+21427,357,9/14/2013 14:13,Paseo de San Antonio,7,9/14/2013 14:19,San Jose City Hall,10,53,Subscriber,95112
+21471,139,9/14/2013 14:46,San Jose City Hall,10,9/14/2013 14:49,San Jose City Hall,10,70,Subscriber,95112
+21498,284,9/14/2013 15:12,San Jose City Hall,10,9/14/2013 15:16,San Jose City Hall,10,70,Subscriber,94105
+21516,1448,9/14/2013 15:19,Japantown,9,9/14/2013 15:44,MLK Library,11,16,Customer,95117
+21522,1194,9/14/2013 15:24,Japantown,9,9/14/2013 15:44,MLK Library,11,61,Customer,95136
+21524,1061,9/14/2013 15:26,Japantown,9,9/14/2013 15:44,MLK Library,11,12,Customer,
+21534,869,9/14/2013 15:29,Japantown,9,9/14/2013 15:44,MLK Library,11,663,Customer,95117
+21543,610,9/14/2013 15:37,San Jose Diridon Caltrain Station,2,9/14/2013 15:47,San Jose Civic Center,3,88,Customer,
+21598,618,9/14/2013 16:10,San Jose Diridon Caltrain Station,2,9/14/2013 16:20,San Salvador at 1st,8,641,Subscriber,95126
+21626,1385,9/14/2013 16:36,SJSU - San Salvador at 9th,16,9/14/2013 16:59,SJSU 4th at San Carlos,12,106,Customer,95112
+21628,1367,9/14/2013 16:37,SJSU - San Salvador at 9th,16,9/14/2013 17:00,SJSU 4th at San Carlos,12,655,Customer,95112
+21631,482,9/14/2013 16:38,San Pedro Square,6,9/14/2013 16:46,Japantown,9,674,Subscriber,95112
+21645,481,9/14/2013 16:47,San Salvador at 1st,8,9/14/2013 16:55,San Jose Diridon Caltrain Station,2,31,Subscriber,95126
+21687,1039,9/14/2013 17:17,San Jose Diridon Caltrain Station,2,9/14/2013 17:35,San Salvador at 1st,8,669,Subscriber,95126
+21699,1440,9/14/2013 17:26,San Jose Civic Center,3,9/14/2013 17:50,San Pedro Square,6,675,Customer,95117
+21703,1319,9/14/2013 17:31,SJSU 4th at San Carlos,12,9/14/2013 17:53,San Jose Civic Center,3,655,Customer,95112
+21704,1128,9/14/2013 17:32,San Jose Civic Center,3,9/14/2013 17:51,San Pedro Square,6,200,Customer,95136
+21705,1111,9/14/2013 17:32,San Jose Civic Center,3,9/14/2013 17:50,San Pedro Square,6,45,Customer,
+21706,1271,9/14/2013 17:32,SJSU 4th at San Carlos,12,9/14/2013 17:53,San Jose Civic Center,3,106,Customer,95112
+21707,1072,9/14/2013 17:33,San Jose Civic Center,3,9/14/2013 17:50,San Pedro Square,6,96,Customer,95117
+21728,1919,9/14/2013 17:54,San Jose Civic Center,3,9/14/2013 18:26,SJSU - San Salvador at 9th,16,655,Customer,95112
+21729,1905,9/14/2013 17:55,San Jose Civic Center,3,9/14/2013 18:26,SJSU - San Salvador at 9th,16,106,Customer,95112
+21756,336,9/14/2013 18:19,San Jose City Hall,10,9/14/2013 18:24,SJSU - San Salvador at 9th,16,86,Subscriber,95112
+21759,1611,9/14/2013 18:21,SJSU 4th at San Carlos,12,9/14/2013 18:48,SJSU - San Salvador at 9th,16,198,Customer,95112
+21760,309479,9/14/2013 18:21,SJSU 4th at San Carlos,12,9/18/2013 8:19,SJSU - San Salvador at 9th,16,242,Customer,95112
+21761,1430,9/14/2013 18:24,SJSU 4th at San Carlos,12,9/14/2013 18:48,SJSU - San Salvador at 9th,16,81,Customer,95112
+21766,134,9/14/2013 18:25,Arena Green / SAP Center,14,9/14/2013 18:28,Arena Green / SAP Center,14,184,Subscriber,95066
+21803,1334,9/14/2013 19:06,Santa Clara at Almaden,4,9/14/2013 19:28,SJSU 4th at San Carlos,12,178,Customer,95148
+21825,777,9/14/2013 19:19,San Pedro Square,6,9/14/2013 19:32,Japantown,9,200,Customer,95117
+21826,745,9/14/2013 19:19,San Pedro Square,6,9/14/2013 19:31,Japantown,9,45,Customer,
+21827,764,9/14/2013 19:19,San Pedro Square,6,9/14/2013 19:32,Japantown,9,96,Customer,95117
+21828,727,9/14/2013 19:19,San Pedro Square,6,9/14/2013 19:31,Japantown,9,231,Customer,95136
+21892,1192,9/14/2013 22:05,Japantown,9,9/14/2013 22:25,Japantown,9,26,Customer,95112
+21894,1141,9/14/2013 22:06,Japantown,9,9/14/2013 22:25,Japantown,9,96,Customer,94538
+21899,296,9/14/2013 22:28,San Jose City Hall,10,9/14/2013 22:33,San Salvador at 1st,8,196,Subscriber,95112
+21917,237060,9/15/2013 0:37,Arena Green / SAP Center,14,9/17/2013 18:28,San Pedro Square,6,650,Customer,95113
+21920,74440,9/15/2013 0:54,Japantown,9,9/15/2013 21:35,Japantown,9,30,Customer,95112
+21958,5944,9/15/2013 8:52,Santa Clara at Almaden,4,9/15/2013 10:31,San Pedro Square,6,645,Customer,95135
+21987,1941,9/15/2013 9:59,Adobe on Almaden,5,9/15/2013 10:31,Santa Clara at Almaden,4,42,Customer,95003
+22021,917,9/15/2013 10:34,Santa Clara at Almaden,4,9/15/2013 10:49,San Jose Civic Center,3,670,Customer,95003
+22043,9249,9/15/2013 10:50,Japantown,9,9/15/2013 13:25,Japantown,9,96,Customer,98004
+22060,788,9/15/2013 11:09,MLK Library,11,9/15/2013 11:22,Japantown,9,683,Subscriber,95110
+22132,407,9/15/2013 12:22,St James Park,13,9/15/2013 12:29,San Pedro Square,6,649,Customer,95112
+22289,10768,9/15/2013 14:15,MLK Library,11,9/15/2013 17:14,MLK Library,11,23,Customer,94112
+22290,8299,9/15/2013 14:15,San Pedro Square,6,9/15/2013 16:34,San Pedro Square,6,675,Customer,95127
+22298,8109,9/15/2013 14:18,San Pedro Square,6,9/15/2013 16:34,San Pedro Square,6,686,Customer,95148
+22299,8086,9/15/2013 14:19,San Pedro Square,6,9/15/2013 16:33,San Pedro Square,6,645,Customer,95148
+22385,472,9/15/2013 15:24,San Jose Civic Center,3,9/15/2013 15:31,Arena Green / SAP Center,14,80,Subscriber,95125
+22413,1267,9/15/2013 15:43,Arena Green / SAP Center,14,9/15/2013 16:04,San Jose Diridon Caltrain Station,2,80,Subscriber,95125
+22438,302,9/15/2013 16:07,San Jose Diridon Caltrain Station,2,9/15/2013 16:12,Arena Green / SAP Center,14,80,Subscriber,95125
+22447,1584,9/15/2013 16:14,Arena Green / SAP Center,14,9/15/2013 16:40,Arena Green / SAP Center,14,234,Subscriber,95125
+22457,1132,9/15/2013 16:20,Santa Clara at Almaden,4,9/15/2013 16:39,San Jose Civic Center,3,714,Customer,95126
+22458,1117,9/15/2013 16:21,Santa Clara at Almaden,4,9/15/2013 16:40,San Jose Civic Center,3,305,Customer,95126
+22514,352,9/15/2013 16:49,Santa Clara at Almaden,4,9/15/2013 16:55,San Jose Civic Center,3,666,Subscriber,94107
+22524,850,9/15/2013 17:00,SJSU 4th at San Carlos,12,9/15/2013 17:14,Santa Clara at Almaden,4,502,Customer,95126
+22525,813,9/15/2013 17:00,SJSU 4th at San Carlos,12,9/15/2013 17:14,Santa Clara at Almaden,4,676,Customer,95126
+22529,209,9/15/2013 17:02,Arena Green / SAP Center,14,9/15/2013 17:06,San Jose Diridon Caltrain Station,2,234,Subscriber,95125
+22530,11276,9/15/2013 17:02,San Jose Diridon Caltrain Station,2,9/15/2013 20:10,San Jose Civic Center,3,47,Customer,
+22537,660,9/15/2013 17:10,San Jose Diridon Caltrain Station,2,9/15/2013 17:21,San Jose City Hall,10,648,Subscriber,95125
+22549,572,9/15/2013 17:27,San Jose City Hall,10,9/15/2013 17:37,Japantown,9,648,Subscriber,95125
+22573,647,9/15/2013 17:48,Japantown,9,9/15/2013 17:59,SJSU 4th at San Carlos,12,648,Subscriber,95125
+22590,444,9/15/2013 18:03,San Pedro Square,6,9/15/2013 18:10,St James Park,13,649,Customer,95112
+22749,493,9/16/2013 7:18,Paseo de San Antonio,7,9/16/2013 7:26,Japantown,9,24,Subscriber,95112
+22766,862,9/16/2013 7:39,San Jose Diridon Caltrain Station,2,9/16/2013 7:53,San Jose City Hall,10,101,Subscriber,94502
+22821,268,9/16/2013 8:05,San Salvador at 1st,8,9/16/2013 8:09,MLK Library,11,188,Subscriber,95113
+22832,330,9/16/2013 8:17,San Jose Diridon Caltrain Station,2,9/16/2013 8:23,Santa Clara at Almaden,4,657,Subscriber,94403
+22834,557,9/16/2013 8:18,San Jose Diridon Caltrain Station,2,9/16/2013 8:27,St James Park,13,235,Subscriber,94114
+22836,408,9/16/2013 8:21,San Jose Diridon Caltrain Station,2,9/16/2013 8:27,San Pedro Square,6,31,Customer,
+22892,145,9/16/2013 8:52,San Salvador at 1st,8,9/16/2013 8:54,SJSU 4th at San Carlos,12,679,Subscriber,95112
+22937,294,9/16/2013 9:09,SJSU - San Salvador at 9th,16,9/16/2013 9:14,Paseo de San Antonio,7,198,Subscriber,95126
+22947,616,9/16/2013 9:10,Japantown,9,9/16/2013 9:21,MLK Library,11,45,Subscriber,95112
+22963,556,9/16/2013 9:14,San Jose Diridon Caltrain Station,2,9/16/2013 9:24,San Pedro Square,6,55,Subscriber,95113
+22969,375,9/16/2013 9:22,MLK Library,11,9/16/2013 9:29,MLK Library,11,45,Subscriber,95112
+22974,263,9/16/2013 9:28,San Jose Diridon Caltrain Station,2,9/16/2013 9:32,Adobe on Almaden,5,86,Subscriber,94117
+23048,621,9/16/2013 10:31,Paseo de San Antonio,7,9/16/2013 10:42,Japantown,9,44,Subscriber,95112
+23053,589,9/16/2013 10:42,Japantown,9,9/16/2013 10:52,Japantown,9,24,Subscriber,95112
+23058,701,9/16/2013 10:52,Japantown,9,9/16/2013 11:04,Japantown,9,44,Subscriber,95112
+23080,648,9/16/2013 11:11,Adobe on Almaden,5,9/16/2013 11:22,SJSU 4th at San Carlos,12,89,Subscriber,94536
+23090,509,9/16/2013 11:17,MLK Library,11,9/16/2013 11:25,SJSU - San Salvador at 9th,16,188,Customer,92670
+23122,269,9/16/2013 11:49,San Jose City Hall,10,9/16/2013 11:54,San Salvador at 1st,8,684,Subscriber,95113
+23144,496,9/16/2013 12:07,SJSU 4th at San Carlos,12,9/16/2013 12:15,Adobe on Almaden,5,185,Subscriber,94536
+23147,725,9/16/2013 12:13,MLK Library,11,9/16/2013 12:25,San Jose City Hall,10,45,Subscriber,95112
+23178,754,9/16/2013 12:39,Japantown,9,9/16/2013 12:52,San Jose City Hall,10,24,Subscriber,95112
+23184,238,9/16/2013 12:43,San Salvador at 1st,8,9/16/2013 12:47,MLK Library,11,641,Subscriber,95113
+23210,315,9/16/2013 12:53,San Jose City Hall,10,9/16/2013 12:58,San Pedro Square,6,101,Subscriber,95112
+23263,606,9/16/2013 13:33,San Pedro Square,6,9/16/2013 13:43,SJSU - San Salvador at 9th,16,101,Subscriber,95112
+23411,582,9/16/2013 15:59,San Jose City Hall,10,9/16/2013 16:09,San Jose Diridon Caltrain Station,2,53,Subscriber,94502
+23428,407,9/16/2013 16:07,Adobe on Almaden,5,9/16/2013 16:14,San Jose Diridon Caltrain Station,2,86,Subscriber,94117
+23445,332,9/16/2013 16:20,San Jose City Hall,10,9/16/2013 16:26,San Pedro Square,6,40,Subscriber,95112
+23446,993,9/16/2013 16:20,San Jose City Hall,10,9/16/2013 16:37,MLK Library,11,704,Subscriber,94041
+23490,383,9/16/2013 16:50,MLK Library,11,9/16/2013 16:57,St James Park,13,704,Subscriber,95112
+23491,273,9/16/2013 16:50,Santa Clara at Almaden,4,9/16/2013 16:55,San Jose Diridon Caltrain Station,2,657,Subscriber,94403
+23517,714,9/16/2013 17:05,St James Park,13,9/16/2013 17:17,San Jose Diridon Caltrain Station,2,706,Subscriber,94114
+23519,286,9/16/2013 17:05,San Jose City Hall,10,9/16/2013 17:10,San Salvador at 1st,8,70,Subscriber,95113
+23531,475,9/16/2013 17:10,Japantown,9,9/16/2013 17:18,Paseo de San Antonio,7,30,Subscriber,95112
+23533,633,9/16/2013 17:10,San Jose Diridon Caltrain Station,2,9/16/2013 17:20,SJSU 4th at San Carlos,12,106,Subscriber,94112
+23538,332,9/16/2013 17:15,Santa Clara at Almaden,4,9/16/2013 17:20,San Jose Diridon Caltrain Station,2,42,Customer,
+23539,406,9/16/2013 17:15,San Pedro Square,6,9/16/2013 17:22,San Jose Diridon Caltrain Station,2,644,Subscriber,94002
+23557,575,9/16/2013 17:23,San Pedro Square,6,9/16/2013 17:33,San Jose Diridon Caltrain Station,2,686,Subscriber,95113
+23578,102,9/16/2013 17:35,SJSU 4th at San Carlos,12,9/16/2013 17:37,San Salvador at 1st,8,106,Subscriber,94112
+23583,1320,9/16/2013 17:38,St James Park,13,9/16/2013 18:00,San Jose City Hall,10,235,Subscriber,95066
+23627,355,9/16/2013 18:01,San Jose City Hall,10,9/16/2013 18:07,MLK Library,11,180,Subscriber,95066
+23758,269,9/16/2013 19:18,Santa Clara at Almaden,4,9/16/2013 19:22,San Jose Diridon Caltrain Station,2,88,Subscriber,95109
+23763,424,9/16/2013 19:24,Paseo de San Antonio,7,9/16/2013 19:31,San Jose Diridon Caltrain Station,2,30,Customer,94025
+23780,347,9/16/2013 19:33,SJSU 4th at San Carlos,12,9/16/2013 19:39,St James Park,13,89,Subscriber,94116
+23790,717,9/16/2013 19:36,San Jose Diridon Caltrain Station,2,9/16/2013 19:48,Japantown,9,237,Subscriber,95112
+23815,247,9/16/2013 19:53,San Jose City Hall,10,9/16/2013 19:57,San Jose City Hall,10,642,Subscriber,95138
+23857,338,9/16/2013 21:06,St James Park,13,9/16/2013 21:12,San Jose Civic Center,3,143,Subscriber,94116
+23858,495,9/16/2013 21:08,San Jose Diridon Caltrain Station,2,9/16/2013 21:16,San Salvador at 1st,8,706,Subscriber,95126
+23887,505,9/16/2013 21:59,San Salvador at 1st,8,9/16/2013 22:07,San Jose Diridon Caltrain Station,2,706,Subscriber,95126
+23894,502,9/16/2013 22:18,San Salvador at 1st,8,9/16/2013 22:26,San Jose Diridon Caltrain Station,2,106,Subscriber,94112
+23917,618,9/16/2013 23:16,San Jose Diridon Caltrain Station,2,9/16/2013 23:26,San Jose City Hall,10,686,Subscriber,95112
+23927,307,9/17/2013 5:34,Santa Clara at Almaden,4,9/17/2013 5:39,San Jose Diridon Caltrain Station,2,638,Subscriber,95110
+23995,487,9/17/2013 7:26,MLK Library,11,9/17/2013 7:34,Japantown,9,61,Subscriber,95112
+24035,426,9/17/2013 7:59,San Jose Civic Center,3,9/17/2013 8:06,San Jose Diridon Caltrain Station,2,670,Subscriber,95112
+24050,310,9/17/2013 8:04,San Salvador at 1st,8,9/17/2013 8:09,MLK Library,11,684,Subscriber,95113
+24053,363,9/17/2013 8:05,San Jose Diridon Caltrain Station,2,9/17/2013 8:11,San Pedro Square,6,42,Subscriber,94041
+24056,104,9/17/2013 8:06,San Jose Diridon Caltrain Station,2,9/17/2013 8:07,San Jose Diridon Caltrain Station,2,657,Subscriber,94114
+24061,581,9/17/2013 8:08,San Jose Diridon Caltrain Station,2,9/17/2013 8:17,St James Park,13,670,Subscriber,94114
+24096,298,9/17/2013 8:18,San Jose Diridon Caltrain Station,2,9/17/2013 8:23,Santa Clara at Almaden,4,234,Subscriber,94158
+24098,394,9/17/2013 8:19,San Jose Diridon Caltrain Station,2,9/17/2013 8:26,San Pedro Square,6,53,Customer,
+24099,301,9/17/2013 8:19,San Jose Diridon Caltrain Station,2,9/17/2013 8:24,Santa Clara at Almaden,4,58,Subscriber,94403
+24155,405,9/17/2013 8:44,San Jose Diridon Caltrain Station,2,9/17/2013 8:51,San Pedro Square,6,86,Subscriber,94002
+24206,871,9/17/2013 9:07,Japantown,9,9/17/2013 9:21,San Jose Diridon Caltrain Station,2,26,Customer,95112
+24321,221,9/17/2013 10:10,SJSU 4th at San Carlos,12,9/17/2013 10:14,San Jose City Hall,10,187,Subscriber,95062
+24394,564,9/17/2013 11:33,San Jose Civic Center,3,9/17/2013 11:43,San Jose Diridon Caltrain Station,2,714,Subscriber,94107
+24410,176,9/17/2013 11:43,San Jose City Hall,10,9/17/2013 11:46,SJSU 4th at San Carlos,12,187,Subscriber,95062
+24417,308,9/17/2013 11:50,San Jose City Hall,10,9/17/2013 11:55,San Salvador at 1st,8,642,Subscriber,95113
+24462,1058,9/17/2013 12:20,Paseo de San Antonio,7,9/17/2013 12:37,San Jose Diridon Caltrain Station,2,198,Customer,95050
+24497,266,9/17/2013 12:41,San Salvador at 1st,8,9/17/2013 12:45,MLK Library,11,609,Subscriber,95113
+24515,628,9/17/2013 12:50,Paseo de San Antonio,7,9/17/2013 13:01,San Salvador at 1st,8,38,Subscriber,95112
+24516,599,9/17/2013 12:52,MLK Library,11,9/17/2013 13:02,MLK Library,11,684,Subscriber,95112
+24550,409,9/17/2013 13:10,San Jose Diridon Caltrain Station,2,9/17/2013 13:16,Paseo de San Antonio,7,198,Customer,95050
+24679,586,9/17/2013 15:04,San Jose City Hall,10,9/17/2013 15:14,Japantown,9,235,Customer,94085
+24713,98,9/17/2013 15:41,MLK Library,11,9/17/2013 15:42,San Jose City Hall,10,641,Subscriber,95008
+24742,582,9/17/2013 16:00,San Jose City Hall,10,9/17/2013 16:10,San Jose Diridon Caltrain Station,2,709,Subscriber,94502
+24749,1632,9/17/2013 16:03,SJSU 4th at San Carlos,12,9/17/2013 16:30,SJSU - San Salvador at 9th,16,181,Customer,95112
+24750,58255,9/17/2013 16:03,SJSU 4th at San Carlos,12,9/18/2013 8:14,SJSU - San Salvador at 9th,16,654,Customer,95112
+24787,985,9/17/2013 16:29,San Jose Diridon Caltrain Station,2,9/17/2013 16:46,SJSU - San Salvador at 9th,16,673,Subscriber,95037
+24811,325,9/17/2013 16:42,Santa Clara at Almaden,4,9/17/2013 16:47,San Jose Diridon Caltrain Station,2,676,Subscriber,94403
+24852,576,9/17/2013 17:05,St James Park,13,9/17/2013 17:15,San Jose Diridon Caltrain Station,2,670,Subscriber,94114
+24857,561,9/17/2013 17:09,Japantown,9,9/17/2013 17:18,Santa Clara at Almaden,4,61,Subscriber,95112
+24901,643,9/17/2013 17:22,San Pedro Square,6,9/17/2013 17:32,San Jose Diridon Caltrain Station,2,55,Subscriber,95113
+24919,160,9/17/2013 17:28,San Jose Diridon Caltrain Station,2,9/17/2013 17:31,San Jose Diridon Caltrain Station,2,675,Subscriber,95123
+24928,267,9/17/2013 17:32,San Pedro Square,6,9/17/2013 17:36,San Jose Diridon Caltrain Station,2,50,Subscriber,94041
+24932,1253,9/17/2013 17:33,Franklin at Maple,21,9/17/2013 17:54,Franklin at Maple,21,212,Customer,94063
+24937,311,9/17/2013 17:35,Santa Clara at Almaden,4,9/17/2013 17:40,San Jose Diridon Caltrain Station,2,234,Subscriber,94158
+24946,365,9/17/2013 17:36,San Jose Diridon Caltrain Station,2,9/17/2013 17:42,Santa Clara at Almaden,4,709,Subscriber,95110
+24974,548,9/17/2013 17:44,San Jose City Hall,10,9/17/2013 17:53,Japantown,9,708,Subscriber,95008
+24990,363,9/17/2013 17:50,San Pedro Square,6,9/17/2013 17:56,San Jose Diridon Caltrain Station,2,53,Subscriber,94002
+24992,245,9/17/2013 17:50,Paseo de San Antonio,7,9/17/2013 17:54,SJSU 4th at San Carlos,12,656,Subscriber,95125
+25015,595,9/17/2013 18:01,Japantown,9,9/17/2013 18:11,MLK Library,11,237,Subscriber,95112
+25099,364,9/17/2013 18:38,San Jose Diridon Caltrain Station,2,9/17/2013 18:44,Paseo de San Antonio,7,50,Subscriber,95112
+25104,388,9/17/2013 18:40,San Jose Diridon Caltrain Station,2,9/17/2013 18:46,San Pedro Square,6,106,Subscriber,95110
+25140,560,9/17/2013 19:08,Japantown,9,9/17/2013 19:17,San Jose City Hall,10,82,Subscriber,95008
+25258,459,9/17/2013 20:11,San Pedro Square,6,9/17/2013 20:19,Japantown,9,650,Subscriber,95112
+25266,678,9/17/2013 20:15,San Jose Diridon Caltrain Station,2,9/17/2013 20:26,Japantown,9,657,Subscriber,95112
+25280,99,9/17/2013 20:25,San Jose Diridon Caltrain Station,2,9/17/2013 20:27,San Jose Diridon Caltrain Station,2,645,Subscriber,94041
+25282,718,9/17/2013 20:27,Adobe on Almaden,5,9/17/2013 20:39,Japantown,9,185,Customer,95118
+25295,312,9/17/2013 20:49,MLK Library,11,9/17/2013 20:55,San Pedro Square,6,237,Subscriber,95112
+25307,1432,9/17/2013 21:19,Japantown,9,9/17/2013 21:43,Japantown,9,200,Customer,95126
+25310,662,9/17/2013 21:24,Japantown,9,9/17/2013 21:35,San Salvador at 1st,8,650,Subscriber,95112
+25331,414,9/17/2013 21:58,San Pedro Square,6,9/17/2013 22:05,Japantown,9,237,Subscriber,95112
+25381,317,9/18/2013 5:33,Santa Clara at Almaden,4,9/18/2013 5:38,San Jose Diridon Caltrain Station,2,709,Subscriber,95110
+25409,553,9/18/2013 6:58,San Jose Diridon Caltrain Station,2,9/18/2013 7:07,SJSU - San Salvador at 9th,16,645,Customer,94043
+25424,488,9/18/2013 7:18,Paseo de San Antonio,7,9/18/2013 7:26,Japantown,9,198,Subscriber,95112
+25448,714,9/18/2013 7:33,San Jose Diridon Caltrain Station,2,9/18/2013 7:45,San Jose City Hall,10,53,Subscriber,94502
+25469,501,9/18/2013 7:46,Paseo de San Antonio,7,9/18/2013 7:55,San Jose Diridon Caltrain Station,2,50,Subscriber,95112
+25495,280,9/18/2013 8:06,San Salvador at 1st,8,9/18/2013 8:10,MLK Library,11,650,Subscriber,95113
+25503,258,9/18/2013 8:11,San Jose Diridon Caltrain Station,2,9/18/2013 8:15,San Pedro Square,6,50,Subscriber,94041
+25522,353,9/18/2013 8:21,San Jose Diridon Caltrain Station,2,9/18/2013 8:27,Santa Clara at Almaden,4,234,Subscriber,94158
+25524,428,9/18/2013 8:22,San Jose Diridon Caltrain Station,2,9/18/2013 8:29,San Pedro Square,6,78,Customer,
+25525,596,9/18/2013 8:22,San Jose Diridon Caltrain Station,2,9/18/2013 8:32,St James Park,13,30,Subscriber,94114
+25544,279,9/18/2013 8:29,San Jose Diridon Caltrain Station,2,9/18/2013 8:34,Santa Clara at Almaden,4,26,Subscriber,94403
+25547,227,9/18/2013 8:31,San Salvador at 1st,8,9/18/2013 8:35,SJSU - San Salvador at 9th,16,196,Subscriber,95112
+25561,704,9/18/2013 8:39,SJSU - San Salvador at 9th,16,9/18/2013 8:51,SJSU - San Salvador at 9th,16,664,Subscriber,95112
+25623,636,9/18/2013 9:02,San Jose Diridon Caltrain Station,2,9/18/2013 9:13,MLK Library,11,676,Subscriber,94041
+25628,765,9/18/2013 9:05,SJSU - San Salvador at 9th,16,9/18/2013 9:17,San Jose Diridon Caltrain Station,2,664,Customer,94043
+25784,128,9/18/2013 10:33,SJSU 4th at San Carlos,12,9/18/2013 10:35,San Salvador at 1st,8,41,Subscriber,95112
+25827,189,9/18/2013 11:15,San Jose City Hall,10,9/18/2013 11:18,SJSU 4th at San Carlos,12,236,Subscriber,95112
+25851,213,9/18/2013 11:42,Paseo de San Antonio,7,9/18/2013 11:46,MLK Library,11,645,Subscriber,95112
+25869,581,9/18/2013 11:56,San Jose City Hall,10,9/18/2013 12:06,San Jose Diridon Caltrain Station,2,53,Subscriber,94502
+25878,755,9/18/2013 12:07,San Jose City Hall,10,9/18/2013 12:20,MLK Library,11,639,Subscriber,95112
+25915,403,9/18/2013 12:27,Arena Green / SAP Center,14,9/18/2013 12:34,San Pedro Square,6,34,Subscriber,94301
+25966,231,9/18/2013 12:54,San Pedro Square,6,9/18/2013 12:58,Arena Green / SAP Center,14,34,Subscriber,94301
+26007,939,9/18/2013 13:21,San Jose City Hall,10,9/18/2013 13:36,MLK Library,11,686,Subscriber,94041
+26012,312,9/18/2013 13:23,SJSU 4th at San Carlos,12,9/18/2013 13:28,San Jose City Hall,10,187,Subscriber,95126
+26074,311,9/18/2013 14:04,MLK Library,11,9/18/2013 14:10,Santa Clara at Almaden,4,180,Subscriber,95109
+26091,275,9/18/2013 14:22,San Jose City Hall,10,9/18/2013 14:27,Paseo de San Antonio,7,655,Subscriber,95112
+26094,620,9/18/2013 14:28,MLK Library,11,9/18/2013 14:38,San Pedro Square,6,686,Customer,94587
+26101,449,9/18/2013 14:31,MLK Library,11,9/18/2013 14:38,San Pedro Square,6,609,Customer,
+26110,166,9/18/2013 14:36,Paseo de San Antonio,7,9/18/2013 14:39,MLK Library,11,178,Subscriber,95112
+26156,634,9/18/2013 15:21,Paseo de San Antonio,7,9/18/2013 15:32,SJSU 4th at San Carlos,12,102,Subscriber,95112
+26183,848,9/18/2013 15:44,SJSU 4th at San Carlos,12,9/18/2013 15:58,St James Park,13,102,Subscriber,95112
+26213,263,9/18/2013 16:02,San Jose Diridon Caltrain Station,2,9/18/2013 16:06,Santa Clara at Almaden,4,670,Subscriber,95110
+26220,628,9/18/2013 16:04,St James Park,13,9/18/2013 16:14,San Jose Diridon Caltrain Station,2,30,Subscriber,94114
+26228,552,9/18/2013 16:09,St James Park,13,9/18/2013 16:18,Japantown,9,102,Subscriber,95112
+26248,1197,9/18/2013 16:16,Santa Clara at Almaden,4,9/18/2013 16:36,SJSU - San Salvador at 9th,16,61,Customer,95112
+26255,256,9/18/2013 16:20,Santa Clara at Almaden,4,9/18/2013 16:24,San Jose Diridon Caltrain Station,2,234,Subscriber,94158
+26258,2408,9/18/2013 16:26,San Pedro Square,6,9/18/2013 17:07,MLK Library,11,195,Customer,94587
+26259,2341,9/18/2013 16:28,San Pedro Square,6,9/18/2013 17:07,MLK Library,11,31,Customer,
+26295,425,9/18/2013 16:47,San Pedro Square,6,9/18/2013 16:54,San Jose Diridon Caltrain Station,2,609,Subscriber,94002
+26336,330,9/18/2013 17:09,San Jose City Hall,10,9/18/2013 17:14,San Salvador at 1st,8,28,Subscriber,95112
+26378,656,9/18/2013 17:24,Japantown,9,9/18/2013 17:34,Santa Clara at Almaden,4,198,Subscriber,95112
+26407,268,9/18/2013 17:34,Santa Clara at Almaden,4,9/18/2013 17:39,San Jose Diridon Caltrain Station,2,68,Customer,
+26417,319,9/18/2013 17:39,Paseo de San Antonio,7,9/18/2013 17:44,San Jose Diridon Caltrain Station,2,24,Subscriber,95066
+26446,288,9/18/2013 17:50,Japantown,9,9/18/2013 17:55,Japantown,9,235,Subscriber,95112
+26450,253,9/18/2013 17:51,San Salvador at 1st,8,9/18/2013 17:56,San Jose City Hall,10,70,Subscriber,95112
+26469,1030,9/18/2013 17:59,San Salvador at 1st,8,9/18/2013 18:17,MLK Library,11,69,Subscriber,95126
+26538,2690,9/18/2013 18:31,MLK Library,11,9/18/2013 19:15,San Jose City Hall,10,195,Customer,95112
+26552,478,9/18/2013 18:40,MLK Library,11,9/18/2013 18:47,SJSU - San Salvador at 9th,16,67,Customer,94587
+26553,413,9/18/2013 18:40,MLK Library,11,9/18/2013 18:47,SJSU - San Salvador at 9th,16,650,Customer,
+26556,469,9/18/2013 18:41,San Jose Diridon Caltrain Station,2,9/18/2013 18:49,Paseo de San Antonio,7,68,Subscriber,95112
+26563,404,9/18/2013 18:47,San Jose Diridon Caltrain Station,2,9/18/2013 18:53,Paseo de San Antonio,7,609,Subscriber,95126
+26567,869,9/18/2013 18:50,Japantown,9,9/18/2013 19:05,SJSU 4th at San Carlos,12,235,Subscriber,95112
+26570,1376,9/18/2013 18:52,SJSU 4th at San Carlos,12,9/18/2013 19:15,SJSU 4th at San Carlos,12,45,Customer,95112
+26580,1781,9/18/2013 19:00,San Jose City Hall,10,9/18/2013 19:30,San Jose City Hall,10,82,Customer,
+26583,402,9/18/2013 19:02,Paseo de San Antonio,7,9/18/2013 19:09,San Jose Diridon Caltrain Station,2,68,Subscriber,95126
+26597,709,9/18/2013 19:13,San Jose Diridon Caltrain Station,2,9/18/2013 19:25,Japantown,9,709,Subscriber,95112
+26598,274,9/18/2013 19:16,Paseo de San Antonio,7,9/18/2013 19:21,San Jose City Hall,10,609,Subscriber,95112
+26609,683,9/18/2013 19:26,San Jose City Hall,10,9/18/2013 19:38,Japantown,9,609,Subscriber,95112
+26641,311,9/18/2013 19:47,MLK Library,11,9/18/2013 19:52,SJSU - San Salvador at 9th,16,178,Subscriber,95112
+26699,2233,9/18/2013 20:46,Japantown,9,9/18/2013 21:24,Japantown,9,609,Subscriber,95112
+26704,1247,9/18/2013 20:51,SJSU 4th at San Carlos,12,9/18/2013 21:12,MLK Library,11,679,Customer,95122
+26709,812,9/18/2013 20:58,San Jose Diridon Caltrain Station,2,9/18/2013 21:11,San Salvador at 1st,8,99,Subscriber,95126
+26710,735,9/18/2013 20:58,San Jose Diridon Caltrain Station,2,9/18/2013 21:11,San Salvador at 1st,8,55,Subscriber,95126
+26718,471,9/18/2013 21:10,MLK Library,11,9/18/2013 21:18,San Jose Diridon Caltrain Station,2,12,Subscriber,94114
+26738,837,9/18/2013 21:29,Japantown,9,9/18/2013 21:43,SJSU 4th at San Carlos,12,672,Subscriber,95112
+26762,509,9/18/2013 22:14,San Jose Civic Center,3,9/18/2013 22:23,Arena Green / SAP Center,14,76,Subscriber,95126
+26763,510,9/18/2013 22:15,San Jose Civic Center,3,9/18/2013 22:23,Arena Green / SAP Center,14,47,Subscriber,95126
+26766,924,9/18/2013 22:17,SJSU 4th at San Carlos,12,9/18/2013 22:32,San Jose Diridon Caltrain Station,2,672,Subscriber,95112
+26769,256,9/18/2013 22:21,SJSU 4th at San Carlos,12,9/18/2013 22:26,SJSU - San Salvador at 9th,16,656,Subscriber,94044
+26776,1167,9/18/2013 22:38,San Jose Diridon Caltrain Station,2,9/18/2013 22:58,Japantown,9,672,Subscriber,95112
+26790,326,9/19/2013 5:31,Santa Clara at Almaden,4,9/19/2013 5:36,San Jose Diridon Caltrain Station,2,231,Subscriber,95110
+26837,461,9/19/2013 7:17,Paseo de San Antonio,7,9/19/2013 7:25,Japantown,9,41,Subscriber,95112
+26853,717,9/19/2013 7:34,San Jose Diridon Caltrain Station,2,9/19/2013 7:46,San Jose City Hall,10,53,Subscriber,94502
+26860,394,9/19/2013 7:43,San Jose Diridon Caltrain Station,2,9/19/2013 7:49,San Pedro Square,6,24,Subscriber,94002
+26871,576,9/19/2013 7:48,Paseo de San Antonio,7,9/19/2013 7:57,San Jose Diridon Caltrain Station,2,655,Subscriber,95112
+26913,214,9/19/2013 8:07,San Salvador at 1st,8,9/19/2013 8:10,MLK Library,11,55,Subscriber,95113
+26914,406,9/19/2013 8:07,San Jose Diridon Caltrain Station,2,9/19/2013 8:14,San Pedro Square,6,664,Subscriber,95126
+26918,357,9/19/2013 8:09,San Jose Diridon Caltrain Station,2,9/19/2013 8:15,San Pedro Square,6,30,Subscriber,94041
+26929,212,9/19/2013 8:17,San Jose Diridon Caltrain Station,2,9/19/2013 8:21,Adobe on Almaden,5,12,Subscriber,94107
+26934,510,9/19/2013 8:18,San Jose Diridon Caltrain Station,2,9/19/2013 8:26,St James Park,13,706,Subscriber,94114
+26936,329,9/19/2013 8:18,San Jose Diridon Caltrain Station,2,9/19/2013 8:24,Santa Clara at Almaden,4,644,Subscriber,94403
+27040,1569,9/19/2013 9:04,MLK Library,11,9/19/2013 9:30,Paseo de San Antonio,7,679,Subscriber,95126
+27047,831,9/19/2013 9:05,San Jose Diridon Caltrain Station,2,9/19/2013 9:19,Paseo de San Antonio,7,81,Customer,90211
+27057,232,9/19/2013 9:09,St James Park,13,9/19/2013 9:13,San Jose City Hall,10,63,Subscriber,95035
+27184,223,9/19/2013 10:24,San Salvador at 1st,8,9/19/2013 10:28,MLK Library,11,38,Subscriber,95112
+27281,254,9/19/2013 11:50,San Jose City Hall,10,9/19/2013 11:54,San Salvador at 1st,8,88,Subscriber,95113
+27290,262,9/19/2013 11:58,MLK Library,11,9/19/2013 12:02,San Salvador at 1st,8,38,Subscriber,95112
+27324,459,9/19/2013 12:14,Japantown,9,9/19/2013 12:21,San Jose City Hall,10,674,Customer,95112
+27340,582,9/19/2013 12:28,San Pedro Square,6,9/19/2013 12:38,Japantown,9,106,Subscriber,95136
+27341,570,9/19/2013 12:28,San Pedro Square,6,9/19/2013 12:38,Japantown,9,42,Subscriber,94086
+27356,1785,9/19/2013 12:35,Adobe on Almaden,5,9/19/2013 13:04,Adobe on Almaden,5,646,Customer,95124
+27359,1373,9/19/2013 12:36,San Jose City Hall,10,9/19/2013 12:59,San Jose City Hall,10,53,Subscriber,95112
+27368,1583,9/19/2013 12:38,Adobe on Almaden,5,9/19/2013 13:05,Adobe on Almaden,5,658,Customer,95124
+27378,254,9/19/2013 12:44,San Salvador at 1st,8,9/19/2013 12:48,MLK Library,11,88,Subscriber,95113
+27437,625,9/19/2013 13:22,Japantown,9,9/19/2013 13:33,San Pedro Square,6,657,Subscriber,94086
+27438,626,9/19/2013 13:22,Japantown,9,9/19/2013 13:33,San Pedro Square,6,41,Subscriber,95136
+27466,466,9/19/2013 13:45,MLK Library,11,9/19/2013 13:53,Japantown,9,88,Customer,95112
+27513,835,9/19/2013 14:19,San Jose City Hall,10,9/19/2013 14:33,MLK Library,11,53,Subscriber,95112
+27566,260,9/19/2013 14:57,San Salvador at 1st,8,9/19/2013 15:02,MLK Library,11,38,Subscriber,95112
+27580,854,9/19/2013 15:07,San Jose City Hall,10,9/19/2013 15:21,MLK Library,11,187,Subscriber,94041
+27627,494,9/19/2013 15:54,MLK Library,11,9/19/2013 16:02,Japantown,9,187,Subscriber,95008
+27631,614,9/19/2013 15:58,San Jose City Hall,10,9/19/2013 16:08,San Jose Diridon Caltrain Station,2,708,Subscriber,94502
+27643,684,9/19/2013 16:05,St James Park,13,9/19/2013 16:16,San Jose Diridon Caltrain Station,2,706,Subscriber,94114
+27673,303,9/19/2013 16:22,MLK Library,11,9/19/2013 16:27,San Salvador at 1st,8,38,Subscriber,95112
+27677,563,9/19/2013 16:28,San Salvador at 1st,8,9/19/2013 16:37,San Jose Diridon Caltrain Station,2,23,Subscriber,94611
+27692,298,9/19/2013 16:35,Santa Clara at Almaden,4,9/19/2013 16:40,San Jose Diridon Caltrain Station,2,58,Subscriber,94403
+27698,485,9/19/2013 16:40,Paseo de San Antonio,7,9/19/2013 16:48,San Jose Diridon Caltrain Station,2,670,Subscriber,95066
+27702,377,9/19/2013 16:41,Japantown,9,9/19/2013 16:47,St James Park,13,709,Subscriber,95112
+27712,414,9/19/2013 16:47,San Pedro Square,6,9/19/2013 16:54,San Jose Diridon Caltrain Station,2,24,Subscriber,94002
+27741,533,9/19/2013 17:02,Japantown,9,9/19/2013 17:11,Paseo de San Antonio,7,106,Subscriber,95112
+27747,236,9/19/2013 17:04,San Jose City Hall,10,9/19/2013 17:08,San Salvador at 1st,8,638,Subscriber,95113
+27781,285,9/19/2013 17:17,Santa Clara at Almaden,4,9/19/2013 17:22,San Jose Diridon Caltrain Station,2,198,Subscriber,95126
+27800,498,9/19/2013 17:25,Paseo de San Antonio,7,9/19/2013 17:34,San Jose Diridon Caltrain Station,2,679,Customer,90211
+27811,936,9/19/2013 17:32,Japantown,9,9/19/2013 17:47,Japantown,9,16,Subscriber,95112
+27825,183,9/19/2013 17:35,Santa Clara at Almaden,4,9/19/2013 17:38,San Jose Diridon Caltrain Station,2,502,Subscriber,94041
+27833,268,9/19/2013 17:37,San Jose Diridon Caltrain Station,2,9/19/2013 17:42,Santa Clara at Almaden,4,237,Subscriber,95110
+27839,378,9/19/2013 17:38,St James Park,13,9/19/2013 17:44,Japantown,9,109,Subscriber,95112
+27892,886,9/19/2013 17:55,Japantown,9,9/19/2013 18:10,MLK Library,11,88,Customer,95112
+27922,377,9/19/2013 18:07,Adobe on Almaden,5,9/19/2013 18:13,San Jose Diridon Caltrain Station,2,681,Subscriber,94107
+27936,142,9/19/2013 18:11,Paseo de San Antonio,7,9/19/2013 18:14,San Salvador at 1st,8,81,Subscriber,95113
+27976,725,9/19/2013 18:40,San Jose Diridon Caltrain Station,2,9/19/2013 18:52,San Jose Civic Center,3,708,Subscriber,94111
+27993,446,9/19/2013 18:56,San Jose Civic Center,3,9/19/2013 19:04,San Jose Diridon Caltrain Station,2,667,Customer,94501
+28012,488,9/19/2013 19:11,Japantown,9,9/19/2013 19:19,San Jose City Hall,10,109,Subscriber,95008
+28035,733,9/19/2013 19:38,San Jose Diridon Caltrain Station,2,9/19/2013 19:50,Japantown,9,675,Subscriber,95112
+28123,1132,9/19/2013 21:07,MLK Library,11,9/19/2013 21:26,Japantown,9,88,Customer,95112
+28143,593,9/19/2013 22:12,San Jose Diridon Caltrain Station,2,9/19/2013 22:22,Paseo de San Antonio,7,61,Subscriber,95112
+28146,545,9/19/2013 22:15,San Jose Diridon Caltrain Station,2,9/19/2013 22:24,Paseo de San Antonio,7,681,Subscriber,95112
+28150,354,9/19/2013 22:20,San Jose Civic Center,3,9/19/2013 22:26,San Jose Diridon Caltrain Station,2,234,Subscriber,94111
+28151,467,9/19/2013 22:20,San Jose Diridon Caltrain Station,2,9/19/2013 22:28,Santa Clara at Almaden,4,23,Subscriber,95126
+28155,800,9/19/2013 22:29,Japantown,9,9/19/2013 22:42,San Jose City Hall,10,88,Subscriber,95112
+28163,641,9/19/2013 23:17,San Jose City Hall,10,9/19/2013 23:28,Japantown,9,44,Subscriber,95112
+28177,233,9/20/2013 0:53,Santa Clara at Almaden,4,9/20/2013 0:57,San Jose Diridon Caltrain Station,2,23,Subscriber,95126
+28182,273,9/20/2013 5:33,Santa Clara at Almaden,4,9/20/2013 5:37,San Jose Diridon Caltrain Station,2,672,Subscriber,95110
+28282,462,9/20/2013 7:56,Paseo de San Antonio,7,9/20/2013 8:04,San Jose Diridon Caltrain Station,2,180,Subscriber,95112
+28283,225,9/20/2013 7:57,Arena Green / SAP Center,14,9/20/2013 8:01,San Pedro Square,6,668,Subscriber,95126
+28299,282,9/20/2013 8:05,San Salvador at 1st,8,9/20/2013 8:09,MLK Library,11,638,Subscriber,95113
+28318,345,9/20/2013 8:14,San Jose Diridon Caltrain Station,2,9/20/2013 8:19,Santa Clara at Almaden,4,234,Subscriber,94158
+28321,609,9/20/2013 8:14,San Jose Diridon Caltrain Station,2,9/20/2013 8:24,St James Park,13,706,Subscriber,94114
+28347,232,9/20/2013 8:29,San Jose Diridon Caltrain Station,2,9/20/2013 8:33,Santa Clara at Almaden,4,609,Subscriber,94403
+28434,1410,9/20/2013 9:10,SJSU - San Salvador at 9th,16,9/20/2013 9:34,Paseo de San Antonio,7,67,Subscriber,95126
+28447,429,9/20/2013 9:17,Adobe on Almaden,5,9/20/2013 9:24,Paseo de San Antonio,7,646,Subscriber,94536
+28504,734,9/20/2013 9:44,Japantown,9,9/20/2013 9:57,San Jose Diridon Caltrain Station,2,44,Subscriber,95112
+28518,184,9/20/2013 9:50,San Jose City Hall,10,9/20/2013 9:53,San Jose City Hall,10,640,Customer,95037
+28527,405,9/20/2013 9:54,St James Park,13,9/20/2013 10:00,San Pedro Square,6,663,Subscriber,95035
+28539,275,9/20/2013 10:02,San Jose Diridon Caltrain Station,2,9/20/2013 10:07,Adobe on Almaden,5,670,Subscriber,94107
+28541,146,9/20/2013 10:06,Paseo de San Antonio,7,9/20/2013 10:08,MLK Library,11,106,Subscriber,94536
+28545,353,9/20/2013 10:07,San Pedro Square,6,9/20/2013 10:13,MLK Library,11,686,Subscriber,95035
+28576,398,9/20/2013 10:35,San Jose City Hall,10,9/20/2013 10:42,San Jose Civic Center,3,195,Customer,95037
+28580,1323,9/20/2013 10:40,Paseo de San Antonio,7,9/20/2013 11:02,Paseo de San Antonio,7,61,Subscriber,95112
+28631,210,9/20/2013 11:29,San Jose City Hall,10,9/20/2013 11:32,Paseo de San Antonio,7,109,Subscriber,95112
+28655,530,9/20/2013 11:46,San Jose Civic Center,3,9/20/2013 11:55,San Jose City Hall,10,703,Subscriber,95112
+28662,268,9/20/2013 11:50,San Jose City Hall,10,9/20/2013 11:55,San Salvador at 1st,8,88,Subscriber,95113
+28690,1330,9/20/2013 12:04,San Jose Civic Center,3,9/20/2013 12:27,San Jose City Hall,10,25,Customer,95037
+28713,334,9/20/2013 12:17,St James Park,13,9/20/2013 12:22,San Pedro Square,6,107,Subscriber,95110
+28749,410,9/20/2013 12:42,San Pedro Square,6,9/20/2013 12:49,San Jose City Hall,10,664,Subscriber,95110
+28751,269,9/20/2013 12:43,San Salvador at 1st,8,9/20/2013 12:48,MLK Library,11,88,Subscriber,95113
+28762,1557,9/20/2013 12:49,San Jose City Hall,10,9/20/2013 13:15,MLK Library,11,664,Subscriber,95110
+28810,905,9/20/2013 13:16,San Pedro Square,6,9/20/2013 13:31,San Pedro Square,6,663,Subscriber,95113
+28817,1125,9/20/2013 13:20,San Jose City Hall,10,9/20/2013 13:39,Paseo de San Antonio,7,640,Subscriber,95112
+28818,2283,9/20/2013 13:22,San Jose Diridon Caltrain Station,2,9/20/2013 14:00,San Jose Diridon Caltrain Station,2,23,Customer,95054
+28824,1651,9/20/2013 13:26,MLK Library,11,9/20/2013 13:53,San Pedro Square,6,664,Subscriber,95110
+28831,351,9/20/2013 13:30,SJSU 4th at San Carlos,12,9/20/2013 13:36,SJSU - San Salvador at 9th,16,174,Subscriber,94044
+28846,895,9/20/2013 13:39,Paseo de San Antonio,7,9/20/2013 13:54,St James Park,13,109,Subscriber,95112
+28857,1458,9/20/2013 13:51,San Jose City Hall,10,9/20/2013 14:15,San Pedro Square,6,674,Subscriber,95112
+28877,1366,9/20/2013 14:02,San Jose City Hall,10,9/20/2013 14:25,MLK Library,11,70,Subscriber,95126
+28880,2104,9/20/2013 14:04,SJSU - San Salvador at 9th,16,9/20/2013 14:39,SJSU - San Salvador at 9th,16,673,Customer,95112
+28900,1295,9/20/2013 14:16,San Pedro Square,6,9/20/2013 14:37,San Jose City Hall,10,50,Subscriber,95112
+28932,1398,9/20/2013 14:44,St James Park,13,9/20/2013 15:07,St James Park,13,245,Subscriber,95112
+28933,329,9/20/2013 14:48,Paseo de San Antonio,7,9/20/2013 14:53,San Salvador at 1st,8,52,Subscriber,95113
+28970,10758,9/20/2013 15:14,San Jose Civic Center,3,9/20/2013 18:14,San Jose Civic Center,3,68,Customer,
+28986,792,9/20/2013 15:33,Japantown,9,9/20/2013 15:46,Paseo de San Antonio,7,102,Subscriber,95112
+29025,337,9/20/2013 15:59,SJSU 4th at San Carlos,12,9/20/2013 16:05,San Jose City Hall,10,648,Subscriber,94306
+29029,646,9/20/2013 16:03,St James Park,13,9/20/2013 16:14,San Jose Diridon Caltrain Station,2,89,Subscriber,94114
+29039,408,9/20/2013 16:08,MLK Library,11,9/20/2013 16:14,San Jose Civic Center,3,106,Subscriber,94306
+29057,772,9/20/2013 16:20,MLK Library,11,9/20/2013 16:33,San Pedro Square,6,46,Subscriber,95035
+29059,507,9/20/2013 16:21,Adobe on Almaden,5,9/20/2013 16:30,San Jose City Hall,10,178,Subscriber,94306
+29060,660,9/20/2013 16:21,MLK Library,11,9/20/2013 16:32,San Pedro Square,6,88,Subscriber,95112
+29064,563,9/20/2013 16:25,Santa Clara at Almaden,4,9/20/2013 16:34,SJSU - San Salvador at 9th,16,181,Customer,95112
+29078,467,9/20/2013 16:32,San Pedro Square,6,9/20/2013 16:40,Paseo de San Antonio,7,657,Subscriber,95112
+29080,521,9/20/2013 16:33,San Pedro Square,6,9/20/2013 16:42,MLK Library,11,88,Subscriber,95035
+29083,166,9/20/2013 16:35,SJSU 4th at San Carlos,12,9/20/2013 16:38,SJSU - San Salvador at 9th,16,235,Subscriber,95126
+29096,216,9/20/2013 16:40,Santa Clara at Almaden,4,9/20/2013 16:44,San Jose Diridon Caltrain Station,2,609,Subscriber,94403
+29101,264,9/20/2013 16:42,San Pedro Square,6,9/20/2013 16:46,Santa Clara at Almaden,4,78,Subscriber,94306
+29105,1044,9/20/2013 16:43,MLK Library,11,9/20/2013 17:01,MLK Library,11,686,Subscriber,95035
+29110,490,9/20/2013 16:46,Japantown,9,9/20/2013 16:55,Paseo de San Antonio,7,643,Subscriber,95112
+29116,340,9/20/2013 16:50,Adobe on Almaden,5,9/20/2013 16:56,Santa Clara at Almaden,4,670,Subscriber,94306
+29140,580,9/20/2013 17:01,San Pedro Square,6,9/20/2013 17:11,Japantown,9,664,Subscriber,94306
+29148,180,9/20/2013 17:05,Paseo de San Antonio,7,9/20/2013 17:08,SJSU 4th at San Carlos,12,61,Subscriber,95125
+29150,1017,9/20/2013 17:07,Adobe on Almaden,5,9/20/2013 17:24,MLK Library,11,660,Subscriber,95136
+29166,316,9/20/2013 17:13,San Jose Diridon Caltrain Station,2,9/20/2013 17:19,Santa Clara at Almaden,4,89,Subscriber,95110
+29192,378,9/20/2013 17:22,San Pedro Square,6,9/20/2013 17:28,San Jose Diridon Caltrain Station,2,46,Subscriber,95113
+29193,712,9/20/2013 17:22,SJSU - San Salvador at 9th,16,9/20/2013 17:34,St James Park,13,673,Customer,95112
+29204,598,9/20/2013 17:24,SJSU - San Salvador at 9th,16,9/20/2013 17:34,St James Park,13,188,Subscriber,95112
+29231,1256,9/20/2013 17:34,MLK Library,11,9/20/2013 17:55,San Jose City Hall,10,88,Customer,4240
+29233,1210,9/20/2013 17:34,MLK Library,11,9/20/2013 17:55,San Jose City Hall,10,70,Subscriber,95136
+29236,623,9/20/2013 17:30,San Salvador at 1st,8,9/20/2013 17:40,San Pedro Square,6,175,Subscriber,95113
+29242,228,9/20/2013 17:36,Santa Clara at Almaden,4,9/20/2013 17:40,San Jose Diridon Caltrain Station,2,234,Subscriber,94158
+29251,481,9/20/2013 17:40,MLK Library,11,9/20/2013 17:48,Adobe on Almaden,5,676,Subscriber,95136
+29297,184,9/20/2013 18:09,Paseo de San Antonio,7,9/20/2013 18:12,San Salvador at 1st,8,646,Subscriber,94306
+29321,601,9/20/2013 18:25,San Jose Diridon Caltrain Station,2,9/20/2013 18:35,San Salvador at 1st,8,672,Subscriber,94043
+29323,546,9/20/2013 18:27,Santa Clara at Almaden,4,9/20/2013 18:36,Paseo de San Antonio,7,78,Subscriber,94306
+29335,969,9/20/2013 18:33,San Jose Diridon Caltrain Station,2,9/20/2013 18:49,Arena Green / SAP Center,14,609,Subscriber,95127
+29336,376,9/20/2013 18:33,San Jose Diridon Caltrain Station,2,9/20/2013 18:39,San Jose Diridon Caltrain Station,2,23,Subscriber,95109
+29353,1144,9/20/2013 18:41,SJSU - San Salvador at 9th,16,9/20/2013 19:00,Arena Green / SAP Center,14,662,Subscriber,95116
+29357,904,9/20/2013 18:45,SJSU - San Salvador at 9th,16,9/20/2013 19:00,Arena Green / SAP Center,14,650,Subscriber,95116
+29358,333,9/20/2013 18:46,San Salvador at 1st,8,9/20/2013 18:51,San Pedro Square,6,646,Subscriber,95112
+29412,21194,9/20/2013 19:23,San Salvador at 1st,8,9/21/2013 1:16,San Salvador at 1st,8,52,Customer,91505
+29421,254,9/20/2013 19:37,Adobe on Almaden,5,9/20/2013 19:41,Santa Clara at Almaden,4,12,Customer,94550
+29424,20163,9/20/2013 19:40,San Salvador at 1st,8,9/21/2013 1:16,San Salvador at 1st,8,90,Customer,95008
+29425,986,9/20/2013 19:47,Japantown,9,9/20/2013 20:04,San Jose Diridon Caltrain Station,2,16,Customer,95112
+29432,486,9/20/2013 19:53,San Pedro Square,6,9/20/2013 20:01,San Salvador at 1st,8,663,Subscriber,95113
+29433,482,9/20/2013 19:53,San Pedro Square,6,9/20/2013 20:01,San Salvador at 1st,8,668,Subscriber,95113
+29463,15932,9/20/2013 20:19,Santa Clara at Almaden,4,9/21/2013 0:45,San Salvador at 1st,8,12,Customer,94539
+29508,1207,9/20/2013 21:36,SJSU - San Salvador at 9th,16,9/20/2013 21:56,San Pedro Square,6,174,Customer,95065
+29509,1194,9/20/2013 21:36,SJSU - San Salvador at 9th,16,9/20/2013 21:56,San Pedro Square,6,77,Customer,95065
+29511,986,9/20/2013 21:40,SJSU - San Salvador at 9th,16,9/20/2013 21:56,San Pedro Square,6,101,Customer,95126
+29512,435,9/20/2013 21:40,San Jose Diridon Caltrain Station,2,9/20/2013 21:47,Paseo de San Antonio,7,23,Subscriber,95126
+29513,932,9/20/2013 21:40,SJSU - San Salvador at 9th,16,9/20/2013 21:56,San Pedro Square,6,235,Customer,95126
+29517,698,9/20/2013 21:44,SJSU - San Salvador at 9th,16,9/20/2013 21:56,San Pedro Square,6,196,Customer,94107
+29518,674,9/20/2013 21:45,SJSU - San Salvador at 9th,16,9/20/2013 21:56,San Pedro Square,6,181,Customer,94107
+29522,1060,9/20/2013 21:53,San Pedro Square,6,9/20/2013 22:11,SJSU - San Salvador at 9th,16,175,Subscriber,95112
+29528,2248,9/20/2013 22:00,SJSU 4th at San Carlos,12,9/20/2013 22:37,SJSU - San Salvador at 9th,16,683,Customer,95122
+29529,2071,9/20/2013 22:03,SJSU 4th at San Carlos,12,9/20/2013 22:37,SJSU - San Salvador at 9th,16,200,Customer,94551
+29535,357,9/20/2013 22:12,Arena Green / SAP Center,14,9/20/2013 22:18,San Pedro Square,6,662,Subscriber,95116
+29536,363,9/20/2013 22:12,Arena Green / SAP Center,14,9/20/2013 22:18,San Pedro Square,6,650,Subscriber,95116
+29540,340,9/20/2013 22:12,SJSU - San Salvador at 9th,16,9/20/2013 22:18,San Salvador at 1st,8,175,Subscriber,95112
+29552,439,9/20/2013 22:21,San Pedro Square,6,9/20/2013 22:28,Japantown,9,41,Subscriber,95112
+29599,512,9/20/2013 23:41,San Pedro Square,6,9/20/2013 23:50,Paseo de San Antonio,7,40,Customer,94588
+29600,574,9/20/2013 23:42,San Pedro Square,6,9/20/2013 23:52,MLK Library,11,662,Customer,94107
+29602,563,9/20/2013 23:42,San Pedro Square,6,9/20/2013 23:52,MLK Library,11,235,Customer,94107
+29603,549,9/20/2013 23:42,San Pedro Square,6,9/20/2013 23:52,MLK Library,11,86,Customer,95065
+29605,401,9/20/2013 23:43,San Pedro Square,6,9/20/2013 23:50,Paseo de San Antonio,7,30,Customer,95126
+29606,348,9/20/2013 23:44,San Pedro Square,6,9/20/2013 23:50,Paseo de San Antonio,7,174,Customer,95126
+29611,514,9/21/2013 0:19,Paseo de San Antonio,7,9/21/2013 0:27,San Jose Diridon Caltrain Station,2,23,Subscriber,95126
+29617,722,9/21/2013 0:55,San Pedro Square,6,9/21/2013 1:07,SJSU - San Salvador at 9th,16,650,Subscriber,95116
+29618,705,9/21/2013 0:55,San Pedro Square,6,9/21/2013 1:07,SJSU - San Salvador at 9th,16,107,Subscriber,95116
+29619,644,9/21/2013 1:06,San Jose City Hall,10,9/21/2013 1:17,SJSU - San Salvador at 9th,16,70,Subscriber,95112
+29620,458,9/21/2013 1:09,San Jose City Hall,10,9/21/2013 1:17,SJSU - San Salvador at 9th,16,703,Customer,95112
+29623,650,9/21/2013 1:45,Paseo de San Antonio,7,9/21/2013 1:55,SJSU - San Salvador at 9th,16,669,Customer,95065
+29624,642,9/21/2013 1:45,Paseo de San Antonio,7,9/21/2013 1:56,SJSU - San Salvador at 9th,16,40,Customer,95126
+29625,607,9/21/2013 1:45,Paseo de San Antonio,7,9/21/2013 1:55,SJSU - San Salvador at 9th,16,174,Customer,95126
+29626,291,9/21/2013 1:50,Paseo de San Antonio,7,9/21/2013 1:55,SJSU - San Salvador at 9th,16,78,Customer,95065
+29630,897,9/21/2013 2:01,San Pedro Square,6,9/21/2013 2:15,SJSU - San Salvador at 9th,16,181,Customer,94107
+29631,868,9/21/2013 2:01,San Pedro Square,6,9/21/2013 2:15,SJSU - San Salvador at 9th,16,101,Customer,94107
+29633,352,9/21/2013 2:36,SJSU - San Salvador at 9th,16,9/21/2013 2:42,SJSU 4th at San Carlos,12,174,Customer,95065
+29634,256,9/21/2013 2:38,SJSU - San Salvador at 9th,16,9/21/2013 2:42,SJSU 4th at San Carlos,12,200,Customer,94107
+29635,223,9/21/2013 2:38,SJSU - San Salvador at 9th,16,9/21/2013 2:42,SJSU 4th at San Carlos,12,70,Customer,94107
+29640,460,9/21/2013 6:34,Paseo de San Antonio,7,9/21/2013 6:42,Arena Green / SAP Center,14,643,Subscriber,95126
+29702,441,9/21/2013 9:11,SJSU - San Salvador at 9th,16,9/21/2013 9:18,Paseo de San Antonio,7,78,Customer,95112
+29712,442,9/21/2013 9:53,San Jose Diridon Caltrain Station,2,9/21/2013 10:00,MLK Library,11,46,Subscriber,94070
+29718,250,9/21/2013 10:21,MLK Library,11,9/21/2013 10:25,SJSU - San Salvador at 9th,16,638,Customer,95112
+29722,169,9/21/2013 10:48,SJSU 4th at San Carlos,12,9/21/2013 10:51,San Salvador at 1st,8,236,Subscriber,95125
+29723,327,9/21/2013 10:49,SJSU - San Salvador at 9th,16,9/21/2013 10:54,SJSU 4th at San Carlos,12,650,Subscriber,95112
+29725,373,9/21/2013 10:53,San Salvador at 1st,8,9/21/2013 10:59,Adobe on Almaden,5,236,Subscriber,95125
+29726,297,9/21/2013 11:00,Adobe on Almaden,5,9/21/2013 11:05,San Jose Diridon Caltrain Station,2,651,Subscriber,95125
+29728,230,9/21/2013 11:10,San Jose Diridon Caltrain Station,2,9/21/2013 11:14,Arena Green / SAP Center,14,107,Subscriber,95125
+29732,298,9/21/2013 11:24,Arena Green / SAP Center,14,9/21/2013 11:29,San Pedro Square,6,661,Subscriber,95125
+29736,528,9/21/2013 11:52,San Jose Diridon Caltrain Station,2,9/21/2013 12:01,MLK Library,11,16,Customer,94158
+29737,478,9/21/2013 11:53,San Jose Diridon Caltrain Station,2,9/21/2013 12:01,MLK Library,11,23,Subscriber,94158
+29738,434,9/21/2013 11:53,San Pedro Square,6,9/21/2013 12:00,San Salvador at 1st,8,646,Subscriber,95125
+29874,293,9/21/2013 15:50,Santa Clara at Almaden,4,9/21/2013 15:55,San Jose Diridon Caltrain Station,2,656,Customer,94158
+29875,259,9/21/2013 15:50,Santa Clara at Almaden,4,9/21/2013 15:54,San Jose Diridon Caltrain Station,2,644,Subscriber,94158
+29897,755,9/21/2013 16:22,Arena Green / SAP Center,14,9/21/2013 16:35,Paseo de San Antonio,7,96,Customer,95126
+29898,724,9/21/2013 16:22,Arena Green / SAP Center,14,9/21/2013 16:34,Paseo de San Antonio,7,116,Customer,95126
+29903,460,9/21/2013 16:29,SJSU 4th at San Carlos,12,9/21/2013 16:37,SJSU - San Salvador at 9th,16,61,Subscriber,95112
+29904,356,9/21/2013 16:29,SJSU 4th at San Carlos,12,9/21/2013 16:35,SJSU - San Salvador at 9th,16,200,Subscriber,95112
+29954,779,9/21/2013 17:28,MLK Library,11,9/21/2013 17:41,Arena Green / SAP Center,14,53,Customer,95126
+29955,819,9/21/2013 17:28,MLK Library,11,9/21/2013 17:42,Arena Green / SAP Center,14,91,Customer,95126
+29971,352,9/21/2013 17:46,SJSU - San Salvador at 9th,16,9/21/2013 17:52,SJSU - San Salvador at 9th,16,638,Customer,94609
+29975,559,9/21/2013 17:48,SJSU - San Salvador at 9th,16,9/21/2013 17:57,MLK Library,11,200,Subscriber,95112
+29985,502,9/21/2013 18:02,MLK Library,11,9/21/2013 18:10,SJSU - San Salvador at 9th,16,235,Subscriber,95112
+30025,1012,9/21/2013 18:58,Japantown,9,9/21/2013 19:15,San Jose Diridon Caltrain Station,2,684,Subscriber,95112
+30052,924,9/21/2013 19:33,Japantown,9,9/21/2013 19:48,Arena Green / SAP Center,14,675,Customer,95112
+30075,1531,9/21/2013 20:00,MLK Library,11,9/21/2013 20:25,San Pedro Square,6,686,Customer,94513
+30076,1541,9/21/2013 19:59,MLK Library,11,9/21/2013 20:25,San Pedro Square,6,200,Customer,94513
+30078,1235,9/21/2013 20:05,MLK Library,11,9/21/2013 20:26,San Pedro Square,6,660,Customer,95109
+30079,1208,9/21/2013 20:05,MLK Library,11,9/21/2013 20:26,San Pedro Square,6,23,Customer,95109
+30080,999,9/21/2013 20:09,MLK Library,11,9/21/2013 20:26,San Pedro Square,6,86,Customer,94062
+30081,970,9/21/2013 20:09,MLK Library,11,9/21/2013 20:26,San Pedro Square,6,671,Customer,94062
+30084,1198,9/21/2013 20:11,MLK Library,11,9/21/2013 20:31,St James Park,13,662,Customer,94062
+30086,1148,9/21/2013 20:12,MLK Library,11,9/21/2013 20:31,St James Park,13,645,Customer,94062
+30087,952,9/21/2013 20:15,MLK Library,11,9/21/2013 20:31,St James Park,13,55,Customer,95127
+30088,925,9/21/2013 20:16,MLK Library,11,9/21/2013 20:31,St James Park,13,69,Customer,95127
+30147,1349,9/21/2013 22:09,Arena Green / SAP Center,14,9/21/2013 22:32,Japantown,9,675,Customer,95112
+30148,1072,9/21/2013 22:14,San Pedro Square,6,9/21/2013 22:32,MLK Library,11,86,Customer,94513
+30149,1016,9/21/2013 22:15,San Pedro Square,6,9/21/2013 22:32,MLK Library,11,23,Customer,95109
+30150,988,9/21/2013 22:15,San Pedro Square,6,9/21/2013 22:32,MLK Library,11,660,Customer,95109
+30151,932,9/21/2013 22:16,San Pedro Square,6,9/21/2013 22:32,MLK Library,11,16,Customer,95127
+30152,922,9/21/2013 22:16,San Pedro Square,6,9/21/2013 22:32,MLK Library,11,46,Customer,95127
+30153,921,9/21/2013 22:17,San Pedro Square,6,9/21/2013 22:32,MLK Library,11,77,Customer,94062
+30154,890,9/21/2013 22:17,San Pedro Square,6,9/21/2013 22:32,MLK Library,11,196,Customer,94062
+30155,791,9/21/2013 22:19,San Pedro Square,6,9/21/2013 22:32,MLK Library,11,175,Customer,94062
+30156,753,9/21/2013 22:19,San Pedro Square,6,9/21/2013 22:31,MLK Library,11,81,Customer,94062
+30158,358,9/21/2013 22:26,St James Park,13,9/21/2013 22:32,MLK Library,11,706,Customer,94513
+30184,1759,9/22/2013 2:00,MLK Library,11,9/22/2013 2:29,SJSU - San Salvador at 9th,16,200,Customer,
+30185,1755,9/22/2013 2:00,MLK Library,11,9/22/2013 2:29,SJSU - San Salvador at 9th,16,671,Customer,94605
+30191,549,9/22/2013 6:35,Paseo de San Antonio,7,9/22/2013 6:44,San Jose Diridon Caltrain Station,2,674,Subscriber,95126
+30198,1672,9/22/2013 6:57,San Salvador at 1st,8,9/22/2013 7:25,San Salvador at 1st,8,12,Customer,33019
+30236,2249,9/22/2013 8:17,MLK Library,11,9/22/2013 8:54,San Jose Civic Center,3,661,Customer,33602
+30246,837,9/22/2013 8:37,SJSU - San Salvador at 9th,16,9/22/2013 8:51,San Jose Diridon Caltrain Station,2,669,Customer,95630
+30252,293,9/22/2013 8:52,Santa Clara at Almaden,4,9/22/2013 8:57,San Jose Diridon Caltrain Station,2,89,Customer,95125
+30254,1004,9/22/2013 9:00,San Jose Diridon Caltrain Station,2,9/22/2013 9:17,SJSU - San Salvador at 9th,16,644,Customer,95630
+30255,1860,9/22/2013 9:00,MLK Library,11,9/22/2013 9:31,MLK Library,11,660,Customer,60015
+30263,503,9/22/2013 9:20,St James Park,13,9/22/2013 9:28,SJSU 4th at San Carlos,12,55,Subscriber,95112
+30265,327,9/22/2013 9:22,Santa Clara at Almaden,4,9/22/2013 9:28,San Jose Diridon Caltrain Station,2,237,Subscriber,95110
+30283,510,9/22/2013 9:41,Paseo de San Antonio,7,9/22/2013 9:49,St James Park,13,303,Subscriber,95112
+30289,661,9/22/2013 9:57,San Jose Diridon Caltrain Station,2,9/22/2013 10:08,San Jose City Hall,10,656,Subscriber,95073
+30321,454,9/22/2013 10:45,St James Park,13,9/22/2013 10:53,Japantown,9,69,Subscriber,95113
+30392,519,9/22/2013 11:52,Japantown,9,9/22/2013 12:01,St James Park,13,31,Subscriber,95113
+30394,633,9/22/2013 11:53,Japantown,9,9/22/2013 12:03,St James Park,13,69,Subscriber,95113
+30439,433,9/22/2013 12:34,Paseo de San Antonio,7,9/22/2013 12:42,San Jose Civic Center,3,78,Customer,80634
+30441,404,9/22/2013 12:35,Paseo de San Antonio,7,9/22/2013 12:41,San Jose Civic Center,3,704,Customer,80634
+30545,1627,9/22/2013 13:52,San Jose Diridon Caltrain Station,2,9/22/2013 14:19,Japantown,9,234,Subscriber,95112
+30562,1662,9/22/2013 14:14,San Pedro Square,6,9/22/2013 14:42,San Pedro Square,6,188,Customer,95035
+30642,1529,9/22/2013 15:11,MLK Library,11,9/22/2013 15:37,SJSU - San Salvador at 9th,16,660,Customer,95112
+30646,14313,9/22/2013 15:14,SJSU 4th at San Carlos,12,9/22/2013 19:13,SJSU 4th at San Carlos,12,28,Customer,95112
+30711,1746,9/22/2013 16:02,Adobe on Almaden,5,9/22/2013 16:31,Paseo de San Antonio,7,246,Subscriber,95112
+30716,1315,9/22/2013 16:06,MLK Library,11,9/22/2013 16:28,MLK Library,11,81,Customer,95112
+30763,341,9/22/2013 16:46,Paseo de San Antonio,7,9/22/2013 16:52,Adobe on Almaden,5,246,Subscriber,95112
+30769,1221,9/22/2013 16:52,Santa Clara at Almaden,4,9/22/2013 17:12,San Jose Diridon Caltrain Station,2,676,Customer,95117
+30881,599,9/22/2013 18:31,Japantown,9,9/22/2013 18:41,Paseo de San Antonio,7,235,Subscriber,95112
+30952,485,9/22/2013 21:46,Paseo de San Antonio,7,9/22/2013 21:54,Japantown,9,67,Subscriber,95112
+30987,764,9/23/2013 2:23,San Jose Diridon Caltrain Station,2,9/23/2013 2:36,Japantown,9,26,Customer,95112
+31059,540,9/23/2013 7:21,Paseo de San Antonio,7,9/23/2013 7:30,San Jose Diridon Caltrain Station,2,96,Customer,95113
+31081,743,9/23/2013 7:36,San Jose Diridon Caltrain Station,2,9/23/2013 7:49,San Jose City Hall,10,237,Subscriber,94502
+31091,651,9/23/2013 7:38,SJSU - San Salvador at 9th,16,9/23/2013 7:49,Paseo de San Antonio,7,671,Subscriber,95112
+31099,478,9/23/2013 7:48,San Jose Diridon Caltrain Station,2,9/23/2013 7:56,San Pedro Square,6,96,Subscriber,95377
+31110,470,9/23/2013 7:53,Paseo de San Antonio,7,9/23/2013 8:01,San Jose Diridon Caltrain Station,2,156,Subscriber,95112
+31133,541,9/23/2013 8:05,San Jose Diridon Caltrain Station,2,9/23/2013 8:14,St James Park,13,674,Subscriber,94114
+31162,256,9/23/2013 8:21,San Jose Diridon Caltrain Station,2,9/23/2013 8:25,Santa Clara at Almaden,4,58,Subscriber,94403
+31273,188,9/23/2013 9:09,San Jose Diridon Caltrain Station,2,9/23/2013 9:13,Adobe on Almaden,5,684,Subscriber,94107
+31274,451,9/23/2013 9:10,San Jose Diridon Caltrain Station,2,9/23/2013 9:17,MLK Library,11,502,Subscriber,94041
+31311,325,9/23/2013 9:22,SJSU - San Salvador at 9th,16,9/23/2013 9:27,SJSU 4th at San Carlos,12,660,Subscriber,95112
+31318,402,9/23/2013 9:27,San Jose Diridon Caltrain Station,2,9/23/2013 9:34,San Pedro Square,6,651,Subscriber,95109
+31471,883,9/23/2013 11:38,San Jose City Hall,10,9/23/2013 11:53,MLK Library,11,116,Subscriber,94041
+31486,650,9/23/2013 11:45,San Jose City Hall,10,9/23/2013 11:56,San Salvador at 1st,8,82,Subscriber,95008
+31497,325,9/23/2013 11:49,San Jose Civic Center,3,9/23/2013 11:55,MLK Library,11,106,Subscriber,95112
+31539,886,9/23/2013 12:29,San Salvador at 1st,8,9/23/2013 12:44,San Jose City Hall,10,642,Subscriber,95008
+31547,1010,9/23/2013 12:33,Japantown,9,9/23/2013 12:50,Paseo de San Antonio,7,187,Subscriber,95112
+31570,589,9/23/2013 12:51,Paseo de San Antonio,7,9/23/2013 13:00,San Salvador at 1st,8,671,Subscriber,95112
+31609,401,9/23/2013 13:22,SJSU 4th at San Carlos,12,9/23/2013 13:29,SJSU - San Salvador at 9th,16,650,Subscriber,95112
+31620,317,9/23/2013 13:37,SJSU 4th at San Carlos,12,9/23/2013 13:43,St James Park,13,99,Subscriber,94041
+31626,762,9/23/2013 13:46,San Jose Diridon Caltrain Station,2,9/23/2013 13:58,SJSU - San Salvador at 9th,16,676,Subscriber,94043
+31636,377,9/23/2013 13:52,San Jose City Hall,10,9/23/2013 13:58,SJSU - San Salvador at 9th,16,642,Subscriber,94041
+31686,591,9/23/2013 14:35,SJSU - San Salvador at 9th,16,9/23/2013 14:44,SJSU 4th at San Carlos,12,101,Subscriber,94044
+31717,3180,9/23/2013 14:54,San Salvador at 1st,8,9/23/2013 15:47,San Salvador at 1st,8,663,Customer,76124
+31753,5480,9/23/2013 15:36,San Salvador at 1st,8,9/23/2013 17:08,San Salvador at 1st,8,668,Customer,33019
+31777,564,9/23/2013 16:00,San Jose City Hall,10,9/23/2013 16:10,San Jose Diridon Caltrain Station,2,237,Subscriber,94502
+31785,621,9/23/2013 16:04,St James Park,13,9/23/2013 16:15,San Jose Diridon Caltrain Station,2,303,Subscriber,94114
+31809,656,9/23/2013 16:16,MLK Library,11,9/23/2013 16:27,San Jose Diridon Caltrain Station,2,46,Subscriber,94041
+31842,1217,9/23/2013 16:33,Adobe on Almaden,5,9/23/2013 16:53,San Pedro Square,6,639,Subscriber,94536
+31879,260,9/23/2013 16:51,Santa Clara at Almaden,4,9/23/2013 16:56,San Jose Diridon Caltrain Station,2,44,Subscriber,94403
+31887,617,9/23/2013 16:55,San Pedro Square,6,9/23/2013 17:05,Japantown,9,662,Subscriber,95112
+31902,467,9/23/2013 17:00,San Pedro Square,6,9/23/2013 17:07,MLK Library,11,31,Subscriber,95110
+31941,428,9/23/2013 17:13,San Pedro Square,6,9/23/2013 17:20,San Jose Diridon Caltrain Station,2,188,Subscriber,95377
+31946,339,9/23/2013 17:14,Adobe on Almaden,5,9/23/2013 17:20,San Jose Diridon Caltrain Station,2,684,Subscriber,94107
+31970,647,9/23/2013 17:27,San Jose Diridon Caltrain Station,2,9/23/2013 17:38,MLK Library,11,684,Subscriber,95066
+31974,1640,9/23/2013 17:28,Adobe on Almaden,5,9/23/2013 17:55,SJSU 4th at San Carlos,12,236,Customer,84341
+31988,148,9/23/2013 17:31,San Jose City Hall,10,9/23/2013 17:34,MLK Library,11,648,Subscriber,95116
+32004,606,9/23/2013 17:36,San Jose Diridon Caltrain Station,2,9/23/2013 17:46,San Salvador at 1st,8,237,Subscriber,94112
+32098,486,9/23/2013 18:16,MLK Library,11,9/23/2013 18:24,San Jose Diridon Caltrain Station,2,116,Subscriber,95066
+32103,15024,9/23/2013 18:18,San Jose Diridon Caltrain Station,2,9/23/2013 22:29,Japantown,9,303,Customer,95113
+32114,2041,9/23/2013 18:22,SJSU 4th at San Carlos,12,9/23/2013 18:56,San Jose City Hall,10,236,Customer,84341
+32124,751,9/23/2013 18:26,San Jose Civic Center,3,9/23/2013 18:39,MLK Library,11,666,Subscriber,95112
+32141,286,9/23/2013 18:34,Santa Clara at Almaden,4,9/23/2013 18:39,San Jose Diridon Caltrain Station,2,198,Subscriber,95109
+32197,380,9/23/2013 19:20,San Jose Diridon Caltrain Station,2,9/23/2013 19:26,Paseo de San Antonio,7,116,Subscriber,95112
+32198,725,9/23/2013 19:20,San Jose Diridon Caltrain Station,2,9/23/2013 19:32,Japantown,9,12,Subscriber,95112
+32218,366,9/23/2013 19:32,San Salvador at 1st,8,9/23/2013 19:38,St James Park,13,671,Subscriber,94116
+32220,714,9/23/2013 19:38,San Jose City Hall,10,9/23/2013 19:50,San Jose City Hall,10,178,Customer,95124
+32222,71,9/23/2013 19:39,MLK Library,11,9/23/2013 19:40,MLK Library,11,686,Subscriber,97214
+32229,520,9/23/2013 19:43,Japantown,9,9/23/2013 19:52,Paseo de San Antonio,7,675,Subscriber,95112
+32236,431,9/23/2013 19:46,MLK Library,11,9/23/2013 19:53,San Jose Diridon Caltrain Station,2,670,Customer,95126
+32239,299,9/23/2013 19:49,MLK Library,11,9/23/2013 19:54,San Pedro Square,6,706,Subscriber,95110
+32278,640,9/23/2013 20:49,SJSU - San Salvador at 9th,16,9/23/2013 21:00,San Jose Diridon Caltrain Station,2,55,Subscriber,94043
+32283,6676,9/23/2013 20:55,SJSU 4th at San Carlos,12,9/23/2013 22:46,SJSU - San Salvador at 9th,16,185,Customer,95122
+32286,6346,9/23/2013 21:01,SJSU 4th at San Carlos,12,9/23/2013 22:47,SJSU - San Salvador at 9th,16,700,Customer,95112
+32287,6309,9/23/2013 21:01,SJSU 4th at San Carlos,12,9/23/2013 22:46,SJSU - San Salvador at 9th,16,45,Customer,95112
+32296,750,9/23/2013 21:11,MLK Library,11,9/23/2013 21:24,Japantown,9,686,Customer,95212
+32299,466,9/23/2013 21:13,St James Park,13,9/23/2013 21:21,San Salvador at 1st,8,671,Subscriber,94116
+32301,922,9/23/2013 21:10,SJSU - San Salvador at 9th,16,9/23/2013 21:26,SJSU - San Salvador at 9th,16,666,Subscriber,95112
+32309,717,9/23/2013 21:33,Japantown,9,9/23/2013 21:44,SJSU 4th at San Carlos,12,42,Subscriber,95112
+32331,879,9/23/2013 22:06,SJSU 4th at San Carlos,12,9/23/2013 22:21,Japantown,9,174,Subscriber,95112
+32336,315,9/23/2013 22:12,San Jose Diridon Caltrain Station,2,9/23/2013 22:17,Santa Clara at Almaden,4,89,Subscriber,95110
+32340,575,9/23/2013 22:15,San Salvador at 1st,8,9/23/2013 22:25,San Jose Diridon Caltrain Station,2,237,Subscriber,94112
+32354,650,9/24/2013 2:24,Japantown,9,9/24/2013 2:35,MLK Library,11,234,Customer,95051
+32360,326,9/24/2013 5:31,Santa Clara at Almaden,4,9/24/2013 5:36,San Jose Diridon Caltrain Station,2,89,Subscriber,95110
+32371,849,9/24/2013 6:17,SJSU - San Salvador at 9th,16,9/24/2013 6:31,San Jose Diridon Caltrain Station,2,666,Subscriber,95112
+32452,690,9/24/2013 7:34,San Jose Diridon Caltrain Station,2,9/24/2013 7:46,San Jose City Hall,10,198,Subscriber,94502
+32474,512,9/24/2013 7:47,San Jose Civic Center,3,9/24/2013 7:56,San Jose Diridon Caltrain Station,2,708,Subscriber,95112
+32484,153,9/24/2013 7:53,San Jose City Hall,10,9/24/2013 7:56,SJSU 4th at San Carlos,12,52,Subscriber,95112
+32498,317,9/24/2013 8:00,San Salvador at 1st,8,9/24/2013 8:05,San Jose City Hall,10,38,Subscriber,95113
+32523,639,9/24/2013 8:07,San Jose Diridon Caltrain Station,2,9/24/2013 8:17,St James Park,13,708,Subscriber,94114
+32537,205,9/24/2013 8:18,San Jose Diridon Caltrain Station,2,9/24/2013 8:21,Adobe on Almaden,5,670,Subscriber,94107
+32540,409,9/24/2013 8:19,San Jose Diridon Caltrain Station,2,9/24/2013 8:26,San Pedro Square,6,55,Customer,
+32568,229,9/24/2013 8:27,San Jose Diridon Caltrain Station,2,9/24/2013 8:31,Santa Clara at Almaden,4,44,Subscriber,94403
+32612,442,9/24/2013 8:44,San Jose Diridon Caltrain Station,2,9/24/2013 8:51,San Pedro Square,6,156,Subscriber,94002
+32654,76,9/24/2013 9:01,San Jose City Hall,10,9/24/2013 9:02,MLK Library,11,178,Subscriber,95008
+32655,146,9/24/2013 9:01,San Salvador at 1st,8,9/24/2013 9:03,SJSU 4th at San Carlos,12,644,Subscriber,95112
+32668,205,9/24/2013 9:08,MLK Library,11,9/24/2013 9:12,Paseo de San Antonio,7,178,Subscriber,95126
+32680,799,9/24/2013 9:12,SJSU - San Salvador at 9th,16,9/24/2013 9:26,SJSU 4th at San Carlos,12,700,Subscriber,95112
+32797,1836,9/24/2013 10:51,SJSU - San Salvador at 9th,16,9/24/2013 11:22,MLK Library,11,61,Subscriber,95112
+32800,330,9/24/2013 10:52,San Jose City Hall,10,9/24/2013 10:57,Paseo de San Antonio,7,38,Subscriber,95112
+32836,415,9/24/2013 11:26,San Salvador at 1st,8,9/24/2013 11:33,SJSU - San Salvador at 9th,16,82,Customer,95119
+32856,1022,9/24/2013 11:37,SJSU 4th at San Carlos,12,9/24/2013 11:54,SJSU - San Salvador at 9th,16,42,Subscriber,95126
+32876,293,9/24/2013 11:52,San Jose City Hall,10,9/24/2013 11:56,San Salvador at 1st,8,656,Subscriber,95113
+32884,281,9/24/2013 11:58,San Salvador at 1st,8,9/24/2013 12:02,Paseo de San Antonio,7,668,Customer,95119
+32954,1564,9/24/2013 12:24,MLK Library,11,9/24/2013 12:50,Paseo de San Antonio,7,196,Subscriber,95126
+32958,234,9/24/2013 12:43,San Salvador at 1st,8,9/24/2013 12:47,MLK Library,11,663,Subscriber,95113
+32971,1612,9/24/2013 12:47,San Jose City Hall,10,9/24/2013 13:14,MLK Library,11,236,Subscriber,95112
