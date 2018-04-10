@@ -1,0 +1,33 @@
+nav {
+  position: relative;
+  background: #AAA;
+  width: 100%;
+
+  height: 50px;
+  ul {
+    list-style: none;
+
+    * {
+      display: inline-block;
+    }
+
+    &.nav-left, &.nav-right {
+      position: absolute;
+      top:50%;
+      transform:translateY(-50%);
+      width: initial;
+
+      a {
+        color: #FFF;
+      }
+    }
+
+    &.nav-left {
+      left: 1em;
+    }
+
+    &.nav-right {
+      right: 1em;
+    }
+  }
+}

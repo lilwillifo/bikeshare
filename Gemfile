@@ -41,6 +41,7 @@ group :development, :test do
   gem 'simplecov'
   gem 'pry'
   gem 'active_designer'
+  gem 'database_cleaner'
 end
 
 group :development do
