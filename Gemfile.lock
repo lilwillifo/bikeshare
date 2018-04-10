@@ -73,7 +73,6 @@ GEM
       factory_bot (~> 4.8.2)
       railties (>= 3.0.0)
     ffi (1.9.23)
-    ffi (1.9.23-x64-mingw32)
     friendly_id (5.1.0)
       activerecord (>= 4.0.0)
     globalid (0.4.1)
