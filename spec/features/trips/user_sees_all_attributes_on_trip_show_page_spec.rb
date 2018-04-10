@@ -1,4 +1,4 @@
-equire 'rails_helper'
+require 'rails_helper'
 
 describe 'As a Visitor' do
   describe 'When I visit a trip\'s show page' do
