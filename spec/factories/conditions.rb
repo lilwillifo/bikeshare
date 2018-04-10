@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :condition do
-    date '2002-06-10'
+    date Date.new(2002,10,4)
     max_temperature 88
     mean_temperature 84
     min_temperature 80
