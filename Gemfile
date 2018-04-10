@@ -42,9 +42,9 @@ group :development, :test do
   gem 'simplecov'
   gem 'pry'
   gem 'active_designer'
-  gem 'database_cleaner'
   gem 'factory_bot_rails'
   gem 'database_cleaner'
+  gem 'will_paginate', '~> 3.1.0'
 end
 
 group :development do
