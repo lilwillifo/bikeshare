@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2018-04-09T19:06:32-06:00">2018-04-09T19:06:32-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2018-04-09T19:16:11-06:00">2018-04-09T19:16:11-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -32,8 +32,8 @@
   <a name="AllFiles"></a>
   <div>
     <b>17</b> files in total.
-    <b>46</b> relevant lines. 
-    <span class="green"><b>46</b> lines covered</span> and
+    <b>47</b> relevant lines. 
+    <span class="green"><b>47</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -83,9 +83,9 @@
       <tr>
         <td class="strong"><a href="#5359ba458d8daa9b99942380241f357825e0db63" class="src_link" title="app/models/trip.rb">app/models/trip.rb</a></td>
         <td class="green strong">100.0 %</td>
+        <td>3</td>
         <td>2</td>
-        <td>1</td>
-        <td>1</td>
+        <td>2</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -346,8 +346,8 @@
     <h3>app/models/trip.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>1</b> relevant lines. 
-      <span class="green"><b>1</b> lines covered</span> and
+      <b>2</b> relevant lines. 
+      <span class="green"><b>2</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -361,7 +361,13 @@
           <code class="ruby">class Trip &lt; ApplicationRecord</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="2">
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  validates_presence_of :duration, :start_date, :start_station_id, :end_date, :end_station_id, :bike_id, :subscription_type, :zip_code</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
           
           
           <code class="ruby">end</code>
