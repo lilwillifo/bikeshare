@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
   root to: 'welcome#index'
   resources :stations, only: [:index]
+
+  get '/:name', to: 'stations#show'
 end
