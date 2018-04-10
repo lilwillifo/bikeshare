@@ -18,6 +18,7 @@
 /db/csv
 /coverage.data
 /coverage/
+/coverage
 
 .byebug_history
 
