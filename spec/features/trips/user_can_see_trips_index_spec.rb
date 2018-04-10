@@ -3,9 +3,6 @@ require 'rails_helper'
 describe 'As a Visitor' do
   describe 'When I visit the trips index' do
     scenario 'I see the first 30 trips along with a button to see more pages of trips' do
-<<<<<<< HEAD
-      trip = Trip.Create!(duratii)
-=======
       station = create(:station)
       trips = create_list(:trip, 80)
 
@@ -45,4 +42,3 @@ describe 'As a Visitor' do
     end
   end
 end
->>>>>>> 85ab473444e80df012f54fef829e00e6311f5f08
