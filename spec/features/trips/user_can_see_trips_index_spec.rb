@@ -8,8 +8,6 @@ describe 'As a Visitor' do
 
       visit trips_path
 
-      save_and_open_page
-
       expect(page).to have_content(trips.first.id)
       expect(page).to have_content(trips.first.duration)
       expect(page).to have_content(trips.first.start_date)
@@ -29,6 +27,17 @@ describe 'As a Visitor' do
       expect(page).to have_content(trips[59].id)
       expect(page).to_not have_content("Trip no.: #{trips[29].id}")
       expect(page).to_not have_content("Trip no.: #{trips[60].id}")
+
+      click_on 'Next'
+
+      expect(page).to have_content(trips[60].id)
+      expect(page).to have_content(trips[79].id)
+      expect(page).to_not have_content("Trip no.: #{trips[59].id}")
+
+      click_on 'Previous'
+      expect(page).to have_content(trips[30].id)
+      expect(page).to have_content(trips[59].id)
+      expect(page).to_not have_content("Trip no.: #{trips[69].id}")
     end
   end
 end
