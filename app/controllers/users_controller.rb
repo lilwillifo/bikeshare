@@ -7,6 +7,7 @@ class UsersController < ApplicationController
     user = User.new(user_params)
     if user.save
       session[:user_id] = user.id
+      flash[:success] = "Logged in as #{user.username}"
       redirect_to '/dashboard'
     else
       redirect_to new_user_path
