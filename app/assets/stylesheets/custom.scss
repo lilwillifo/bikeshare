@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import 'helpers/nav';
+
+$black: #2E3532;
+$red: #8B2635;
+$light-gray: #E0E2DB;
+$dark-gray: #D2D4C8;
+$green: #D3EFBD;
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Montserrat';
+  color: #666;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: $red;
+}
