@@ -1,0 +1,13 @@
+<table>
+
+<% @trips.each do |trip| %>
+    Trip No.: <%= trip.id %> <br>
+    <%= trip.duration %> <br>
+    <%= trip.start_date %> <br>
+    <%= trip.end_date %> <br>
+    <%= trip.bike_id %> <br>
+    <%= trip.subscription_type %> <br>
+    <%= trip.zip_code %> <br>
+  <% end %>
+
+  <%= will_paginate @trips %>

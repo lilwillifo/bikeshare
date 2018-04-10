@@ -44,6 +44,7 @@ group :development, :test do
   gem 'active_designer'
   gem 'factory_bot_rails'
   gem 'database_cleaner'
+  gem 'will_paginate', '~> 3.1.0'
 end
 
 group :development do
