@@ -8,6 +8,8 @@ describe 'As a Visitor' do
 
       visit trips_path
 
+      save_and_open_page
+
       expect(page).to have_content(trips.first.id)
       expect(page).to have_content(trips.first.duration)
       expect(page).to have_content(trips.first.start_date)
