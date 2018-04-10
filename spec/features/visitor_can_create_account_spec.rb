@@ -10,6 +10,8 @@ describe 'As a visitor' do
       expect(current_path).to eq('/login')
 
       click_link 'Create Account'
+
+      expect(current_path).to eq(new_user_path)
       fill_in 'Username', with: 'TylerRox'
       fill_in 'Password', with: 'SeCrEtZ'
       fill_in 'Confirm Password', with: 'SeCrEtZ'

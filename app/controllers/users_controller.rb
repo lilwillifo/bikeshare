@@ -13,9 +13,12 @@ class UsersController < ApplicationController
     end
   end
 
+  def dashboard
+  end
+
   private
 
   def user_params
-    params.require(:user).permit(:username, :password, :password_confirmation)
+    params.require(:user).permit(:username, :password)
   end
 end
