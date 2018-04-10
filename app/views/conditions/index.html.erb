@@ -1,0 +1,14 @@
+<h1>Conditions</h1>
+
+<ul>
+  <% @conditions.each do |condition| %>
+    <li><%= condition.date %></li>
+    <li><%= condition.max_temperature %></li>
+    <li><%= condition.mean_temperature %></li>
+    <li><%= condition.min_temperature %></li>
+    <li><%= condition.mean_humidity %></li>
+    <li><%= condition.mean_visibility %></li>
+    <li><%= condition.mean_wind_speed %></li>
+    <li><%= condition.precipitation %></li>
+  <% end %>
+</ul>
