@@ -155,9 +155,9 @@
         null,
         null,
         null,
-        0,
+        1,
         null,
-        0,
+        1,
         null,
         null,
         null,
@@ -284,6 +284,10 @@
       "/Users/margaretwilliford/turing/2module/bike_share/app/models/station.rb": [
         1,
         1,
+        1,
+        null,
+        1,
+        null,
         null
       ],
       "/Users/margaretwilliford/turing/2module/bike_share/app/models/application_record.rb": [
@@ -292,6 +296,6 @@
         null
       ]
     },
-    "timestamp": 1523320035
+    "timestamp": 1523321065
   }
 }

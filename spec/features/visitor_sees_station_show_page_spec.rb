@@ -6,7 +6,7 @@ describe 'As a visitor' do
       station = create(:station)
       station_2 = create(:station)
 
-      visit "/#{station.name.delete(' ')}"
+      visit "/#{station.slug}"
 
       expect(page).to have_content(station.name)
       expect(page).to have_content(station.dock_count)

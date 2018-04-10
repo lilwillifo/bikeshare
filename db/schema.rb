@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180410002616) do
+ActiveRecord::Schema.define(version: 20180410004235) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -32,6 +32,8 @@ ActiveRecord::Schema.define(version: 20180410002616) do
     t.integer "dock_count"
     t.string "city"
     t.date "installation_date"
+    t.string "slug"
+    t.index ["slug"], name: "index_stations_on_slug", unique: true
   end
 
 end
