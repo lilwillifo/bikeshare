@@ -35,6 +35,7 @@ describe 'As a Visitor' do
       expect(page).to_not have_content("Trip no.: #{trips[59].id}")
 
       click_on 'Previous'
+
       expect(page).to have_content(trips[30].id)
       expect(page).to have_content(trips[59].id)
       expect(page).to_not have_content("Trip no.: #{trips[69].id}")
