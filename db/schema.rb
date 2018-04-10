@@ -10,10 +10,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180410004235) do
+ActiveRecord::Schema.define(version: 20180410013215) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "conditions", force: :cascade do |t|
+    t.datetime "date"
+    t.integer "max_temperature"
+    t.integer "mean_temperature"
+    t.integer "min_temperature"
+    t.integer "mean_humidity"
+    t.integer "mean_visibility"
+    t.integer "mean_wind_speed"
+    t.decimal "precipitation"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "friendly_id_slugs", force: :cascade do |t|
     t.string "slug", null: false

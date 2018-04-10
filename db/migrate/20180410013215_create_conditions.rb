@@ -1,0 +1,17 @@
+class CreateConditions < ActiveRecord::Migration[5.1]
+  def change
+    create_table :conditions do |t|
+      t.datetime :date
+      t.integer :max_temperature
+      t.integer :mean_temperature
+      t.integer :min_temperature
+      t.integer :mean_humidity
+      t.integer :mean_visibility
+      t.integer :mean_visibility
+      t.integer :mean_wind_speed
+      t.decimal :precipitation
+
+      t.timestamps
+    end
+  end
+end
