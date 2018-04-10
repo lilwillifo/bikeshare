@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   root to: 'welcome#index'
   resources :stations, only: [:index]
   resources :conditions, only: %i[index show]
-  resources :users, only: [:new]
+  resources :users, only: [:new, :create]
 
   get '/login', to: 'sessions#new'
 

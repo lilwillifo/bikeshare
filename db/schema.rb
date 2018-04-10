@@ -10,16 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20180410013215) do
-=======
-ActiveRecord::Schema.define(version: 20180410002616) do
->>>>>>> setting up friendly id gem
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-<<<<<<< HEAD
   create_table "conditions", force: :cascade do |t|
     t.datetime "date"
     t.integer "max_temperature"
@@ -33,8 +28,6 @@ ActiveRecord::Schema.define(version: 20180410002616) do
     t.datetime "updated_at", null: false
   end
 
-=======
->>>>>>> setting up friendly id gem
   create_table "friendly_id_slugs", force: :cascade do |t|
     t.string "slug", null: false
     t.integer "sluggable_id", null: false
