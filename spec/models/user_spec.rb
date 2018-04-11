@@ -27,7 +27,7 @@ describe User, type: :model do
       expect(user.default?).to be_truthy
     end
   end
-  
+
   context 'relationships' do
     it { should have_many(:orders) }
   end
