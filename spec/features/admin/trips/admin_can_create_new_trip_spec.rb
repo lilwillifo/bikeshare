@@ -23,6 +23,7 @@ describe 'admin visits trips#index' do
       click_on 'Create Trip'
 
       expect(current_path).to eq(trip_path(Trip.all.last))
+      expect(page).to have_content('Trip: 1 Created!')
       expect(page).to have_content('2018-01-09 18:27:55')
       expect(page).to have_content('2018-01-09 22:27:55')
       expect(page).to have_content('8')

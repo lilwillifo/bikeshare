@@ -24,6 +24,7 @@ describe 'admin visits trips#edit' do
       click_on 'Update Trip'
 
       expect(current_path).to eq(trip_path(@trip))
+      expect(page).to have_content("Trip: #{@trip.id} Updated!")
       expect(page).to have_content('2018-01-09 18:27:55')
       expect(page).to have_content('2018-01-09 22:27:55')
       expect(page).to have_content('8')
@@ -53,6 +54,7 @@ describe 'admin visits trips#edit' do
       click_on 'Update Trip'
 
       expect(current_path).to eq(trip_path(@trip))
+      expect(page).to have_content("Trip: #{@trip.id} Updated!")
       expect(page).to have_content('2018-01-09 18:27:55')
       expect(page).to have_content('2018-01-09 22:27:55')
       expect(page).to have_content('8')
@@ -82,6 +84,7 @@ describe 'admin visits trips#edit' do
       click_on 'Update Trip'
 
       expect(current_path).to eq(trip_path(@trip))
+      expect(page).to have_content("Trip: #{@trip.id} Updated!")
       expect(page).to have_content('2018-01-09 18:27:55')
       expect(page).to have_content('2018-01-09 22:27:55')
       expect(page).to have_content('8')
