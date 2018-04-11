@@ -10,5 +10,9 @@ class CartController < ApplicationController
     redirect_to accessories_path
   end
 
+  def index
+
+  end
+
 
 end
