@@ -16,7 +16,7 @@ describe 'admin visits stations#index' do
       fill_in 'station[installation_date]', with: Time.now
       click_on 'Create Station'
 
-      expect(current_path).to eq('/stations/wookie')
+      expect(current_path).to eq('/wookie')
       expect(page).to have_content('Wookie')
     end
   end
