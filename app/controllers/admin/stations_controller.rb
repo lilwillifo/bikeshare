@@ -1,8 +1,7 @@
 class Admin::StationsController < Admin::BaseController
-  before_action :set_station, except: [:new, :create]
+  before_action :set_station, except: %i[new create]
 
   def edit
-    # @station = Station.friendly.find(params[:name])
   end
 
   def new
