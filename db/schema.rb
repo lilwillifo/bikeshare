@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20180411005755) do
+=======
+ActiveRecord::Schema.define(version: 20180411020228) do
+>>>>>>> Added roles to database, set default to 0, created enum for user model. Model tests pass.
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -78,6 +82,7 @@ ActiveRecord::Schema.define(version: 20180411005755) do
   create_table "users", force: :cascade do |t|
     t.string "username"
     t.string "password_digest"
+    t.integer "role", default: 0
   end
 
 end
