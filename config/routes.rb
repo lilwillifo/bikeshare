@@ -14,6 +14,7 @@ Rails.application.routes.draw do
 
   resources :trips, only: [:index, :show]
   resources :accessories, path: 'bike-shop', only: [:show, :index]
-  get '/:name', to: 'stations#show'
+  # get '/:name', to: 'stations#show'
   post '/cart', to: 'cart#create'
+  get '/cart', to: 'cart#index'
 end
