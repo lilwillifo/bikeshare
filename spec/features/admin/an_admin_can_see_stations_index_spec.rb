@@ -18,4 +18,12 @@ describe 'visitor visits conditions#index' do
       expect(page).to have_content(station.installation_date)
     end
   end
+
+  scenario 'it shows all the attributes' do
+    allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@admin)
+
+    visit stations_path
+
+    expect(page).to have_css('edit')
+  end
 end
