@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe 'admin visits stations#index' do
+describe 'admin visits trips#index' do
   before(:each) do
     @admin = create(:admin)
     allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@admin)
@@ -23,15 +23,15 @@ describe 'admin visits stations#index' do
     end
   end
 
-  scenario 'it has a link to edit stations' do
+  scenario 'it has a link to edit trips' do
     visit trips_path
 
     expect(page).to have_content('Edit')
   end
 
-  # scenario 'it has a link to delete stations' do
-  #   visit stations_path
-  #
-  #   expect(page).to have_content('Delete')
-  # end
+  scenario 'it has a link to delete trips' do
+    visit trips_path
+
+    expect(page).to have_content('Delete')
+  end
 end
