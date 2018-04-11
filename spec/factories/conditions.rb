@@ -1,5 +1,6 @@
 FactoryBot.define do
   factory :condition do
+    sequence(:id) {|n| n }
     date Date.new(2002,10,4)
     max_temperature 88
     mean_temperature 84
