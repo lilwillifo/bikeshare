@@ -15,8 +15,7 @@
 
 /node_modules
 /yarn-error.log
-/db/csv/trip.csv
-/db/csv/weather.csv
+/db/csv/
 /coverage.data
 /coverage/
 /coverage
