@@ -6,6 +6,11 @@ Rails.application.routes.draw do
   resources :conditions, only: %i[index show]
   resources :users, only: [:new, :create]
 
+  namespace :admin do
+    resources :stations, except: %i[index show]
+    resources :trips, except: %i[index show new create]
+  end
+
   get '/login', to: 'sessions#new'
   post '/login', to: 'sessions#create'
   get '/logout', to: 'sessions#destroy'
