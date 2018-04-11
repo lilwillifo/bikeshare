@@ -1,7 +1,11 @@
-<<<<<<< HEAD
-
-=======
-<%= link_to 'Logout', logout_path %>
-
 <h1>Welcome <%= current_user.username %></h1>
->>>>>>> user helpers and before actions
+
+
+<ul class="orders">
+  <% current_user.orders.each do |order| %>
+    <li id="order_<%= order.id %>">
+      <p>Order <%= order.id %></p>
+    </li>
+  <% end %>
+</ul>
+>>>>>>> user can see orders on dashboard
