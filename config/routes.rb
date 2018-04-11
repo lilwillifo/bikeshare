@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get '/dashboard', to: 'users#dashboard'
 
   resources :trips, only: [:index, :show]
+  resources :accessories, path: 'bike-shop', only: [:show, :index]
 
   get '/:name', to: 'stations#show'
 end
