@@ -23,12 +23,12 @@ describe 'admin visits stations#index' do
     end
   end
 
-  # scenario 'it has a link to edit stations' do
-  #   visit stations_path
-  #
-  #   expect(page).to have_content('Edit')
-  # end
-  #
+  scenario 'it has a link to edit stations' do
+    visit trips_path
+
+    expect(page).to have_content('Edit')
+  end
+
   # scenario 'it has a link to delete stations' do
   #   visit stations_path
   #
