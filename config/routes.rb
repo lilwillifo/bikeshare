@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   namespace :admin do
     resources :stations, except: %i[index show]
     resources :trips, except: %i[index show]
+    get '/dashboard', to: 'dashboard#index'
   end
 
   get '/login', to: 'sessions#new'

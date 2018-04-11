@@ -11,9 +11,6 @@
   <body>
     <%= render partial: 'partials/nav' %>
     <div class="title">
-      <% flash.each do |name, msg| %>
-      <%= content_tag :div, sanitize(msg), class: name %>
-      <% end %>
       <p>Cart: <%= @cart.total_count %></p>
       <%= yield %>
     </div>

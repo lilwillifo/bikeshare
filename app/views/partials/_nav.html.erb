@@ -5,6 +5,9 @@
       <a href="#">Bike Share</a>
     </div>
   </ul>
+  <% flash.each do |name, msg| %>
+  <%= content_tag :div, sanitize(msg), class: name %>
+  <% end %>
 
   <ul class="nav-right">
     <li>
