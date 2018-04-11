@@ -1,5 +1,5 @@
 class Admin::TripsController < Admin::BaseController
-  before_action :set_trip, only: %i[edit update]
+  before_action :set_trip, only: %i[edit update destroy]
 
   def edit
   end
@@ -27,6 +27,16 @@ class Admin::TripsController < Admin::BaseController
     else
       flash[:error] = 'Trip Not Updated!'
       render :edit
+    end
+  end
+
+  def destroy
+    if @trip.destroy
+      flash[:success] = 'Trip Deleted!'
+      redirect_to trips_path
+    else
+      flash[:error] = 'Trip Not Deleted!'
+      redirect_to trip_path(@trip)
     end
   end
 
