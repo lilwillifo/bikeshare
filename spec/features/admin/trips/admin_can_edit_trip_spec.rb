@@ -7,6 +7,7 @@ describe 'admin visits trips#edit' do
     @station2 = create(:station)
     @trip = create(:trip)
     @trip2 = create(:trip)
+    @trip3 = create(:trip)
   end
 
   describe 'admin visit admin_trips#edit' do

@@ -5,6 +5,7 @@ describe 'admin visits stations#index' do
     @admin = create(:admin)
     @station = create(:station)
     @station2 = create(:station)
+    @station3 = create(:station)
   end
 
   describe 'admin visit admin_station#edit' do
