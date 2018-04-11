@@ -8,7 +8,7 @@ Rails.application.routes.draw do
 
   namespace :admin do
     resources :stations, except: %i[index show]
-    resources :trips, except: %i[index show new create]
+    resources :trips, except: %i[index show]
   end
 
   get '/login', to: 'sessions#new'
