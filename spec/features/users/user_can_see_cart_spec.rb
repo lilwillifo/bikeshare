@@ -19,7 +19,7 @@ describe 'A logged in user' do
     visit '/cart'
 
     @accessories.each do |accessory|
-      expect(page).to have_content(accessory.name)
+      expect(page).to have_content(accessory.title)
     end
   end
 
@@ -35,7 +35,7 @@ describe 'A logged in user' do
     visit '/cart'
 
     @accessories.each do |accessory|
-      expect(page).to have_content(accessory.name)
+      expect(page).to have_content(accessory.title)
     end
   end
 end
