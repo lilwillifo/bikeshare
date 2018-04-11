@@ -1,3 +1,5 @@
+require './app/models/accessory'
+
 class Cart
   attr_reader :contents
 
@@ -15,5 +17,22 @@ class Cart
 
   def count_of(id)
     contents[id.to_s].to_i
+  end
+
+  def items
+    items = []
+    contents.each_pair do |key, value|
+      accessory = Accessory.find(key)
+      items.push({ accessory: accessory, quantity: value })
+    end
+    items
+  end
+
+  def total_accessory_value
+    values = []
+    contents.each_pair do |key, value|
+      values << Accessory.find(key).price * value
+    end
+    values.sum
   end
 end

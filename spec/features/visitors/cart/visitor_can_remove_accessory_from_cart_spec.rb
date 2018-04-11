@@ -15,11 +15,13 @@ describe 'As a visitor' do
         visit '/cart'
 
         expect(page).to have_content(@accessories[0].title)
+        expect(page).to have_content(@accessories[0].description)
+        expect(page).to have_content(@accessories[0].price)
 
         click_on 'Remove'
 
         expect(current_path).to eq('/cart')
-        expect(page).to_not have_content(@accessories[0].title)
+        expect(page).to_not have_content(@accessories[0].description)
       end
 
       scenario 'I see a flash message telling me I have successfully removed the item' do
@@ -40,9 +42,9 @@ describe 'As a visitor' do
         find(".add_accessory_#{@accessories.first.id}").click
 
         visit '/cart'
-
         click_on 'Remove'
-        click_on 'Undo'
+        click_on 'Back to Accessory'
+
 
         expect(page).to have_content(@accessories[0].title)
       end
