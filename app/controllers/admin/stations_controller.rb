@@ -32,6 +32,16 @@ class Admin::StationsController < Admin::BaseController
     end
   end
 
+  def destroy
+    if @station.destroy
+      flash[:success] = 'Station Deleted!'
+      redirect_to stations_path
+    else
+      flash[:error] = 'Station Not Deleted'
+      redirect_to "/#{@station.slug}"
+    end
+  end
+
   private
 
   def station_params
