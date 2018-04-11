@@ -1,4 +1,7 @@
-<h1>All Stations</h1>
+<section class = 'title'>
+  <h1>All Stations</h1>
+</section>
+
 <table>
   <tr>
     <th>Name</th>
@@ -9,9 +12,9 @@
   <% @stations.each do |station| %>
     <tr class=station_<%= station.id %>>
       <td><%= station.name %></td>
-      <td><%= station.dock_count %></td>
-      <td><%= station.city %></td>
-      <td><%= station.installation_date %></td>
+      <td align='right'><%= station.dock_count %></td>
+      <td align='right'><%= station.city %></td>
+      <td align='right'><%= station.installation_date %></td>
     </tr>
   <% end %>
 </table>

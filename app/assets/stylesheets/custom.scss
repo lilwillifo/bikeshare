@@ -21,18 +21,24 @@ body {
   font-family: 'Montserrat';
   color: $dark-gray;
   margin: 0;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding: 0;
 }
 
 h1 {
   color: $red;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 28px;
+}
+.title {
+  display: flex;
+  justify-content: center;
 }
 
 table {
   display: flex;
   justify-content: center;
+  border-collapse: collapse;
+  th, td {
+    border: 1px solid $black;
+    padding: 5px;
+  }
 }
