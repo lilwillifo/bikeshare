@@ -11,9 +11,12 @@
   <body>
     <%= render partial: 'partials/nav' %>
     <div class="title">
+<<<<<<< HEAD
       <% flash.each do |name, msg| %>
       <%= content_tag :div, sanitize(msg), class: name %>
       <% end %>
+=======
+>>>>>>> admin and login and see dashboard
       <p>Cart: <%= @cart.total_count %></p>
       <%= yield %>
     </div>

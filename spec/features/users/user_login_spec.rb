@@ -14,7 +14,9 @@ describe 'User' do
     click_on 'Submit'
 
     expect(current_path).to eq('/dashboard')
-    expect(page).to have_content("Logged in as #{user.username}")
+    within('nav') do
+      expect(page).to have_content("Logged in as #{user.username}")
+    end
     expect(page).to have_link('Logout')
     expect(page).to_not have_link('Login')
   end
