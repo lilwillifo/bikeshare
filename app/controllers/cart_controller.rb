@@ -11,8 +11,5 @@ class CartController < ApplicationController
   end
 
   def index
-
   end
-
-
 end
