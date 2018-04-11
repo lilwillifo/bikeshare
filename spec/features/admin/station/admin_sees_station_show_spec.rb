@@ -18,16 +18,4 @@ describe 'admin visits stations#show' do
 
     expect(page).to_not have_content(@station_2.name)
   end
-
-  scenario 'it has a link to edit stations' do
-    visit "/#{@station.slug}"
-
-    expect(page).to have_content('Edit')
-  end
-
-  scenario 'it has a link to delete stations' do
-    visit "/#{@station.slug}"
-
-    expect(page).to have_content('Delete')
-  end
 end

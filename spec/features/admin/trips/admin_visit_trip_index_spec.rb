@@ -22,16 +22,4 @@ describe 'admin visits trips#index' do
       expect(page).to have_content(trip.end_station_id)
     end
   end
-
-  scenario 'it has a link to edit trips' do
-    visit trips_path
-
-    expect(page).to have_content('Edit')
-  end
-
-  scenario 'it has a link to delete trips' do
-    visit trips_path
-
-    expect(page).to have_content('Delete')
-  end
 end

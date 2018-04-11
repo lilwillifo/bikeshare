@@ -20,20 +20,4 @@ describe 'admin visits trips#index' do
     expect(page).to have_content(@trip.start_station_id)
     expect(page).to have_content(@trip.end_station_id)
   end
-
-  scenario 'it has a link to edit trips' do
-    allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@admin)
-
-    visit trip_path(@trip)
-
-    expect(page).to have_content('Edit')
-  end
-
-  scenario 'it has a link to delete trips' do
-    allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@admin)
-
-    visit trip_path(@trip)
-
-    expect(page).to have_content('Delete')
-  end
 end

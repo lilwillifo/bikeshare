@@ -11,7 +11,9 @@ describe 'admin wants to delete station' do
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@admin)
       visit stations_path
 
-      click_link 'Delete'
+      within(".station_#{@station.id}") do
+        find(:xpath, ".//a[i[contains(@class, 'fas fa-trash-alt')]]").click
+      end
 
       expect(current_path).to eq(stations_path)
       expect(page).to have_content('Station Deleted!')
@@ -27,7 +29,7 @@ describe 'admin wants to delete station' do
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@admin)
       visit "/#{@station.slug}"
 
-      click_link 'Delete'
+      find(:xpath, ".//a[i[contains(@class, 'fas fa-trash-alt')]]").click
 
       expect(current_path).to eq(stations_path)
       expect(page).to have_content('Station Deleted!')

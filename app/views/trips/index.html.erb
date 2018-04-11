@@ -1,6 +1,7 @@
 <table>
 <% @trips.each do |trip| %>
   <tr>
+    <tr class=trip_<%= trip.id %>>
     <td>Trip No.: <%= trip.id %></td>
     <td><%= trip.duration %></td>
     <td><%= trip.start_date %></td>
@@ -12,10 +13,15 @@
     <td><%= trip.zip_code %></td>
 
     <% if current_admin? %>
-    <td><%= link_to 'Edit', edit_admin_trip_path(trip) %></td>
-    <td><%= link_to 'Delete', admin_trip_path(trip), method: "delete" %></td>
+      <td><%= link_to edit_admin_trip_path(trip) do %>
+          <i class="far fa-edit"></i>
+      <% end %></td>
+
+      <td><%= link_to admin_trip_path(trip), method: 'delete' do %>
+          <i class="fas fa-trash-alt">
+      <% end %></td>
     <% end %>
-    
+
   </tr>
   <% end %>
 </table>

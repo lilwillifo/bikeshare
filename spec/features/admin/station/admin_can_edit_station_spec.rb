@@ -4,6 +4,7 @@ describe 'admin visits stations#index' do
   before(:each) do
     @admin = create(:admin)
     @station = create(:station)
+    @station2 = create(:station)
   end
 
   describe 'admin visit admin_station#edit' do
@@ -30,7 +31,9 @@ describe 'admin visits stations#index' do
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@admin)
       visit stations_path
 
-      click_link 'Edit'
+      within(".station_#{@station.id}") do
+        find(:xpath, ".//a[i[contains(@class, 'far fa-edit')]]").click
+      end
 
       fill_in 'station[name]', with: 'Wookie'
       fill_in 'station[dock_count]', with: '10'
@@ -51,7 +54,7 @@ describe 'admin visits stations#index' do
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@admin)
       visit "/#{@station.slug}"
 
-      click_link 'Edit'
+      find(:xpath, ".//a[i[contains(@class, 'far fa-edit')]]").click
 
       fill_in 'station[name]', with: 'Wookie'
       fill_in 'station[dock_count]', with: '10'
