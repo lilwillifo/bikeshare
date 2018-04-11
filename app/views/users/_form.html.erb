@@ -1,12 +1,15 @@
 <%= form_for @user do |f| %>
-  <%= f.label :username %>
-  <%= f.text_field :username %>
-
-  <%= f.label :password %>
-  <%= f.password_field :password %>
-
-  <%= f.label :password_confirmation, 'Confirm Password' %>
-  <%= f.password_field :password_confirmation %>
-
+  <div class='form_field'>
+    <%= f.label :username %>
+    <%= f.text_field :username %>
+  </div>
+  <div class='form_field'>
+    <%= f.label :password %>
+    <%= f.password_field :password %>
+  </div>
+  <div class='form_field'>
+    <%= f.label :password_confirmation, 'Confirm Password' %>
+    <%= f.password_field :password_confirmation %>
+  </div>
   <%= f.submit 'Submit' %>
 <% end %>
