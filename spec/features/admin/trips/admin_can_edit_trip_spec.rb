@@ -91,4 +91,23 @@ describe 'admin visits trips#edit' do
       expect(page).to have_content('2')
     end
   end
+
+  describe 'as normal user' do
+    it 'does not allow default user to see delete link' do
+      user = create(:user)
+
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
+
+      visit edit_admin_trip_path(@trip)
+      expect(page).to have_content("The page you were looking for doesn't exist.")
+    end
+  end
+
+  describe 'as visitor' do
+    it 'does not allow visitor to see delete link' do
+
+      visit edit_admin_trip_path(@trip)
+      expect(page).to have_content("The page you were looking for doesn't exist.")
+    end
+  end
 end
