@@ -4,7 +4,7 @@
 $black: #2E3532;
 $red: #8B2635;
 $light-gray: #E0E2DB;
-$dark-gray: #D2D4C8;
+$dark-gray: #666;
 $green: #D3EFBD;
 
 html {
@@ -19,11 +19,20 @@ html {
 }
 body {
   font-family: 'Montserrat';
-  color: #666;
+  color: $dark-gray;
   margin: 0;
+  margin-left: 20px;
+  margin-right: 20px;
   padding: 0;
 }
 
 h1 {
   color: $red;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+table {
+  display: flex;
+  justify-content: center;
 }

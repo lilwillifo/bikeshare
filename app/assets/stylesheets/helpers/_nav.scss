@@ -5,11 +5,18 @@ $dark-gray: #666;
 $green: #D3EFBD;
 
 nav {
-  position: relative;
-  background: #FFF;
-  width: 100%;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    align-items: center;
+    padding-top:5px;
+    padding-left: 150px;
+    padding-right: 150px;
 
-  height: 50px;
   ul {
     list-style: none;
 
@@ -17,23 +24,14 @@ nav {
       display: inline-block;
     }
 
-    &.nav-left, &.nav-right {
-      position: absolute;
-      top:50%;
-      transform:translateY(-50%);
-      width: initial;
-
-      a {
-        color: $dark-gray;
-      }
+    a {
+      color: $dark-gray;
+      text-decoration: none;
+      text-transform: uppercase;
     }
 
-    &.nav-left {
-      left: 1em;
-    }
-
-    &.nav-right {
-      right: 1em;
+    .brand-logo {
+      font-size: 30px;
     }
   }
 }
