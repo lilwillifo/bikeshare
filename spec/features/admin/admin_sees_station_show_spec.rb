@@ -24,4 +24,10 @@ describe 'admin visits stations#show' do
 
     expect(page).to have_content('Edit')
   end
+
+  scenario 'it has a link to delete stations' do
+    visit "/#{@station.slug}"
+
+    expect(page).to have_content('Delete')
+  end
 end
