@@ -1,4 +1,9 @@
 class Admin::TripsController < Admin::BaseController
+  before_action :set_trip, only: %i[edit update]
+
+  def edit
+  end
+
   def new
     @trip = Trip.new
   end
@@ -6,7 +11,7 @@ class Admin::TripsController < Admin::BaseController
   def create
     @trip = Trip.new(trip_params)
     if @trip.save
-      flash[:success] = 'Trip Created!'
+      flash[:success] = "Trip: #{@trip.id} Created!"
       redirect_to trip_path(@trip)
     else
       flash[:error] = 'Trip Not Created!'
@@ -14,9 +19,24 @@ class Admin::TripsController < Admin::BaseController
     end
   end
 
+  def update
+    @trip.update(trip_params)
+    if @trip.save
+      flash[:success] = "Trip: #{@trip.id} Updated!"
+      redirect_to trip_path(@trip)
+    else
+      flash[:error] = 'Trip Not Updated!'
+      render :edit
+    end
+  end
+
   private
 
   def trip_params
     params.require(:trip).permit(:duration, :start_date, :end_date, :bike_id, :subscription_type, :zip_code, :start_station_id, :end_station_id)
+  end
+
+  def set_trip
+    @trip = Trip.find(params[:id])
   end
 end
