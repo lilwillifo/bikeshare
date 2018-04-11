@@ -77,6 +77,8 @@ GEM
       railties (>= 3.0.0)
     ffi (1.9.23)
     ffi (1.9.23-x64-mingw32)
+    font-awesome-rails (4.7.0.4)
+      railties (>= 3.2, < 6.0)
     friendly_id (5.1.0)
       activerecord (>= 4.0.0)
     globalid (0.4.1)
@@ -233,6 +235,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   database_cleaner
   factory_bot_rails
+  font-awesome-rails
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
   launchy

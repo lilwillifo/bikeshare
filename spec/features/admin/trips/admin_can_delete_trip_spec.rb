@@ -13,7 +13,9 @@ describe 'admin wants to delete station' do
 
       visit trips_path
 
-      click_link 'Delete'
+      within(".trip_#{@trip.id}") do
+        find(:xpath, ".//a[i[contains(@class, 'fas fa-trash-alt')]]").click
+      end
 
       expect(current_path).to eq(trips_path)
       expect(page).to have_content('Trip Deleted!')
@@ -34,7 +36,7 @@ describe 'admin wants to delete station' do
 
       visit trip_path(@trip)
 
-      click_link 'Delete'
+      find(:xpath, ".//a[i[contains(@class, 'fas fa-trash-alt')]]").click
 
       expect(current_path).to eq(trips_path)
       expect(page).to have_content('Trip Deleted!')

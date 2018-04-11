@@ -1,8 +1,15 @@
-<%= @station.name %>
-<%= @station.dock_count %>
-<%= @station.city %>
-<%= @station.installation_date %>
-<% if current_admin? %>
-  <%= link_to 'Edit', edit_admin_station_path(@station) %>
-  <%= link_to 'Delete', admin_station_path(@station), method: "delete" %>
-<% end %>
+<div class="class=station_<%= @station.id %>">
+  <%= @station.name %>
+  <%= @station.dock_count %>
+  <%= @station.city %>
+  <%= @station.installation_date %>
+  <% if current_admin? %>
+    <%= link_to edit_admin_station_path(@station) do %>
+        <i class="far fa-edit"></i>
+    <% end %>
+
+    <%= link_to admin_station_path(@station), method: 'delete' do %>
+        <i class="fas fa-trash-alt">
+    <% end %>
+  <% end %>
+</div>

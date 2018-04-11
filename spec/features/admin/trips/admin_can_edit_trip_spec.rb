@@ -6,6 +6,8 @@ describe 'admin visits trips#edit' do
     @station = create(:station)
     @station2 = create(:station)
     @trip = create(:trip)
+    @trip2 = create(:trip)
+    @trip3 = create(:trip)
   end
 
   describe 'admin visit admin_trips#edit' do
@@ -41,7 +43,9 @@ describe 'admin visits trips#edit' do
 
       visit trips_path
 
-      click_link 'Edit'
+      within(".trip_#{@trip.id}") do
+        find(:xpath, ".//a[i[contains(@class, 'far fa-edit')]]").click
+      end
 
       fill_in 'trip[duration]', with: 60
       fill_in 'trip[start_date]', with: '2018-01-09 18:27:55'
@@ -71,7 +75,7 @@ describe 'admin visits trips#edit' do
 
       visit trip_path(@trip)
 
-      click_link 'Edit'
+      find(:xpath, ".//a[i[contains(@class, 'far fa-edit')]]").click
 
       fill_in 'trip[duration]', with: 60
       fill_in 'trip[start_date]', with: '2018-01-09 18:27:55'
