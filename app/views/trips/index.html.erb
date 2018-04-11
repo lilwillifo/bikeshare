@@ -10,8 +10,12 @@
     <td><%= trip.bike_id %></td>
     <td><%= trip.subscription_type %></td>
     <td><%= trip.zip_code %></td>
-    <%= link_to 'Edit', edit_admin_trip_path(trip) %>
-    <%= link_to 'Delete', admin_trip_path(trip), method: "delete" %>
+
+    <% if current_admin? %>
+    <td><%= link_to 'Edit', edit_admin_trip_path(trip) %></td>
+    <td><%= link_to 'Delete', admin_trip_path(trip), method: "delete" %></td>
+    <% end %>
+    
   </tr>
   <% end %>
 </table>

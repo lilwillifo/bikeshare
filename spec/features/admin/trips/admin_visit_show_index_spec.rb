@@ -22,6 +22,7 @@ describe 'admin visits trips#index' do
   end
 
   scenario 'it has a link to edit trips' do
+    allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@admin)
     visit trip_path(@trip)
 
     expect(page).to have_content('Edit')

@@ -6,3 +6,6 @@
 <p>Bike ID #<%= @trip.bike_id %></p>
 <p>User Subscription Type: <%= @trip.subscription_type %></p>
 <p>Zip Code: <%= @trip.zip_code %></p>
+<% if current_admin? %>
+<p><%= link_to 'Edit', edit_admin_trip_path(@trip) %></p>
+<% end %>
