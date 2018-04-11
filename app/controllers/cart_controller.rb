@@ -9,7 +9,15 @@ class CartController < ApplicationController
     flash[:notice] = "You now have #{pluralize(session[:cart][@accessory.id.to_s], @accessory.title)} in your cart."
     redirect_to accessories_path
   end
-
   def index
+
+  end
+
+  def destroy
+    session[:cart].delete(params[:item])
+    accessory = Accessory.find(params[:item])
+    flash[:notice] = "Successfully removed #{accessory.title} from your cart."
+    flash[:link] = "<a href=\"#{accessory_path(accessory)}\">Back to Accessory</a>".html_safe
+    redirect_to cart_path
   end
 end

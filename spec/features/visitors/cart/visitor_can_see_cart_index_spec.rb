@@ -15,7 +15,6 @@ describe 'As a visitor' do
 
   describe 'When I visit /cart' do
     scenario 'I can see a thumbnail for each accessory as well as title and price' do
-      save_and_open_page
       expect(page).to have_content(@accessory.title)
       expect(page).to have_content(@accessory.description)
       expect(page).to have_content("$5.00")

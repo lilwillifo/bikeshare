@@ -42,7 +42,7 @@ describe 'As a visitor' do
         visit '/cart'
 
         click_on 'Remove'
-        click_on 'Undo'
+        click_on 'Back to Accessory'
 
         expect(page).to have_content(@accessories[0].title)
       end

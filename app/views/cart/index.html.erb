@@ -6,6 +6,7 @@
       <td>Description: <%= item[:accessory].description %></td>
       <td>Price: <%= number_to_currency(item[:accessory].price) %></td>
       <td>Quantity: <%= item[:quantity] %></td>
+      <td><p title="Remove this accessory"><%= link_to 'Remove', cart_path(item: item[:accessory]), method: "delete" %></p></td>
     <% end %>
   </tr>
 </table>
