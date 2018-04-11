@@ -7,28 +7,28 @@ trips = []
 weather = []
 
 trip_zips = {}
+trip_stations = Hash.new(0)
 
-NUM_STATIONS = 15
-NUM_TRIPS = 1500
+NUM_TRIPS = 20
 
 CSV.foreach('./db/csv/station.csv', headers: true) do |station|
-  if stations.length == NUM_STATIONS
-    break
-  end
   stations.push(station)
   station_ids.push(station['id'].to_i)
 end
 
+MAX_TRIPS = stations.length * NUM_TRIPS
+
 puts "Loaded #{stations.length} stations"
-
+puts "Should load maximum of #{MAX_TRIPS} trips..."
 CSV.foreach('./db/csv/trip.csv', headers: true) do |trip|
-  if station_ids.include?(trip['start_station_id'].to_i) && station_ids.include?(trip['end_station_id'].to_i)
-    trips.push(trip)
-    trip_zips[trip['zip_code']] ||= []
-    trip_zips[trip['zip_code']].push(trip['start_date'].split[0])
-  end
+  next if(trip_stations[trip['start_station_id']] >= NUM_TRIPS)
 
-  break if trips.length >= NUM_TRIPS
+  trips.push(trip)
+  trip_stations[trip['start_station_id']] += 1
+  trip_zips[trip['zip_code']] ||= []
+  trip_zips[trip['zip_code']].push(trip['start_date'].split[0])
+
+  break if trip_stations.values.sum >= MAX_TRIPS
 end
 
 puts "Loaded #{trips.length} trips"
