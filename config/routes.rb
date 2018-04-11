@@ -9,10 +9,12 @@ Rails.application.routes.draw do
   get '/login', to: 'sessions#new'
   post '/login', to: 'sessions#create'
   get '/logout', to: 'sessions#destroy'
+  post '/cart', to: 'cart#create'
+  get '/cart', to: 'cart#index'
 
   get '/dashboard', to: 'users#dashboard'
 
   resources :trips, only: [:index, :show]
-
+  resources :accessories, path: 'bike-shop', only: [:show, :index]
   get '/:name', to: 'stations#show'
 end

@@ -1,0 +1,11 @@
+
+<%= image_tag accessory.image.url %>
+<p><%= accessory.id %></p>
+<p><%= link_to accessory.title, accessory_path(accessory) %></p>
+<p><%= accessory.price %></p>
+<p><%= accessory.description %></p>
+<% if accessory.role == 'active' %>
+  <%= button_to 'Add to Cart', cart_path(accessory_id: accessory.id), class: "add_accessory_#{accessory.id}" %>
+<% else %>
+  <p>Accessory Retired</p>
+<% end %>
