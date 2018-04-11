@@ -10,6 +10,7 @@
     <td><%= trip.bike_id %></td>
     <td><%= trip.subscription_type %></td>
     <td><%= trip.zip_code %></td>
+    <%= link_to 'Edit', edit_admin_trip_path(trip) %>
   </tr>
   <% end %>
 </table>
