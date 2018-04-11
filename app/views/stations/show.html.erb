@@ -2,3 +2,6 @@
 <%= @station.dock_count %>
 <%= @station.city %>
 <%= @station.installation_date %>
+<% if current_admin? %>
+  <%= link_to 'Edit', edit_admin_station_path(@station) %>
+<% end %>
