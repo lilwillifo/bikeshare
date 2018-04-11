@@ -27,4 +27,12 @@ class Cart
     end
     items
   end
+
+  def total_accessory_value
+    values = []
+    contents.each_pair do |key, value|
+      values << Accessory.find(key).price * value
+    end
+    values.sum
+  end
 end
