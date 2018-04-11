@@ -7,4 +7,6 @@ class Accessory < ApplicationRecord
                      content_type: { content_type: ['image/jpeg', 'image/gif', 'image/png'] }
   validates_presence_of :description, :price, :role
   validates_presence_of :title, uniqueness: :true
+
+  enum role: [0, 1]
 end
