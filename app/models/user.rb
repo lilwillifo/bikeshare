@@ -4,4 +4,5 @@ class User < ApplicationRecord
   validates_uniqueness_of :username
 
   enum role: %w[default admin]
+  has_many :orders
 end
