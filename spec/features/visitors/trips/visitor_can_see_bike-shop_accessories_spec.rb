@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe 'As a Visitor' do
-  context 'When I visit '/bike-shop'' do
+  context 'When I visit "/bike-shop"' do
     before(:each) do
       @accessories = create_list(:item, 12)
     end
