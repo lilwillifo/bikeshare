@@ -18,6 +18,7 @@ describe 'admin visits stations#index' do
 
       expect(current_path).to eq('/wookie')
       expect(page).to have_content('Wookie')
+      expect(page).to have_content('Wookie created!')
     end
   end
 end
