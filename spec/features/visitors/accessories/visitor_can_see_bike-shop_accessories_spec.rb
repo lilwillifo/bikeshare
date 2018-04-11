@@ -7,7 +7,7 @@ describe 'As a Visitor' do
     end
     scenario 'I see at least 12 bike accessories for sale' do
       visit '/bike-shop'
-
+      
       @accessories.each do |accessory|
         expect(page).to have_content(accessory.title)
         expect(page).to have_content(accessory.description)
