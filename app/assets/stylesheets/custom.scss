@@ -42,3 +42,21 @@ table {
     padding: 5px;
   }
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+    .form_field {
+      padding: 10px;
+    }
+}
+
+.create-account {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
