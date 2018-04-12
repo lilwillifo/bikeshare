@@ -5,6 +5,7 @@ class StationsController < ApplicationController
   end
 
   def show
-    @station = Station.friendly.find(params[:name])
+    # require 'pry'; binding.pry
+    @station = Station.find_by(params[:slug])
   end
 end

@@ -15,4 +15,14 @@ describe 'visitor visits conditions#index' do
     expect(page).to have_content(condition.mean_wind_speed)
     expect(page).to have_content(condition.precipitation)
   end
+
+  scenario 'it can link from the index page' do
+    condition = create(:condition)
+
+    visit conditions_path
+
+    click_link condition.id
+
+    expect(current_path).to eq(condition_path(condition))
+  end
 end

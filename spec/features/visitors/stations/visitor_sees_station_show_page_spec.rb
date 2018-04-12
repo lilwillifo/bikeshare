@@ -14,6 +14,23 @@ describe 'As a visitor' do
       expect(page).to have_content(station.installation_date)
 
       expect(page).to_not have_content(station_2.name)
+    end
   end
+
+  describe 'it can link from the index page' do
+    it 'links correctly' do
+      # station = Station.create!(name: 'aether',
+      #                           dock_count: 3,
+      #                           city: 'San Fran',
+      #                           installation_date: Date.new(2012,10,4),
+      #                           slug: 'aether')
+      station = create(:station)
+
+      visit stations_path
+
+      click_link station.name
+
+      expect(current_path).to eq("/#{station.slug}")
+    end
   end
 end

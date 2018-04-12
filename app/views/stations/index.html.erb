@@ -15,7 +15,7 @@
   </tr>
   <% @stations.each do |station| %>
     <tr class=station_<%= station.id %>>
-      <td><%= station.name %></td>
+      <td><%= link_to station.name, "/#{station.slug}" %></td>
       <td align='right'><%= station.dock_count %></td>
       <td align='right'><%= station.city %></td>
       <td align='right'><%= station.installation_date %></td>
