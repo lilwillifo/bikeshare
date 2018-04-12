@@ -5,12 +5,12 @@
   <h4>Installation Date: <%= @station.installation_date %></h4>
 
   <% if current_admin? %>
-    <%= link_to edit_admin_station_path(@station) do %>
+    <p><%= link_to edit_admin_station_path(@station) do %>
         <i class="far fa-edit"></i>
-    <% end %>
+    <% end %></p>
 
-    <%= link_to admin_station_path(@station), method: 'delete' do %>
-        <i class="fas fa-trash-alt">
-    <% end %>
+    <p><%= link_to admin_station_path(@station), method: 'delete' do %>
+        <i class="fas fa-trash-alt"></i>
+    <% end %></p>
   <% end %>
 </div>
