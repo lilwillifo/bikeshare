@@ -18,6 +18,14 @@ nav {
     padding-left: 150px;
     padding-right: 150px;
 
+    a {
+      color: #FFFFFF;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    a:hover {
+      color: $green;
+    }
   ul {
     list-style: none;
 
@@ -25,11 +33,6 @@ nav {
       display: inline-block;
     }
 
-    a {
-      color: #FFFFFF;
-      text-decoration: none;
-      text-transform: uppercase;
-    }
 
     .brand-logo {
       font-size: 30px;
@@ -38,5 +41,14 @@ nav {
   }
   .fa-bicycle {
     color: $green;
+  }
+
+  .nav-right {
+    display: flex;
+    flex-direction: row;
+
+    .nav-link {
+      margin: 10px;
+    }
   }
 }
