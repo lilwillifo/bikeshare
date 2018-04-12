@@ -29,6 +29,16 @@ class Admin::ConditionsController < Admin::BaseController
     end
   end
 
+  def destroy
+    if @condition.destroy
+      flash[:success] = 'Condition Deleted!'
+      redirect_to conditions_path
+    else
+      flash[:error] = 'Condition Not Deleted!'
+      redirect_to condition_path(@condition)
+    end
+  end
+
   private
 
   def condition_params
