@@ -27,4 +27,28 @@ describe 'A logged in user' do
 
     expect(current_path).to eq(order_path(1))
   end
+
+  scenario 'can see their orders' do
+    allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
+
+    order = @user.orders.create!
+
+    @accessories.each do |accessory|
+      OrderAccessory.create!(order: order, accessory: accessory, quantity: 1)
+    end
+
+    visit order_path(order)
+
+    expect(page).to have_content("Order #{order.id}")
+
+    order.order_accessories.each do |item|
+      within("#accessory_#{item.accessory.id}") do
+        expect(page).to have_content(item.accessory.name)
+        expect(page).to have_content(item.quantity)
+        expect(page).to have_content(number_to_currency(item.quantity * item.accessory.price))
+      end
+    end
+  end
+
+  expect(page).to have_content(order.total)
 end
