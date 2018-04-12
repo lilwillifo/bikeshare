@@ -9,8 +9,8 @@ class CartController < ApplicationController
     flash[:notice] = "You now have #{pluralize(session[:cart][@accessory.id.to_s], @accessory.title)} in your cart."
     redirect_to cart_path
   end
-  def index
 
+  def index
   end
 
   def destroy

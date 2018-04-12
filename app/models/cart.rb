@@ -28,6 +28,10 @@ class Cart
     items
   end
 
+  def subtotal(accessory)
+    accessory[:accessory][:price] * contents[accessory[:accessory][:id].to_s]
+  end
+
   def total_accessory_value
     values = []
     contents.each_pair do |key, value|
