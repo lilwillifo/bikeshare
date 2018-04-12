@@ -16,7 +16,6 @@ describe 'As an admin' do
     fill_in 'Title', with: "YOLO"
     fill_in 'Price', with: 10
     fill_in 'Description', with: "Renaming cuz I can cuz I'm an admin"
-    fill_in 'Link to Image', with: "https://iandouglas.com/img/profile.jpg"
 
     click_on 'Update'
 

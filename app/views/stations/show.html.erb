@@ -1,18 +1,21 @@
 <div class="class=station_<%= @station.id %>">
-  <h1><%= @station.name %></h1>
-  <h4>Dock Count: <%= @station.dock_count %></h4>
-  <h4>City<%= @station.city %></h4>
-  <h4>Installation Date: <%= @station.installation_date %></h4>
+  <section class='title'>
+    <h1><%= @station.name %></h1>
+  </section>
+  <section class='main'>
+    <h4>Dock Count: <%= @station.dock_count %></h4>
+    <h4>City<%= @station.city %></h4>
+    <h4>Installation Date: <%= @station.installation_date %></h4>
 
-  <% if current_admin? %>
-    <p><%= link_to edit_admin_station_path(@station) do %>
-        <i class="far fa-edit"></i>
-    <% end %></p>
+    <% if current_admin? %>
+      <p><%= link_to edit_admin_station_path(@station) do %>
+          <i class="far fa-edit"></i>
+      <% end %></p>
 
-    <p><%= link_to admin_station_path(@station), method: 'delete' do %>
-        <i class="fas fa-trash-alt"></i>
-    <% end %></p>
-  <% end %>
-</div>
-
+      <p><%= link_to admin_station_path(@station), method: 'delete' do %>
+          <i class="fas fa-trash-alt"></i>
+      <% end %></p>
+    <% end %>
+  </div>
 <%= link_to '<< Back to Station Index', stations_path %>
+</section>

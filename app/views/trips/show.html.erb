@@ -1,6 +1,7 @@
 <section class = 'title'>
   <h1>Trip Report</h1>
 </section>
+<section class='main'>
 <p>Duration: <%= @trip.duration %></p>
 <p>Start Date: <%= @trip.start_date %></p>
 <p>End Date: <%= @trip.end_date %></p>
@@ -19,3 +20,4 @@
 <% end %>
 
 <%= link_to '<< Back to Trip Index', trips_path %>
+</section>
