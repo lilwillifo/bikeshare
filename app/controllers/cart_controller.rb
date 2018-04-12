@@ -20,4 +20,11 @@ class CartController < ApplicationController
     flash[:link] = "<a href=\"#{accessory_path(accessory)}\">Back to Accessory</a>".html_safe
     redirect_to cart_path
   end
+
+  def update
+    accessory = Accessory.find(params[:accessory_id])
+    @cart.decrease_accessory(accessory.id)
+    flash[:notice] = "Successfully reduced quantity of #{accessory.title} in your cart."
+    redirect_to cart_path
+  end
 end
