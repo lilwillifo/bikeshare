@@ -68,6 +68,6 @@ describe 'A logged in user' do
     visit order_path(order)
 
     expect(current_path).to eq(dashboard_path)
-    expet(page).to have_content("Order #{order.id} not found.")
+    expect(page).to have_content("Order ##{order.id} not found.")
   end
 end
