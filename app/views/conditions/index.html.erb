@@ -20,7 +20,7 @@
   </tr>
 
   <% @conditions.each do |condition| %>
-  <tr>
+  <tr class="condition_<%= condition.id %>">
     <td><%= condition.date %></td>
     <td align='right'><%= condition.max_temperature %></td>
     <td align='right'><%= condition.mean_temperature %></td>
