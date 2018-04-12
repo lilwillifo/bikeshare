@@ -13,3 +13,7 @@
 <h2>Total: <%= number_to_currency(@order.total) %></h2>
 <h3>Status <%= @order.status %></h3>
 <h4>Submitted at: <%= @order.created_at %></h4>
+
+<% if @order.status == 'completed' || @order.status == 'cancelled' %>
+  <h4><%= @order.status.capitalize %> on <%= @order.updated_at %></h4>
+<% end %>

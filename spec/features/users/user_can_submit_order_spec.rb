@@ -70,4 +70,24 @@ describe 'A logged in user' do
     expect(current_path).to eq(dashboard_path)
     expect(page).to have_content("Order ##{order.id} not found.")
   end
+
+  scenario 'sees when order was completed or cancelled' do
+    allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
+
+    order = @user.orders.create!(status: 'completed')
+    order2 = @user.orders.create!(status: 'cancelled')
+
+    @accessories.each do |accessory|
+      OrderAccessory.create!(order: order, accessory: accessory, quantity: 1)
+      OrderAccessory.create!(order: order2, accessory: accessory, quantity: 1)
+    end
+
+    visit order_path(order)
+
+    expect(page).to have_content("Completed on #{order.updated_at.to_s}")
+
+    visit order_path(order2)
+
+    expect(page).to have_content("Cancelled on #{order2.updated_at.to_s}")
+  end
 end

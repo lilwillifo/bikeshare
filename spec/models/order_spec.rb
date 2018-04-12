@@ -21,8 +21,6 @@ describe Order, type: :model do
   end
 
   describe 'methods' do
-
-
     context '#total' do
       it 'should calculate the total order cost' do
         user = create(:user)
