@@ -17,6 +17,7 @@
     <div class='nav-link'>
       <%= link_to 'Bike Shop', accessories_path %>
     </div>
+    <% end %>
     <div class='nav-link'>
       <%= link_to 'Trips', trips_path %>
     </div>
@@ -26,7 +27,6 @@
     <div class='nav-link'>
       <%= link_to 'Conditions', conditions_path %>
     </div>
-    <% end %>
     <div class='nav-link'>
       <%= link_to "Cart: #{@cart.total_count}", cart_path %>
     </div>
