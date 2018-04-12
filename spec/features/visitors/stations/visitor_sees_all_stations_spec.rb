@@ -15,4 +15,16 @@ describe 'As a visitor' do
       end
     end
   end
+
+  scenario 'it can link from the show page' do
+    station1 = create(:station)
+    station2 = create(:station)
+    station3 = create(:station)
+
+    visit "/#{station1.slug}"
+
+    click_link '<< Back to Station Index'
+
+    expect(current_path).to eq(stations_path)
+  end
 end

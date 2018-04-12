@@ -4,8 +4,6 @@ describe 'admin visits stations#index' do
   before(:each) do
     @admin = create(:admin)
     @station = create(:station)
-    @station2 = create(:station)
-    @station3 = create(:station)
   end
 
   describe 'admin visit admin_station#edit' do
@@ -16,14 +14,14 @@ describe 'admin visits stations#index' do
       fill_in 'station[name]', with: 'Wookie'
       fill_in 'station[dock_count]', with: '10'
       fill_in 'station[city]', with: 'San Fran'
-      fill_in 'station[installation_date]', with: '2018-04-10'
+      fill_in 'station[installation_date]', with: Date.new(2018,04,10)
       click_on 'Update Station'
 
       expect(current_path).to eq('/wookie')
       expect(page).to have_content('Wookie updated!')
       expect(page).to have_content('10')
       expect(page).to have_content('San Fran')
-      expect(page).to have_content('2018-04-10')
+      expect(page).to have_content(Date.new(2018,04,10))
     end
   end
 
@@ -39,14 +37,14 @@ describe 'admin visits stations#index' do
       fill_in 'station[name]', with: 'Wookie'
       fill_in 'station[dock_count]', with: '10'
       fill_in 'station[city]', with: 'San Fran'
-      fill_in 'station[installation_date]', with: '2018-04-10'
+      fill_in 'station[installation_date]', with: Date.new(2018,04,10)
       click_on 'Update Station'
 
       expect(current_path).to eq('/wookie')
       expect(page).to have_content('Wookie updated!')
       expect(page).to have_content('10')
       expect(page).to have_content('San Fran')
-      expect(page).to have_content('2018-04-10')
+      expect(page).to have_content(Date.new(2018,04,10))
     end
   end
 
@@ -60,14 +58,14 @@ describe 'admin visits stations#index' do
       fill_in 'station[name]', with: 'Wookie'
       fill_in 'station[dock_count]', with: '10'
       fill_in 'station[city]', with: 'San Fran'
-      fill_in 'station[installation_date]', with: '2018-04-10'
+      fill_in 'station[installation_date]', with: Date.new(2018,04,10)
       click_on 'Update Station'
 
       expect(current_path).to eq('/wookie')
       expect(page).to have_content('Wookie updated!')
       expect(page).to have_content('10')
       expect(page).to have_content('San Fran')
-      expect(page).to have_content('2018-04-10')
+      expect(page).to have_content(Date.new(2018,04,10))
     end
   end
 

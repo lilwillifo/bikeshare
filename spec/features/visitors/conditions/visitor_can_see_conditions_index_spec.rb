@@ -17,4 +17,14 @@ describe 'visitor visits conditions#index' do
       expect(page).to have_content(condition.precipitation)
     end
   end
+
+  scenario 'it can link from the show page' do
+    condition = create(:condition)
+
+    visit condition_path(condition)
+
+    click_link '<< Back to Condition Index'
+
+    expect(current_path).to eq(conditions_path)
+  end
 end

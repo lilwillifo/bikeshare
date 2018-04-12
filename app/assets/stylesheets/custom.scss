@@ -17,6 +17,11 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+a {
+  text-decoration: none;
+}
+
 body {
   font-family: 'Montserrat';
   color: $dark-gray;

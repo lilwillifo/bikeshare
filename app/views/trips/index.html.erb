@@ -23,7 +23,7 @@
   <% @trips.each do |trip| %>
   <tr>
     <tr class=trip_<%= trip.id %>>
-    <td>Trip No.: <%= trip.id %></td>
+    <td>Trip No.: <%= link_to trip.id, trip_path(trip)%></td>
     <td><%= trip.duration %></td>
     <td><%= trip.start_date %></td>
     <td><%= trip.start_station.name %></td>

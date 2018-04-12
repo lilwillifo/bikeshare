@@ -40,3 +40,4 @@ CSV.foreach('./db/fixture/trip.csv', headers: true, header_converters: :symbol) 
 end
 
 User.create!(username: 'fluffy', password: 'admin', role: 'admin')
+User.create!(username: 'thrasher', password: 'user')

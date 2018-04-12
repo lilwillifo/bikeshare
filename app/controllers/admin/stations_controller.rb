@@ -21,8 +21,7 @@ class Admin::StationsController < Admin::BaseController
 
   def update
     @station.slug = nil
-    @station.update(station_params)
-    if @station.save
+    if @station.update(station_params)
       flash[:success] = "#{@station.name} updated!"
       redirect_to "/#{@station.slug}"
     else
@@ -51,6 +50,6 @@ class Admin::StationsController < Admin::BaseController
   end
 
   def set_station
-    @station = Station.friendly.find(params[:id])
+    @station = Station.find_by(params[:slug])
   end
 end

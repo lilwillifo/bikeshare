@@ -41,4 +41,15 @@ describe 'As a Visitor' do
       expect(page).to_not have_content("Trip no.: #{trips[69].id}")
     end
   end
+
+  scenario 'it can link from the show page' do
+    create(:station)
+    trip = create(:trip)
+
+    visit trip_path(trip)
+
+    click_link '<< Back to Trip Index'
+
+    expect(current_path).to eq(trips_path)
+  end
 end
