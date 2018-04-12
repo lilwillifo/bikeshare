@@ -31,7 +31,7 @@ describe 'A logged in user' do
   scenario 'can see their orders' do
     allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
 
-    order = @user.orders.create!
+    order = @user.orders.create!(status: 'ordered')
 
     @accessories.each do |accessory|
       OrderAccessory.create!(order: order, accessory: accessory, quantity: 1)
@@ -39,16 +39,18 @@ describe 'A logged in user' do
 
     visit order_path(order)
 
-    expect(page).to have_content("Order #{order.id}")
+    expect(page).to have_content("Order ##{order.id}")
 
     order.order_accessories.each do |item|
       within("#accessory_#{item.accessory.id}") do
         expect(page).to have_content(item.accessory.title)
         expect(page).to have_content(item.quantity)
-        expect(page).to have_content(number_to_currency(item.quantity * item.accessory.price))
+        expect(page).to have_content(ActiveSupport::NumberHelper.number_to_currency(item.quantity * item.accessory.price))
       end
     end
 
-    expect(page).to have_content(number_to_currency(order.total))
+    expect(page).to have_content(ActiveSupport::NumberHelper.number_to_currency(order.total))
+    expect(page).to have_content(order.status)
+    expect(page).to have_content(order.created_at)
   end
 end
