@@ -7,6 +7,7 @@ describe 'As a Visitor' do
 
       visit accessory_path(accessories[1])
 
+      expect(page).to have_xpath("//img[contains(@src,'https://www.blogcdn.com/www.engadget.com/media/2012/11/accessories.png')]")
       expect(page).to have_content(accessories[1].title)
       expect(page).to have_content(accessories[1].description)
       expect(page).to have_content(accessories[1].price)

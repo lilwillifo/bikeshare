@@ -15,6 +15,10 @@ class Cart
     contents[id.to_s] = contents[id.to_s] + 1
   end
 
+  def decrease_accessory(id)
+    contents[id.to_s] = contents[id.to_s] - 1
+  end
+
   def count_of(id)
     contents[id.to_s].to_i
   end
@@ -26,6 +30,10 @@ class Cart
       items.push({ accessory: accessory, quantity: value })
     end
     items
+  end
+
+  def subtotal(accessory)
+    accessory[:accessory][:price] * contents[accessory[:accessory][:id].to_s]
   end
 
   def total_accessory_value
