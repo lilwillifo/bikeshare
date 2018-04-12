@@ -10,10 +10,6 @@
 
   <body>
     <%= render partial: 'partials/nav' %>
-    <div class="title">
-      <p>Cart: <%= @cart.total_count %></p>
       <%= yield %>
-    </div>
-
   </body>
 </html>

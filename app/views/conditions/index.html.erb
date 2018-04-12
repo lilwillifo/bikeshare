@@ -2,15 +2,27 @@
   <h1>Conditions</h1>
 </section>
 
-<ul>
+<table>
+  <tr>
+    <th>Date</th>
+    <th>Max Temp</th>
+    <th>Mean Temp</th>
+    <th>Min Temp</th>
+    <th>Mean Humidity</th>
+    <th>Mean Visibitdty</th>
+    <th>Mean Wind Speed</th>
+    <th>Precipitation</th>
+  </tr>
   <% @conditions.each do |condition| %>
-    <li><%= condition.date %></li>
-    <li><%= condition.max_temperature %></li>
-    <li><%= condition.mean_temperature %></li>
-    <li><%= condition.min_temperature %></li>
-    <li><%= condition.mean_humidity %></li>
-    <li><%= condition.mean_visibility %></li>
-    <li><%= condition.mean_wind_speed %></li>
-    <li><%= condition.precipitation %></li>
+    <tr>
+    <td><%= condition.date %></td>
+    <td align='right'><%= condition.max_temperature %></td>
+    <td align='right'><%= condition.mean_temperature %></td>
+    <td align='right'><%= condition.min_temperature %></td>
+    <td align='right'><%= condition.mean_humidity %></td>
+    <td align='right'><%= condition.mean_visibility %></td>
+    <td align='right'><%= condition.mean_wind_speed %></td>
+    <td align='right'><%= condition.precipitation %></td>
+  </tr>
   <% end %>
-</ul>
+</table>

@@ -36,6 +36,7 @@ h1 {
 
 table {
   display: flex;
+  font-size: 14px;
   justify-content: center;
   border-collapse: collapse;
   th, td {
@@ -57,9 +58,11 @@ form {
 }
 
 .create-account {
-  display: flex;
-  justify-content: center;
   font-size: 14px;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  color: $red;
 }
 
 .bike {

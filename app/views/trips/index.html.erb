@@ -1,4 +1,19 @@
+<section class = 'title'>
+  <h1>All Trips</h1>
+</section>
+
 <table>
+  <tr>
+    <th>Id</th>
+    <th>Duration</th>
+    <th>Start Date</th>
+    <th>Start Station Name</th>
+    <th>End Date</th>
+    <th>End Station Name</th>
+    <th>Bike ID</th>
+    <th>Subscription Type</th>
+    <th>Zip Code</th>
+  </tr>
 <% @trips.each do |trip| %>
   <tr>
     <tr class=trip_<%= trip.id %>>
