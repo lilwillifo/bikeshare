@@ -7,7 +7,7 @@ class CartController < ApplicationController
     @cart.add_accessory(@accessory.id)
     session[:cart] = @cart.contents
     flash[:notice] = "You now have #{pluralize(session[:cart][@accessory.id.to_s], @accessory.title)} in your cart."
-    redirect_to accessories_path
+    redirect_to cart_path
   end
   def index
 

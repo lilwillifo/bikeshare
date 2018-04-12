@@ -45,6 +45,8 @@ describe 'As a Visitor' do
 
         expect(page).to have_content("You now have 1 #{@accessories.first.title} in your cart.")
 
+        visit accessories_path
+
         find(".add_accessory_#{@accessories.first.id}").click
 
         expect(page).to have_content("You now have 2 #{@accessories.first.title}s in your cart.")

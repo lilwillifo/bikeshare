@@ -4,8 +4,8 @@ describe 'As a Visitor' do
   describe 'When I visit cart_path' do
     context 'I increase the quantity of an accessory in the cart' do
       scenario 'I see the quantity for that accessory increase' do
-        accessories = create_list(:accessory, 12)
-        accessory = accessories[2]
+        accessories = create_list(:accessory, 2)
+        accessory = accessories[1]
 
         visit accessories_path
 
@@ -19,8 +19,9 @@ describe 'As a Visitor' do
 
         visit cart_path
 
-        click_on 'Increase Quantity'
+        find(".increase_quantity_#{accessories[1].id}").click
 
+        expect(current_path).to eq(cart_path)
         expect(page).to have_content("Subtotal: $10.00")
         expect(page).to have_content("Quantity: 2")
         expect(page).to have_content("Total: $10.00")

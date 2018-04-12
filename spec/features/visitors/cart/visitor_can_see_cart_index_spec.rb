@@ -6,11 +6,16 @@ describe 'As a visitor' do
     visit accessories_path
 
     click_on 'Add to Cart'
-    click_on 'Add to Cart'
-    click_on 'Add to Cart'
+
+    visit accessories_path
     click_on 'Add to Cart'
 
-    visit cart_path
+    visit accessories_path
+    click_on 'Add to Cart'
+
+    visit accessories_path
+    click_on 'Add to Cart'
+
   end
 
   describe 'When I visit /cart' do

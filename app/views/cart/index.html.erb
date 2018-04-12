@@ -7,6 +7,7 @@
       <td>Price: <%= number_to_currency(item[:accessory].price) %></td>
       <td>Quantity: <%= item[:quantity] %></td>
       <td>Subtotal: <%= number_to_currency(item[:accessory].price * item[:quantity]) %></td>
+      <td><%= button_to 'Increase Quantity', cart_path(accessory_id: item[:accessory].id), class: "increase_quantity_#{item[:accessory].id}" %></td>
       <td><p title="Remove this accessory"><%= link_to 'Remove', cart_path(item: item[:accessory]), method: "delete" %></p></td>
     </tr>
     <% end %>
