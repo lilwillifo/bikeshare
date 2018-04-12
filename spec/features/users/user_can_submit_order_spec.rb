@@ -22,5 +22,9 @@ describe 'A logged in user' do
 
     expect(current_path).to eq(dashboard_path)
     expect(page).to have_content('Successfully submitted your order totaling $15.00')
+
+    click_on('Order #1')
+
+    expect(current_path).to eq(order_path(1))
   end
 end

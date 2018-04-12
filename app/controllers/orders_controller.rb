@@ -1,6 +1,6 @@
 class OrdersController < ApplicationController
   include ActionView::Helpers::NumberHelper
-  
+
   def create
     order = Order.create!(user: current_user)
     total = 0
@@ -16,5 +16,9 @@ class OrdersController < ApplicationController
 
     flash[:notice] = "Successfully submitted your order totaling #{number_to_currency(total)}"
     redirect_to dashboard_path
+  end
+
+  def show
+
   end
 end
