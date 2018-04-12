@@ -4,17 +4,23 @@
 
 <table>
   <tr>
-    <th>Id</th>
+    <th>Trip Number</th>
     <th>Duration</th>
     <th>Start Date</th>
-    <th>Start Station Name</th>
+    <th>Start Station</th>
     <th>End Date</th>
-    <th>End Station Name</th>
+    <th>End Station</th>
     <th>Bike ID</th>
     <th>Subscription Type</th>
     <th>Zip Code</th>
+
+    <% if current_admin? %>
+      <th>Edit</th>
+      <th>Delete</th>
+    <% end %>
   </tr>
-<% @trips.each do |trip| %>
+
+  <% @trips.each do |trip| %>
   <tr>
     <tr class=trip_<%= trip.id %>>
     <td>Trip No.: <%= trip.id %></td>

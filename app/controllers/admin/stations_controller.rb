@@ -44,7 +44,10 @@ class Admin::StationsController < Admin::BaseController
   private
 
   def station_params
-    params.require(:station).permit(:name, :dock_count, :city, :installation_date)
+    params.require(:station).permit(:name,
+                                    :dock_count,
+                                    :city,
+                                    :installation_date)
   end
 
   def set_station

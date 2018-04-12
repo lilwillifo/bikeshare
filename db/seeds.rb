@@ -38,3 +38,5 @@ CSV.foreach('./db/fixture/trip.csv', headers: true, header_converters: :symbol) 
 
   Trip.create!(trip.to_h)
 end
+
+User.create!(username: 'fluffy', password: 'admin', role: 'admin')

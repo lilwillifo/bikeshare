@@ -10,6 +10,7 @@ Rails.application.routes.draw do
     resources :stations, except: %i[index show]
     resources :trips, except: %i[index show]
     resources :accessories, path: 'bike-shop', only: [:index, :edit, :update]
+    resources :conditions, except: %i[index show]
     get '/dashboard', to: 'dashboard#index'
   end
 

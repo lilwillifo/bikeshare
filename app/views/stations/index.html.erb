@@ -8,6 +8,10 @@
     <th>Dock Count</th>
     <th>City</th>
     <th>Installation Date</th>
+    <% if current_admin? %>
+      <th>Edit</th>
+      <th>Delete</th>
+    <% end %>
   </tr>
   <% @stations.each do |station| %>
     <tr class=station_<%= station.id %>>
