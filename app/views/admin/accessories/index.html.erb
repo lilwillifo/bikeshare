@@ -1,0 +1,15 @@
+<% @accessories.each do |accessory| %>
+<div class="accessory_<%=accessory.id%>">
+  <%= image_tag accessory.image.url %>
+  <p><%= accessory.id %></p>
+  <p><%= link_to accessory.title, accessory_path(accessory) %></p>
+  <p><%= accessory.price %></p>
+  <p><%= accessory.description %></p>
+  <% if accessory.role == 'active' %>
+    <p>Accessory Active</p> <%= link_to 'Reactivate', admin_accessories_path, method: 'patch'  %>
+  <% else %>
+    <p>Accessory Retired</p><%= link_to 'Retire', admin_accessories_path, method: 'patch'  %>
+  <% end %>
+  <%= link_to 'Edit', edit_admin_accessory_path(accessory) %>
+</div>
+<% end %>
