@@ -8,8 +8,14 @@ describe 'As a visitor' do
         visit accessories_path
 
         click_on 'Add to Cart'
+
+        visit accessories_path
         click_on 'Add to Cart'
+
+        visit accessories_path
         click_on 'Add to Cart'
+
+        visit accessories_path
         click_on 'Add to Cart'
 
         click_link 'Login'
