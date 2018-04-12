@@ -4,17 +4,23 @@
 
 <table>
   <tr>
+    <th>Condition ID</th>
     <th>Date</th>
     <th>Max Temp</th>
     <th>Mean Temp</th>
     <th>Min Temp</th>
     <th>Mean Humidity</th>
-    <th>Mean Visibitdty</th>
+    <th>Mean Visibility</th>
     <th>Mean Wind Speed</th>
     <th>Precipitation</th>
+    <% if current_admin? %>
+      <th>Edit</th>
+      <th>Delete</th>
+    <% end %>
   </tr>
+
   <% @conditions.each do |condition| %>
-    <tr>
+  <tr>
     <td><%= condition.date %></td>
     <td align='right'><%= condition.max_temperature %></td>
     <td align='right'><%= condition.mean_temperature %></td>
@@ -23,6 +29,17 @@
     <td align='right'><%= condition.mean_visibility %></td>
     <td align='right'><%= condition.mean_wind_speed %></td>
     <td align='right'><%= condition.precipitation %></td>
+
+    <% if current_admin? %>
+      <td><%= link_to edit_admin_condition_path(condition) do %>
+          <i class="far fa-edit"></i>
+      <% end %></td>
+
+      <td><%= link_to admin_condition_path(condition), method: 'delete' do %>
+          <i class="fas fa-trash-alt"></i>
+      <% end %></td>
+
+    <% end %>
   </tr>
   <% end %>
 </table>

@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe 'admin visits stations#index' do
+describe 'admin visits conditions#index' do
   before(:each) do
     @admin = create(:admin)
     @conditions = create_list(:condition, 5)
