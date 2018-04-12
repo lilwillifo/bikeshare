@@ -89,8 +89,6 @@ ActiveRecord::Schema.define(version: 20180412175457) do
     t.integer "end_station_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.bigint "condition_id"
-    t.index ["condition_id"], name: "index_trips_on_condition_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -102,5 +100,4 @@ ActiveRecord::Schema.define(version: 20180412175457) do
   add_foreign_key "order_accessories", "accessories"
   add_foreign_key "order_accessories", "orders"
   add_foreign_key "orders", "users"
-  add_foreign_key "trips", "conditions"
 end
