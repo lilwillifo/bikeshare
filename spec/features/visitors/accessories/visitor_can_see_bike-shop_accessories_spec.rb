@@ -19,7 +19,11 @@ describe 'As a Visitor' do
     scenario 'I see a button near each item that says "Add to Cart"' do
       visit accessories_path
 
-      expect(page).to have_button('Add to Cart')
+      @accessories.each do |accessory|
+        within(".accessory_#{accessory.id}") do
+          expect(page).to have_button('Add to Cart')
+        end
+      end
     end
 
     context 'When I click "Add to Cart"' do
@@ -29,6 +33,7 @@ describe 'As a Visitor' do
         find(".add_accessory_#{@accessories.first.id}").click
 
         expect(page).to have_content("You now have 1 #{@accessories.first.title} in your cart.")
+        expect(page).to have_content("Cart: 1")
       end
     end
 
@@ -43,6 +48,7 @@ describe 'As a Visitor' do
         find(".add_accessory_#{@accessories.first.id}").click
 
         expect(page).to have_content("You now have 2 #{@accessories.first.title}s in your cart.")
+        expect(page).to have_content("Cart: 2")
       end
     end
   end
