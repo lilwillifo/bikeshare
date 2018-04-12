@@ -9,7 +9,7 @@ describe 'As a Visitor' do
       visit trips_path
 
       expect(page).to have_content(trips.first.id)
-      expect(page).to have_content(trips.first.duration)
+      expect(page).to have_content(trips.first.time_string)
       expect(page).to have_content(trips.first.start_date)
       expect(page).to have_content(trips.first.start_station.name)
       expect(page).to have_content(trips.first.end_date)

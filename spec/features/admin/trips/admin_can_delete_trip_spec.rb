@@ -19,7 +19,7 @@ describe 'admin wants to delete station' do
 
       expect(current_path).to eq(trips_path)
       expect(page).to have_content('Trip Deleted!')
-      expect(page).to_not have_content(@trip.duration)
+      expect(page).to_not have_content(@trip.time_string)
       expect(page).to_not have_content(@trip.start_date)
       expect(page).to_not have_content(@trip.end_date)
       expect(page).to_not have_content(@trip.bike_id)
@@ -40,7 +40,7 @@ describe 'admin wants to delete station' do
 
       expect(current_path).to eq(trips_path)
       expect(page).to have_content('Trip Deleted!')
-      expect(page).to_not have_content(@trip.duration)
+      expect(page).to_not have_content(@trip.time_string)
       expect(page).to_not have_content(@trip.start_date)
       expect(page).to_not have_content(@trip.end_date)
       expect(page).to_not have_content(@trip.bike_id)

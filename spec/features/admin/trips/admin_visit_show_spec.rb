@@ -11,7 +11,7 @@ describe 'admin visits trips#index' do
     allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@admin)
     visit trip_path(@trip)
 
-    expect(page).to have_content(@trip.duration)
+    expect(page).to have_content(@trip.time_string)
     expect(page).to have_content(@trip.start_date)
     expect(page).to have_content(@trip.end_date)
     expect(page).to have_content(@trip.bike_id)
