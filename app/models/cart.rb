@@ -17,8 +17,6 @@ class Cart
 
   def decrease_accessory(id)
     contents[id.to_s] = contents[id.to_s].to_i - 1
-    contents[id.to_s] ||= 0
-    contents[id.to_s] += 1
   end
 
   def count_of(id)

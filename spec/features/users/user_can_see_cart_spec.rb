@@ -10,9 +10,8 @@ describe 'A logged in user' do
   scenario 'can see their cart' do
     allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
 
-    visit accessories_path
-
     @accessories.each do |accessory|
+      visit accessories_path
       find(".add_accessory_#{accessory.id}").click
     end
 
@@ -24,9 +23,9 @@ describe 'A logged in user' do
   end
 
   scenario 'their cart is persisted if they were not yet logged in' do
-    visit accessories_path
 
     @accessories.each do |accessory|
+      visit accessories_path
       find(".add_accessory_#{accessory.id}").click
     end
 

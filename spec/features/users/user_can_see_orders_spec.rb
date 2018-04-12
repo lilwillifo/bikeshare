@@ -5,7 +5,7 @@ describe 'User' do
     DatabaseCleaner.clean
     @user = create(:user)
     10.times do
-      @user.orders.create!
+      @user.orders.create!(status: 'ordered')
     end
   end
 
@@ -19,7 +19,7 @@ describe 'User' do
 
     within('.orders') do
       10.times do |n|
-        expect(page).to have_content("Order #{n+1}")
+        expect(page).to have_content("Order ##{n+1}")
       end
     end
   end
