@@ -35,6 +35,7 @@ describe 'As an admin' do
         expect(page).to have_content(accessory.title)
         expect(page).to have_content(accessory.description)
         expect(page).to have_content(accessory.price)
+
         within(".accessory_#{accessory.id}") do
           expect(page).to have_link('Edit')
           if accessory.role = 'active'
@@ -43,8 +44,8 @@ describe 'As an admin' do
             expect(page).to have_link('Retire')
           end
         end
-      end
 
+      end
 
     end
   end

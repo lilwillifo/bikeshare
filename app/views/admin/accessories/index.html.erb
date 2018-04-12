@@ -10,5 +10,6 @@
   <% else %>
     <p>Accessory Retired</p><%= link_to 'Retire', admin_accessories_path, method: 'patch'  %>
   <% end %>
-  <%= link_to 'Edit', admin_accessories_path, method: 'put' %>
+  <%= link_to 'Edit', edit_admin_accessory_path(accessory) %>
+</div>
 <% end %>
