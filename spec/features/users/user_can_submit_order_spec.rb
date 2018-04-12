@@ -43,12 +43,12 @@ describe 'A logged in user' do
 
     order.order_accessories.each do |item|
       within("#accessory_#{item.accessory.id}") do
-        expect(page).to have_content(item.accessory.name)
+        expect(page).to have_content(item.accessory.title)
         expect(page).to have_content(item.quantity)
         expect(page).to have_content(number_to_currency(item.quantity * item.accessory.price))
       end
     end
-  end
 
-  expect(page).to have_content(order.total)
+    expect(page).to have_content(number_to_currency(order.total))
+  end
 end

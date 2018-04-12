@@ -1,0 +1,14 @@
+<h1>Order #<%= @order.id %></h1>
+
+<ul class="items">
+  <% @order.order_accessories.each do |item| %>
+    <li id="accessory_<%= item.accessory.id %>">
+      <p><%= item.accessory.title %></p>
+      <p><%= item.quantity %></p>
+      <p><%= number_to_currency(item.quantity * item.accessory.price) %></p>
+    </li>
+  <% end %>
+</ul>
+
+<h2>Total: <%= number_to_currency(@order.total) %></h2>
+<h3>Status <%= @order.status %></h3>
