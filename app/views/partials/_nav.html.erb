@@ -9,6 +9,36 @@
   <%= content_tag :div, sanitize(msg), class: name %>
   <% end %>
   <div class='nav-right'>
+    <% if current_admin? %>
+    <div class='nav-link'>
+      <%= link_to 'Bike Shop', admin_accessories_path %>
+    </div>
+    <div class='nav-link'>
+      <%= link_to 'Trips', admin_trips_path %>
+    </div>
+    <div class='nav-link'>
+      <%= link_to 'Stations', admin_stations_path %>
+    </div>
+    <div class='nav-link'>
+      <%= link_to 'Conditions', admin_conditions_path %>
+    </div>
+    <% else %>
+    <div class='nav-link'>
+      <%= link_to 'Bike Shop', accessories_path %>
+    </div>
+    <div class='nav-link'>
+      <%= link_to 'Trips', trips_path %>
+    </div>
+    <div class='nav-link'>
+      <%= link_to 'Stations', stations_path %>
+    </div>
+    <div class='nav-link'>
+      <%= link_to 'Conditions', conditions_path %>
+    </div>
+    <% end %>
+    <div class='nav-link'>
+      <%= link_to "Cart: #{@cart.total_count}", cart_path %>
+    </div>
     <div class="nav-link">
       <% if current_user %>
         <%= link_to 'Logout', logout_path %>
@@ -16,8 +46,5 @@
         <%= link_to 'Login', login_path %>
       <% end %>
     </div>
-    <div class='nav-link'>
-    <%= link_to "Cart: #{@cart.total_count}", cart_path %>
-  </div>
 </div>
 </nav>

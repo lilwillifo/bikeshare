@@ -39,9 +39,9 @@ describe 'As an admin' do
         within(".accessory_#{accessory.id}") do
           expect(page).to have_link('Edit')
           if accessory.role = 'active'
-            expect(page).to have_link('Reactivate')
-          else
             expect(page).to have_link('Retire')
+          else
+            expect(page).to have_link('Reactivate')
           end
         end
 
