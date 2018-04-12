@@ -5,7 +5,6 @@ class StationsController < ApplicationController
   end
 
   def show
-    # require 'pry'; binding.pry
-    @station = Station.find_by(params[:slug])
+    @station = Station.find_by(slug: params[:name])
   end
 end
