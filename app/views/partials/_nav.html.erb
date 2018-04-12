@@ -8,7 +8,6 @@
   <% flash.each do |name, msg| %>
   <%= content_tag :div, sanitize(msg), class: name %>
   <% end %>
-<<<<<<< HEAD
   <div class='nav-right'>
     <div class="nav-link">
       <% if current_user %>
@@ -21,7 +20,6 @@
     <%= link_to "Cart: #{@cart.total_count}", cart_path %>
   </div>
   </div>
-=======
 
   <ul class="nav-right">
     <li>
@@ -32,6 +30,5 @@
     <%= link_to 'Logout', logout_path %>
   <% else %>
     <%= link_to 'Login', login_path %>
-  <% end %>
->>>>>>> d273d4b9db3213d08fb3cc1acbfc4f5aa4fd2358
+  <% end %> 
 </nav>
