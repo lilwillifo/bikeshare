@@ -9,7 +9,7 @@ RSpec.describe Trip, type: :model do
     it { should validate_presence_of(:subscription_type) }
   end
 
-  context "Relationships" do
+  context 'Relationships' do
     it { is_expected.to belong_to(:start_station) }
     it { is_expected.to belong_to(:end_station) }
   end
@@ -40,8 +40,8 @@ RSpec.describe Trip, type: :model do
           end_station_id: 1
         )
 
-        expect(trip.time_string).to eq("45 seconds")
-        expect(trip.time_string).to eq("1 hour, 13 minutes, 2 seconds")
+        expect(trip.time_string).to eq('45 seconds')
+        expect(trip2.time_string).to eq('1 hour, 13 minutes, 2 seconds')
       end
     end
   end
