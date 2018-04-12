@@ -1,1 +1,10 @@
+<h1>Welcome <%= current_user.username %></h1>
 
+
+<ul class="orders">
+  <% current_user.orders.each do |order| %>
+    <li id="order_<%= order.id %>">
+      <%= link_to "Order ##{order.id}", order_path(order) %>
+    </li>
+  <% end %>
+</ul>
