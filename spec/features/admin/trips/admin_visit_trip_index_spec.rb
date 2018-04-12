@@ -12,7 +12,7 @@ describe 'admin visits trips#index' do
     visit trips_path
 
     @trips.each do |trip|
-      expect(page).to have_content(trip.duration)
+      expect(page).to have_content(trip.time_string)
       expect(page).to have_content(trip.start_date)
       expect(page).to have_content(trip.end_date)
       expect(page).to have_content(trip.bike_id)
