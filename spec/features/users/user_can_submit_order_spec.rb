@@ -53,4 +53,21 @@ describe 'A logged in user' do
     expect(page).to have_content(order.status)
     expect(page).to have_content(order.created_at)
   end
+
+  scenario 'can NOT see another users orders' do
+    allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
+
+    user = create(:user)
+
+    order = user.orders.create!(status: 'ordered')
+
+    @accessories.each do |accessory|
+      OrderAccessory.create!(order: order, accessory: accessory, quantity: 1)
+    end
+
+    visit order_path(order)
+
+    expect(current_path).to eq(dashboard_path)
+    expet(page).to have_content("Order #{order.id} not found.")
+  end
 end
