@@ -34,6 +34,36 @@ describe 'admin visits trips#index' do
     end
   end
 
+  describe 'links from index' do
+    it ' to add a new trips' do
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@admin)
+
+      visit trips_path
+
+      click_link 'Add a new trip'
+
+      fill_in 'trip[duration]', with: 60
+      fill_in 'trip[start_date]', with: '2018-01-09 18:27:55'
+      fill_in 'trip[end_date]', with: '2018-01-09 22:27:55'
+      fill_in 'trip[bike_id]', with: 8
+      fill_in 'trip[subscription_type]', with: 'Premium'
+      fill_in 'trip[zip_code]', with: 88888
+      fill_in 'trip[start_station_id]', with: 1
+      fill_in 'trip[end_station_id]', with: 2
+      click_on 'Create Trip'
+
+      expect(current_path).to eq(trip_path(Trip.all.last))
+      expect(page).to have_content('Trip: 1 Created!')
+      expect(page).to have_content('2018-01-09 18:27:55')
+      expect(page).to have_content('2018-01-09 22:27:55')
+      expect(page).to have_content('8')
+      expect(page).to have_content('Premium')
+      expect(page).to have_content('88888')
+      expect(page).to have_content('1')
+      expect(page).to have_content('2')
+    end
+  end
+
   describe 'as normal user' do
     it 'does not allow default user to see delete link' do
       user = create(:user)

@@ -24,6 +24,28 @@ describe 'admin visits stations#index' do
     end
   end
 
+  describe 'links from index' do
+    it ' to add a new station' do
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@admin)
+
+      visit stations_path
+
+      click_link 'Add a new station'
+
+      fill_in 'station[name]', with: 'Wookie'
+      fill_in 'station[dock_count]', with: '10'
+      fill_in 'station[city]', with: 'San Fran'
+      fill_in 'station[installation_date]', with: '2018-04-10'
+      click_on 'Create Station'
+
+      expect(current_path).to eq('/wookie')
+      expect(page).to have_content('Wookie created!')
+      expect(page).to have_content('10')
+      expect(page).to have_content('San Fran')
+      expect(page).to have_content('2018-04-10')
+    end
+  end
+
   describe 'as normal user' do
     it 'does not allow default user to see delete link' do
       user = User.create(username: 'fern@gully.com',
