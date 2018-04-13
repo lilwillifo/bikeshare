@@ -11,9 +11,9 @@ describe 'A logged in user' do
     fill_in 'user[username]', with: 'newkid'
     fill_in 'user[password]', with: 'awman'
     fill_in 'user[password_confirmation]', with: 'awman'
-    click_on 'Update User'
+    click_on 'Submit'
 
     expect(current_path).to eq(dashboard_path)
-    expect(page).to have_link('newkid')
+    expect(page).to have_content('newkid, your account has been updated!')
   end
 end

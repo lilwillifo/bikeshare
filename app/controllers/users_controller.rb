@@ -20,12 +20,22 @@ class UsersController < ApplicationController
   end
 
   def edit
-    require 'pry'; binding.pry
     id = current_user.id
     @user = User.find(id)
-    require 'pry'; binding.pry
   end
-  
+
+  def update
+    id = current_user.id
+    @user = User.find(id)
+    if @user.update(user_params)
+      flash[:success] = "#{@user.username}, your account has been updated!"
+      redirect_to dashboard_path
+    else
+      flash[:error] = "#{@user.username}, your account didn't update."
+      render :edit
+    end
+  end
+
   private
 
   def user_params
