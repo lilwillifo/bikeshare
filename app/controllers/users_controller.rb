@@ -19,6 +19,13 @@ class UsersController < ApplicationController
   def dashboard
   end
 
+  def edit
+    require 'pry'; binding.pry
+    id = current_user.id
+    @user = User.find(id)
+    require 'pry'; binding.pry
+  end
+  
   private
 
   def user_params
