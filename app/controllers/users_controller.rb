@@ -20,14 +20,12 @@ class UsersController < ApplicationController
   end
 
   def edit
-    id = current_user.id
-    @user = User.find(id)
+    @user = current_user
   end
 
   def update
-    id = current_user.id
-    @user = User.find(id)
-    if @user.update(user_params)
+    if @user = current_user
+      @user.update(user_params)
       flash[:success] = "#{@user.username}, your account has been updated!"
       redirect_to dashboard_path
     else
