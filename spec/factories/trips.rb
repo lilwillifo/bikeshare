@@ -8,5 +8,6 @@ FactoryBot.define do
     zip_code 80202
     start_station_id 1
     end_station_id 1
+    condition_id 1
   end
 end
