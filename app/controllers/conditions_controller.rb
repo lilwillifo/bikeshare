@@ -1,5 +1,6 @@
 class ConditionsController < ApplicationController
   before_action :set_condition, only: [:show]
+  before_action :require_login, only: [:dashboard]
 
   def index
     @conditions = Condition.all
