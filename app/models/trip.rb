@@ -23,6 +23,10 @@ class Trip < ApplicationRecord
     average(:duration)
   end
 
+  def self.longest_ride
+    maximum(:duration)
+  end
+
   private
   def values
     [
