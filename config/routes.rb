@@ -22,10 +22,10 @@ Rails.application.routes.draw do
   patch '/cart', to: 'cart#update'
   delete '/cart', to: 'cart#destroy'
 
-
   get '/dashboard', to: 'users#dashboard'
   get '/conditions-dashboard', to: 'conditions#dashboard'
   get '/stations-dashboard', to: 'stations#dashboard'
+  get '/trips-dashboard', to: 'trips#dashboard'
 
   resources :trips, only: [:index, :show]
   resources :accessories, path: 'bike-shop', only: [:show, :index]

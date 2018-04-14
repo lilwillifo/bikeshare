@@ -13,6 +13,7 @@ describe 'The trips dashboard' do
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
       visit '/trips-dashboard'
 
-      expect(page).to have_content('Average Duration: 3 seconds')
+      expect(page).to have_content('Average Duration: 4.0 seconds')
+    end
   end
 end

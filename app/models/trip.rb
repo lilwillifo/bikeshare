@@ -19,6 +19,10 @@ class Trip < ApplicationRecord
     end.join(', ')
   end
 
+  def self.average_duration
+    average(:duration)
+  end
+
   private
   def values
     [
