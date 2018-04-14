@@ -27,6 +27,14 @@ class Trip < ApplicationRecord
     maximum(:duration)
   end
 
+  def self.shortest_ride
+    minimum(:duration)
+  end
+
+  def self.popular_start_station
+    Station.find(pop_start_station_id).name
+  end
+
   private
   def values
     [
@@ -34,5 +42,9 @@ class Trip < ApplicationRecord
       [60, :minute],
       [24, :hour]
     ]
+  end
+
+  def self.pop_start_station_id
+    group(:start_station_id).order('count(id) DESC').count.keys.first
   end
 end
