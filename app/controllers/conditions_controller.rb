@@ -8,6 +8,10 @@ class ConditionsController < ApplicationController
   def show
   end
 
+  def dashboard
+    @conditions = Condition.all
+  end
+
   private
 
   def set_condition
