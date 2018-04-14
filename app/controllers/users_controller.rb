@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
   before_action :require_login, only: :dashboard
+  before_action :set_user, only: %i[edit update]
 
   def new
     @user = User.new
@@ -19,9 +20,27 @@ class UsersController < ApplicationController
   def dashboard
   end
 
+  def edit
+    @user = current_user
+  end
+
+  def update
+    if @user == current_user && @user.update(user_params)
+      flash[:success] = "#{@user.username}, your account has been updated!"
+      redirect_to dashboard_path
+    else
+      flash[:error] = "#{@user.username}, your account didn't update."
+      render :edit
+    end
+  end
+
   private
 
   def user_params
     params.require(:user).permit(:username, :password)
+  end
+
+  def set_user
+    @user = User.find(current_user.id)
   end
 end

@@ -28,5 +28,6 @@ Rails.application.routes.draw do
   resources :trips, only: [:index, :show]
   resources :accessories, path: 'bike-shop', only: [:show, :index]
   resources :orders
+  resources :users, only: %i[edit update]
   get '/:name', to: 'stations#show'
 end

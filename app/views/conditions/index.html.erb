@@ -1,5 +1,5 @@
 <section class = 'title'>
-  <h1>Conditions</h1>
+  <h1>Weather Conditions</h1>
 </section>
 
 <table>
@@ -44,3 +44,7 @@
   </tr>
   <% end %>
 </table>
+
+<% if current_admin? %>
+<%= link_to 'Add a new condition', new_admin_condition_path %>
+<% end %>
