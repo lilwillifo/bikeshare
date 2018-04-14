@@ -56,7 +56,7 @@ RSpec.describe Trip, type: :model do
       subscription_type: 'Premium',
       zip_code: 80202,
       start_station_id: 2,
-      end_station_id: 1
+      end_station_id: 2
     )
   end
 
@@ -126,6 +126,12 @@ RSpec.describe Trip, type: :model do
     describe '#popular start station' do
       it 'should return the most popular start station' do
         expect(Trip.popular_start_station).to eq('sally')
+      end
+    end
+
+    describe '#popular end station' do
+      it 'should return the most popular end station' do
+        expect(Trip.popular_end_station).to eq('bob')
       end
     end
   end

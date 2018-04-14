@@ -62,7 +62,7 @@ describe 'The trips dashboard' do
       subscription_type: 'Premium',
       zip_code: 80202,
       start_station_id: 2,
-      end_station_id: 1
+      end_station_id: 2
     )
   end
 
@@ -94,11 +94,20 @@ describe 'The trips dashboard' do
   end
 
   describe 'for a user or admin' do
-    it 'has the shortest ride duration' do
+    it 'has the station with most rides as a starting place' do
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
       visit '/trips-dashboard'
 
-      expect(page).to have_content("Most Popular Starting Station: #{@station1.name}")
+      expect(page).to have_content("Most Popular Start Station: #{@station1.name}")
+    end
+  end
+
+  describe 'for a user or admin' do
+    it 'has the station with most rides as a ending place' do
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
+      visit '/trips-dashboard'
+
+      expect(page).to have_content("Most Popular End Station: #{@station2.name}")
     end
   end
 end

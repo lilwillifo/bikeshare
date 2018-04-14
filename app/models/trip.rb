@@ -35,6 +35,10 @@ class Trip < ApplicationRecord
     Station.find(pop_start_station_id).name
   end
 
+  def self.popular_end_station
+    Station.find(pop_end_station_id).name
+  end
+
   private
   def values
     [
@@ -46,5 +50,9 @@ class Trip < ApplicationRecord
 
   def self.pop_start_station_id
     group(:start_station_id).order('count(id) DESC').count.keys.first
+  end
+
+  def self.pop_end_station_id
+    group(:end_station_id).order('count(id) DESC').count.keys.first
   end
 end
