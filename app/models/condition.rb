@@ -27,6 +27,6 @@ class Condition < ApplicationRecord
   end
 
   def self.average_rides_by_temp(range)
-    temp_ranges(range).sum / temp_ranges(range).count.to_f
+    (temp_ranges(range).sum / temp_ranges(range).count.to_f).round(2)
   end
 end

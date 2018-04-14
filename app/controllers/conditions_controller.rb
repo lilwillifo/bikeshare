@@ -10,6 +10,7 @@ class ConditionsController < ApplicationController
   end
 
   def dashboard
+    @temp_ranges = [[50,59.9],[60,69.9],[70,79.9],[80,89.9]]
     @conditions = Condition.all
   end
 

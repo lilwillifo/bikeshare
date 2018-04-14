@@ -17,10 +17,13 @@ describe 'As a registered user' do
       visit '/conditions-dashboard'
 
 
-      expect(page).to have_content('High Temperature between 0.0 - 10.0 (F):')
-      expect(page).to have_content('Precipitation between 0.0 - 0.5 (Inches)')
-      expect(page).to have_content('Wind Speed between 0.0 - 4.0 (MPH)')
-      expect(page).to have_content('Mean Visibility between 1.0 - 5.0 (Miles)')
+      expect(page).to have_content('Temperature Range')
+      expect(page).to have_content('Precipitation Range')
+      expect(page).to have_content('Wind Speed Range')
+      expect(page).to have_content('Visibility Range')
+      expect(page).to have_content('Highest Number of Rides')
+      expect(page).to have_content('Lowest Number of Rides')
+      expect(page).to have_content('Average Rides')
     end
   end
 end

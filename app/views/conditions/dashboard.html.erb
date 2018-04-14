@@ -1,4 +1,23 @@
-High Temperature between 0.0 - 10.0 (F):
-Precipitation between 0.0 - 0.5 (Inches)
-Wind Speed between 0.0 - 4.0 (MPH)
-Mean Visibility between 1.0 - 5.0 (Miles)
+<h1>Weather Dashboard</h1>
+
+<h3>Rides by Temperature</h3>
+<table>
+  <tr>
+    <th>Temperature Range</th>
+    <th>Highest Number of Rides</th>
+    <th>Lowest Number of Rides</th>
+    <th>Average Rides</th>
+  </tr>
+  <% @temp_ranges.each do |range| %>
+    <tr>
+      <td><%= range %>°F</td>
+      <td><%= @conditions.most_rides_by_temp(range) %>°F</td>
+      <td><%= @conditions.least_rides_by_temp(range) %>°F</td>
+      <td><%= @conditions.average_rides_by_temp(range) %>°F</td>
+    </tr>
+  <% end %>
+</table>
+
+Precipitation Range
+Wind Speed Range
+Visibility Range
