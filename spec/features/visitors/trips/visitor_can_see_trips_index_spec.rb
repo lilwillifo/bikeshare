@@ -4,6 +4,7 @@ describe 'As a Visitor' do
   describe 'When I visit the trips index' do
     scenario 'I see the first 30 trips along with a button to see more pages of trips' do
       station = create(:station)
+      condition = create(:condition)
       trips = create_list(:trip, 80)
 
       visit trips_path
@@ -44,6 +45,7 @@ describe 'As a Visitor' do
 
   scenario 'it can link from the show page' do
     create(:station)
+    condition = create(:condition)
     trip = create(:trip)
 
     visit trip_path(trip)

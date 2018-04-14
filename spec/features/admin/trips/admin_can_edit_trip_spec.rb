@@ -5,6 +5,7 @@ describe 'admin visits trips#edit' do
     @admin = create(:admin)
     @station = create(:station)
     @station2 = create(:station)
+    @condition = create(:condition)
     @trip = create(:trip)
     @trip2 = create(:trip)
     @trip3 = create(:trip)

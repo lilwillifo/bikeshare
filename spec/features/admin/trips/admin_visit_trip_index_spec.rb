@@ -5,6 +5,7 @@ describe 'admin visits trips#index' do
     @admin = create(:admin)
     allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@admin)
     @station = create(:station)
+    @condition = create(:condition)
     @trips = create_list(:trip, 5)
   end
 

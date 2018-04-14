@@ -4,6 +4,7 @@ describe 'As a Visitor' do
   describe 'When I visit the trips index' do
     scenario 'I cannot see the edit or delete links' do
       station = create(:station)
+      condition = create(:condition)
       trips = create_list(:trip, 80)
 
       visit trips_path
