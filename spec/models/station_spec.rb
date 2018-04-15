@@ -76,5 +76,15 @@ describe Station, type: :model do
         expect(Station.newest).to eq(station)
       end
     end
+
+    describe '.oldest_station' do
+      it 'should return the oldest station' do
+        station = create(:station)
+        station.installation_date = Date.new(1969, 10, 4)
+        station.save!
+
+        expect(Station.oldest).to eq(station)
+      end
+    end
   end
 end
