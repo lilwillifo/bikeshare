@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe 'As an admin' do
-  it 'I can edit an accessory' do
+  scenario 'I can edit an accessory' do
     admin = create(:admin)
     accessory_1, accesstory_2 = create_list(:accessory, 2)
     allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(admin)
@@ -24,7 +24,24 @@ describe 'As an admin' do
     expect(page).to have_content(10)
     expect(page).to have_content("Renaming cuz I can cuz I'm an admin")
   end
-  it 'I can change accessory status' do
 
+  describe 'I can change accessory status' do
+    scenario 'from active to inactive' do
+      admin = create(:admin)
+      accessory = create(:accessory)
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(admin)
+
+      visit edit_admin_accessory_path(accessory)
+
+      expect(page).to have_checked_field('acessory[role]')
+
+      uncheck('accessory[role]')
+
+      click_on 'Update Accessory'
+
+      expect(page).to have_content("#{accessory.name} updated.")
+
+      expect(page).to_not have_button('Add to Cart')
+    end
   end
 end
