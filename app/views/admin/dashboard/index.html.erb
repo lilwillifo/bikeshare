@@ -1,3 +1,41 @@
 <section class='title'>
+<h1> Admin Dashboard</h1>
+</section>
+<%= link_to 'Edit Your Info', edit_user_path(current_user)%>
+
+<section class='title'>
   <%= link_to 'View All Accessories', admin_accessories_path %>
-</section
+</section>
+
+<section class='title'>
+  <h3> Total Number of Orders by Status</h3>
+</section>
+  <%= link_to 'Ordered', admin_dashboard_path(status: 'Ordered') %>: <%= @orders.ordered_count %>
+  <%= link_to 'Paid', admin_dashboard_path(status: 'Paid') %>: <%= @orders.paid_count %>
+  <%= link_to 'Cancelled', admin_dashboard_path(status: 'Cancelled') %>: <%= @orders.cancelled_count %>
+  <%= link_to 'Completed', admin_dashboard_path(status: 'Completed') %>: <%= @orders.completed_count %>
+
+<% if @orders_by_status.empty? %>
+  <section class='title'>
+    <h3> All Orders</h3>
+  </section>
+  <% @orders.each do |order| %>
+  <%= link_to "Order ##{order.id}", admin_order_path(order) %>
+  <% end %>
+<% else %>
+  <section class='title'>
+    <h3> All Orders with Status: <%= @orders_by_status.first.status %></h3>
+  </section>
+  <% @orders_by_status.each do |order| %>
+    <div class="order_<%=order.id%>">
+      <%= link_to "Order ##{order.id}", admin_order_path(order) %>
+      <% if order.status == 'Ordered'%>
+        <%= link_to 'Mark as Paid', admin_order_path(order, status: 'Paid'), method: 'Put'  %>
+        <%= link_to 'Cancel', admin_order_path(order, status: 'Cancelled'), method: 'Put'%>
+      <% elsif order.status == 'Paid' %>
+      <%= link_to 'Mark as Completed', admin_order_path(order, status: 'Completed'), method: 'Put'  %>
+      <%= link_to 'Cancel', admin_order_path(order, status: 'Cancelled'), method: 'Put'%>
+      <% end %>
+    </div>
+  <% end %>
+<% end %>
