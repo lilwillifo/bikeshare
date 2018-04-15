@@ -3,6 +3,9 @@
 
 
 <ul class="orders">
+  <% if current_user.orders.empty? %>
+    Looks like you haven't placed any orders yet. Come check out our <%= link_to 'Bike Shop', accessories_path %>!
+    <% end %>
   <% current_user.orders.each do |order| %>
     <li id="order_<%= order.id %>">
       <%= link_to "Order ##{order.id}", order_path(order) %>

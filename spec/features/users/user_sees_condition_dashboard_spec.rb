@@ -16,10 +16,10 @@ describe 'As a registered user' do
 
       visit '/conditions-dashboard'
 
-      expect(page).to have_content('Temperature Range')
-      expect(page).to have_content('Precipitation Range')
-      expect(page).to have_content('Wind Speed Range')
-      expect(page).to have_content('Visibility Range')
+      expect(page).to have_content('Rides by Temperature')
+      expect(page).to have_content('Rides by Precipitation')
+      expect(page).to have_content('Rides by Wind Speed')
+      expect(page).to have_content('Rides by Visibility')
       expect(page).to have_content('Highest Number of Rides')
       expect(page).to have_content('Lowest Number of Rides')
       expect(page).to have_content('Average Rides')
