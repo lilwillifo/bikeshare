@@ -65,11 +65,11 @@ class Trip < ApplicationRecord
   end
 
   def self.most_ridden
-    group(:bike_id).order('bike_id DESC').limit(1).count(:id)
+    group(:bike_id).order('count(bike_id) DESC').limit(1).count(:id)
   end
 
   def self.least_ridden
-    group(:bike_id).order('bike_id').limit(1).count(:id)
+    group(:bike_id).order('count(bike_id)').limit(1).count(:id)
   end
 
   def self.pop_start_station_id

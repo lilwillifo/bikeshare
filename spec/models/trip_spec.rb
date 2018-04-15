@@ -52,7 +52,7 @@ RSpec.describe Trip, type: :model do
       duration: 50,
       start_date: date,
       end_date: date + 1.hours + 13.minutes + 2.seconds,
-      bike_id: 1,
+      bike_id: 2,
       subscription_type: 'Premium',
       zip_code: 80202,
       start_station_id: 2,
@@ -154,19 +154,19 @@ RSpec.describe Trip, type: :model do
 
     describe '#most ridden bike count' do
       it 'should return the most ridden bike count' do
-        expect(Trip.most_ridden_bike_count).to eq(4)
+        expect(Trip.most_ridden_bike_count).to eq(3)
       end
     end
 
     describe '#least ridden bike' do
       it 'should return the least ridden bike' do
-        expect(Trip.least_ridden_bike).to eq(1)
+        expect(Trip.least_ridden_bike).to eq(2)
       end
     end
 
     describe '#least ridden bike count' do
       it 'should return the least ridden bike count' do
-        expect(Trip.least_ridden_bike_count).to eq(4)
+        expect(Trip.least_ridden_bike_count).to eq(1)
       end
     end
   end
