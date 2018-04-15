@@ -157,5 +157,17 @@ RSpec.describe Trip, type: :model do
         expect(Trip.most_ridden_bike_count).to eq(4)
       end
     end
+
+    describe '#least ridden bike' do
+      it 'should return the least ridden bike' do
+        expect(Trip.least_ridden_bike).to eq(1)
+      end
+    end
+
+    describe '#least ridden bike count' do
+      it 'should return the least ridden bike count' do
+        expect(Trip.least_ridden_bike_count).to eq(4)
+      end
+    end
   end
 end
