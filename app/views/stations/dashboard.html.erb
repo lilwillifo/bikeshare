@@ -34,3 +34,19 @@
   <h3>Minimum bikes available: <%= @min_bikes %></h3>
 </section>
 
+<section class='title'>
+  <h3>Stations with <%= @min_bikes %> bikes</h3>
+</section>
+<table id="fewest_bikes">
+  <tr>
+    <th>Name</th>
+  </tr>
+  <% @min_bikes_stations.each do |station| %>
+    <tr>
+      <td>
+        <%= link_to station.name, station.slug %>
+      </td>
+    </tr>
+  <% end %>
+</table>
+
