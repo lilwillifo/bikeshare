@@ -9,4 +9,8 @@ class Station < ApplicationRecord
   def self.avg_bikes
     average(:dock_count).to_i
   end
+
+  def self.max_bikes
+    maximum(:dock_count)
+  end
 end

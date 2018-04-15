@@ -59,5 +59,9 @@ describe 'As a user/admin' do
 
       expect(page).to have_content("Average number of bikes: #{Station.avg_bikes}")
     end
+
+    scenario 'I should see the maximum number of bikes available' do
+      
+    end
   end
 end
