@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe 'As a user/admin' do
   describe 'when I visit the stations dashboard' do
-    before(:all) do
+    before(:each) do
       DatabaseCleaner.clean
       @user = create(:user)
 
@@ -40,7 +40,7 @@ describe 'As a user/admin' do
       @stations = Station.all
     end
 
-    after(:all) do
+    after(:each) do
       DatabaseCleaner.clean
     end
 
@@ -57,7 +57,7 @@ describe 'As a user/admin' do
 
       visit stations_dashboard_path
 
-      expect(page).to have_link('Average number of bikes: 15')
+      expect(page).to have_content("Average number of bikes: #{Station.avg_bikes}")
     end
   end
 end
