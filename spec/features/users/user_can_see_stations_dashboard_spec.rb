@@ -51,5 +51,13 @@ describe 'As a user/admin' do
 
       expect(page).to have_content("Total Number of Stations: #{@stations.length}")
     end
+
+    scenario 'I should see the average bikes per station' do
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
+
+      visit stations_dashboard_path
+
+      expect(page).to have_link('Average number of bikes: 15')
+    end
   end
 end
