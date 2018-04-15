@@ -16,5 +16,7 @@ class StationsController < ApplicationController
 
     @min_bikes = Station.min_bike_count
     @min_bikes_stations = Station.min_bikes
+
+    @newest_station = Station.newest
   end
 end

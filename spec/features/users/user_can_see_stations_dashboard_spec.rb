@@ -127,5 +127,22 @@ describe 'As a user/admin' do
 
       expect(current_path).to eq("/#{stations.first.slug}")
     end
+
+    scenario 'I should see the newest station' do
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
+
+      station = create(:station)
+      station.installation_date = Date.new(2020, 10, 4)
+      station.save!
+
+      visit stations_dashboard_path
+
+      expect(page).to have_content("Newest station: #{station.name}")
+      expect(page).to have_link(station.name)
+
+      click_on station.name
+
+      expect(current_path).to eq("/#{station.slug}")
+    end
   end
 end
