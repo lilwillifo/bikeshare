@@ -24,7 +24,7 @@ describe 'The trips dashboard' do
     @trip_1 = Trip.create!(
       duration: 45,
       start_date: date,
-      end_date: date + 45.seconds,
+      end_date: date + 1.hours + 13.minutes + 2.seconds,
       bike_id: 1,
       subscription_type: 'Subscriber',
       zip_code: 80202,
@@ -57,7 +57,7 @@ describe 'The trips dashboard' do
     @trip4 = Trip.create!(
       duration: 50,
       start_date: date,
-      end_date: date + 1.hours + 13.minutes + 2.seconds,
+      end_date: date + 26.hours + 13.minutes + 2.seconds,
       bike_id: 2,
       subscription_type: 'Customer',
       zip_code: 80202,
@@ -136,6 +136,24 @@ describe 'The trips dashboard' do
 
       expect(page).to have_content("User Subscription Type: 3 customer(s) account for 75.0% of total.")
       expect(page).to have_content("User Subscription Type: 1 subscriber(s) account for 25.0% of total.")
+    end
+  end
+
+  describe 'for a user or admin' do
+    it 'has the date with the hightest number of rides and the count' do
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
+      visit '/trips-dashboard'
+
+      expect(page).to have_content('Date with the most rides: 04 15 2018, number of rides: 3')
+    end
+  end
+
+  describe 'for a user or admin' do
+    it 'has the date with the least number of rides and the count' do
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
+      visit '/trips-dashboard'
+
+      expect(page).to have_content('Date with the least rides: 04 16 2018, number of rides: 1')
     end
   end
 end

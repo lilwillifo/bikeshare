@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Trip, type: :model do
   before(:each) do
-    date = Time.now
+    @date = Time.now
     station1 = Station.create!(
       name: 'bob',
       dock_count: 10,
@@ -19,10 +19,10 @@ RSpec.describe Trip, type: :model do
     )
     @trip = Trip.create!(
       duration: 40,
-      start_date: date,
-      end_date: date + 45.seconds,
+      start_date: @date,
+      end_date: @date + 1.hours + 13.minutes + 2.seconds,
       bike_id: 1,
-      subscription_type: 'Premium',
+      subscription_type: 'Subscriber',
       zip_code: 80202,
       start_station_id: 1,
       end_station_id: 1
@@ -30,30 +30,30 @@ RSpec.describe Trip, type: :model do
 
     @trip2 = Trip.create!(
       duration: 50,
-      start_date: date,
-      end_date: date + 1.hours + 13.minutes + 2.seconds,
+      start_date: @date,
+      end_date: @date + 1.hours + 13.minutes + 2.seconds,
       bike_id: 1,
-      subscription_type: 'Premium',
+      subscription_type: 'Subscriber',
       zip_code: 80202,
       start_station_id: 2,
       end_station_id: 1
     )
     @trip3 = Trip.create!(
       duration: 50,
-      start_date: date,
-      end_date: date + 1.hours + 13.minutes + 2.seconds,
+      start_date: @date,
+      end_date: @date + 1.hours + 13.minutes + 2.seconds,
       bike_id: 1,
-      subscription_type: 'Premium',
+      subscription_type: 'Customer',
       zip_code: 80202,
       start_station_id: 2,
       end_station_id: 1
     )
     @trip4 = Trip.create!(
       duration: 50,
-      start_date: date,
-      end_date: date + 1.hours + 13.minutes + 2.seconds,
+      start_date: @date,
+      end_date: @date + 2.hours + 13.minutes + 2.seconds,
       bike_id: 2,
-      subscription_type: 'Premium',
+      subscription_type: 'Customer',
       zip_code: 80202,
       start_station_id: 2,
       end_station_id: 2
@@ -167,6 +167,56 @@ RSpec.describe Trip, type: :model do
     describe '#least ridden bike count' do
       it 'should return the least ridden bike count' do
         expect(Trip.least_ridden_bike_count).to eq(1)
+      end
+    end
+
+    describe '#customer count' do
+      it 'should return number of customers' do
+        expect(Trip.customers_count).to eq(2)
+      end
+    end
+
+    describe '#customer percentage' do
+      it 'should return number of customers' do
+        expect(Trip.customers_percentage).to eq(50.0)
+      end
+    end
+
+    describe '#subscribers count' do
+      it 'should return number of customers' do
+        expect(Trip.subscribers_count).to eq(2)
+      end
+    end
+
+    describe '#subscribers percentage' do
+      it 'should return number of subscribers' do
+        expect(Trip.subscribers_percentage).to eq(50.0)
+      end
+    end
+
+    describe '#date with most rides' do
+      it 'return the date' do
+        date = @date + 1.hours + 13.minutes + 2.seconds
+        expect(Trip.date_with_most_rides).to eq(date.strftime('%m %d %Y'))
+      end
+    end
+
+    describe '#date with most rides count' do
+      it 'return the number of rides' do
+        expect(Trip.count_of_date_with_most_rides).to eq(3)
+      end
+    end
+
+    describe '#date with least rides' do
+      it 'return the date' do
+        date = @date + 2.hours + 13.minutes + 2.seconds
+        expect(Trip.date_with_least_rides).to eq(date.strftime('%m %d %Y'))
+      end
+    end
+
+    describe '#date with least rides count' do
+      it 'return the number of rides' do
+        expect(Trip.count_of_date_with_least_rides).to eq(1)
       end
     end
   end

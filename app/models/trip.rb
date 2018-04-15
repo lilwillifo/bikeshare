@@ -71,6 +71,22 @@ class Trip < ApplicationRecord
     (subscribers_count.to_f / all.count).round(2) * 100
   end
 
+  def self.date_with_most_rides
+    date_with_most_rides_result.keys.first.strftime('%m %d %Y')
+  end
+
+  def self.count_of_date_with_most_rides
+    date_with_most_rides_result.values.first
+  end
+
+  def self.date_with_least_rides
+    date_with_least_rides_result.keys.first.strftime('%m %d %Y')
+  end
+
+  def self.count_of_date_with_least_rides
+    date_with_least_rides_result.values.first
+  end
+
   private
   def values
     [
@@ -78,6 +94,14 @@ class Trip < ApplicationRecord
       [60, :minute],
       [24, :hour]
     ]
+  end
+
+  def self.date_with_most_rides_result
+    group(:end_date).order('count(end_date) DESC').limit(1).count(:id)
+  end
+
+  def self.date_with_least_rides_result
+    group(:end_date).order('count(end_date)').limit(1).count(:id)
   end
 
   def self.most_ridden
