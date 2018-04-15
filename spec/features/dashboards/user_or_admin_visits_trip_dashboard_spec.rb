@@ -112,11 +112,20 @@ describe 'The trips dashboard' do
   end
 
   describe 'for a user or admin' do
-    it 'has the most riddent bike with total number of rides for that bike' do
+    it 'has the most ridden bike with total number of rides for that bike' do
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
       visit '/trips-dashboard'
 
       expect(page).to have_content("Most Ridden Bike: 2, with 3 rides")
+    end
+  end
+
+  describe 'for a user or admin' do
+    it 'has the least ridden bike with total number of rides for that bike' do
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
+      visit '/trips-dashboard'
+
+      expect(page).to have_content("Least Ridden Bike: 1, with 1 rides")
     end
   end
 end

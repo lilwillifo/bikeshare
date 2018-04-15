@@ -47,6 +47,14 @@ class Trip < ApplicationRecord
     most_ridden.values.first
   end
 
+  def self.least_ridden_bike
+    least_ridden.keys.first
+  end
+
+  def self.least_ridden_bike_count
+    least_ridden.values.first
+  end
+
   private
   def values
     [
@@ -58,6 +66,10 @@ class Trip < ApplicationRecord
 
   def self.most_ridden
     group(:bike_id).order('bike_id DESC').limit(1).count(:id)
+  end
+
+  def self.least_ridden
+    group(:bike_id).order('bike_id').limit(1).count(:id)
   end
 
   def self.pop_start_station_id
