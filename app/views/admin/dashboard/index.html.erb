@@ -9,20 +9,15 @@
 <section class='title'>
   <h3> Total Number of Orders by Status</h3>
 </section>
-  Ordered: <%= @orders.ordered_count %>
-  Paid: <%= @orders.paid_count %>
-  Cancelled: <%= @orders.cancelled_count %>
-  Completed: <%= @orders.completed_count %>
+  <%= link_to 'Ordered', admin_dashboard_path(status: 'Ordered') %>: <%= @orders.ordered_count %>
+  <%= link_to 'Paid', admin_dashboard_path(status: 'Paid') %>: <%= @orders.paid_count %>
+  <%= link_to 'Cancelled', admin_dashboard_path(status: 'Cancelled') %>: <%= @orders.cancelled_count %>
+  <%= link_to 'Completed', admin_dashboard_path(status: 'Completed') %>: <%= @orders.completed_count %>
 
   <section class='title'>
     <h3> All Orders</h3>
   </section>
-  <%= form_tag admin_dashboard_path, method: :get  do %>
-    <%= label_tag :status %>
-    <%= select_tag :status, options_for_select([['Ordered'], ['Paid'], ['Canceled'], ['Completed']]) %>
-    <%= submit_tag  "Filter" %>
-  <% end %>
-  <link_to 'Group By Status'>
+
   <% @orders.each do |order| %>
   <%= link_to "Order ##{order.id}", admin_order_path(order) %>
   <% end %>
