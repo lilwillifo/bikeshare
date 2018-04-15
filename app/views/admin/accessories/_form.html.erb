@@ -8,5 +8,8 @@
   <%= f.label :description %>
   <%= f.text_area :description %>
 
+  <%= f.label :role, 'Active' %>
+  <%= f.check_box(:role, {}, "active", "retired") %>
+
   <%= f.submit %>
 <% end %>
