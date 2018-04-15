@@ -61,7 +61,11 @@ describe 'As a user/admin' do
     end
 
     scenario 'I should see the maximum number of bikes available' do
-      
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
+
+      visit stations_dashboard_path
+
+      expect(page).to have_content("Maximum bikes available: #{Station.max_bikes}")
     end
   end
 end

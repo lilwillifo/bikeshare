@@ -11,5 +11,6 @@ class StationsController < ApplicationController
   def dashboard
     @num_stations = Station.count
     @avg_bikes = Station.avg_bikes
+    @max_bikes = Station.max_bikes
   end
 end
