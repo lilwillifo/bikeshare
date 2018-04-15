@@ -1,4 +1,8 @@
 <section class='title'>
+<h1> Admin Dashboard</h1>
+</section>
+
+<section class='title'>
   <%= link_to 'View All Accessories', admin_accessories_path %>
 </section>
 
@@ -10,6 +14,15 @@
   Cancelled: <%= @orders.cancelled_count %>
   Completed: <%= @orders.completed_count %>
 
+  <section class='title'>
+    <h3> All Orders</h3>
+  </section>
+  <%= form_tag admin_dashboard_path, method: :get  do %>
+    <%= label_tag :status %>
+    <%= select_tag :status, options_for_select([['Ordered'], ['Paid'], ['Canceled'], ['Completed']]) %>
+    <%= submit_tag  "Filter" %>
+  <% end %>
+  <link_to 'Group By Status'>
   <% @orders.each do |order| %>
   <%= link_to "Order ##{order.id}", admin_order_path(order) %>
   <% end %>
