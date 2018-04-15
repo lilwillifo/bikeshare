@@ -13,5 +13,7 @@ class StationsController < ApplicationController
     @avg_bikes = Station.avg_bikes
     @max_bikes = Station.max_bike_count
     @max_bikes_stations = Station.max_bikes
+
+    @min_bikes = Station.min_bike_count
   end
 end
