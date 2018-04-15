@@ -47,9 +47,9 @@ describe 'As a user/admin' do
     scenario 'I should see the total number of stations' do
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
 
-      visit stations_dashboard
+      visit stations_dashboard_path
 
-      expect(page).to have_content("Total number of stations: #{@stations.length}")
+      expect(page).to have_content("Total Number of Stations: #{@stations.length}")
     end
   end
 end
