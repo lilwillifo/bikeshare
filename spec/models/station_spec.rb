@@ -33,9 +33,20 @@ describe Station, type: :model do
       end
     end
 
+    describe '.max_bike_count' do
+      it 'should calculate the maximum number of bicycles available' do
+        expect(Station.max_bike_count).to be(25)
+      end
+    end
+
     describe '.max_bikes' do
-      it 'shoud calculate the maximum number of bicycles available' do
-        expect(Station.max_bikes).to be(25)
+      it 'should return the stations with the most bikes' do
+        station = create(:station)
+        station.dock_count = 25
+        station.save!
+
+        expected = Station.all[-2..-1]
+        expect(Station.max_bikes).to eq(expected)
       end
     end
   end
