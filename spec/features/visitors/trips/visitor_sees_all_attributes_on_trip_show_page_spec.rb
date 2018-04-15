@@ -4,6 +4,7 @@ describe 'As a Visitor' do
   describe 'When I visit a trip\'s show page' do
     scenario 'I can see all the attributes for that trip' do
       station = create(:station)
+      condition = create(:condition)
       trips = create_list(:trip, 5)
       trip_1 = trips[3]
 
@@ -23,6 +24,7 @@ describe 'As a Visitor' do
 
   scenario 'it can link from the index page' do
     create(:station)
+    condition = create(:condition)
     trip = create(:trip)
 
     visit trips_path

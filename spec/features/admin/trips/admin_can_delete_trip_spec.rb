@@ -4,6 +4,7 @@ describe 'admin wants to delete station' do
   before(:each) do
     @admin = create(:admin)
     @station = create(:station)
+    @condition = create(:condition)
     @trip = create(:trip)
   end
 

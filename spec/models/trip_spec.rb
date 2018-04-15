@@ -12,6 +12,7 @@ RSpec.describe Trip, type: :model do
   context 'Relationships' do
     it { is_expected.to belong_to(:start_station) }
     it { is_expected.to belong_to(:end_station) }
+    it { is_expected.to belong_to(:condition) }
   end
 
   context 'Methods' do
