@@ -1,5 +1,13 @@
 require 'rails_helper'
 
+describe 'As a visitor' do
+  scenario 'I cannot see the stations dashboard' do
+    visit stations_dashboard_path
+
+    expect(current_path).to eq(login_path)
+  end
+end
+
 describe 'As a user/admin' do
   describe 'when I visit the stations dashboard' do
     before(:each) do

@@ -1,5 +1,6 @@
 class StationsController < ApplicationController
-
+  before_action :require_login
+  
   def index
     @stations = Station.all
   end
