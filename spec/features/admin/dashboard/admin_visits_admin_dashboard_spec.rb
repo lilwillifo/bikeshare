@@ -80,8 +80,10 @@ describe 'As an admin' do
 
       click_on 'Ordered'
 
-      save_and_open_page
+      expect(page).to have_content('All Orders with Status: Ordered')
+      expect(page).to have_content("Order ##{@order_1.id}")
       expect(page).to_not have_content("Order ##{@order_3.id}")
+      expect(page).to have_link('Paid')
     end
   end
 end
