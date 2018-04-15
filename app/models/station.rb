@@ -25,4 +25,8 @@ class Station < ApplicationRecord
   def self.min_bikes
     where(dock_count: minimum(:dock_count))
   end
+
+  def self.newest
+    find_by(installation_date: maximum(:installation_date))
+  end
 end

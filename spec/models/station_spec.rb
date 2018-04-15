@@ -66,5 +66,15 @@ describe Station, type: :model do
         expect(Station.min_bikes).to eq(expected)
       end
     end
+
+    describe '.newest_station' do
+      it 'should return the newest station' do
+        station = create(:station)
+        station.installation_date = Date.new(2020, 10, 4)
+        station.save!
+
+        expect(Station.newest).to eq(station)
+      end
+    end
   end
 end
