@@ -88,8 +88,7 @@ class Trip < ApplicationRecord
   end
 
   def self.conditions_for_most_rides
-    date = date_with_most_rides
-    require 'pry'; binding.pry
+    date = date_with_most_rides_result.keys.first
     Condition.find_by(date: date)
   end
 
@@ -101,6 +100,7 @@ class Trip < ApplicationRecord
       [24, :hour]
     ]
   end
+
 
   def self.date_with_most_rides_result
     group(:end_date).order('count(end_date) DESC').limit(1).count(:id)
