@@ -65,7 +65,33 @@ describe 'As a user/admin' do
 
       visit stations_dashboard_path
 
-      expect(page).to have_content("Maximum bikes available: #{Station.max_bikes}")
+      expect(page).to have_content("Maximum bikes available: #{Station.max_bike_count}")
+    end
+
+    scenario 'I should see the stations with the most number of bikes' do
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
+
+      station = create(:station)
+      station.dock_count = 25
+      station.save!
+
+      visit stations_dashboard_path
+
+      expect(page).to have_content("Stations with #{Station.max_bike_count} bikes")
+
+      stations = Station.max_bikes
+      within('table#most_bikes') do
+        tds = all('td')
+
+        expect(tds.length).to be(stations.length)
+
+        expect(page).to have_link(stations.first.name)
+        expect(page).to have_link(stations.last.name)
+
+        click_on stations.first.name
+      end
+
+      expect(current_path).to eq("/#{stations.first.slug}")
     end
   end
 end
