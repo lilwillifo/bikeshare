@@ -36,7 +36,7 @@ describe 'The trips dashboard' do
       duration: 55,
       start_date: date,
       end_date: date + 1.hours + 13.minutes + 2.seconds,
-      bike_id: 1,
+      bike_id: 2,
       subscription_type: 'Premium',
       zip_code: 80202,
       start_station_id: 1,
@@ -47,7 +47,7 @@ describe 'The trips dashboard' do
       duration: 50,
       start_date: date,
       end_date: date + 1.hours + 13.minutes + 2.seconds,
-      bike_id: 1,
+      bike_id: 2,
       subscription_type: 'Premium',
       zip_code: 80202,
       start_station_id: 1,
@@ -58,7 +58,7 @@ describe 'The trips dashboard' do
       duration: 50,
       start_date: date,
       end_date: date + 1.hours + 13.minutes + 2.seconds,
-      bike_id: 1,
+      bike_id: 2,
       subscription_type: 'Premium',
       zip_code: 80202,
       start_station_id: 2,
@@ -108,6 +108,15 @@ describe 'The trips dashboard' do
       visit '/trips-dashboard'
 
       expect(page).to have_content("Most Popular End Station: #{@station2.name}")
+    end
+  end
+
+  describe 'for a user or admin' do
+    it 'has the most riddent bike with total number of rides for that bike' do
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
+      visit '/trips-dashboard'
+
+      expect(page).to have_content("Most Ridden Bike: 2, with 3 rides")
     end
   end
 end

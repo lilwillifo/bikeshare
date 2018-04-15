@@ -39,6 +39,14 @@ class Trip < ApplicationRecord
     Station.find(pop_end_station_id).name
   end
 
+  def self.most_ridden_bike
+    most_ridden.keys.first
+  end
+
+  def self.most_ridden_bike_count
+    most_ridden.values.first
+  end
+
   private
   def values
     [
@@ -46,6 +54,10 @@ class Trip < ApplicationRecord
       [60, :minute],
       [24, :hour]
     ]
+  end
+
+  def self.most_ridden
+    group(:bike_id).order('bike_id DESC').limit(1).count(:id)
   end
 
   def self.pop_start_station_id
