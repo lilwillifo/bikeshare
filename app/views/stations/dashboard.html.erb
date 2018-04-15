@@ -1,0 +1,60 @@
+<section class='title'>
+  <h1>Stations Dashboard</h1>
+</section>
+
+<section class='title'>
+  <h3>Total Number of Stations: <%= @num_stations %></h3>
+</section>
+
+<section class='title'>
+  <h3>Average number of bikes: <%= @avg_bikes %></h3>
+</section>
+
+<section class='title'>
+  <h3>Maximum bikes available: <%= @max_bikes %></h3>
+</section>
+
+<section class='title'>
+  <h3>Stations with <%= @max_bikes %> bikes</h3>
+</section>
+<table id="most_bikes">
+  <tr>
+    <th>Name</th>
+  </tr>
+  <% @max_bikes_stations.each do |station| %>
+    <tr>
+      <td>
+        <%= link_to station.name, station.slug %>
+      </td>
+    </tr>
+  <% end %>
+</table>
+
+<section class='title'>
+  <h3>Minimum bikes available: <%= @min_bikes %></h3>
+</section>
+
+<section class='title'>
+  <h3>Stations with <%= @min_bikes %> bikes</h3>
+</section>
+<table id="fewest_bikes">
+  <tr>
+    <th>Name</th>
+  </tr>
+  <% @min_bikes_stations.each do |station| %>
+    <tr>
+      <td>
+        <%= link_to station.name, station.slug %>
+      </td>
+    </tr>
+  <% end %>
+</table>
+
+<section class='title'>
+  <h3>Newest station: <%= link_to @newest_station.name, @newest_station.slug %></h3>
+</section>
+
+<section class='title'>
+  <h3>Oldest station: <%= link_to @oldest_station.name, @oldest_station.slug %></h3>
+</section>
+
