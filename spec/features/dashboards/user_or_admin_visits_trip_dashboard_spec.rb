@@ -144,6 +144,7 @@ describe 'The trips dashboard' do
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
       visit '/trips-dashboard'
 
+      # expect(page).to have_content("Date with the most rides: #{Trip.date_with_most_rides}, number of rides: #{Trip.count_of_date_with_most_rides}")
       expect(page).to have_content('Date with the most rides: 04 15 2018, number of rides: 3')
     end
   end
@@ -154,6 +155,20 @@ describe 'The trips dashboard' do
       visit '/trips-dashboard'
 
       expect(page).to have_content('Date with the least rides: 04 16 2018, number of rides: 1')
+    end
+  end
+
+  describe 'for a user or admin' do
+    it 'can see the weather on the day with the highest rides' do
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
+      visit '/trips-dashboard'
+
+      expect(page).to have_content('High Temperature: 90F')
+      expect(page).to have_content('Mean Temperature: 90F')
+      expect(page).to have_content('Low Temperature: 90F')
+      expect(page).to have_content('Mean Humidity: 90%')
+      expect(page).to have_content('Mean Visibility: 9 miles')
+      expect(page).to have_content('Mean Precipitation: 9 inches')
     end
   end
 end

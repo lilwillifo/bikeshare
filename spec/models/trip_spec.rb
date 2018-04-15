@@ -219,5 +219,11 @@ RSpec.describe Trip, type: :model do
         expect(Trip.count_of_date_with_least_rides).to eq(1)
       end
     end
+
+    describe '#conditions for the most rides' do
+      it 'return the weather conditions for the most rides' do
+        expect(Trip.conditions_for_most_rides).to eq(1)
+      end
+    end
   end
 end

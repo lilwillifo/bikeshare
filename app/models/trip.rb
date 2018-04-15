@@ -87,6 +87,12 @@ class Trip < ApplicationRecord
     date_with_least_rides_result.values.first
   end
 
+  def self.conditions_for_most_rides
+    date = date_with_most_rides
+    require 'pry'; binding.pry
+    Condition.find_by(date: date)
+  end
+
   private
   def values
     [
