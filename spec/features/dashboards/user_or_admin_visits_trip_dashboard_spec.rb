@@ -26,7 +26,7 @@ describe 'The trips dashboard' do
       start_date: date,
       end_date: date + 45.seconds,
       bike_id: 1,
-      subscription_type: 'Premium',
+      subscription_type: 'Subscriber',
       zip_code: 80202,
       start_station_id: 1,
       end_station_id: 1
@@ -37,7 +37,7 @@ describe 'The trips dashboard' do
       start_date: date,
       end_date: date + 1.hours + 13.minutes + 2.seconds,
       bike_id: 2,
-      subscription_type: 'Premium',
+      subscription_type: 'Customer',
       zip_code: 80202,
       start_station_id: 1,
       end_station_id: 2
@@ -48,7 +48,7 @@ describe 'The trips dashboard' do
       start_date: date,
       end_date: date + 1.hours + 13.minutes + 2.seconds,
       bike_id: 2,
-      subscription_type: 'Premium',
+      subscription_type: 'Customer',
       zip_code: 80202,
       start_station_id: 1,
       end_station_id: 2
@@ -59,7 +59,7 @@ describe 'The trips dashboard' do
       start_date: date,
       end_date: date + 1.hours + 13.minutes + 2.seconds,
       bike_id: 2,
-      subscription_type: 'Premium',
+      subscription_type: 'Customer',
       zip_code: 80202,
       start_station_id: 2,
       end_station_id: 2
@@ -126,6 +126,16 @@ describe 'The trips dashboard' do
       visit '/trips-dashboard'
 
       expect(page).to have_content("Least Ridden Bike: 1, with 1 rides")
+    end
+  end
+
+  describe 'for a user or admin' do
+    it 'has the user subscription type breakout with both count and percentage' do
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
+      visit '/trips-dashboard'
+
+      expect(page).to have_content("User Subscription Type: Customer, with 75% subscriptions")
+      expect(page).to have_content("User Subscription Type: Subscriber, with 25% subscriptions")
     end
   end
 end
