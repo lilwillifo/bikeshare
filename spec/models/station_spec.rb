@@ -55,5 +55,16 @@ describe Station, type: :model do
         expect(Station.min_bike_count).to be(5)
       end
     end
+
+    describe '.min_bike' do
+      it 'should return the stations with the fewest bikes' do
+        station = create(:station)
+        station.dock_count = 5
+        station.save!
+
+        expected = [Station.first, Station.last]
+        expect(Station.min_bikes).to eq(expected)
+      end
+    end
   end
 end
