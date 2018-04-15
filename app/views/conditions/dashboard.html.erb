@@ -1,6 +1,9 @@
-<h1>Weather Dashboard</h1>
-
-<h3>Rides by Temperature</h3>
+<section class='title'>
+  <h1>Weather Dashboard</h1>
+</section>
+<section class='title'>
+  <h3>Rides by Temperature</h3>
+</section>
 <table>
   <tr>
     <th>Temperature Range</th>
@@ -11,9 +14,9 @@
   <% @temp_ranges.each do |range| %>
     <tr>
       <td><%= range %>°F</td>
-      <td><%= @conditions.most_rides_by_temp(range) %>°F</td>
-      <td><%= @conditions.least_rides_by_temp(range) %>°F</td>
-      <td><%= @conditions.average_rides_by_temp(range) %>°F</td>
+      <td><%= @conditions.most_rides_by_temp(range) %></td>
+      <td><%= @conditions.least_rides_by_temp(range) %></td>
+      <td><%= @conditions.average_rides_by_temp(range) %></td>
     </tr>
   <% end %>
 </table>

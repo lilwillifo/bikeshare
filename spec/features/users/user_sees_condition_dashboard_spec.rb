@@ -15,8 +15,7 @@ describe 'As a registered user' do
         end
 
       visit '/conditions-dashboard'
-
-
+      save_and_open_page
       expect(page).to have_content('Temperature Range')
       expect(page).to have_content('Precipitation Range')
       expect(page).to have_content('Wind Speed Range')
