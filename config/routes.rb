@@ -11,7 +11,7 @@ Rails.application.routes.draw do
     resources :trips, except: %i[index show]
     resources :accessories, path: 'bike-shop', only: [:index, :edit, :update]
     resources :conditions, except: %i[index show]
-    resources :orders, only: %i[show]
+    resources :orders, only: %i[show update]
     get '/dashboard', to: 'dashboard#index'
   end
 

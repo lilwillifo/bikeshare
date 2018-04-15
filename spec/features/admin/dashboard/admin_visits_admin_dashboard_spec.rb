@@ -85,5 +85,20 @@ describe 'As an admin' do
       expect(page).to_not have_content("Order ##{@order_3.id}")
       expect(page).to have_link('Paid')
     end
+    it 'and I can update their status type' do
+      visit admin_dashboard_path
+
+      click_on 'Ordered'
+
+      within ".order_#{@order_1.id}" do
+        click_on 'Mark as Paid'
+      end
+      expect(current_path).to eq(admin_dashboard_path)
+      expect(page).to have_content("Updated status to Paid.")
+
+      click_on 'Ordered'
+
+      expect(page).to_not have_content("Order ##{@order_1.id}")
+    end
   end
 end

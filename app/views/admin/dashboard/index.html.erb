@@ -26,13 +26,15 @@
     <h3> All Orders with Status: <%= @orders_by_status.first.status %></h3>
   </section>
   <% @orders_by_status.each do |order| %>
-    <%= link_to "Order ##{order.id}", admin_order_path(order) %>
-    <% if order.status == 'Ordered'%>
-      <%= link_to 'Mark as Paid', admin_order_path(order, status: 'Paid'), method: 'Put'  %>
+    <div class="order_<%=order.id%>">
+      <%= link_to "Order ##{order.id}", admin_order_path(order) %>
+      <% if order.status == 'Ordered'%>
+        <%= link_to 'Mark as Paid', admin_order_path(order, status: 'Paid'), method: 'Put'  %>
+        <%= link_to 'Cancel', admin_order_path(order, status: 'Cancelled'), method: 'Put'%>
+      <% elsif order.status == 'Paid' %>
+      <%= link_to 'Mark as Completed', admin_order_path(order, status: 'Completed'), method: 'Put'  %>
       <%= link_to 'Cancel', admin_order_path(order, status: 'Cancelled'), method: 'Put'%>
-    <% elsif order.status == 'Paid' %>
-    <%= link_to 'Mark as Completed', admin_order_path(order, status: 'Completed'), method: 'Put'  %>
-    <%= link_to 'Cancel', admin_order_path(order, status: 'Cancelled'), method: 'Put'%>
-    <% end %>
+      <% end %>
+    </div>
   <% end %>
 <% end %>
