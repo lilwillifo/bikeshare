@@ -33,10 +33,10 @@ end
 CSV.foreach('./db/fixture/trip.csv', headers: true, header_converters: :symbol) do |trip|
   trip.delete(:start_station_name)
   trip.delete(:end_station_name)
-  trip[:condition_id] = if Condition.find_by(date: Date.strptime(trip[:end_date], '%m/%d/%Y')).nil?
-                            Condition.find_by(zipcode: trip[:zip_code])
+  trip[:condition_id] = if Condition.find_by(date: Date.strptime(trip[:end_date], '%m/%d/%Y'), zipcode: trip[:zip_code]).nil?
+                          nil
                         else
-                          Condition.find_by(date: Date.strptime(trip[:end_date], '%m/%d/%Y')).id
+                          Condition.find_by(date: Date.strptime(trip[:end_date], '%m/%d/%Y'), zipcode: trip[:zip_code]).id
                         end
   trip[:start_date] = Time.strptime(trip[:start_date], '%m/%d/%Y %H:%M')
   trip[:end_date] = Time.strptime(trip[:end_date], '%m/%d/%Y %H:%M')
