@@ -100,6 +100,17 @@ RSpec.describe Trip, type: :model do
           end_station_id: 1
         )
 
+        trip3 = Trip.new(
+          duration: 44,
+          start_date: date,
+          end_date: date + 1.hours + 13.minutes + 2.seconds,
+          bike_id: 2,
+          subscription_type: 'Premium',
+          zip_code: 80202,
+          start_station_id: 1,
+          end_station_id: 1
+        )
+
         expect(trip.time_string).to eq('45 seconds')
         expect(trip2.time_string).to eq('1 hour, 13 minutes, 2 seconds')
       end
@@ -132,6 +143,18 @@ RSpec.describe Trip, type: :model do
     describe '#popular end station' do
       it 'should return the most popular end station' do
         expect(Trip.popular_end_station).to eq('bob')
+      end
+    end
+
+    describe '#most ridden bike' do
+      it 'should return the most ridden bike' do
+        expect(Trip.most_ridden_bike).to eq(1)
+      end
+    end
+
+    describe '#most ridden bike count' do
+      it 'should return the most ridden bike count' do
+        expect(Trip.most_ridden_bike_count).to eq(4)
       end
     end
   end
