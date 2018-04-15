@@ -1,4 +1,6 @@
 class TripsController < ApplicationController
+  before_action :require_login, only: [:dashboard]
+
   def index
     @trips = Trip.paginate(:page => params[:page], :per_page => 30)
   end
