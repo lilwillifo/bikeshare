@@ -33,8 +33,8 @@ RSpec.describe Condition, type: :model do
         expect(Condition.most_rides_by_temp([70, 80])).to eq(2)
       end
     end
-    describe '.most_rides_by_temp(range)' do
-      it 'returns the highest number of rides with a high temperature' do
+    describe '.least_rides_by_temp(range)' do
+      it 'returns the lowest number of rides with a high temperature' do
         @stations = create_list(:station, 3)
         @condition_1 = create(:condition, max_temperature: 50, precipitation: 1, mean_wind_speed: 0, mean_visibility: 0)
         @condition_2 = create(:condition, max_temperature: 56, precipitation: 0.9, mean_wind_speed: 3, mean_visibility: 1)
@@ -55,7 +55,7 @@ RSpec.describe Condition, type: :model do
       end
     end
     describe '.average_rides_by_temp(range)' do
-      it 'returns the highest number of rides with a high temperature' do
+      it 'returns the average number of rides with a high temperature' do
         @stations = create_list(:station, 3)
         @condition_1 = create(:condition, max_temperature: 50, precipitation: 1, mean_wind_speed: 0, mean_visibility: 0)
         @condition_2 = create(:condition, max_temperature: 56, precipitation: 0.9, mean_wind_speed: 3, mean_visibility: 1)
@@ -73,6 +73,69 @@ RSpec.describe Condition, type: :model do
 
         expect(Condition.average_rides_by_temp([50, 59.99])).to eq(1.5)
         expect(Condition.average_rides_by_temp([70, 80])).to eq(2)
+      end
+    end
+    describe '.most_rides_by_rain(range)' do
+      it 'returns the highest number of rides with a certain percipitation' do
+        @stations = create_list(:station, 3)
+        @condition_1 = create(:condition, max_temperature: 50, precipitation: 1, mean_wind_speed: 0, mean_visibility: 0)
+        @condition_2 = create(:condition, max_temperature: 56, precipitation: 0.9, mean_wind_speed: 3, mean_visibility: 1)
+        @condition_3 = create(:condition, max_temperature: 60, precipitation: 0.6, mean_wind_speed: 6, mean_visibility: 1)
+        @condition_4 = create(:condition, max_temperature: 68, precipitation: 0.3, mean_wind_speed: 9, mean_visibility: 4)
+        @condition_5 = create(:condition, max_temperature: 80, precipitation: 0, mean_wind_speed: 4, mean_visibility: 9)
+        @trip_1 = create(:trip, condition: @condition_1)
+        @trip_2 = create(:trip, condition: @condition_2)
+        @trip_3 = create(:trip, condition: @condition_2)
+        @trip_4 = create(:trip, condition: @condition_3)
+        @trip_5 = create(:trip, condition: @condition_3)
+        @trip_6 = create(:trip, condition: @condition_4)
+        @trip_7 = create(:trip, condition: @condition_5)
+        @trip_8 = create(:trip, condition: @condition_5)
+
+        expect(Condition.most_rides_by_rain([0, 0.5])).to eq(2)
+        expect(Condition.most_rides_by_rain([0.5, 1])).to eq(2)
+      end
+    end
+    describe '.least_rides_by_rain(range)' do
+      it 'returns the lowest number of rides with a certain percipitation' do
+        @stations = create_list(:station, 3)
+        @condition_1 = create(:condition, max_temperature: 50, precipitation: 1, mean_wind_speed: 0, mean_visibility: 0)
+        @condition_2 = create(:condition, max_temperature: 56, precipitation: 0.9, mean_wind_speed: 3, mean_visibility: 1)
+        @condition_3 = create(:condition, max_temperature: 60, precipitation: 0.6, mean_wind_speed: 6, mean_visibility: 1)
+        @condition_4 = create(:condition, max_temperature: 68, precipitation: 0.3, mean_wind_speed: 9, mean_visibility: 4)
+        @condition_5 = create(:condition, max_temperature: 80, precipitation: 0, mean_wind_speed: 4, mean_visibility: 9)
+        @trip_1 = create(:trip, condition: @condition_1)
+        @trip_2 = create(:trip, condition: @condition_2)
+        @trip_3 = create(:trip, condition: @condition_2)
+        @trip_4 = create(:trip, condition: @condition_3)
+        @trip_5 = create(:trip, condition: @condition_3)
+        @trip_6 = create(:trip, condition: @condition_4)
+        @trip_7 = create(:trip, condition: @condition_5)
+        @trip_8 = create(:trip, condition: @condition_5)
+
+        expect(Condition.least_rides_by_rain([0, 0.5])).to eq(1)
+        expect(Condition.least_rides_by_rain([0.5, 1])).to eq(1)
+      end
+    end
+    describe '.average_rides_by_rain(range)' do
+      it 'returns the average number of rides with a certain percipitation' do
+        @stations = create_list(:station, 3)
+        @condition_1 = create(:condition, max_temperature: 50, precipitation: 1, mean_wind_speed: 0, mean_visibility: 0)
+        @condition_2 = create(:condition, max_temperature: 56, precipitation: 0.9, mean_wind_speed: 3, mean_visibility: 1)
+        @condition_3 = create(:condition, max_temperature: 60, precipitation: 0.6, mean_wind_speed: 6, mean_visibility: 1)
+        @condition_4 = create(:condition, max_temperature: 68, precipitation: 0.3, mean_wind_speed: 9, mean_visibility: 4)
+        @condition_5 = create(:condition, max_temperature: 80, precipitation: 0, mean_wind_speed: 4, mean_visibility: 9)
+        @trip_1 = create(:trip, condition: @condition_1)
+        @trip_2 = create(:trip, condition: @condition_2)
+        @trip_3 = create(:trip, condition: @condition_2)
+        @trip_4 = create(:trip, condition: @condition_3)
+        @trip_5 = create(:trip, condition: @condition_3)
+        @trip_6 = create(:trip, condition: @condition_4)
+        @trip_7 = create(:trip, condition: @condition_5)
+        @trip_8 = create(:trip, condition: @condition_5)
+
+        expect(Condition.average_rides_by_rain([0, 0.5])).to eq(1.5)
+        expect(Condition.average_rides_by_rain([0.5, 1])).to eq(1.67)
       end
     end
   end

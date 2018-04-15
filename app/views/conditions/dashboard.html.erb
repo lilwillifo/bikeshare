@@ -21,6 +21,25 @@
   <% end %>
 </table>
 
-Precipitation Range
+<section class='title'>
+  <h3>Precipitation Range</h3>
+</section>
+<table>
+  <tr>
+    <th>Precipitation Range</th>
+    <th>Highest Number of Rides</th>
+    <th>Lowest Number of Rides</th>
+    <th>Average Rides</th>
+  </tr>
+  <% @rain_ranges.each do |range| %>
+    <tr>
+      <td><%= range %> inches</td>
+      <td><%= @conditions.most_rides_by_rain(range) %></td>
+      <td><%= @conditions.least_rides_by_rain(range) %></td>
+      <td><%= @conditions.average_rides_by_rain(range) %></td>
+    </tr>
+  <% end %>
+</table>
+
 Wind Speed Range
 Visibility Range

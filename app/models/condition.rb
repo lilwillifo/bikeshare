@@ -29,4 +29,24 @@ class Condition < ApplicationRecord
   def self.average_rides_by_temp(range)
     (temp_ranges(range).sum / temp_ranges(range).count.to_f).round(2)
   end
+
+  def self.precipitation_ranges(range)
+    joins(:trips)
+    .where("precipitation >= #{range[0]} AND precipitation <= #{range[1]}")
+    .group(:condition_id)
+    .count(:condition_id)
+    .values
+  end
+
+  def self.most_rides_by_rain(range)
+    precipitation_ranges(range).max
+  end
+
+  def self.least_rides_by_rain(range)
+    precipitation_ranges(range).min
+  end
+
+  def self.average_rides_by_rain(range)
+    (precipitation_ranges(range).sum / precipitation_ranges(range).count.to_f).round(2)
+  end
 end
