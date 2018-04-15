@@ -8,9 +8,14 @@ class Admin::AccessoriesController < Admin::BaseController
   end
 
   def update
-    accessory = Accessory.find(params[:id])
-    accessory.update(accessory_params)
-    redirect_to accessory_path(accessory)
+    @accessory = Accessory.find(params[:id])
+    if @accessory.update(accessory_params)
+      flash[:notice] = "#{@accessory.title} updated."
+      redirect_to accessory_path(@accessory)
+    else
+      flash[:error] = 'Something went wrong.'
+      render :edit
+    end
   end
 
   private

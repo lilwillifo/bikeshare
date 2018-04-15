@@ -33,13 +33,13 @@ describe 'As an admin' do
 
       visit edit_admin_accessory_path(accessory)
 
-      expect(page).to have_checked_field('acessory[role]')
+      expect(page).to have_checked_field('accessory[role]')
 
       uncheck('accessory[role]')
 
       click_on 'Update Accessory'
 
-      expect(page).to have_content("#{accessory.name} updated.")
+      expect(page).to have_content("#{accessory.title} updated.")
 
       expect(page).to_not have_button('Add to Cart')
     end
