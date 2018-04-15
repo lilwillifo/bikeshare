@@ -19,8 +19,10 @@ RSpec.describe Trip, type: :model do
     )
 
     end_date = @date + 1.hours + 13.minutes + 2.seconds
+    end_date_2 = @date + 2.hours + 13.minutes + 2.seconds
 
     @condition = create(:condition, date: end_date, max_temperature: 80, precipitation: 0, mean_wind_speed: 4, mean_visibility: 9)
+    @condition_2 = create(:condition, date: end_date_2, max_temperature: 80, precipitation: 0, mean_wind_speed: 4, mean_visibility: 9)
 
     @trip = Trip.create!(
       duration: 40,
@@ -65,7 +67,7 @@ RSpec.describe Trip, type: :model do
       zip_code: 80202,
       start_station_id: 2,
       end_station_id: 2,
-      condition: @condition
+      condition: @condition_2
     )
   end
 
@@ -232,6 +234,12 @@ RSpec.describe Trip, type: :model do
     describe '#conditions for the most rides' do
       it 'return the weather conditions for the most rides' do
         expect(Trip.conditions_for_most_rides).to eq(@condition)
+      end
+    end
+
+    describe '#conditions for the least rides' do
+      it 'return the weather conditions for the least rides' do
+        expect(Trip.conditions_for_lowest_rides).to eq(@condition_2)
       end
     end
   end

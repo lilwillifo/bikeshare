@@ -16,10 +16,12 @@
 <p>Average Visibility: <%= @trips.conditions_for_most_rides.mean_visibility %> miles</p>
 <p>Average Wind Speed: <%= @trips.conditions_for_most_rides.mean_wind_speed %> knots</p>
 <p>Average Precipitation: <%= @trips.conditions_for_most_rides.precipitation %> inches</p>
-
-
-
-
-
-
 <p>Date with the least rides: <%= @trips.date_with_least_rides %>, number of rides: <%= @trips.count_of_date_with_least_rides %></p>
+<h2>Weather for Slowest Day</h2>
+<p>High Temperature: <%= @trips.conditions_for_lowest_rides.max_temperature %>F</p>
+<p>Average Temperature: <%= @trips.conditions_for_lowest_rides.mean_temperature %>F</p>
+<p>Low Temperature: <%= @trips.conditions_for_lowest_rides.min_temperature %>F</p>
+<p>Average Humidity: <%= @trips.conditions_for_lowest_rides.mean_humidity %>%</p>
+<p>Average Visibility: <%= @trips.conditions_for_lowest_rides.mean_visibility %> miles</p>
+<p>Average Wind Speed: <%= @trips.conditions_for_lowest_rides.mean_wind_speed %> knots</p>
+<p>Average Precipitation: <%= @trips.conditions_for_lowest_rides.precipitation %> inches</p>

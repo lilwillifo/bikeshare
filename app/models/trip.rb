@@ -92,6 +92,11 @@ class Trip < ApplicationRecord
     Condition.find_by(date: date)
   end
 
+  def self.conditions_for_lowest_rides
+    date = date_with_least_rides_result.keys.first
+    Condition.find_by(date: date)
+  end
+
   private
   def values
     [

@@ -22,12 +22,14 @@ describe 'The trips dashboard' do
     )
 
     end_date = @date + 1.hours + 13.minutes + 2.seconds
-    @condition = create(:condition, date: end_date, max_temperature: 80, precipitation: 0, mean_wind_speed: 4, mean_visibility: 9)
+    end_date_2 = @date + 26.hours + 13.minutes + 2.seconds
 
-    date = Time.now
+    @condition = create(:condition, date: end_date, max_temperature: 80, precipitation: 0, mean_wind_speed: 4, mean_visibility: 9)
+    @condition_2 = create(:condition, date: end_date_2, max_temperature: 80, precipitation: 0, mean_wind_speed: 4, mean_visibility: 9)
+
     @trip_1 = Trip.create!(
       duration: 45,
-      start_date: date,
+      start_date: @date,
       end_date: end_date,
       bike_id: 1,
       subscription_type: 'Subscriber',
@@ -39,7 +41,7 @@ describe 'The trips dashboard' do
 
     @trip_2 = Trip.create(
       duration: 55,
-      start_date: date,
+      start_date: @date,
       end_date: end_date,
       bike_id: 2,
       subscription_type: 'Customer',
@@ -51,7 +53,7 @@ describe 'The trips dashboard' do
 
     @trip_3 = Trip.create(
       duration: 50,
-      start_date: date,
+      start_date: @date,
       end_date: end_date,
       bike_id: 2,
       subscription_type: 'Customer',
@@ -63,14 +65,14 @@ describe 'The trips dashboard' do
 
     @trip4 = Trip.create!(
       duration: 50,
-      start_date: date,
-      end_date: date + 26.hours + 13.minutes + 2.seconds,
+      start_date: @date,
+      end_date: end_date_2,
       bike_id: 2,
       subscription_type: 'Customer',
       zip_code: 80202,
       start_station_id: 2,
       end_station_id: 2,
-      condition: @condition
+      condition: @condition_2
     )
   end
 
@@ -168,6 +170,21 @@ describe 'The trips dashboard' do
 
   describe 'for a user or admin' do
     it 'can see the weather on the day with the highest rides' do
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
+      visit '/trips-dashboard'
+
+      expect(page).to have_content('High Temperature: 80F')
+      expect(page).to have_content('Average Temperature: 84F')
+      expect(page).to have_content('Low Temperature: 80F')
+      expect(page).to have_content('Average Humidity: 99%')
+      expect(page).to have_content('Average Visibility: 9 miles')
+      expect(page).to have_content('Average Wind Speed: 4 knots')
+      expect(page).to have_content('Average Precipitation: 0.0 inches')
+    end
+  end
+
+  describe 'for a user or admin' do
+    it 'can see the weather on the day with the lowest rides' do
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
       visit '/trips-dashboard'
 
