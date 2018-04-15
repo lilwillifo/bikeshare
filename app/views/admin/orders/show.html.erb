@@ -1,0 +1,18 @@
+<h1>Order <%= @order.id %></h1>
+<p>Purchaser: <%= @order.user.full_name %></p>
+<p>Purchaser's Address: <%= @order.user.full_address %></p>
+<ul class="items">
+  <% @order.order_accessories.each do |item| %>
+    <li id="accessory_<%= item.accessory.id %>">
+      <p><%= item.accessory.title %></p>
+      <p><%= item.quantity %></p>
+      <p><%= number_to_currency(item.quantity * item.accessory.price) %></p>
+    </li>
+  <% end %>
+</ul>
+<h2>Total: <%= number_to_currency(@order.total) %></h2>
+<h3>Status <%= @order.status %></h3>
+<h4>Submitted at: <%= @order.created_at %></h4>
+<% if @order.status == 'completed' || @order.status == 'cancelled' %>
+  <h4><%= @order.status.capitalize %> on <%= @order.updated_at %></h4>
+<% end %>
