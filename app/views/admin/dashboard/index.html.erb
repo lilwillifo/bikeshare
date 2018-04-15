@@ -1,3 +1,15 @@
 <section class='title'>
   <%= link_to 'View All Accessories', admin_accessories_path %>
-</section
+</section>
+
+<section class='title'>
+  <h3> Total Number of Orders by Status</h3>
+</section>
+  Ordered: <%= @orders.ordered_count %>
+  Paid: <%= @orders.paid_count %>
+  Cancelled: <%= @orders.cancelled_count %>
+  Completed: <%= @orders.completed_count %>
+
+  <%= @orders.each do |order| %>
+  <% link_to "Order #{order.id}", admin_order_path(order) %>
+  <% end %>

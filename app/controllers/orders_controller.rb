@@ -2,7 +2,7 @@ class OrdersController < ApplicationController
   include ActionView::Helpers::NumberHelper
 
   def create
-    order = Order.create!(user: current_user, status: 'ordered')
+    order = Order.create!(user: current_user, status: 'Ordered')
     total = 0
     @cart.items.each do |item|
       OrderAccessory.create!(
