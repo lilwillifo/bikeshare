@@ -70,9 +70,9 @@ describe 'As an admin' do
       expect(page).to have_content('Cancelled: 2')
       expect(page).to have_content('Completed: 2')
 
-      orders.each do |order|
-        expect(page).to have_link("Order ##{order.id}")
-      end
+        expect(page).to have_link("Order ##{order_1.id}")
+        click_on "Order ##{order_1.id}"
+        expect(current_path).to eq(admin_order_path(order_1))
     end
   end
 end

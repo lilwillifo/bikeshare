@@ -10,6 +10,6 @@
   Cancelled: <%= @orders.cancelled_count %>
   Completed: <%= @orders.completed_count %>
 
-  <%= @orders.each do |order| %>
-  <% link_to "Order #{order.id}", admin_order_path(order) %>
+  <% @orders.each do |order| %>
+  <%= link_to "Order ##{order.id}", admin_order_path(order) %>
   <% end %>
