@@ -49,5 +49,11 @@ describe Station, type: :model do
         expect(Station.max_bikes).to eq(expected)
       end
     end
+
+    describe '.min_bike_count' do
+      it 'should calculate the minimum number of bicycles available' do
+        expect(Station.min_bike_count).to be(5)
+      end
+    end
   end
 end
