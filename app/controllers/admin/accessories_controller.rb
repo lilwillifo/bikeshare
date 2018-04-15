@@ -3,6 +3,22 @@ class Admin::AccessoriesController < Admin::BaseController
     @accessories = Accessory.all
   end
 
+  def new
+    @accessory = Accessory.new
+  end
+
+  def create
+    @accessory = Accessory.new(accessory_params)
+    title = accessory_params[:title]
+    if @accessory.save(accessory_params)
+      flash[:success] = "#{@accessory.title} Added!"
+      redirect_to accessory_path(@accessory)
+    else
+      flash[:error] = "#{title} not added."
+      render :new
+    end
+  end
+
   def edit
     @accessory = Accessory.find(params[:id])
   end

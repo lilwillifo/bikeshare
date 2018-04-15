@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   namespace :admin do
     resources :stations, except: %i[index show]
     resources :trips, except: %i[index show]
-    resources :accessories, path: 'bike-shop', only: [:index, :edit, :update]
+    resources :accessories, path: 'bike-shop', only: [:index, :new, :create, :edit, :update]
     resources :conditions, except: %i[index show]
     resources :orders, only: %i[show update]
     get '/dashboard', to: 'dashboard#index'
