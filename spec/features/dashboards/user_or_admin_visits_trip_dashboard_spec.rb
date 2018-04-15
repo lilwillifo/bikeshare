@@ -134,8 +134,8 @@ describe 'The trips dashboard' do
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
       visit '/trips-dashboard'
 
-      expect(page).to have_content("User Subscription Type: Customer, with 75% subscriptions")
-      expect(page).to have_content("User Subscription Type: Subscriber, with 25% subscriptions")
+      expect(page).to have_content("User Subscription Type: 3 customer(s) account for 75.0% of total.")
+      expect(page).to have_content("User Subscription Type: 1 subscriber(s) account for 25.0% of total.")
     end
   end
 end

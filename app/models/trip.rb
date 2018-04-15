@@ -55,6 +55,22 @@ class Trip < ApplicationRecord
     least_ridden.values.first
   end
 
+  def self.customers_count
+    where(subscription_type: 'Customer').count
+  end
+
+  def self.customers_percentage
+    (customers_count.to_f / all.count).round(2) * 100
+  end
+
+  def self.subscribers_count
+    where(subscription_type: 'Subscriber').count
+  end
+
+  def self.subscribers_percentage
+    (subscribers_count.to_f / all.count).round(2) * 100
+  end
+
   private
   def values
     [
