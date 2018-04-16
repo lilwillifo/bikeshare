@@ -16,25 +16,28 @@ describe Station, type: :model do
   context 'Instance Methods' do
     before(:each) do
       DatabaseCleaner.clean
-      @station = create(:station)
+      @station1 = create(:station)
+      @station2 = create(:station)
       create(:condition)
-      @trips_from_station = create_list(:trip, 3, start_station: @station)
-      @trips_end_station = create_list(:trip, 4, end_station: @station)
+      @trips_from_station = create_list(:trip, 3, start_station: @station1, end_station: @station2)
+      @trips_end_station = create_list(:trip, 4, start_station: @station2, end_station: @station1)
     end
 
     after(:each) do
       DatabaseCleaner.clean
     end
 
-    describe '.trips_from' do
+    describe '#start_trips' do
       it 'should return a count of the trips from that station' do
-        expect(@station.trips_from).to be(3)
+        expect(@station1.start_trips.length).to be(3)
+        expect(@station2.start_trips.length).to be(4)
       end
     end
 
-    describe '.trips_to' do
+    describe '#end_trips' do
       it 'should return a count of the trips to that station' do
-        expect(@station.trips_to).to be(3)
+        expect(@station1.end_trips.length).to be(4)
+        expect(@station2.end_trips.length).to be(3)
       end
     end
   end
