@@ -40,6 +40,18 @@ describe Station, type: :model do
         expect(@station2.end_trips.length).to be(3)
       end
     end
+
+    describe '#most_frequent_destination' do
+      it 'should return the most frequent destination station' do
+        expect(@station1.most_frequent_destination).to eq(@station2)
+        expect(@station2.most_frequent_destination).to eq(@station1)
+      end
+
+      it 'should return the most frequent origin station' do
+        expect(@station1.most_frequent_origin).to eq(@station2)
+        expect(@station2.most_frequent_origin).to eq(@station1)
+      end
+    end
   end
 
   context 'Class Methods' do

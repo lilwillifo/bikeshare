@@ -33,4 +33,14 @@ class Station < ApplicationRecord
   def self.oldest
     find_by(installation_date: minimum(:installation_date))
   end
+
+  def most_frequent_destination
+    station_id = start_trips.group(:end_station_id).order('count(id) DESC').count(:id).keys.first
+    Station.find(station_id)
+  end
+
+  def most_frequent_origin
+    station_id = end_trips.group(:start_station_id).order('count(id) DESC').count(:id).keys.first
+    Station.find(station_id)
+  end
 end
