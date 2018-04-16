@@ -13,7 +13,33 @@ describe Station, type: :model do
     it { is_expected.to have_many(:end_trips) }
   end
 
-  context 'Methods' do
+  context 'Instance Methods' do
+    before(:each) do
+      DatabaseCleaner.clean
+      @station = create(:station)
+      create(:condition)
+      @trips_from_station = create_list(:trip, 3, start_station: @station)
+      @trips_end_station = create_list(:trip, 4, end_station: @station)
+    end
+
+    after(:each) do
+      DatabaseCleaner.clean
+    end
+
+    describe '.trips_from' do
+      it 'should return a count of the trips from that station' do
+        expect(@station.trips_from).to be(3)
+      end
+    end
+
+    describe '.trips_to' do
+      it 'should return a count of the trips to that station' do
+        expect(@station.trips_to).to be(3)
+      end
+    end
+  end
+
+  context 'Class Methods' do
     before(:each) do
       DatabaseCleaner.clean
       @stations = create_list(:station, 5)
