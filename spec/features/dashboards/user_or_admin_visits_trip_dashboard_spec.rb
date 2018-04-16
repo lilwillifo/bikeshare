@@ -154,8 +154,7 @@ describe 'The trips dashboard' do
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
       visit '/trips-dashboard'
 
-      # expect(page).to have_content("Date with the most rides: #{Trip.date_with_most_rides}, number of rides: #{Trip.count_of_date_with_most_rides}")
-      expect(page).to have_content('Date with the most rides: 04 15 2018, number of rides: 3')
+      expect(page).to have_content("Date with the most rides: #{Trip.date_with_most_rides}, number of rides: 3")
     end
   end
 
@@ -164,7 +163,7 @@ describe 'The trips dashboard' do
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
       visit '/trips-dashboard'
 
-      expect(page).to have_content('Date with the least rides: 04 16 2018, number of rides: 1')
+      expect(page).to have_content("Date with the least rides: #{Trip.date_with_least_rides}, number of rides: 1")
     end
   end
 

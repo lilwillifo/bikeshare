@@ -207,7 +207,7 @@ RSpec.describe Trip, type: :model do
 
     describe '#date with most rides' do
       it 'return the date' do
-        date = @date + 1.hours + 13.minutes + 2.seconds
+        date = @date + 7.hours + 13.minutes + 2.seconds
         expect(Trip.date_with_most_rides).to eq(date.strftime('%m %d %Y'))
       end
     end
@@ -220,7 +220,7 @@ RSpec.describe Trip, type: :model do
 
     describe '#date with least rides' do
       it 'return the date' do
-        date = @date + 2.hours + 13.minutes + 2.seconds
+        date = @date + 8.hours + 13.minutes + 2.seconds
         expect(Trip.date_with_least_rides).to eq(date.strftime('%m %d %Y'))
       end
     end
