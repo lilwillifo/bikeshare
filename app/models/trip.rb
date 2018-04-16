@@ -88,12 +88,12 @@ class Trip < ApplicationRecord
   end
 
   def self.conditions_for_most_rides
-    date = date_with_most_rides_result.keys.first
+    date = date_with_most_rides_result.keys.first.strftime('%m %d %Y')
     Condition.find_by(date: date)
   end
 
   def self.conditions_for_lowest_rides
-    date = date_with_least_rides_result.keys.first
+    date = date_with_least_rides_result.keys.first.strftime('%m %d %Y')
     Condition.find_by(date: date)
   end
 
