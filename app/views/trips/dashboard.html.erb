@@ -10,8 +10,14 @@
 <p>Date with the most rides: <%= @trips.date_with_most_rides %>, number of rides: <%= @trips.count_of_date_with_most_rides %></p>
 <p>Date with the least rides: <%= @trips.date_with_least_rides %>, number of rides: <%= @trips.count_of_date_with_least_rides %></p>
 
+<h2>Month by Month Breakdown of Rides</h2>
 <% @trips.include_years_for_rides.each_pair do |k, v| %>
   <p><%= k %>: <%= v %> rides</p>
+<% end %>
+
+<h2>Breakdown of Rides by Year</h2>
+<% @trips.group_rides_by_year.each_pair do |k, v| %>
+  <p><%= k.strftime('%Y') %>: <%= v %> rides</p>
 <% end %>
 
 <h2>Weather for Busiest Day</h2>

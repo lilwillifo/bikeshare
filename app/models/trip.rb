@@ -107,7 +107,7 @@ class Trip < ApplicationRecord
 
   def self.include_years_for_rides
     months = group_rides_by_month
-    form = months.keys.map do |month|
+    form = months.keys.sort.map do |month|
       month.strftime('%Y-%B')
     end
     form.zip(months.values).to_h

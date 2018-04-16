@@ -257,7 +257,6 @@ RSpec.describe Trip, type: :model do
           condition: @condition
         )
         expect(Trip.include_years_for_rides).to eq({"2017-October"=>1, "2018-April"=>4})
-        expect(Trip.group_rides_by_year).to eq({"2017"=>1, "2018"=>4})
       end
     end
   end
