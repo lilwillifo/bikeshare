@@ -66,8 +66,7 @@ describe 'A logged in user' do
 
     visit order_path(order)
 
-    expect(current_path).to eq(dashboard_path)
-    expect(page).to have_content("Order ##{order.id} not found.")
+    expect(page).to have_http_status(404)
   end
 
   scenario 'sees when order was completed or cancelled' do
