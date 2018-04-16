@@ -21,6 +21,11 @@ describe Station, type: :model do
       create(:condition)
       @trips_from_station = create_list(:trip, 3, start_station: @station1, end_station: @station2)
       @trips_end_station = create_list(:trip, 4, start_station: @station2, end_station: @station1)
+
+      @trips_from_station[0..1].each do |trip|
+        trip.start_date = Date.new(2014, 8, 8)
+        trip.save!
+      end
     end
 
     after(:each) do
@@ -46,10 +51,18 @@ describe Station, type: :model do
         expect(@station1.most_frequent_destination).to eq(@station2)
         expect(@station2.most_frequent_destination).to eq(@station1)
       end
+    end
 
+    describe '#most_frequent_origin' do
       it 'should return the most frequent origin station' do
         expect(@station1.most_frequent_origin).to eq(@station2)
         expect(@station2.most_frequent_origin).to eq(@station1)
+      end
+    end
+
+    describe '#date_with_most_trips' do
+      it 'should return the date with the most trips' do
+        expect(@station1.date_with_most_trips).to eq(@station1.start_trips.first.start_date.to_date)
       end
     end
   end
