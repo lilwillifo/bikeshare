@@ -19,10 +19,13 @@ class OrdersController < ApplicationController
   end
 
   def show
-    @order = Order.find(params[:id])
-    if @order.user != current_user
-      flash[:notice] = "Order ##{params[:id]} not found."
-      redirect_to dashboard_path
-    end
+    @order = Order.find_by_id(params[:id])
+    return render_404 if @order.nil?
+    return render_404 if @order.user != current_user
+  end
+
+  private
+  def render_404
+    render file: "#{Rails.root}/public/404.html", status: 404
   end
 end
