@@ -3,7 +3,7 @@ require 'rails_helper'
 describe 'The trips dashboard' do
 
   before(:each) do
-    @date = Time.now
+    @date = Time.parse("2018/04/16")
     @user = create(:user)
     @station1 = Station.create!(
       name: 'bob',
@@ -22,10 +22,10 @@ describe 'The trips dashboard' do
     )
 
     end_date = @date + 1.hours + 13.minutes + 2.seconds
-    end_date_2 = @date + 26.hours + 13.minutes + 2.seconds
+    end_date_2 = @date + 24.hours + 13.minutes + 2.seconds
 
-    @condition = create(:condition, date: end_date, max_temperature: 80, precipitation: 0, mean_wind_speed: 4, mean_visibility: 9)
-    @condition_2 = create(:condition, date: end_date_2, max_temperature: 80, precipitation: 0, mean_wind_speed: 4, mean_visibility: 9)
+    @condition = Condition.create!(date: Date.parse("2018/04/16"), max_temperature: 80, mean_temperature: 84, min_temperature: 80, mean_humidity: 99, precipitation: 0, mean_wind_speed: 4, mean_visibility: 9)
+    @condition_2 = Condition.create!(date: Date.parse("2018/04/17"), max_temperature: 80, mean_temperature: 84, min_temperature: 80, mean_humidity: 99, precipitation: 0, mean_wind_speed: 4, mean_visibility: 9)
 
     @trip_1 = Trip.create!(
       duration: 45,
@@ -150,7 +150,7 @@ describe 'The trips dashboard' do
   end
 
   describe 'for a user or admin' do
-    it 'has the date with the hightest number of rides and the count' do
+    it 'has the date with the highest number of rides and the count' do
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
       visit '/trips-dashboard'
 

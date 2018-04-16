@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Trip, type: :model do
   before(:each) do
-    @date = Time.now
+    @date = Time.parse("2018/04/16")
     station1 = Station.create!(
       name: 'bob',
       dock_count: 10,
@@ -19,10 +19,10 @@ RSpec.describe Trip, type: :model do
     )
 
     end_date = @date + 1.hours + 13.minutes + 2.seconds
-    end_date_2 = @date + 2.hours + 13.minutes + 2.seconds
+    end_date_2 = @date + 24.hours + 13.minutes + 2.seconds
 
-    @condition = create(:condition, date: end_date, max_temperature: 80, precipitation: 0, mean_wind_speed: 4, mean_visibility: 9)
-    @condition_2 = create(:condition, date: end_date_2, max_temperature: 80, precipitation: 0, mean_wind_speed: 4, mean_visibility: 9)
+    @condition = Condition.create!(date: Date.parse("2018/04/16"), max_temperature: 80, mean_temperature: 84, min_temperature: 80, mean_humidity: 99, precipitation: 0, mean_wind_speed: 4, mean_visibility: 9)
+    @condition_2 = Condition.create!(date: Date.parse("2018/04/17"), max_temperature: 80, mean_temperature: 84, min_temperature: 80, mean_humidity: 99, precipitation: 0, mean_wind_speed: 4, mean_visibility: 9)
 
     @trip = Trip.create!(
       duration: 40,
@@ -61,7 +61,7 @@ RSpec.describe Trip, type: :model do
     @trip4 = Trip.create!(
       duration: 50,
       start_date: @date,
-      end_date: @date + 2.hours + 13.minutes + 2.seconds,
+      end_date: end_date_2,
       bike_id: 2,
       subscription_type: 'Customer',
       zip_code: 80202,
@@ -220,7 +220,7 @@ RSpec.describe Trip, type: :model do
 
     describe '#date with least rides' do
       it 'return the date' do
-        date = @date + 8.hours + 13.minutes + 2.seconds
+        date = @date + 24.hours + 13.minutes + 2.seconds
         expect(Trip.date_with_least_rides).to eq(date.strftime('%m %d %Y'))
       end
     end
