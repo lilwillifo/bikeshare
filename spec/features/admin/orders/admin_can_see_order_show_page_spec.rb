@@ -6,16 +6,15 @@ describe 'As an admin' do
       admin = create(:admin)
       order = create(:order)
       accessory = create(:accessory)
+      OrderAccessory.create!(order: order, accessory: accessory, quantity: 3)
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(admin)
 
       visit admin_order_path(order)
-      
-      save_and_open_page
 
       expect(page).to have_content(order.user.full_name)
       expect(page).to have_content(order.user.address)
       expect(page).to have_content(accessory.title)
-      expect(page).to have_content(order.order_accessories.first.quantity)
+      expect(page).to have_content("Item Quantity: #{order.order_accessories.first.quantity}")
     end
   end
 end
