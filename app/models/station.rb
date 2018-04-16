@@ -35,12 +35,20 @@ class Station < ApplicationRecord
   end
 
   def most_frequent_destination
-    station_id = start_trips.group(:end_station_id).order('count(id) DESC').count(:id).keys.first
-    Station.find(station_id)
+    start_trips
+      .select('end_station_id, COUNT(end_station_id) AS count')
+      .group(:end_station_id)
+      .order('count DESC')
+      .first
+      .end_station
   end
 
   def most_frequent_origin
-    station_id = end_trips.group(:start_station_id).order('count(id) DESC').count(:id).keys.first
-    Station.find(station_id)
+    end_trips
+      .select('start_station_id, COUNT(start_station_id) AS count')
+      .group(:start_station_id)
+      .order('count DESC')
+      .first
+      .start_station
   end
 end
