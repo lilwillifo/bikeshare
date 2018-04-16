@@ -5,7 +5,6 @@
 <div class="card">
   <tr class=accessory_<%= @accessory.id %>>
     <%= image_tag @accessory.image.url, class: "image" %>
-    <div><%= @accessory.id %></div>
     <div><%= @accessory.price %></div>
     <div><%= @accessory.description %></div>
     <% if @accessory.role == 'active' %></div>
