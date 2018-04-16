@@ -16,7 +16,7 @@ describe 'admin wants to delete station' do
       end
 
       expect(current_path).to eq(stations_path)
-      expect(page).to have_content('Station 2 Deleted!')
+      expect(page).to have_content("#{@station.name} Deleted!")
       expect(page).to_not have_content(@station.dock_count)
       expect(page).to_not have_content(@station.city)
       expect(page).to_not have_content(@station.installation_date)
@@ -31,7 +31,7 @@ describe 'admin wants to delete station' do
       find(:xpath, ".//a[i[contains(@class, 'fas fa-trash-alt')]]").click
 
       expect(current_path).to eq(stations_path)
-      expect(page).to have_content('Station 3 Deleted!')
+      expect(page).to have_content("#{@station.name} Deleted!")
       expect(page).to_not have_content(@station.dock_count)
       expect(page).to_not have_content(@station.city)
       expect(page).to_not have_content(@station.installation_date)
