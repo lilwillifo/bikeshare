@@ -15,7 +15,7 @@ class Admin::AccessoriesController < Admin::BaseController
       redirect_to accessory_path(@accessory)
     else
       flash[:error] = "Accessory not added."
-      render :new
+      redirect_to accessories_path
     end
   end
 
