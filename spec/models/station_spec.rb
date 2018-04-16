@@ -23,6 +23,7 @@ describe Station, type: :model do
       @trips_end_station = create_list(:trip, 4, start_station: @station2, end_station: @station1)
 
       @trips_from_station.first.zip_code = 99999
+      @trips_from_station.first.bike_id = 999
       @trips_from_station.first.save!
       @trips_from_station[0..1].each do |trip|
         trip.start_date = Date.new(2014, 8, 8)
@@ -71,6 +72,12 @@ describe Station, type: :model do
     describe '#most_frequent_zip_code' do
       it 'should return the most frequest zip code for trips at this station' do
         expect(@station1.most_frequent_zip_code).to eq(@station1.start_trips.last.zip_code)
+      end
+    end
+
+    describe '#most_frequent_bike' do
+      it 'should return the bike ID of the most frequently used bike' do
+        expect(@station1.most_frequent_bike).to be(@station1.start_trips.last.bike_id)
       end
     end
   end
