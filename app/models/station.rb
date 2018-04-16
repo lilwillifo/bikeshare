@@ -53,10 +53,21 @@ class Station < ApplicationRecord
   end
 
   def date_with_most_trips
-    start_trips.select('date(trips.start_date) as date, count(date(start_date)) AS count').group('date(start_date)')
+    start_trips
+      .select('date(trips.start_date) as date, count(date(start_date)) AS count')
+      .group('date(start_date)')
       .to_a
       .first
       .date
       .to_date
+  end
+
+  def most_frequent_zip_code
+    start_trips
+      .select('zip_code, count(zip_code) AS count')
+      .group(:zip_code)
+      .to_a
+      .first
+      .zip_code
   end
 end
