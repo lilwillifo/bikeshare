@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   resources :stations, only: [:index]
   resources :conditions, only: %i[index show]
   resources :users, only: [:new, :create]
+  get '/account', to: 'users#edit', as: 'edit_user'
+  patch '/account/update', to: 'users#update', as: 'user'
 
   namespace :admin do
     resources :stations, except: %i[index show]
@@ -31,6 +33,5 @@ Rails.application.routes.draw do
   resources :trips, only: [:index, :show]
   resources :accessories, path: 'bike-shop', only: [:show, :index]
   resources :orders
-  resources :users, only: %i[edit update]
   get '/:name', to: 'stations#show'
 end
