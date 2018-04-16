@@ -18,6 +18,7 @@ describe 'As a user/admin' do
 
     visit "/#{@station.slug}"
 
-    expect(page).to have_content("Trips from here: #{@station.trips_from}")
+    expect(page).to have_content("Trips from here: #{@station.start_trips.length}")
+    expect(page).to have_content("Trips to here: #{@station.end_trips.length}")
   end
 end
