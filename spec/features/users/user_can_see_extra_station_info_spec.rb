@@ -41,5 +41,9 @@ describe 'As a user/admin' do
     expect(current_path).to eq("/#{@station1.most_frequent_origin.slug}")
 
     visit "/#{@station1.slug}"
+
+    expect(page).to have_content("Date with most trips from here: #{@station1.date_with_most_trips.strftime('%d/%m/%Y')}")
+    expect(page).to have_content("Most frequent zip code for users of this station: #{@station1.most_frequent_zip_code}")
+    expect(page).to have_content("Most frequently used bike at this station: #{@station1.most_frequent_bike}")
   end
 end
