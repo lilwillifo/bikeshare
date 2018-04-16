@@ -22,6 +22,12 @@
   </tr>
   <tr>
     <td>Total: <%= number_to_currency(@cart.total_accessory_value) %></td>
+    <% if current_user %>
     <td><%= link_to 'Checkout', orders_path, method: 'post' %></td>
+    <% else %>
+    <td>Want to checkout? <%= link_to 'Login or create an account!', login_path %>
+    <% end %>
+    <td> <%=  %>
+
   </tr>
 </table>
