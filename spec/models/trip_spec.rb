@@ -242,5 +242,22 @@ RSpec.describe Trip, type: :model do
         expect(Trip.conditions_for_lowest_rides).to eq(@condition_2)
       end
     end
+
+    describe 'can get rides_for Jan' do
+      it 'returns number of rides' do
+        trip = trip = Trip.create!(
+          duration: 40,
+          start_date: @date,
+          end_date: Date.new(2017,10,6),
+          bike_id: 1,
+          subscription_type: 'Subscriber',
+          zip_code: 80202,
+          start_station_id: 1,
+          end_station_id: 1,
+          condition: @condition
+        )
+        expect(Trip.include_years_for_rides).to eq({"2017-October"=>1, "2018-April"=>4})
+      end
+    end
   end
 end
