@@ -6,7 +6,7 @@ class Accessory < ApplicationRecord
   validates_attachment :image,
                      content_type: { content_type: ['image/jpeg', 'image/gif', 'image/png'] }
   validates_presence_of :description, :price, :role
-  validates_presence_of :title, uniqueness: :true
+  validates :title, presence: true, uniqueness: true
 
   enum role: ['active', 'retired']
 end
