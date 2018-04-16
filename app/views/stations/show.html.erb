@@ -17,5 +17,21 @@
       <% end %></p>
     <% end %>
   </div>
+
+  <% if current_user %>
+    <h4>Trips from here: <%= @station.start_trips.length %></h4>
+    <h4>Trips to here: <%= @station.end_trips.length %></h4>
+
+    <% if @station.start_trips.length > 0 %>
+      <h4>
+        Most frequent destination: <%= link_to @station.most_frequent_destination.name, "/#{@station.most_frequent_destination.slug}" %>
+      </h4>
+    <% end %>
+    <% if @station.end_trips.length > 0 %>
+      <h4>
+        Most frequent origin: <%= link_to @station.most_frequent_origin.name, "/#{@station.most_frequent_origin.slug}" %>
+      </h4>
+    <% end %>
+  <% end %>
 <%= link_to '<< Back to Station Index', stations_path %>
 </section>

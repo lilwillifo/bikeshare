@@ -13,7 +13,48 @@ describe Station, type: :model do
     it { is_expected.to have_many(:end_trips) }
   end
 
-  context 'Methods' do
+  context 'Instance Methods' do
+    before(:each) do
+      DatabaseCleaner.clean
+      @station1 = create(:station)
+      @station2 = create(:station)
+      create(:condition)
+      @trips_from_station = create_list(:trip, 3, start_station: @station1, end_station: @station2)
+      @trips_end_station = create_list(:trip, 4, start_station: @station2, end_station: @station1)
+    end
+
+    after(:each) do
+      DatabaseCleaner.clean
+    end
+
+    describe '#start_trips' do
+      it 'should return a count of the trips from that station' do
+        expect(@station1.start_trips.length).to be(3)
+        expect(@station2.start_trips.length).to be(4)
+      end
+    end
+
+    describe '#end_trips' do
+      it 'should return a count of the trips to that station' do
+        expect(@station1.end_trips.length).to be(4)
+        expect(@station2.end_trips.length).to be(3)
+      end
+    end
+
+    describe '#most_frequent_destination' do
+      it 'should return the most frequent destination station' do
+        expect(@station1.most_frequent_destination).to eq(@station2)
+        expect(@station2.most_frequent_destination).to eq(@station1)
+      end
+
+      it 'should return the most frequent origin station' do
+        expect(@station1.most_frequent_origin).to eq(@station2)
+        expect(@station2.most_frequent_origin).to eq(@station1)
+      end
+    end
+  end
+
+  context 'Class Methods' do
     before(:each) do
       DatabaseCleaner.clean
       @stations = create_list(:station, 5)
