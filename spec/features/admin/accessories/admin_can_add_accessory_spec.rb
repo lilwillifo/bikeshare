@@ -59,7 +59,6 @@ describe 'admin visits wants to add accessory' do
 
       click_on 'Create Accessory'
 
-      expect(current_path).to eq(accessories_path)
       expect(page).to have_content('Accessory not added.')
     end
   end
@@ -77,7 +76,6 @@ describe 'admin visits wants to add accessory' do
 
       click_on 'Create Accessory'
 
-      expect(current_path).to eq(accessories_path)
       expect(page).to have_content('Accessory not added.')
     end
   end
@@ -98,7 +96,6 @@ describe 'admin visits wants to add accessory' do
       click_on 'Create Accessory'
 
       expect(page).to have_content('Accessory not added.')
-      expect(current_path).to eq(accessories_path)
     end
   end
 

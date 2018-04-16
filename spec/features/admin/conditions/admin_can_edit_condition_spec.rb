@@ -25,7 +25,7 @@ describe 'admin visits condition#new' do
       click_on 'Update Condition'
 
       expect(current_path).to eq(condition_path(@condition))
-      expect(page).to have_content('Condition Updated!')
+      expect(page).to have_content('Weather conditions for 04 10 2018 updated!')
       expect(page).to have_content('2018-04-10')
       expect(page).to have_content('88')
       expect(page).to have_content('78')
@@ -58,7 +58,7 @@ describe 'admin visits condition#new' do
       click_on 'Update Condition'
 
       expect(current_path).to eq(condition_path(@condition))
-      expect(page).to have_content('Condition Updated!')
+      expect(page).to have_content('Weather conditions for 04 10 2018 updated!')
       expect(page).to have_content('2018-04-10')
       expect(page).to have_content('88')
       expect(page).to have_content('78')
@@ -89,7 +89,7 @@ describe 'admin visits condition#new' do
       click_on 'Update Condition'
 
       expect(current_path).to eq(condition_path(@condition))
-      expect(page).to have_content('Condition Updated!')
+      expect(page).to have_content('Weather conditions for 04 10 2018 updated!')
       expect(page).to have_content('2018-04-10')
       expect(page).to have_content('88')
       expect(page).to have_content('78')
