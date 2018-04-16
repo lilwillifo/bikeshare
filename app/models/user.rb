@@ -6,4 +6,8 @@ class User < ApplicationRecord
 
   enum role: %w[default admin]
   has_many :orders
+
+  def full_name
+    "#{first_name} #{last_name}"
+  end
 end

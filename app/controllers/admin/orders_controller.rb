@@ -1,6 +1,7 @@
 class Admin::OrdersController < Admin::BaseController
 
   def show
+    @order = Order.find(params[:id])
   end
 
   def update
@@ -13,5 +14,4 @@ class Admin::OrdersController < Admin::BaseController
     end
       redirect_to admin_dashboard_path(status: params[:status])
   end
-
 end
