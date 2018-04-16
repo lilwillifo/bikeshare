@@ -6,7 +6,7 @@ describe 'admin visits wants to add accessory' do
   end
 
   describe 'links to accessory add page' do
-    it 'updates database with new accessory' do
+    it 'updates database with new accessory and has default image' do
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@admin)
 
       visit admin_accessories_path

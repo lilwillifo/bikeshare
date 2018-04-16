@@ -8,6 +8,9 @@
   <%= f.label :description %>
   <%= f.text_area :description %>
 
+  <%= f.label :image_file_name %>
+  <%= f.file_field :image_file_name %>
+
   <%= f.label :role, 'Active' %>
   <%= f.check_box(:role, {}, "active", "retired") %>
 
