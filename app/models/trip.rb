@@ -97,6 +97,22 @@ class Trip < ApplicationRecord
     Condition.find_by(date: date)
   end
 
+  def self.group_rides_by_month
+    group("DATE_TRUNC('month', end_date)").count
+  end
+
+  def self.group_rides_by_year
+    group("DATE_TRUNC('year', end_date)").count
+  end
+
+  def self.include_years_for_rides
+    months = group_rides_by_month
+    form = months.keys.sort.map do |month|
+      month.strftime('%Y-%B')
+    end
+    form.zip(months.values).to_h
+  end
+
   private
   def values
     [
