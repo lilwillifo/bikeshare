@@ -10,12 +10,11 @@ class Admin::AccessoriesController < Admin::BaseController
   def create
     @accessory = Accessory.new(accessory_params)
     @accessory[:price] = normalize_price
-    title = accessory_params[:title]
     if @accessory.save
       flash[:success] = "#{@accessory.title} Added!"
       redirect_to accessory_path(@accessory)
     else
-      flash[:error] = "#{title} not added."
+      flash[:error] = "Accessory not added."
       render :new
     end
   end
