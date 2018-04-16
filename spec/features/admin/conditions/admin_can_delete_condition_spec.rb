@@ -17,7 +17,7 @@ describe 'admin visits condition#new' do
       end
 
       expect(current_path).to eq(conditions_path)
-      expect(page).to have_content('Weather condition for 10 04 2002 deleted!')
+      expect(page).to have_content('Weather condition for 04 04 2018 deleted!')
       expect(page).to_not have_content(@condition.date)
       expect(page).to_not have_content(@condition.max_temperature)
       expect(page).to_not have_content(@condition.mean_temperature)
@@ -38,7 +38,7 @@ describe 'admin visits condition#new' do
       find(:xpath, ".//a[i[contains(@class, 'fas fa-trash-alt')]]").click
 
       expect(current_path).to eq(conditions_path)
-      expect(page).to have_content('Weather condition for 10 04 2002 deleted!')
+      expect(page).to have_content('Weather condition for 04 04 2018 deleted!')
       expect(page).to_not have_content(@condition.date)
       expect(page).to_not have_content(@condition.max_temperature)
       expect(page).to_not have_content(@condition.mean_temperature)
