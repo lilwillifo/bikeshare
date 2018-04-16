@@ -1,12 +1,12 @@
 <h1>Order <%= @order.id %></h1>
-<p>Purchaser: <%= @order.user.full_name %></p>
-<p>Purchaser's Address: <%= @order.user.full_address %></p>
+<p>Purchaser's Full Name: <%= @order.user.full_name %></p>
+<p>Purchaser's Address: <%= @order.user.address %></p>
 <ul class="items">
-  <% @order.order_accessories.each do |item| %>
+  <% @order.order_accessories.each do |accessory| %>
     <li id="accessory_<%= item.accessory.id %>">
-      <p><%= item.accessory.title %></p>
-      <p><%= item.quantity %></p>
-      <p><%= number_to_currency(item.quantity * item.accessory.price) %></p>
+      <h1><%= link_to accessory.name, admin_accessory_path(accessory) %></h1>
+      <p>Quantity: <%= accessory.total_quantity %></p>
+      <p>Line Item Subtotal: <%= number_to_currency(accessory.price * accessory.total_quantity) %></p>
     </li>
   <% end %>
 </ul>
