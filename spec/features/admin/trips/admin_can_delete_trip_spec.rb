@@ -3,9 +3,9 @@ require 'rails_helper'
 describe 'admin wants to delete station' do
   before(:each) do
     @admin = create(:admin)
-    @station = create(:station)
+    @stations = create_list(:station, 10)
     @condition = create(:condition)
-    @trip = create(:trip)
+    @trip = create(:trip, bike_id: 88, start_station_id: 8, end_station_id: 5)
   end
 
   describe 'admin visits trips_path' do
@@ -19,7 +19,7 @@ describe 'admin wants to delete station' do
       end
 
       expect(current_path).to eq(trips_path)
-      expect(page).to have_content('Trip Deleted!')
+      expect(page).to have_content('Trip: 1 Deleted!')
       expect(page).to_not have_content(@trip.time_string)
       expect(page).to_not have_content(@trip.start_date)
       expect(page).to_not have_content(@trip.end_date)
@@ -40,7 +40,7 @@ describe 'admin wants to delete station' do
       find(:xpath, ".//a[i[contains(@class, 'fas fa-trash-alt')]]").click
 
       expect(current_path).to eq(trips_path)
-      expect(page).to have_content('Trip Deleted!')
+      expect(page).to have_content('Trip: 1 Deleted!')
       expect(page).to_not have_content(@trip.time_string)
       expect(page).to_not have_content(@trip.start_date)
       expect(page).to_not have_content(@trip.end_date)

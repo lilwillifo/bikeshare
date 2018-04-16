@@ -11,7 +11,7 @@ class Admin::ConditionsController < Admin::BaseController
   def create
     @condition = Condition.new(condition_params)
     if @condition.save
-      flash[:success] = 'Condition Created!'
+      flash[:success] = "Weather condition for #{(@condition.date).strftime('%m %d %Y')} added!"
       redirect_to condition_path(@condition)
     else
       flash[:error] = 'Condition Not Created!'
@@ -21,26 +21,27 @@ class Admin::ConditionsController < Admin::BaseController
 
   def update
     if @condition.update(condition_params)
-      flash[:success] = 'Condition Updated!'
+      flash[:success] =  "Weather conditions for #{(@condition.date).strftime('%m %d %Y')} updated!"
       redirect_to condition_path(@condition)
     else
-      flash[:error] = 'Condition Not Updated!'
+      flash[:error] = "Weather conditions for #{date} not updated!"
       render :edit
     end
   end
 
   def destroy
+    date = @condition.date.strftime('%m %d %Y')
     if @condition.destroy
-      flash[:success] = 'Condition Deleted!'
+      flash[:success] = "Weather condition for #{date} deleted!"
       redirect_to conditions_path
     else
-      flash[:error] = 'Condition Not Deleted!'
+      flash[:error] = "Weather condition for #{date} not deleted!"
       redirect_to condition_path(@condition)
     end
   end
 
   private
-
+  
   def condition_params
     params.require(:condition).permit(:date,
                                       :max_temperature,

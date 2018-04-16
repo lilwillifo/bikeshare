@@ -14,8 +14,8 @@ class Admin::AccessoriesController < Admin::BaseController
       flash[:success] = "#{@accessory.title} Added!"
       redirect_to accessory_path(@accessory)
     else
-      flash[:error] = "Accessory not added."
-      redirect_to accessories_path
+      flash[:error] = 'Accessory not added.'
+      redirect_to admin_accessories_path
     end
   end
 

@@ -25,17 +25,18 @@ class Admin::StationsController < Admin::BaseController
       flash[:success] = "#{@station.name} updated!"
       redirect_to "/#{@station.slug}"
     else
-      flash[:error] = 'Station not updated!'
+      flash[:error] = "#{@station.name} not updated!"
       render :edit
     end
   end
 
   def destroy
+    name = @station.name
     if @station.destroy
-      flash[:success] = 'Station Deleted!'
+      flash[:success] = "#{name} Deleted!"
       redirect_to stations_path
     else
-      flash[:error] = 'Station Not Deleted'
+      flash[:error] = "#{name} Not Deleted"
       redirect_to "/#{@station.slug}"
     end
   end

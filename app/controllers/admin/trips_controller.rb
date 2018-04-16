@@ -14,7 +14,7 @@ class Admin::TripsController < Admin::BaseController
       flash[:success] = "Trip: #{@trip.id} Created!"
       redirect_to trip_path(@trip)
     else
-      flash[:error] = 'Trip Not Created!'
+      flash[:error] = "Trip: #{@trip.id} Not Created!"
       render :new
     end
   end
@@ -25,17 +25,18 @@ class Admin::TripsController < Admin::BaseController
       flash[:success] = "Trip: #{@trip.id} Updated!"
       redirect_to trip_path(@trip)
     else
-      flash[:error] = 'Trip Not Updated!'
+      flash[:error] = "Trip: #{@trip.id} Not Updated!"
       render :edit
     end
   end
 
   def destroy
+    trip = @trip.id
     if @trip.destroy
-      flash[:success] = 'Trip Deleted!'
+      flash[:success] = "Trip: #{trip} Deleted!"
       redirect_to trips_path
     else
-      flash[:error] = 'Trip Not Deleted!'
+      flash[:error] = "Trip: #{trip} Deleted!"
       redirect_to trip_path(@trip)
     end
   end
