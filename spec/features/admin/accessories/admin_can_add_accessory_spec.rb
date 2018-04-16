@@ -23,7 +23,7 @@ describe 'admin visits wants to add accessory' do
       expect(page).to have_content('Tea')
       expect(page).to have_content('Full to the max')
       expect(page).to have_content('100')
-      expect(page).to have_xpath("//img[contains(@src,'https://www.blogcdn.com/www.engadget.com/media/2012/11/accessories.png')]")
+      expect(page).to have_xpath("//img[contains(@src,'https://17a6ky3xia123toqte227ibf-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/bike-home-template-optimized.jpg')]")
     end
   end
 
