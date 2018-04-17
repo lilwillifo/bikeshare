@@ -18,32 +18,57 @@ describe 'As a user/admin' do
     DatabaseCleaner.clean
   end
 
-  scenario 'when I visit a station show page' do
-    allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
+  context 'when I visit a station show page' do
 
-    visit "/#{@station1.slug}"
+    scenario 'I should see the number of trips to/from this station' do
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
+      visit "/#{@station1.slug}"
 
-    expect(page).to have_content("Trips from here: #{@station1.start_trips.length}")
-    expect(page).to have_content("Trips to here: #{@station1.end_trips.length}")
+      expect(page).to have_content("Trips from here: #{@station1.start_trips.length}")
+      expect(page).to have_content("Trips to here: #{@station1.end_trips.length}")
+    end
 
-    expect(page).to have_content("Most frequent destination: #{@station1.most_frequent_destination.name}")
-    expect(page).to have_link(@station1.most_frequent_destination.name)
+    scenario 'I should see the most frequent destination' do
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
+      visit "/#{@station1.slug}"
 
-    click_on @station1.most_frequent_destination.name
-    expect(current_path).to eq("/#{@station1.most_frequent_destination.slug}")
+      expect(page).to have_content("Most frequent destination: #{@station1.most_frequent_destination.name}")
+      expect(page).to have_link(@station1.most_frequent_destination.name)
 
-    visit "/#{@station1.slug}"
+      click_on @station1.most_frequent_destination.name
+      expect(current_path).to eq("/#{@station1.most_frequent_destination.slug}")
+    end
 
-    expect(page).to have_content("Most frequent origin: #{@station1.most_frequent_origin.name}")
-    expect(page).to have_link(@station1.most_frequent_origin.name)
+    scenario 'I should see the most frequent origin' do
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
+      visit "/#{@station1.slug}"
 
-    click_on @station1.most_frequent_origin.name
-    expect(current_path).to eq("/#{@station1.most_frequent_origin.slug}")
+      expect(page).to have_content("Most frequent origin: #{@station1.most_frequent_origin.name}")
+      expect(page).to have_link(@station1.most_frequent_origin.name)
 
-    visit "/#{@station1.slug}"
+      click_on @station1.most_frequent_origin.name
+      expect(current_path).to eq("/#{@station1.most_frequent_origin.slug}")
+    end
 
-    expect(page).to have_content("Date with most trips from here: #{@station1.date_with_most_trips.strftime('%d/%m/%Y')}")
-    expect(page).to have_content("Most frequent zip code for users of this station: #{@station1.most_frequent_zip_code}")
-    expect(page).to have_content("Most frequently used bike at this station: #{@station1.most_frequent_bike}")
+    scenario 'I should see the date with the most trips from here' do
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
+      visit "/#{@station1.slug}"
+
+      expect(page).to have_content("Date with most trips from here: #{@station1.date_with_most_trips.strftime('%d/%m/%Y')}")
+    end
+
+    scenario 'I should see the most frequent zip code for users of this station' do
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
+      visit "/#{@station1.slug}"
+
+      expect(page).to have_content("Most frequent zip code for users of this station: #{@station1.most_frequent_zip_code}")
+    end
+
+    scenario 'I should see the most frequently used bike at this station' do
+      allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
+      visit "/#{@station1.slug}"
+
+      expect(page).to have_content("Most frequently used bike at this station: #{@station1.most_frequent_bike}")
+    end
   end
 end
