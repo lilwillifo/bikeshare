@@ -32,10 +32,11 @@
         Most frequent origin: <%= link_to @station.most_frequent_origin.name, "/#{@station.most_frequent_origin.slug}" %>
       </h4>
     <% end %>
-
-    <h4>Date with most trips from here: <%= @station.date_with_most_trips.strftime('%d/%m/%Y') %></h4>
-    <h4>Most frequent zip code for users of this station: <%= @station.most_frequent_zip_code %></h4>
-    <h4>Most frequently used bike at this station: <%= @station.most_frequent_bike %></h4>
+    <% if @station.start_trips.length > 0 %>
+      <h4>Date with most trips from here: <%= @station.date_with_most_trips.strftime('%d/%m/%Y') %></h4>
+      <h4>Most frequent zip code for users of this station: <%= @station.most_frequent_zip_code %></h4>
+      <h4>Most frequently used bike at this station: <%= @station.most_frequent_bike %></h4>
+    <% end %>
   <% end %>
 <%= link_to '<< Back to Station Index', stations_path %>
 </section>
