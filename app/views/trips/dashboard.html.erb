@@ -1,39 +1,54 @@
-<p>Average Duration: <%= @trips.average_duration %> seconds</p>
-<p>Longest Ride: <%= @trips.longest_ride %> seconds</p>
-<p>Shortest Ride: <%= @trips.shortest_ride %> seconds</p>
-<p>Most Popular Start Station: <%= @trips.popular_start_station %></p>
-<p>Most Popular End Station: <%= @trips.popular_end_station %></p>
-<p>Most Ridden Bike: <%= @trips.most_ridden_bike %>, with <%= @trips.most_ridden_bike_count %> rides</p>
-<p>Least Ridden Bike: <%= @trips.least_ridden_bike %>, with <%= @trips.least_ridden_bike_count %> rides</p>
-<p>User Subscription Type: <%= @trips.customers_count %> customer(s) account for <%= @trips.customers_percentage %>% of total.</p>
-<p>User Subscription Type: <%= @trips.subscribers_count %> subscriber(s) account for <%= @trips.subscribers_percentage %>% of total.</p>
-<p>Date with the most rides: <%= @trips.date_with_most_rides %>, number of rides: <%= @trips.count_of_date_with_most_rides %></p>
-<p>Date with the least rides: <%= @trips.date_with_least_rides %>, number of rides: <%= @trips.count_of_date_with_least_rides %></p>
+<section class='title'>
+  <h1>Trips Dashboard</h1>
+</section>
+<section class='title'><h3>Average Duration: <%= number_with_delimiter(@trips.average_duration.round) %> seconds</h3></section>
+<section class='title'><h3>Longest Ride: <%= number_with_delimiter(@trips.longest_ride) %> seconds</h3></section>
+<section class='title'><h3>Shortest Ride: <%= number_with_delimiter(@trips.shortest_ride) %> seconds</h3></section>
+<section class='title'><h3>Most Popular Start Station: <%= @trips.popular_start_station %></h3></section>
+<section class='title'><h3>Most Popular End Station: <%= @trips.popular_end_station %></h3></section>
+<section class='title'><h3>Most Ridden Bike: <%= @trips.most_ridden_bike %>, with <%= @trips.most_ridden_bike_count %> rides</h3></section>
+<section class='title'><h3>Least Ridden Bike: <%= @trips.least_ridden_bike %>, with <%= @trips.least_ridden_bike_count %> rides</h3></section>
+<section class='title'><h3>User Subscription Type: <%= @trips.customers_count %> customer(s) account for <%= number_to_percentage(@trips.customers_percentage, precision: 1) %> of total.</h3></section>
+<section class='title'><h3>User Subscription Type: <%= @trips.subscribers_count %> subscriber(s) account for <%= number_to_percentage(@trips.subscribers_percentage, precision: 1) %> of total.</h3></section>
+<section class='title'><h3>Date with the most rides: <%= @trips.date_with_most_rides %>, number of rides: <%= number_to_percentage(@trips.count_of_date_with_most_rides, precision: 1) %></h3></section>
+<section class='title'><h3>Date with the least rides: <%= @trips.date_with_least_rides %>, number of rides: <%= @trips.count_of_date_with_least_rides %></h3></section>
 
-<h2>Month by Month Breakdown of Rides</h2>
-<% @trips.include_years_for_rides.each_pair do |k, v| %>
-  <p><%= k %>: <%= v %> rides</p>
-<% end %>
+<section class='title'><h2>Month by Month Breakdown of Rides</h2></section>
+<table>
+  <% @trips.include_years_for_rides.each_pair do |k, v| %>
+    <tr>
+      <td>
+        <p><%= k %>: <%= v %> rides</p>
+      </td>
+    </tr>
+  <% end %>
+</table>
 
-<h2>Breakdown of Rides by Year</h2>
-<% @trips.group_rides_by_year.each_pair do |k, v| %>
-  <p><%= k.strftime('%Y') %>: <%= v %> rides</p>
-<% end %>
+<section class='title'><h2>Breakdown of Rides by Year</h2></section>
+<table>
+  <% @trips.group_rides_by_year.each_pair do |k, v| %>
+    <tr>
+      <td>
+        <p><%= k.strftime('%Y') %>: <%= v %> rides</p>
+      </td>
+    </tr>
+  <% end %>
+</table>
 
-<h2>Weather for Busiest Day</h2>
-<p>High Temperature: <%= @trips.conditions_for_most_rides.max_temperature %>F</p>
-<p>Average Temperature: <%= @trips.conditions_for_most_rides.mean_temperature %>F</p>
-<p>Low Temperature: <%= @trips.conditions_for_most_rides.min_temperature %>F</p>
-<p>Average Humidity: <%= @trips.conditions_for_most_rides.mean_humidity %>%</p>
-<p>Average Visibility: <%= @trips.conditions_for_most_rides.mean_visibility %> miles</p>
-<p>Average Wind Speed: <%= @trips.conditions_for_most_rides.mean_wind_speed %> knots</p>
-<p>Average Precipitation: <%= @trips.conditions_for_most_rides.precipitation %> inches</p>
+<section class='title'><h2>Weather for Busiest Day</h2></section>
+<section class='title'>High Temperature: <%= @trips.conditions_for_most_rides.max_temperature %>F</section>
+<section class='title'>Average Temperature: <%= @trips.conditions_for_most_rides.mean_temperature %>F</section>
+<section class='title'>Low Temperature: <%= @trips.conditions_for_most_rides.min_temperature %>F</section>
+<section class='title'>Average Humidity: <%= @trips.conditions_for_most_rides.mean_humidity %>%</section>
+<section class='title'>Average Visibility: <%= @trips.conditions_for_most_rides.mean_visibility %> miles</section>
+<section class='title'>Average Wind Speed: <%= @trips.conditions_for_most_rides.mean_wind_speed %> knots</section>
+<section class='title'>Average Precipitation: <%= @trips.conditions_for_most_rides.precipitation %> inches</section>
 
-<h2>Weather for Slowest Day</h2>
-<p>High Temperature: <%= @trips.conditions_for_lowest_rides.max_temperature %>F</p>
-<p>Average Temperature: <%= @trips.conditions_for_lowest_rides.mean_temperature %>F</p>
-<p>Low Temperature: <%= @trips.conditions_for_lowest_rides.min_temperature %>F</p>
-<p>Average Humidity: <%= @trips.conditions_for_lowest_rides.mean_humidity %>%</p>
-<p>Average Visibility: <%= @trips.conditions_for_lowest_rides.mean_visibility %> miles</p>
-<p>Average Wind Speed: <%= @trips.conditions_for_lowest_rides.mean_wind_speed %> knots</p>
-<p>Average Precipitation: <%= @trips.conditions_for_lowest_rides.precipitation %> inches</p>
+<section class='title'><h2>Weather for Slowest Day</h2></section>
+<section class='title'>High Temperature: <%= @trips.conditions_for_lowest_rides.max_temperature %>F</section>
+<section class='title'>Average Temperature: <%= @trips.conditions_for_lowest_rides.mean_temperature %>F</section>
+<section class='title'>Low Temperature: <%= @trips.conditions_for_lowest_rides.min_temperature %>F</section>
+<section class='title'>Average Humidity: <%= @trips.conditions_for_lowest_rides.mean_humidity %>%</section>
+<section class='title'>Average Visibility: <%= @trips.conditions_for_lowest_rides.mean_visibility %> miles</section>
+<section class='title'>Average Wind Speed: <%= @trips.conditions_for_lowest_rides.mean_wind_speed %> knots</section>
+<section class='title'>Average Precipitation: <%= @trips.conditions_for_lowest_rides.precipitation %> inches</section>
