@@ -14,7 +14,6 @@ describe 'As a Visitor' do
         end
 
         expect(page).to have_content(accessory.title)
-        expect(page).to have_content(accessory.description)
         expect(page).to have_content(accessory.price)
 
         visit cart_path
