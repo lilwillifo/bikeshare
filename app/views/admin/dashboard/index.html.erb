@@ -1,7 +1,9 @@
 <section class='title'>
 <h1> Admin Dashboard</h1>
 </section>
-<%= link_to 'Edit Your Info', edit_user_path(current_user)%>
+<h2><%= current_user.first_name %> <%= current_user.last_name %></h2>
+<p><%= current_user.address %></p>
+Something look wrong here? <%= link_to 'Edit Your Info', edit_user_path(current_user)%>
 
 <section class='title'>
   <%= link_to 'View All Accessories', admin_accessories_path %>

@@ -1,7 +1,9 @@
 <div class="title">
 <h1>Welcome <%= current_user.username %></h1>
 </div>
-<%= link_to 'Edit Your Info', edit_user_path(current_user)%>
+<h2><%= current_user.first_name %> <%= current_user.last_name %></h2>
+<p><%= current_user.address %></p>
+Something look wrong here? <%= link_to 'Edit Your Info', edit_user_path(current_user)%>
 
 
 <ul class="orders">
@@ -10,7 +12,7 @@
     <% end %>
   <% current_user.orders.each do |order| %>
     <li id="order_<%= order.id %>">
-      <%= link_to "Order ##{order.id}", order_path(order) %>
+      <%= link_to "Order ##{order.id}", order_path(order) %>: $<%= order.total %>.00
     </li>
   <% end %>
 </ul>

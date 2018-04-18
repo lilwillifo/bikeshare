@@ -1,18 +1,28 @@
 <section class = 'title'>
   <h1>Weather Conditions</h1>
 </section>
+<section class = 'title'>
+<% if current_user %>
+  <h3><%= link_to '>>>>Go to Weather Dashboard', conditions_dashboard_path %></h3>
+<% end %>
+</section>
+<section class = 'title'>
+  <% if current_admin? %>
+    <p><%= link_to 'Add a New Condition!', new_admin_condition_path %></p>
+  <% end %>
+</section>
 
 <table>
   <tr>
     <th>Condition ID</th>
     <th>Date</th>
-    <th>Max Temp</th>
-    <th>Mean Temp</th>
-    <th>Min Temp</th>
-    <th>Mean Humidity</th>
-    <th>Mean Visibility</th>
-    <th>Mean Wind Speed</th>
-    <th>Precipitation</th>
+    <th>Max Temp</br>(°F)</th>
+    <th>Mean Temp</br>(°F)</th>
+    <th>Min Temp</br>(°F)</th>
+    <th>Mean Humidity</br>(%)</th>
+    <th>Mean Visibility</br>(miles)</th>
+    <th>Mean Wind Speed</br>(mph)</th>
+    <th>Precipitation</br>(inches)</th>
     <% if current_admin? %>
       <th>Edit</th>
       <th>Delete</th>

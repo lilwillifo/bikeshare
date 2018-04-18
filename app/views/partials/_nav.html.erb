@@ -2,7 +2,14 @@
   <ul class="nav-left">
     <div class="brand-logo">
       <i class="fas fa-bicycle"></i>
-      <a href="/">Bike Share</a>
+      <% if current_admin? %>
+        <a href="/admin/dashboard">Bike Share</a>
+      <% elsif current_user %>
+        <a href="/dashboard">Bike Share</a>
+      <% else %>
+        <a href="/">Bike Share</a>
+      <% end %>
+
     </div>
   </ul>
   <% flash.each do |name, msg| %>

@@ -16,7 +16,7 @@ class CartController < ApplicationController
   def destroy
     session[:cart].delete(params[:item])
     accessory = Accessory.find(params[:item])
-    flash[:notice] = "Successfully removed <a href=\"#{accessory_path(accessory)}\">#{accessory.title}</a> from your cart.".html_safe
+    flash[:notice] = "Successfully removed <a href=\"#{accessory_path(accessory)}\" class=\"remove-link\">#{accessory.title}</a> from your cart.".html_safe
     redirect_to cart_path
   end
 
