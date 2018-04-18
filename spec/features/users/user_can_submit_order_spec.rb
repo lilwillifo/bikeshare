@@ -37,7 +37,7 @@ describe 'A logged in user' do
     end
 
     visit order_path(order)
-    
+
     expect(page).to have_content("Order ##{order.id}")
 
     order.order_accessories.each do |item|
@@ -72,8 +72,8 @@ describe 'A logged in user' do
   scenario 'sees when order was completed or cancelled' do
     allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
 
-    order = @user.orders.create!(status: 'completed')
-    order2 = @user.orders.create!(status: 'cancelled')
+    order = @user.orders.create!(status: 'Completed')
+    order2 = @user.orders.create!(status: 'Cancelled')
 
     @accessories.each do |accessory|
       OrderAccessory.create!(order: order, accessory: accessory, quantity: 1)

@@ -14,7 +14,7 @@ describe 'As an admin' do
       expect(page).to have_content(order.user.full_name)
       expect(page).to have_content(order.user.address)
       expect(page).to have_content(accessory.title)
-      expect(page).to have_content("Item Quantity: #{order.order_accessories.first.quantity}")
+      expect(page).to have_content("Quantity: #{order.order_accessories.first.quantity}")
     end
   end
 end
