@@ -1,5 +1,5 @@
 <%= form_for [:admin, @trip] do |f| %>
-  <%= f.label :duration %>
+  <p><%= f.label :duration %> (in seconds)</p>
   <%= f.number_field :duration %>
 
   <br>

@@ -81,21 +81,20 @@ table {
 form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  width: 20%;
+  margin-left: 40%;
+  // align-items: center;
+  // justify-content: center;
   padding-top: 50px;
   padding-bottom: 10px;
-    .form_field {
-      padding: 10px;
-    }
 }
 
 .create-account {
-  font-size: 14px;
-  position: absolute;
-  left: 50%;
-  top: 30%;
+  margin-top: 45px;
+  font-size: 18px;
   color: $red;
+  display: flex;
+  justify-content: center;
 }
 
 .bike {
