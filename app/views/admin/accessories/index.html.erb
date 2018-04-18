@@ -9,10 +9,10 @@
       <%= link_to accessory.title, accessory_path(accessory) %></p>
       <p>$<%= accessory.price %>.00</p>
       <p><%= accessory.description %></p>
-      <% if accessory.role == 'active' %><%= link_to 'Retire', admin_accessories_path, method: 'patch'  %>
+      <% if accessory.role == 'active' %><%= link_to 'Retire', admin_accessory_path(accessory, {accessory: {role: 'retired'}} ), method: 'patch'  %>
         <p>Accessory Active</p>
       <% else %>
-        <p>Accessory Retired</p><%= link_to 'Reactivate', admin_accessories_path, method: 'patch'  %>
+        <p>Accessory Retired</p><%= link_to 'Reactivate', admin_accessory_path(accessory, {accessory: {role: 'active'}} ), method: 'patch'  %>
       <% end %>
       <%= link_to 'Edit', edit_admin_accessory_path(accessory) %>
     </tr>
