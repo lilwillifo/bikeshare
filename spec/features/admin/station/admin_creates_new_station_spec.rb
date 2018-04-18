@@ -20,7 +20,7 @@ describe 'admin visits stations#index' do
       expect(page).to have_content('Wookie created!')
       expect(page).to have_content('10')
       expect(page).to have_content('San Fran')
-      expect(page).to have_content('2018-04-10')
+      expect(page).to have_content('10 April 2018')
     end
   end
 
@@ -42,7 +42,7 @@ describe 'admin visits stations#index' do
       expect(page).to have_content('Wookie created!')
       expect(page).to have_content('10')
       expect(page).to have_content('San Fran')
-      expect(page).to have_content('2018-04-10')
+      expect(page).to have_content('10 April 2018')
     end
   end
 

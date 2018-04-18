@@ -24,8 +24,8 @@ describe 'admin visits trips#index' do
 
       expect(current_path).to eq(trip_path(Trip.all.last))
       expect(page).to have_content('Trip: 1 Created!')
-      expect(page).to have_content('2018-01-09 18:27:55')
-      expect(page).to have_content('2018-01-09 22:27:55')
+      expect(page).to have_content('09 January 2018')
+      expect(page).to have_content('09 January 2018')
       expect(page).to have_content('8')
       expect(page).to have_content('Subscriber')
       expect(page).to have_content('88888')
@@ -54,8 +54,8 @@ describe 'admin visits trips#index' do
 
       expect(current_path).to eq(trip_path(Trip.all.last))
       expect(page).to have_content('Trip: 1 Created!')
-      expect(page).to have_content('2018-01-09 18:27:55')
-      expect(page).to have_content('2018-01-09 22:27:55')
+      expect(page).to have_content('09 January 2018')
+      expect(page).to have_content('09 January 2018')
       expect(page).to have_content('8')
       expect(page).to have_content('Customer')
       expect(page).to have_content('88888')

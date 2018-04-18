@@ -35,9 +35,9 @@
     <tr class=trip_<%= trip.id %>>
     <td><%= link_to trip.id, trip_path(trip)%></td>
     <td><%= trip.time_string %></td>
-    <td><%= trip.start_date %></td>
+    <td><%= trip.start_date.strftime('%d %B %Y') %></td>
     <td><%= trip.start_station.name %></td>
-    <td><%= trip.end_date %></td>
+    <td><%= trip.end_date.strftime('%d %B %Y') %></td>
     <td><%= trip.end_station.name %></td>
     <td><%= trip.bike_id %></td>
     <td><%= trip.subscription_type %></td>

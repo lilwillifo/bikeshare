@@ -21,7 +21,7 @@ describe 'admin visits stations#index' do
       expect(page).to have_content('Wookie updated!')
       expect(page).to have_content('10')
       expect(page).to have_content('San Fran')
-      expect(page).to have_content(Date.new(2018, 4, 10))
+      expect(page).to have_content('10 April 2018')
     end
   end
 
@@ -44,7 +44,7 @@ describe 'admin visits stations#index' do
       expect(page).to have_content('Wookie updated!')
       expect(page).to have_content('10')
       expect(page).to have_content('San Fran')
-      expect(page).to have_content(Date.new(2018,04,10))
+      expect(page).to have_content('10 April 2018')
     end
   end
 
@@ -65,7 +65,7 @@ describe 'admin visits stations#index' do
       expect(page).to have_content('Wookie updated!')
       expect(page).to have_content('10')
       expect(page).to have_content('San Fran')
-      expect(page).to have_content(Date.new(2018,04,10))
+      expect(page).to have_content('10 April 2018')
     end
   end
 

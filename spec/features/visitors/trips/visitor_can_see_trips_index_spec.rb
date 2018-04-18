@@ -11,9 +11,9 @@ describe 'As a Visitor' do
 
       expect(page).to have_content(trips.first.id)
       expect(page).to have_content(trips.first.time_string)
-      expect(page).to have_content(trips.first.start_date)
+      expect(page).to have_content(trips.first.start_date.strftime('%d %B %Y'))
       expect(page).to have_content(trips.first.start_station.name)
-      expect(page).to have_content(trips.first.end_date)
+      expect(page).to have_content(trips.first.end_date.strftime('%d %B %Y'))
       expect(page).to have_content(trips.first.end_station.name)
       expect(page).to have_content(trips.first.bike_id)
       expect(page).to have_content(trips.first.subscription_type)

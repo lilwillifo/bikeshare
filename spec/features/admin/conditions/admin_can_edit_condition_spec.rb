@@ -26,7 +26,7 @@ describe 'admin visits condition#new' do
 
       expect(current_path).to eq(condition_path(@condition))
       expect(page).to have_content('Weather conditions for 04 10 2018 updated!')
-      expect(page).to have_content('2018-04-10')
+      expect(page).to have_content('10 April 2018')
       expect(page).to have_content('88')
       expect(page).to have_content('78')
       expect(page).to have_content('68')
@@ -47,7 +47,7 @@ describe 'admin visits condition#new' do
         find(:xpath, ".//a[i[contains(@class, 'far fa-edit')]]").click
       end
 
-      fill_in 'condition[date]', with: '2018-04-10'
+      fill_in 'condition[date]', with: '10 April 2018'
       fill_in 'condition[max_temperature]', with: 88
       fill_in 'condition[mean_temperature]', with: 78
       fill_in 'condition[min_temperature]', with: 68
@@ -59,7 +59,7 @@ describe 'admin visits condition#new' do
 
       expect(current_path).to eq(condition_path(@condition))
       expect(page).to have_content('Weather conditions for 04 10 2018 updated!')
-      expect(page).to have_content('2018-04-10')
+      expect(page).to have_content('10 April 2018')
       expect(page).to have_content('88')
       expect(page).to have_content('78')
       expect(page).to have_content('68')
@@ -90,7 +90,7 @@ describe 'admin visits condition#new' do
 
       expect(current_path).to eq(condition_path(@condition))
       expect(page).to have_content('Weather conditions for 04 10 2018 updated!')
-      expect(page).to have_content('2018-04-10')
+      expect(page).to have_content('10 April 2018')
       expect(page).to have_content('88')
       expect(page).to have_content('78')
       expect(page).to have_content('68')

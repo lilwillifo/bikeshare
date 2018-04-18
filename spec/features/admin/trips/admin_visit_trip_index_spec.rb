@@ -14,8 +14,8 @@ describe 'admin visits trips#index' do
 
     @trips.each do |trip|
       expect(page).to have_content(trip.time_string)
-      expect(page).to have_content(trip.start_date)
-      expect(page).to have_content(trip.end_date)
+      expect(page).to have_content(trip.start_date.strftime('%d %B %Y'))
+      expect(page).to have_content(trip.end_date.strftime('%d %B %Y'))
       expect(page).to have_content(trip.bike_id)
       expect(page).to have_content(trip.subscription_type)
       expect(page).to have_content(trip.zip_code)

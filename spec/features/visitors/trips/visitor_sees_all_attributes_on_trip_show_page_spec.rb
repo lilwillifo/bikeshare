@@ -12,8 +12,8 @@ describe 'As a Visitor' do
 
       expect(page).to have_content(trip_1.id)
       expect(page).to have_content(trip_1.time_string)
-      expect(page).to have_content(trip_1.start_date)
-      expect(page).to have_content(trip_1.end_date)
+      expect(page).to have_content(trip_1.start_date.strftime('%d %B %Y'))
+      expect(page).to have_content(trip_1.end_date.strftime('%d %B %Y'))
       expect(page).to have_content(trip_1.bike_id)
       expect(page).to have_content(trip_1.subscription_type)
       expect(page).to have_content(trip_1.zip_code)
