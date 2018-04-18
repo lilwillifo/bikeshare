@@ -1,6 +1,11 @@
 <section class = 'title'>
   <h1>All Trips</h1>
 </section>
+<section class = 'title'>
+<% if current_user %>
+  <h3><%= link_to '>>>>Go to Trips Dashboard', trips_dashboard_path %></h3>
+<% end %>
+</section>
 
 <table>
   <tr>

@@ -1,6 +1,11 @@
 <section class = 'title'>
   <h1>Weather Conditions</h1>
 </section>
+<section class = 'title'>
+<% if current_user %>
+  <h3><%= link_to '>>>>Go to Weather Dashboard', conditions_dashboard_path %></h3>
+<% end %>
+</section>
 
 <table>
   <tr>
