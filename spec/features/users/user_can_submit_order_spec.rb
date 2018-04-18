@@ -50,7 +50,7 @@ describe 'A logged in user' do
 
     expect(page).to have_content(ActiveSupport::NumberHelper.number_to_currency(order.total))
     expect(page).to have_content(order.status)
-    expect(page).to have_content(order.created_at)
+    expect(page).to have_content(order.created_at.strftime('%d %B %Y'))
   end
 
   scenario 'can NOT see another users orders' do
@@ -82,10 +82,10 @@ describe 'A logged in user' do
 
     visit order_path(order)
 
-    expect(page).to have_content("Completed on #{order.updated_at.to_s}")
+    expect(page).to have_content("Completed on #{order.updated_at.strftime('%d %B %Y')}")
 
     visit order_path(order2)
 
-    expect(page).to have_content("Cancelled on #{order2.updated_at.to_s}")
+    expect(page).to have_content("Cancelled on #{order2.updated_at.strftime('%d %B %Y')}")
   end
 end
