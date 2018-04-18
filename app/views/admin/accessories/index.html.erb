@@ -7,7 +7,7 @@
     <tr class="accessory_<%=accessory.id%>">
       <%= image_tag accessory.image.url, class: 'image' %>
       <%= link_to accessory.title, accessory_path(accessory) %></p>
-      <p>$<%= accessory.price %></p>
+      <p>$<%= accessory.price %>.00</p>
       <p><%= accessory.description %></p>
       <% if accessory.role == 'active' %><%= link_to 'Retire', admin_accessories_path, method: 'patch'  %>
         <p>Accessory Active</p>

@@ -6,7 +6,7 @@
   <div class="card">
     <tr class=accessory_<%= @accessory.id %>>
       <%= image_tag @accessory.image.url, class: "image" %>
-      <p><%= @accessory.price %></p>
+      <p>$<%= @accessory.price %>.00</p>
       <p><%= @accessory.description %></p>
       <% if @accessory.role == 'active' %>
         <%= button_to 'Add to Cart', cart_path(accessory_id: @accessory.id), class: "add_accessory_#{@accessory.id}" %>
