@@ -24,6 +24,6 @@
   </tr>
 </table>
 
-<% if @order.status == 'completed' || @order.status == 'cancelled' %>
+<% if @order.status == 'Completed' || @order.status == 'Cancelled' %>
   <h4><%= @order.status.capitalize %> on <%= @order.updated_at.strftime('%d %B %Y') %></h4>
 <% end %>

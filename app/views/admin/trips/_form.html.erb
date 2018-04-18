@@ -1,6 +1,11 @@
 <%= form_for [:admin, @trip] do |f| %>
+<<<<<<< HEAD
   <p><%= f.label :duration %> (in seconds)</p>
   <%= f.number_field :duration %>
+=======
+  <%= f.label :duration %>
+  <%= f.number_field :duration, min: 0 %>
+>>>>>>> Conditions can be deleted. Form and page formatting/styling fixes
 
   <br>
 
@@ -15,7 +20,7 @@
   <br>
 
   <%= f.label :bike_id %>
-  <%= f.number_field :bike_id %>
+  <%= f.number_field :bike_id, min: 0 %>
 
   <br>
 
@@ -26,7 +31,7 @@
   <br>
 
   <%= f.label :zip_code %>
-  <%= f.number_field :zip_code %>
+  <%= f.number_field :zip_code, min: 0 %>
 
 
   <br>

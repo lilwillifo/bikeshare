@@ -31,10 +31,12 @@
     <h3> All Orders</h3>
   </section>
   <ul>
-  <% @orders.each do |order| %>
-  <li><%= link_to "Order ##{order.id}", admin_order_path(order) %></li>
-  <% end %>
-</ul>
+    <% @orders.each do |order| %>
+      <li>
+        <%= link_to "Order ##{order.id}", admin_order_path(order) %>
+      </li>
+    <% end %>
+  </ul>
 <% else %>
   <section>
     <h3> All Orders with Status: <%= @orders_by_status.first.status %></h3>
