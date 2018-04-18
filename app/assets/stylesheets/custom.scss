@@ -27,6 +27,7 @@ body {
   color: $dark-gray;
   background: $light-gray;
   margin: 0;
+  padding-bottom: 30px;
 }
 
 .main {
@@ -52,7 +53,7 @@ table {
   justify-content: center;
   border-collapse: collapse;
   th {
-    height: 75px;    
+    height: 75px;
   }
   th, td {
     border: 1px solid $black;
