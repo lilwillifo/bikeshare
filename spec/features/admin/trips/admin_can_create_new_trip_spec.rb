@@ -40,7 +40,7 @@ describe 'admin visits trips#index' do
 
       visit trips_path
 
-      click_link 'Add a new trip'
+      click_link 'Add a New Trip!'
 
       fill_in 'trip[duration]', with: 60
       fill_in 'trip[start_date]', with: '2018-01-09 18:27:55'

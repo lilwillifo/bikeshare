@@ -30,7 +30,7 @@ describe 'admin visits stations#index' do
 
       visit stations_path
 
-      click_link 'Add a new station'
+      click_link 'Add a New Station!'
 
       fill_in 'station[name]', with: 'Wookie'
       fill_in 'station[dock_count]', with: '10'
