@@ -1,8 +1,11 @@
 <%= form_for @user do |f| %>
+  <h1>Account Info:</h1>
+
   <div class='form_field'>
     <%= f.label :username %>
     <%= f.text_field :username %>
   </div>
+
   <div class='form_field'>
     <%= f.label :password %>
     <%= f.password_field :password %>
@@ -12,5 +15,23 @@
     <%= f.label :password_confirmation %>
     <%= f.password_field :password_confirmation %>
   </div>
+
+  <h2>Personal Info</h2>
+
+  <div class='form_field'>
+    <%= f.label :first_name %>
+    <%= f.text_field :first_name %>
+  </div>
+
+  <div class='form_field'>
+    <%= f.label :last_name %>
+    <%= f.text_field :last_name %>
+  </div>
+
+  <div class='form_field'>
+    <%= f.label :address %>
+    <%= f.text_field :address %>
+  </div>
+
   <%= f.submit 'Submit' %>
 <% end %>

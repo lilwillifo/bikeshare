@@ -19,8 +19,9 @@
 
   <br>
 
+
   <%= f.label :subscription_type %>
-  <%= f.text_field :subscription_type %>
+  <%= f.select :subscription_type, Trip.subscription_types.keys %>
 
   <br>
 
@@ -30,14 +31,13 @@
 
   <br>
 
-  <%= f.label :start_station_id %>
-  <%= f.number_field :start_station_id %>
-
+  <%= f.label :start_station %><br/>
+  <%= f.collection_select :start_station_id, Station.order(:name), :id, :name %>
 
   <br>
 
-  <%= f.label :end_station_id %>
-  <%= f.number_field :end_station_id %>
+  <%= f.label :end_station %><br/>
+  <%= f.collection_select :end_station_id, Station.order(:name), :id, :name %>
 
   <%= f.submit %>
 <% end %>
