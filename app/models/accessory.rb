@@ -5,8 +5,9 @@ class Accessory < ApplicationRecord
                     default_url: 'https://17a6ky3xia123toqte227ibf-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/bike-home-template-optimized.jpg'
   validates_attachment :image,
                      content_type: { content_type: ['image/jpeg', 'image/gif', 'image/png'] }
-  validates_presence_of :description, :price, :role
+  validates_presence_of :description, :role
   validates :title, presence: true, uniqueness: true
+  validates :price, numericality: { greater_than: 0 }, presence: true
 
   enum role: ['active', 'retired']
 end
