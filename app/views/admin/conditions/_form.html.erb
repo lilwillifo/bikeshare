@@ -2,39 +2,28 @@
   <%= f.label :date %>
   <%= f.date_field :date %>
 
-  <br>
-
-  <%= f.label :max_temperature %>
+  <p><%= f.label :max_temperature %> (°F)</p>
   <%= f.number_field :max_temperature %>
 
-  <br>
-
-  <%= f.label :mean_temperature %>
+  <p><%= f.label :mean_temperature %> (°F)</p>
   <%= f.number_field :mean_temperature %>
 
-  <br>
-
-  <%= f.label :min_temperature %>
+  <p><%= f.label :min_temperature %> (°F)</p>
   <%= f.number_field :min_temperature %>
 
-  <br>
-
-  <%= f.label :mean_humidity %>
+  <p><%= f.label :mean_humidity %> (%)</p>
   <%= f.number_field :mean_humidity %>
 
-  <br>
 
-  <%= f.label :mean_visibility %>
+  <p><%= f.label :mean_visibility %> (miles)</p>
   <%= f.number_field :mean_visibility %>
 
-  <br>
 
-  <%= f.label :mean_wind_speed %>
+  <p><%= f.label :mean_wind_speed %> (mph)</p>
   <%= f.number_field :mean_wind_speed %>
 
-  <br>
 
-  <%= f.label :precipitation %>
+  <p><%= f.label :precipitation %> (in)</p>
   <%= f.number_field :precipitation %>
 
   <%= f.submit %>
