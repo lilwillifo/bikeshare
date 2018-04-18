@@ -54,7 +54,7 @@ describe 'As a user/admin' do
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@user)
       visit "/#{@station1.slug}"
 
-      expect(page).to have_content("Date with most trips from here: #{@station1.date_with_most_trips.strftime('%d/%m/%Y')}")
+      expect(page).to have_content("Date with most trips from here: #{@station1.date_with_most_trips.strftime('%d %B %Y')}")
     end
 
     scenario 'I should see the most frequent zip code for users of this station' do

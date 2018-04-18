@@ -23,7 +23,7 @@ describe 'admin visits condition#new' do
 
       expect(current_path).to eq(condition_path(Condition.all.last))
       expect(page).to have_content('Weather condition for 04 10 2018 added!')
-      expect(page).to have_content('2018-04-10')
+      expect(page).to have_content('10 April 2018')
       expect(page).to have_content('88')
       expect(page).to have_content('78')
       expect(page).to have_content('68')
@@ -54,7 +54,7 @@ describe 'admin visits condition#new' do
 
       expect(current_path).to eq(condition_path(Condition.all.last))
       expect(page).to have_content('Weather condition for 04 10 2018 added!')
-      expect(page).to have_content('2018-04-10')
+      expect(page).to have_content('10 April 2018')
       expect(page).to have_content('88')
       expect(page).to have_content('78')
       expect(page).to have_content('68')

@@ -20,7 +20,7 @@
 
   <tr class=condition_<%= @condition.id %>>
     <td><%= @condition.id %></td>
-    <td><%= @condition.date %></td>
+    <td><%= @condition.date.strftime('%d %B %Y') %></td>
     <td><%= @condition.max_temperature %></td>
     <td><%= @condition.mean_temperature %></td>
     <td><%= @condition.min_temperature %></td>

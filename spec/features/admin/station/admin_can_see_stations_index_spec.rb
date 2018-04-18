@@ -14,7 +14,7 @@ describe 'admin visits stations#index' do
       expect(page).to have_content(station.name)
       expect(page).to have_content(station.dock_count)
       expect(page).to have_content(station.city)
-      expect(page).to have_content(station.installation_date)
+      expect(page).to have_content(station.installation_date.strftime('%d %B %Y'))
     end
   end
 end

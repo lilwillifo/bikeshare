@@ -28,7 +28,7 @@
       <td><%= link_to station.name, "/#{station.slug}" %></td>
       <td align='right'><%= station.dock_count %></td>
       <td align='right'><%= station.city %></td>
-      <td align='right'><%= station.installation_date %></td>
+      <td align='right'><%= station.installation_date.strftime('%d %B %Y') %></td>
       <% if current_admin? %>
 
       <td><%= link_to edit_admin_station_path(station) do %>

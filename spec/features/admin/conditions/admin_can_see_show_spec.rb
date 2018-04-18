@@ -10,7 +10,7 @@ describe 'admin visits condition#show' do
   scenario 'it shows all the attributs' do
     visit condition_path(@condition)
 
-    expect(page).to have_content(@condition.date)
+    expect(page).to have_content(@condition.date.strftime('%d %B %Y'))
     expect(page).to have_content(@condition.max_temperature)
     expect(page).to have_content(@condition.mean_temperature)
     expect(page).to have_content(@condition.min_temperature)

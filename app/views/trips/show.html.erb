@@ -3,8 +3,8 @@
 </section>
 <section class='main'>
 <p>Duration: <%= @trip.time_string %></p>
-<p>Start Date: <%= @trip.start_date %></p>
-<p>End Date: <%= @trip.end_date %></p>
+<p>Start Date: <%= @trip.start_date.strftime('%d %B %Y') %></p>
+<p>End Date: <%= @trip.end_date.strftime('%d %B %Y') %></p>
 <p>Start Station: <%= @trip.start_station.name %></p>
 <p>End Station: <%= @trip.end_station.name %></p>
 <p>Bike ID #<%= @trip.bike_id %></p>

@@ -16,18 +16,18 @@ describe 'admin visits trips#index' do
       fill_in 'trip[start_date]', with: '2018-01-09 18:27:55'
       fill_in 'trip[end_date]', with: '2018-01-09 22:27:55'
       fill_in 'trip[bike_id]', with: 8
-      fill_in 'trip[subscription_type]', with: 'Premium'
+      select 'Subscriber', from: 'trip[subscription_type]'
       fill_in 'trip[zip_code]', with: 88888
-      fill_in 'trip[start_station_id]', with: 1
-      fill_in 'trip[end_station_id]', with: 2
+      select @station.name, from: 'trip[start_station_id]'
+      select @station2.name, from: 'trip[end_station_id]'
       click_on 'Create Trip'
 
       expect(current_path).to eq(trip_path(Trip.all.last))
       expect(page).to have_content('Trip: 1 Created!')
-      expect(page).to have_content('2018-01-09 18:27:55')
-      expect(page).to have_content('2018-01-09 22:27:55')
+      expect(page).to have_content('09 January 2018')
+      expect(page).to have_content('09 January 2018')
       expect(page).to have_content('8')
-      expect(page).to have_content('Premium')
+      expect(page).to have_content('Subscriber')
       expect(page).to have_content('88888')
       expect(page).to have_content('1')
       expect(page).to have_content('2')
@@ -46,18 +46,18 @@ describe 'admin visits trips#index' do
       fill_in 'trip[start_date]', with: '2018-01-09 18:27:55'
       fill_in 'trip[end_date]', with: '2018-01-09 22:27:55'
       fill_in 'trip[bike_id]', with: 8
-      fill_in 'trip[subscription_type]', with: 'Premium'
+      select 'Customer', from: 'trip[subscription_type]'
       fill_in 'trip[zip_code]', with: 88888
-      fill_in 'trip[start_station_id]', with: 1
-      fill_in 'trip[end_station_id]', with: 2
+      select @station.name, from: 'trip[start_station_id]'
+      select @station2.name, from: 'trip[end_station_id]'
       click_on 'Create Trip'
 
       expect(current_path).to eq(trip_path(Trip.all.last))
       expect(page).to have_content('Trip: 1 Created!')
-      expect(page).to have_content('2018-01-09 18:27:55')
-      expect(page).to have_content('2018-01-09 22:27:55')
+      expect(page).to have_content('09 January 2018')
+      expect(page).to have_content('09 January 2018')
       expect(page).to have_content('8')
-      expect(page).to have_content('Premium')
+      expect(page).to have_content('Customer')
       expect(page).to have_content('88888')
       expect(page).to have_content('1')
       expect(page).to have_content('2')
