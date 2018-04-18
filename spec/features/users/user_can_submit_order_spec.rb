@@ -81,11 +81,9 @@ describe 'A logged in user' do
     end
 
     visit order_path(order)
-
-    expect(page).to have_content("Completed on #{order.updated_at.strftime('%I:%M%P, %d %B %Y')}")
+    expect(page).to have_content("Submitted at: #{order.updated_at.strftime('%I:%M%P, %d %B %Y')}")
 
     visit order_path(order2)
-
-    expect(page).to have_content("Cancelled on #{order2.updated_at.strftime('%I:%M%P, %d %B %Y')}")
+    expect(page).to have_content("Submitted at: #{order2.updated_at.strftime('%I:%M%P, %d %B %Y')}")
   end
 end
