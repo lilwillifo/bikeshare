@@ -1,6 +1,7 @@
 <section class='title'>
   <h1>Bike Shop</h1>
 </section>
+<%= link_to 'Add New Accessory', new_admin_accessory_path %>
 <div class='all_cards'>
   <% @accessories.each do |accessory| %>
   <div class="card">
@@ -18,6 +19,4 @@
     </tr>
   </div>
   <% end %>
-
-  <%= link_to 'Add New Accessory', new_admin_accessory_path %>
 </div>

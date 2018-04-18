@@ -8,7 +8,7 @@ class Condition < ApplicationRecord
                         :mean_wind_speed,
                         :precipitation
 
-  has_many :trips
+  has_many :trips, dependent: :destroy
 
   def self.temp_ranges(range)
     joins(:trips)

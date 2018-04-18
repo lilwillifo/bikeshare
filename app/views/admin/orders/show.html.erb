@@ -3,18 +3,30 @@
 </section>
 <p>Purchaser's Full Name: <%= @order.user.full_name %></p>
 <p>Purchaser's Address: <%= @order.user.address %></p>
-<ul class="items">
-  <% @order.order_accessories.each do |item| %>
-    <li id="accessory_<%= item.accessory.id %>">
-      <p><%= link_to item.accessory.title, accessory_path(item.accessory.id) %></p>
-      <p>Item Quantity: <%= item.quantity %></p>
-      <p>Item Subtotal: <%= number_to_currency(item.subtotal) %></p>
-    </li>
+
+<table>
+  <% @order.order_accessories.each  do |item| %>
+    <tr class=item_<%= item.accessory.id %>>
+      <td><%= image_tag item.accessory.image.url, class: 'cart-pic' %></td>
+      <td>Accessory: <%= link_to item.accessory.title, accessory_path(item.accessory) %></td>
+      <td>Price: <%= number_to_currency(item.accessory.price) %></td>
+      <td>Quantity: <%= item.quantity %></td>
+      <td>Subtotal: <%= number_to_currency(item.quantity * item.accessory.price) %></td>
+    </tr>
   <% end %>
-</ul>
-<h2>Total: <%= number_to_currency(@order.total) %></h2>
-<h3>Status <%= @order.status %></h3>
-<h4>Submitted at: <%= @order.created_at.strftime('%d %B %Y') %></h4>
-<% if @order.status == 'completed' || @order.status == 'cancelled' %>
+  <tr>
+    <td class="no-border"></td>
+    <td class="no-border"></td>
+    <td class="no-border"></td>
+    <td class="no-border"></td>
+    <td>
+      <h2>Total: <%= number_to_currency(@order.total) %></h2>
+      <h3>Status <%= @order.status %></h3>
+      <h4>Submitted at: <%= @order.created_at.strftime('%d %B %Y') %></h4>
+    </td>
+  </tr>
+</table>
+
+<% if @order.status == 'Completed' || @order.status == 'Cancelled' %>
   <h4><%= @order.status.capitalize %> on <%= @order.updated_at.strftime('%d %B %Y') %></h4>
 <% end %>
