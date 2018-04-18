@@ -7,7 +7,7 @@
       <% if accessory.role == 'active' %>
         <%= button_to 'Add to Cart', cart_path(accessory_id: accessory.id), class: "add_accessory_#{accessory.id}" %>
       <% else %>
-    </br></br>Accessory Retired
+    </br></br><p>Accessory Retired</p>
       <% end %>
     </tr>
   </div>
