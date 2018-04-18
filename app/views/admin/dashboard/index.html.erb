@@ -30,7 +30,7 @@
   <section>
     <h3> All Orders</h3>
   </section>
-  <ul>
+  <ul class='no-bullets'>
     <% @orders.each do |order| %>
       <li>
         <%= link_to "Order ##{order.id}", admin_order_path(order) %>
