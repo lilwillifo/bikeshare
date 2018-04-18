@@ -14,9 +14,7 @@ describe 'As an admin' do
     click_on 'Submit'
 
     expect(current_path).to eq('/admin/dashboard')
-    within('nav') do
-      expect(page).to have_content("Logged in as Admin User: #{admin.username}")
-    end
+    expect(page).to have_content("Logged in as Admin User: #{admin.username}")
     expect(page).to have_link('Logout')
     expect(page).to_not have_link('Login')
   end
