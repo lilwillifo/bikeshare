@@ -6,6 +6,11 @@
   <h3><%= link_to '>>>>Go to Stations Dashboard', stations_dashboard_path %></h3>
 <% end %>
 </section>
+<section class = 'title'>
+  <% if current_admin? %>
+    <p><%= link_to 'Add a New Station!', new_admin_station_path %></p>
+  <% end %>
+</section>
 
 <table>
   <tr>

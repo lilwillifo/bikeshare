@@ -2,9 +2,14 @@
   <h1>All Trips</h1>
 </section>
 <section class = 'title'>
-<% if current_user %>
-  <h3><%= link_to '>>>>Go to Trips Dashboard', trips_dashboard_path %></h3>
-<% end %>
+  <% if current_user %>
+    <h3><%= link_to '>>>>Go to Trips Dashboard', trips_dashboard_path %></h3>
+  <% end %>
+</section>
+<section class = 'title'>
+  <% if current_admin? %>
+    <p><%= link_to 'Add a New Trip!', new_admin_trip_path %></p>
+  <% end %>
 </section>
 
 <table>
