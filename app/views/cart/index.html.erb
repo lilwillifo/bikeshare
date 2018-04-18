@@ -1,6 +1,11 @@
 <section class = 'title'>
   <h1>Your Cart</h1>
-</section>
+</section></br>
+<section class = 'title'>
+<% if current_user.orders.empty? %>
+  Looks like you haven't placed any orders yet. Come check out our  <%= link_to 'Bike Shop', accessories_path %>!
+  <% end %>
+</section></br>
 <table>
     <% @cart.items.each do |item| %>
     <tr class=item_<%= item[:accessory].id %>>
