@@ -1,7 +1,6 @@
   <div class="card">
     <tr class=accessory_<%= accessory.id %>>
       <%= image_tag accessory.image.url, class: "image" %>
-      <%= accessory.id %>
       <p><%= link_to accessory.title, accessory_path(accessory) %></p>
       <p><%= accessory.price %></p>
       <p><%= accessory.description %></p>
