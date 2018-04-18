@@ -15,7 +15,6 @@ describe 'As a Visitor' do
         end
 
         expect(page).to have_content(accessory.title)
-        expect(page).to have_content(accessory.description)
         expect(page).to have_content(accessory.price)
 
         find(".decrease_quantity_#{accessories[1].id}").click

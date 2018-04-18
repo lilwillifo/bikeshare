@@ -116,17 +116,30 @@ form {
   padding: 20px;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 14px 14px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
+  background-color: #d7d8d2;
+  width: 12%;
+  margin-bottom: 30px;
+  margin-right: 30px;
   align-items: center;
+  justify-content: center;
   padding:20px;
+  box-shadow: 6px 5px 5px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.19);
 
   .image {
     height: 150px;
     width: 150px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 }
 
@@ -137,4 +150,8 @@ form {
 
 .remove-link {
   color: $red;
+}
+
+.cart-button {
+  padding-bottom: 45px;
 }

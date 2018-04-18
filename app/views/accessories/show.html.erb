@@ -2,15 +2,17 @@
   <h1> <%= @accessory.title %> </h2>
 </section>
 
-<div class="card">
-  <tr class=accessory_<%= @accessory.id %>>
-    <%= image_tag @accessory.image.url, class: "image" %>
-    <div><%= @accessory.price %></div>
-    <div><%= @accessory.description %></div>
-    <% if @accessory.role == 'active' %></div>
-      <div><%= button_to 'Add to Cart', cart_path(accessory_id: @accessory.id), class: "add_accessory_#{@accessory.id}" %></div>
-    <% else %>
-  </br></br>Accessory Retired
-    <% end %>
-  </tr>
+<div class = 'title'>
+  <div class="card">
+    <tr class=accessory_<%= @accessory.id %>>
+      <%= image_tag @accessory.image.url, class: "image" %>
+      <p>$<%= @accessory.price %>.00</p>
+      <p><%= @accessory.description %></p>
+      <% if @accessory.role == 'active' %>
+        <%= button_to 'Add to Cart', cart_path(accessory_id: @accessory.id), class: "add_accessory_#{@accessory.id}" %>
+      <% else %>
+        </br></br>Accessory Retired
+        <% end %>
+    </tr>
+  </div>
 </div>

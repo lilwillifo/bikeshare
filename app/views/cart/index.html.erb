@@ -5,16 +5,15 @@
     <% @cart.items.each do |item| %>
     <tr class=item_<%= item[:accessory].id %>>
       <td><%= image_tag item[:accessory].image.url, class: 'cart-pic' %></td>
-      <td>Accessory: <%= item[:accessory].title %></td>
-      <td>Description: <%= item[:accessory].description %></td>
+      <td>Accessory: <%= link_to item[:accessory].title, accessory_path(item[:accessory]) %></td>
       <td>Price: <%= number_to_currency(item[:accessory].price) %></td>
       <td>Quantity: <%= item[:quantity] %></td>
       <td>Subtotal: <%= number_to_currency(@cart.subtotal(item)) %></td>
-      <td><%= button_to 'Increase Quantity', cart_path(accessory_id: item[:accessory].id), class: "increase_quantity_#{item[:accessory].id}" %></td>
+      <td class = 'cart-button'><%= button_to '+', cart_path(accessory_id: item[:accessory].id), class: "increase_quantity_#{item[:accessory].id}" %></td>
       <% if item[:quantity] > 1 %>
-        <td><%= button_to 'Decrease Quantity', cart_path(accessory_id: item[:accessory].id), class: "decrease_quantity_#{item[:accessory].id}", method: :patch %></td>
+        <td class = 'cart-button'><%= button_to '-', cart_path(accessory_id: item[:accessory].id), class: "decrease_quantity_#{item[:accessory].id}", method: :patch %></td>
       <% else %>
-        <td><%= button_to 'Decrease Quantity', cart_path(item: item[:accessory]), method: "delete" %></td>
+        <td class = 'cart-button'><%= button_to '-', cart_path(item: item[:accessory]), method: "delete" %></td>
       <% end %>
       <td><p title="Remove this accessory"><%= link_to 'Remove', cart_path(item: item[:accessory]), method: "delete" %></p></td>
     </tr>

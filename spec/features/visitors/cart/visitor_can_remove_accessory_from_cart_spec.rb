@@ -15,7 +15,6 @@ describe 'As a visitor' do
         visit '/cart'
 
         expect(page).to have_content(@accessories[0].title)
-        expect(page).to have_content(@accessories[0].description)
         expect(page).to have_content(@accessories[0].price)
 
         click_on 'Remove'
