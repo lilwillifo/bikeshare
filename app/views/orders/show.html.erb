@@ -1,5 +1,6 @@
-<h1>Order #<%= @order.id %></h1>
-
+<section class='title'>
+  <h1>Order #<%= @order.id %></h1>
+</section>
 <ul class="items">
   <% @order.order_accessories.each do |item| %>
     <li id="accessory_<%= item.accessory.id %>">
