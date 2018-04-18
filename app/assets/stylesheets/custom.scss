@@ -12,6 +12,9 @@ html {
   box-sizing: border-box;
 }
 
+.no-bullets {
+  list-style: none;
+}
 .admin {
   text-align: center;
 }
@@ -82,7 +85,7 @@ table {
   }
 }
 
-form {
+:not(.card) > form{
   display: flex;
   flex-direction: column;
   width: 20%;

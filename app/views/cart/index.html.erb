@@ -1,6 +1,11 @@
 <section class = 'title'>
   <h1>Your Cart</h1>
-</section>
+</section></br>
+<section class = 'title'>
+<% if current_user.orders.empty? %>
+  Looks like you haven't placed any orders yet. Come check out our  <%= link_to 'Bike Shop', accessories_path %>!
+  <% end %>
+</section></br>
 <table>
     <% @cart.items.each do |item| %>
     <tr class=item_<%= item[:accessory].id %>>
@@ -22,7 +27,9 @@
   <tr>
     <td>Total: <%= number_to_currency(@cart.total_accessory_value) %></td>
     <% if current_user %>
-    <td><%= link_to 'Checkout', orders_path, method: 'post' %></td>
+      <% if @cart.items.length > 0 %>
+      <td><%= link_to 'Checkout', orders_path, method: 'post' %></td>
+      <% end %>
     <% else %>
     <td>Want to checkout? <%= link_to 'Login or create an account!', login_path %>
     <% end %>

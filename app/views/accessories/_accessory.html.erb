@@ -5,7 +5,7 @@
       <p>$<%= accessory.price %>.00</p>
       <p><%= accessory.description %></p>
       <% if accessory.role == 'active' %>
-        <p><%= button_to 'Add to Cart', cart_path(accessory_id: accessory.id), class: "add_accessory_#{accessory.id}" %></p>
+        <%= button_to 'Add to Cart', cart_path(accessory_id: accessory.id), class: "add_accessory_#{accessory.id}" %>
       <% else %>
     </br></br>Accessory Retired
       <% end %>
