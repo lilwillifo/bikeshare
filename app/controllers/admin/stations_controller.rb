@@ -51,6 +51,6 @@ class Admin::StationsController < Admin::BaseController
   end
 
   def set_station
-    @station = Station.find_by(params[:slug])
+    @station = Station.find_by_slug(params[:id])
   end
 end
