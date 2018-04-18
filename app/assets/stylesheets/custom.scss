@@ -12,6 +12,12 @@ html {
   box-sizing: border-box;
 }
 
+.flash {
+  background-color: $dark-gray;
+  color: #FFFFFF;
+  text-align: center;
+}
+
 *,
 *:before,
 *:after {

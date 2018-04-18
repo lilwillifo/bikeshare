@@ -1,48 +1,50 @@
 <nav>
-  <ul class="nav-left">
-    <div class="brand-logo">
-      <i class="fas fa-bicycle"></i>
+    <ul class="nav-left">
+      <div class="brand-logo">
+        <i class="fas fa-bicycle"></i>
+        <% if current_admin? %>
+          <a href="/admin/dashboard">Bike Share</a>
+        <% elsif current_user %>
+          <a href="/dashboard">Bike Share</a>
+        <% else %>
+          <a href="/">Bike Share</a>
+        <% end %>
+      </div>
+    </ul>
+    <div class='nav-right'>
       <% if current_admin? %>
-        <a href="/admin/dashboard">Bike Share</a>
-      <% elsif current_user %>
-        <a href="/dashboard">Bike Share</a>
+      <div class='nav-link'>
+        <%= link_to 'Bike Shop', admin_accessories_path %>
+      </div>
       <% else %>
-        <a href="/">Bike Share</a>
+      <div class='nav-link'>
+        <%= link_to 'Bike Shop', accessories_path %>
+      </div>
       <% end %>
-
+      <div class='nav-link'>
+        <%= link_to 'Trips', trips_path %>
+      </div>
+      <div class='nav-link'>
+        <%= link_to 'Stations', stations_path %>
+      </div>
+      <div class='nav-link'>
+        <%= link_to 'Conditions', conditions_path %>
+      </div>
+      <div class='nav-link'>
+        <%= link_to "Cart: #{@cart.total_count}", cart_path %>
+      </div>
+      <div class="nav-link">
+        <% if current_user %>
+          <%= link_to 'Logout', logout_path %>
+        <% else %>
+          <%= link_to 'Login', login_path %>
+        <% end %>
+      </div>
     </div>
-  </ul>
+</nav>
+
+<section class='flash'>
   <% flash.each do |name, msg| %>
   <%= content_tag :div, sanitize(msg), class: name %>
   <% end %>
-  <div class='nav-right'>
-    <% if current_admin? %>
-    <div class='nav-link'>
-      <%= link_to 'Bike Shop', admin_accessories_path %>
-    </div>
-    <% else %>
-    <div class='nav-link'>
-      <%= link_to 'Bike Shop', accessories_path %>
-    </div>
-    <% end %>
-    <div class='nav-link'>
-      <%= link_to 'Trips', trips_path %>
-    </div>
-    <div class='nav-link'>
-      <%= link_to 'Stations', stations_path %>
-    </div>
-    <div class='nav-link'>
-      <%= link_to 'Conditions', conditions_path %>
-    </div>
-    <div class='nav-link'>
-      <%= link_to "Cart: #{@cart.total_count}", cart_path %>
-    </div>
-    <div class="nav-link">
-      <% if current_user %>
-        <%= link_to 'Logout', logout_path %>
-      <% else %>
-        <%= link_to 'Login', login_path %>
-      <% end %>
-    </div>
-</div>
-</nav>
+</section>
