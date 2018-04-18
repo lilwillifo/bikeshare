@@ -40,7 +40,7 @@ describe 'admin visits condition#new' do
 
       visit conditions_path
 
-      click_link 'Add a new condition'
+      click_link 'Add a New Condition!'
 
       fill_in 'condition[date]', with: '2018-04-10'
       fill_in 'condition[max_temperature]', with: 88

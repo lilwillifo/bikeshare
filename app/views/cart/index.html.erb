@@ -2,8 +2,10 @@
   <h1>Your Cart</h1>
 </section></br>
 <section class = 'title'>
-<% if current_user.orders.empty? %>
-  Looks like you haven't placed any orders yet. Come check out our  <%= link_to 'Bike Shop', accessories_path %>!
+  <% if current_user %>
+    <% if current_user.orders.empty? %>
+      Looks like you haven't placed any orders yet. Come check out our  <%= link_to 'Bike Shop', accessories_path %>!
+    <% end %>
   <% end %>
 </section></br>
 <table>
