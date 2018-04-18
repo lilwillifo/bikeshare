@@ -37,11 +37,11 @@ describe 'A logged in user' do
     end
 
     visit order_path(order)
-
+    
     expect(page).to have_content("Order ##{order.id}")
 
     order.order_accessories.each do |item|
-      within("#accessory_#{item.accessory.id}") do
+      within(".item_#{item.accessory.id}") do
         expect(page).to have_content(item.accessory.title)
         expect(page).to have_content(item.quantity)
         expect(page).to have_content(ActiveSupport::NumberHelper.number_to_currency(item.quantity * item.accessory.price))
